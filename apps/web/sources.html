@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sources · CurrentKothai</title>
+<meta name="description" content="Every document this site reads, when it was last checked, and which distributors publish nothing a computer can read.">
+<meta name="data-root" content="data/">
+<meta name="theme-color" content="#f7f5f2">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Anek+Bangla:wght@400;600&display=swap">
+<link rel="stylesheet" href="styles/tokens.css">
+<link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/components.css">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="ribbon" role="note">
+  <div class="wrap">
+    <b>Unofficial</b>
+    <span>Links to other organisations' published documents.
+      <a href="about.html#disclaimer">Full disclaimer</a></span>
+  </div>
+</div>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img class="brand-mark" src="logo.svg" alt="" width="26" height="26">Current<span class="b">Kothai</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="sources.html" aria-current="page">Sources</a>
+      <a href="about.html">Method</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="section">
+  <div class="wrap narrow">
+    <h1 class="t-display">Sources</h1>
+    <p class="t-sub muted" style="margin-top:14px;max-width:58ch">
+      Nothing here is our own measurement. Every number comes from a document a distributor
+      published. Where one publishes nothing readable, we say so.
+    </p>
+
+    <div id="summary" style="margin-top:40px"></div>
+
+    <h2 class="t-heading-sm" id="health" style="margin-top:64px">Who publishes what</h2>
+    <div class="scroll-x card" style="padding:0;margin-top:16px">
+      <table class="data" id="coverage-table"></table>
+    </div>
+
+    <h2 class="t-heading-sm" id="dpdc" style="margin-top:64px">DPDC zone sheets</h2>
+    <p class="t-body-sm muted" style="margin-top:8px;max-width:62ch">
+      DPDC publishes one sheet per NOCS zone. Nineteen of them are digital PDFs and are parsed
+      into the schedule above. The rest are scanned photographs, so we link the original here.
+    </p>
+    <div id="dpdc-zones" style="margin-top:16px"></div>
+
+    <h2 class="t-heading-sm" style="margin-top:64px">Every registered source</h2>
+    <div class="scroll-x card" style="padding:0;margin-top:16px">
+      <table class="data" id="sources-table"></table>
+    </div>
+    <p class="t-caption muted" style="margin-top:12px;max-width:70ch">
+      Status and TLS are what the last probe observed, not what we assume. Several
+      <span class="mono">.gov.bd</span> hosts serve an incomplete certificate chain, so a strict
+      check fails even though the host is genuine, we record that rather than hide it.
+    </p>
+
+    <h2 class="t-heading-sm" style="margin-top:64px">What the labels mean</h2>
+    <div class="grid-2" style="margin-top:16px">
+      <div class="card"><span class="tag tag-official">Official</span>
+        <p class="t-body-sm muted" style="margin-top:10px">Exactly as published, a link to their file.</p></div>
+      <div class="card"><span class="tag tag-derived">Derived</span>
+        <p class="t-body-sm muted" style="margin-top:10px">Their numbers, our structure. We turned a PDF
+        table into rows, so the original is always one click away.</p></div>
+      <div class="card"><span class="tag tag-estimated">Estimated</span>
+        <p class="t-body-sm muted" style="margin-top:10px">Our inference: service areas and feeder
+        matches. Drawn dashed on the map.</p></div>
+      <div class="card"><span class="tag tag-unknown">Unknown</span>
+        <p class="t-body-sm muted" style="margin-top:10px">Not enough evidence. We say so instead of guessing.</p></div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="legal">
+      <b>Independent public-data visualization.</b> Not affiliated with DESCO, DPDC, NESCO, BPDB,
+      BREB, WZPDCL, Power Grid Bangladesh, or the Government of Bangladesh. Nothing here is a
+      guarantee of supply.
+    </p>
+  </div>
+</footer>
+
+<script type="module" src="src/sources-page.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "schema": "calibration/1",
+  "calibrated": false,
+  "top1_accuracy": null,
+  "top2_accuracy": null,
+  "top3_accuracy": null,
+  "utility_accuracy": null,
+  "division_accuracy": null,
+  "holdout_size": 0,
+  "measured_at": null,
+  "note": "NOT YET CALIBRATED. While top1_accuracy is null, apps/web/src/confidence.js caps displayed feeder confidence at Medium and renders no percentage anywhere in the UI. This file is the gate: fill it in only from a real evaluation against verified address-to-feeder pairs, split into development and holdout sets. Setting these numbers without that evidence would defeat the entire point of the gate.",
+  "how_to_produce": [
+    "Collect verified address -> feeder examples across multiple DESCO S&D divisions. 500 is a reasonable initial target; adjust to whatever verified labels can actually be obtained.",
+    "Split into development and holdout sets before any tuning.",
+    "Score with apps/web/src/confidence.js rankFeeders() against the holdout set.",
+    "Record Top-1, Top-2 and Top-3 accuracy, plus utility- and division-level accuracy.",
+    "Record error types: boundary ambiguity, incomplete address, overlapping area descriptions, outdated feeder text, geocoding failure.",
+    "Only then set thresholds. Do not pick a target number first and tune toward it."
+  ],
+  "error_types": []
+}

@@ -1,0 +1,85 @@
+{
+  "schema": "official-alerts/1",
+  "generated_at": "2026-08-23T00:00:00Z",
+  "note": "Channels operated by the distributors themselves. This project cannot notify anyone and never collects a bill or account number - these are the routes that can actually reach a customer. Every value is marked with how it was verified; anything unverified is null rather than guessed.",
+  "unified": {
+    "hotline": "16999",
+    "description": "The government's unified power-sector call centre. After connecting, press the digit for your distributor: 1 = BPDB, 2 = BREB, 3 = DESCO, 4 = DPDC, 5 = NESCO, 6 = WZPDCL.",
+    "operator": "Power Division, Ministry of Power, Energy and Mineral Resources",
+    "verified_from": "Bangladesh Sangbad Sangstha and The Business Standard reporting on the call centre launch."
+  },
+  "alerts": [
+    {
+      "utility": "DESCO",
+      "hotline": ["16120"],
+      "hotline_verified_from": "Widely published distributor hotline; not confirmed against a DESCO-hosted page during ingestion.",
+      "sms_instructions": null,
+      "app_android_url": null,
+      "app_ios_url": null,
+      "facebook_url": null,
+      "website_url": "https://desco.gov.bd/",
+      "complaint_url": "https://ocsms.desco.org.bd/publicinfo/contactus",
+      "notes": "DESCO's Online Customer Service Management System handles complaints and lists per-office contacts. You will need your consumer or meter number there - enter it on DESCO's own site, never here."
+    },
+    {
+      "utility": "DPDC",
+      "hotline": ["16116"],
+      "hotline_verified_from": "Printed inside DPDC's own zone load-shedding PDFs as the call-centre number.",
+      "sms_instructions": null,
+      "app_android_url": null,
+      "app_ios_url": null,
+      "facebook_url": null,
+      "website_url": "https://dpdc.gov.bd/",
+      "complaint_url": "https://dpdc.gov.bd/",
+      "notes": "Each DPDC zone PDF also prints its own NOCS office name and duty-room mobile number - open your zone's PDF from the results panel to get the number for your specific area."
+    },
+    {
+      "utility": "NESCO",
+      "hotline": ["16603"],
+      "hotline_verified_from": "Secondary reporting on the unified call-centre rollout; not confirmed against a NESCO-hosted page.",
+      "sms_instructions": null,
+      "app_android_url": null,
+      "app_ios_url": null,
+      "facebook_url": null,
+      "website_url": "https://nesco.gov.bd/",
+      "complaint_url": null,
+      "notes": "NESCO publishes load-shedding notices as scanned images, so nothing machine-readable could be extracted. Call the hotline or check the website directly."
+    },
+    {
+      "utility": "BPDB",
+      "hotline": ["16200"],
+      "hotline_verified_from": "Secondary reporting on the unified call-centre rollout; not confirmed against a BPDB-hosted page.",
+      "sms_instructions": null,
+      "app_android_url": null,
+      "app_ios_url": null,
+      "facebook_url": null,
+      "website_url": "https://bpdb.gov.bd/",
+      "complaint_url": null,
+      "notes": null
+    },
+    {
+      "utility": "BREB",
+      "hotline": ["16899"],
+      "hotline_verified_from": "Secondary reporting on the unified call-centre rollout; not confirmed against a BREB-hosted page.",
+      "sms_instructions": null,
+      "app_android_url": null,
+      "app_ios_url": null,
+      "facebook_url": null,
+      "website_url": "https://reb.gov.bd/",
+      "complaint_url": null,
+      "notes": "Rural supply is run by around 80 local Palli Bidyut Samity offices, each with its own duty room and its own notices. Your bill names your PBS - contact that office directly for the most accurate schedule."
+    },
+    {
+      "utility": "WZPDCL",
+      "hotline": [],
+      "hotline_verified_from": null,
+      "sms_instructions": null,
+      "app_android_url": null,
+      "app_ios_url": null,
+      "facebook_url": null,
+      "website_url": "https://wzpdcl.gov.bd/",
+      "complaint_url": null,
+      "notes": "Reachable through the unified 16999 call centre (press 6). No WZPDCL-specific hotline was verified."
+    }
+  ]
+}

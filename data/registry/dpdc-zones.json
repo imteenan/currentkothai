@@ -1,0 +1,337 @@
+{
+  "schema": "dpdc-zones/1",
+  "generated_at": "2026-08-23T17:02:45Z",
+  "utility": "DPDC",
+  "index_url": "https://dpdc.org.bd/site/nocs/load_shedding",
+  "source_license": "Published by Dhaka Power Distribution Company Ltd",
+  "note": "DPDC's per-zone load-shedding PDFs. We cannot parse them yet (legacy Bijoy font), so the site links a visitor straight to the PDF for the zone nearest their point. The revision number in each filename changes on republish; it is scraped from index_url when that page lists links, and probed directly when it does not - the index has been observed empty while every zone PDF stayed live.",
+  "discovery": "direct-probe",
+  "zone_count": 36,
+  "with_live_pdf": 36,
+  "zones": [
+    {
+      "slug": "adabor",
+      "name": "Adabor",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/adabor/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7732766,
+      "lon": 90.3585378,
+      "geocoded_query": "Adabor, Dhaka"
+    },
+    {
+      "slug": "azimpur",
+      "name": "Azimpur",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/azimpur/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7252946,
+      "lon": 90.3834641,
+      "geocoded_query": "Azimpur, Dhaka"
+    },
+    {
+      "slug": "banasree",
+      "name": "Banasree",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/banasree/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7617123,
+      "lon": 90.4312774,
+      "geocoded_query": "Banasree, Dhaka"
+    },
+    {
+      "slug": "banglabazar",
+      "name": "Banglabazar",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/banglabazar/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7239853,
+      "lon": 90.4029485,
+      "geocoded_query": "Bangla Bazar, Old Dhaka"
+    },
+    {
+      "slug": "bangshal",
+      "name": "Bangshal",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/bangshal/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7156511,
+      "lon": 90.4075241,
+      "geocoded_query": "Bangshal, Dhaka"
+    },
+    {
+      "slug": "bashaboo",
+      "name": "Bashaboo",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/bashaboo/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7405474,
+      "lon": 90.4333478,
+      "geocoded_query": "Bashabo, Dhaka"
+    },
+    {
+      "slug": "demra",
+      "name": "Demra",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/demra/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7284914,
+      "lon": 90.4974041,
+      "geocoded_query": "Demra, Dhaka"
+    },
+    {
+      "slug": "dhanmondi",
+      "name": "Dhanmondi",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/dhanmondi/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7535434,
+      "lon": 90.3703052,
+      "geocoded_query": "Dhanmondi, Dhaka"
+    },
+    {
+      "slug": "fatulla",
+      "name": "Fatulla",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/fatulla/250.pdf",
+      "pdf_live": true,
+      "lat": 23.6401536,
+      "lon": 90.4734217,
+      "geocoded_query": "Fatulla, Narayanganj"
+    },
+    {
+      "slug": "jigatola",
+      "name": "Jigatola",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/jigatola/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7403194,
+      "lon": 90.372048,
+      "geocoded_query": "Jigatola, Dhaka"
+    },
+    {
+      "slug": "jurain",
+      "name": "Jurain",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/jurain/250.pdf",
+      "pdf_live": true,
+      "lat": 23.6962458,
+      "lon": 90.4343127,
+      "geocoded_query": "Jurain, Dhaka"
+    },
+    {
+      "slug": "kakrail",
+      "name": "Kakrail",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/kakrail/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7385398,
+      "lon": 90.4071475,
+      "geocoded_query": "Kakrail, Dhaka"
+    },
+    {
+      "slug": "kamrangirchar",
+      "name": "Kamrangirchar",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/kamrangirchar/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7145473,
+      "lon": 90.3813578,
+      "geocoded_query": "Kamrangirchar, Dhaka"
+    },
+    {
+      "slug": "kazla",
+      "name": "Kazla",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/kazla/250.pdf",
+      "pdf_live": true,
+      "lat": null,
+      "lon": null,
+      "geocoded_query": "Kazla, Dhaka"
+    },
+    {
+      "slug": "khilgaon",
+      "name": "Khilgaon",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/khilgaon/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7506546,
+      "lon": 90.4232818,
+      "geocoded_query": "Khilgaon, Dhaka"
+    },
+    {
+      "slug": "lalbag",
+      "name": "Lalbag",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/lalbag/250.pdf",
+      "pdf_live": true,
+      "lat": 23.718843,
+      "lon": 90.3881528,
+      "geocoded_query": "Lalbagh, Dhaka"
+    },
+    {
+      "slug": "maniknagar",
+      "name": "Maniknagar",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/maniknagar/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7231537,
+      "lon": 90.4328687,
+      "geocoded_query": "Maniknagar, Dhaka"
+    },
+    {
+      "slug": "matuail",
+      "name": "Matuail",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/matuail/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7052675,
+      "lon": 90.4606328,
+      "geocoded_query": "Matuail, Dhaka"
+    },
+    {
+      "slug": "mogbazar",
+      "name": "Mogbazar",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/mogbazar/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7497272,
+      "lon": 90.4127852,
+      "geocoded_query": "Moghbazar, Dhaka"
+    },
+    {
+      "slug": "motijheel",
+      "name": "Motijheel",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/motijheel/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7272598,
+      "lon": 90.4211957,
+      "geocoded_query": "Motijheel, Dhaka"
+    },
+    {
+      "slug": "mugdapara",
+      "name": "Mugdapara",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/mugdapara/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7291223,
+      "lon": 90.4335651,
+      "geocoded_query": "Mugdapara, Dhaka"
+    },
+    {
+      "slug": "narayangonj (east)",
+      "name": "Narayangonj (east)",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/narayangonj%20%28east%29/250.pdf",
+      "pdf_live": true,
+      "lat": 23.6277774,
+      "lon": 90.493218,
+      "geocoded_query": "Narayanganj Sadar, Narayanganj"
+    },
+    {
+      "slug": "narayangonj (west)",
+      "name": "Narayangonj (west)",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/narayangonj%20%28west%29/250.pdf",
+      "pdf_live": true,
+      "lat": 23.6236732,
+      "lon": 90.4988075,
+      "geocoded_query": "Narayanganj, Bangladesh"
+    },
+    {
+      "slug": "narinda",
+      "name": "Narinda",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/narinda/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7122811,
+      "lon": 90.4186614,
+      "geocoded_query": "Narinda, Dhaka"
+    },
+    {
+      "slug": "paribag",
+      "name": "Paribag",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/paribag/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7426243,
+      "lon": 90.3941901,
+      "geocoded_query": "Paribagh, Dhaka"
+    },
+    {
+      "slug": "postogola",
+      "name": "Postogola",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/postogola/250.pdf",
+      "pdf_live": true,
+      "lat": 23.6917791,
+      "lon": 90.4287048,
+      "geocoded_query": "Postogola, Dhaka"
+    },
+    {
+      "slug": "rajarbag",
+      "name": "Rajarbag",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/rajarbag/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7382617,
+      "lon": 90.4175776,
+      "geocoded_query": "Rajarbagh, Dhaka"
+    },
+    {
+      "slug": "ramna",
+      "name": "Ramna",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/ramna/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7398559,
+      "lon": 90.4022658,
+      "geocoded_query": "Ramna, Dhaka"
+    },
+    {
+      "slug": "satmosjid",
+      "name": "Satmosjid",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/satmosjid/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7533971,
+      "lon": 90.3658653,
+      "geocoded_query": "Satmasjid Road, Dhaka"
+    },
+    {
+      "slug": "shamoli",
+      "name": "Shamoli",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/shamoli/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7743951,
+      "lon": 90.3654285,
+      "geocoded_query": "Shyamoli, Dhaka"
+    },
+    {
+      "slug": "sher-e-bangla nagar",
+      "name": "Sher E Bangla Nagar",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/sher-e-bangla%20nagar/250.pdf",
+      "pdf_live": true,
+      "lat": 23.772786,
+      "lon": 90.3756784,
+      "geocoded_query": "Sher-e-Bangla Nagar, Dhaka"
+    },
+    {
+      "slug": "shyampur",
+      "name": "Shyampur",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/shyampur/250.pdf",
+      "pdf_live": true,
+      "lat": 23.6861888,
+      "lon": 90.4390936,
+      "geocoded_query": "Shyampur, Dhaka"
+    },
+    {
+      "slug": "siddhirgonj",
+      "name": "Siddhirgonj",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/siddhirgonj/250.pdf",
+      "pdf_live": true,
+      "lat": 23.6849743,
+      "lon": 90.5160029,
+      "geocoded_query": "Siddhirganj, Narayanganj"
+    },
+    {
+      "slug": "sitalakhya",
+      "name": "Sitalakhya",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/sitalakhya/250.pdf",
+      "pdf_live": true,
+      "lat": null,
+      "lon": null,
+      "geocoded_query": "Sitalakhya, Narayanganj"
+    },
+    {
+      "slug": "swamibag",
+      "name": "Swamibag",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/swamibag/250.pdf",
+      "pdf_live": true,
+      "lat": 23.713396,
+      "lon": 90.4235859,
+      "geocoded_query": "Swamibag, Dhaka"
+    },
+    {
+      "slug": "tejgaon",
+      "name": "Tejgaon",
+      "pdf_url": "https://dpdc.org.bd/site/load_shedding/tejgaon/250.pdf",
+      "pdf_live": true,
+      "lat": 23.7628204,
+      "lon": 90.3912992,
+      "geocoded_query": "Tejgaon, Dhaka"
+    }
+  ]
+}

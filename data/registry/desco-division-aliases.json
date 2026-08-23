@@ -1,0 +1,31 @@
+{
+  "schema": "division-aliases/1",
+  "utility": "DESCO",
+  "note": "DESCO's schedule PDFs contain typos and overlapping-text extraction artifacts in the S&D Division column. This table is the ONLY place a variant may be folded into a canonical name, so every mapping is reviewable in one diff. The verbatim source string is always kept in the claim's `division` field; the canonical name goes in `division_canonical`. Variants mapped to null are unusable garble - claims carrying them are published with a null canonical division and are excluded from geographic matching rather than being guessed at.",
+  "canonical": [
+    "Agargaon", "Badda", "Baridhara", "Bashundhara", "Dhakkhinkhan",
+    "Eastern Housing", "Gulshan", "Ibrahimpur", "Joarshahara", "Kafrul",
+    "Kallyanpur", "Khilkhet", "Mirpur", "Mohakhali", "Monipur", "Pallabi",
+    "Rupnagar", "Shah Ali", "Shah Kabir", "Tongi Central", "Tongi East",
+    "Tongi West", "Turag", "Uttara East", "Uttara West", "Uttarkhan"
+  ],
+  "aliases": {
+    "rupnagor": "Rupnagar",
+    "tongi central": "Tongi Central",
+    "joarshara": "Joarshahara",
+    "d.khan": "Dhakkhinkhan",
+    "dakshinkhan": "Dhakkhinkhan",
+    "dokkhinkhan": "Dhakkhinkhan",
+    "ibrhimpur": "Ibrahimpur",
+    "uttara eas": "Uttara East",
+    "uttara-east": "Uttara East",
+    "uttara-west": "Uttara West",
+    "shahali": "Shah Ali",
+    "kalyanpur": "Kallyanpur",
+    "kollyanpur": "Kallyanpur"
+  },
+  "unusable": {
+    "dhakkhkinakohwanla": "Two column values printed on top of each other; the underlying rows cannot be separated safely.",
+    "mguolhsahkahnali:": "Interleaving of 'Gulshan' and 'Mohakhali'; which row each claim belongs to is not recoverable."
+  }
+}

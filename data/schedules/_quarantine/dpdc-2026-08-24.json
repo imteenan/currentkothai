@@ -1,0 +1,3180 @@
+{
+  "report": {
+    "verdict": "reject",
+    "findings": [
+      {
+        "verdict": "reject",
+        "check": "hour-columns",
+        "detail": "hour column count 0 is outside 1-24"
+      }
+    ]
+  },
+  "document": {
+    "schema": "schedule-claims/1",
+    "utility": "DPDC",
+    "publisher": "Dhaka Power Distribution Company Ltd",
+    "effective_date": "2026-08-24",
+    "coverage_level": "feeder",
+    "badge": "DERIVED",
+    "source": {
+      "source_id": "dpdc-load-shedding-index",
+      "source_url": "https://dpdc.org.bd/site/nocs/load_shedding",
+      "retrieved_at": "2026-08-23T19:45:53Z",
+      "sha256": "a7a181df1119b8b93229adf17192d824f6de0b7965a642f85cd3f03a19da72e7",
+      "part_hashes": [
+        "adabor:ba9b142bc1929a55f4a869bd6a76ac0e95d4cc723eae262b3c790f4294fdff7b",
+        "banasree:062580837d87c0ca82622b8b996c0390f1523468ebee7cddd6163157536c64c2",
+        "jigatola:b3351e5dfd11e0d843d2d0e06d2105670d783fd8a9058e0a8bac1f97f388b579",
+        "jurain:adc970fa65ca0cac9d2466c9a72a92e304d4c329e14924dc1a8d7ed20215e26d",
+        "kakrail:1966bffd7d1e6f35c53e142d00f138a8009bfa5a24661a314540eb93dabf43ad",
+        "kazla:b5219d3a160d39d12e3f2001491de561cb2f458e8ae4e1ebdab26349b272a395",
+        "lalbag:0b7ce8de9dec1133e912c7d4b6c400a2bf3d54722e8f439fd45e6881b4dbe6de",
+        "matuail:c8f9a7db1aea6e3e12d7e229995ee8ad55e3a66128eac79e42d527fa8ffa78ea",
+        "mogbazar:d072c3952046045477f192b3d26cd65d771392dd3d08011ed34e08dbf2bee40b",
+        "motijheel:dd0e2da4c0f293d2e098ec8137f2ad6631a4799e077617bd704ec4251ec45c2b",
+        "mugdapara:8ace531dc09c593fe10ee79c6c07a698d75ef4591fa10c69902aef2151374d23",
+        "narayangonj (west):dccdca5e727d8ba9f53b2301426816594f5af36293d8ddbb4bb61ab0ae5fa64b",
+        "narinda:466509b291a952a602d99ad8d3c514440f3bade651d2dc23fb7625ffd5ee921e",
+        "ramna:79e2ca21912ff463349d1fc705a78d3ba816aca6a23edd8e9b17266fd9a1a8aa",
+        "satmosjid:bc20a10a86f1261eed594d20f0bd7fc389388854d9503dd2f8c5d810d978e588",
+        "shamoli:79ce1e4883de1a99286c86913644bf850b08f8577f1290a6ea5bb167baf38793",
+        "sher-e-bangla nagar:51e49bf132aea37ac71e2e80e1c49f83b4462d734645edadc73d984b75a1b1e6",
+        "siddhirgonj:3ff4ba79626e4d50386b8408e3fb742d2538e02cd11e39192d39a92984fbc8e6",
+        "sitalakhya:843d1607c87799046603cf057520ab2b7644f985e2b296a9bf1ff378d2e9f152"
+      ],
+      "parser_adapter": "dpdc_pdf_v1",
+      "parser_version": "1.0.0",
+      "tls_verified": true,
+      "archive_path": null
+    },
+    "claims": [
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G134J",
+        "feeder_id": "dpdc:adabor:g134j",
+        "area_text": "জা঩ান গারডনে সিটি প্রকল্প এলাকা",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "৫.০০",
+        "substation_bn": "কল্যাণপুর উ঩রকে",
+        "billing_code": "G134J"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G186B",
+        "feeder_id": "dpdc:adabor:g186b",
+        "area_text": "ফাইতুল আভান হাউসজিং ও সরিং সরাড এর অিংে সফরেষ",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "৩.৫০",
+        "substation_bn": "জা঩ান গারডনে সিটি ৩৩/১১ সকসব",
+        "billing_code": "G186B"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G1103SH",
+        "feeder_id": "dpdc:adabor:g1103sh",
+        "area_text": "শ্যাভলী হাউসজিং ও নরফাদয় হাউসজিং এর অিংে সফরেষ",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "৩.৫০",
+        "substation_bn": "ঢাকা উদ্যান ৩৩/১১ সকসব",
+        "billing_code": "G1103SH"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G1103N",
+        "feeder_id": "dpdc:adabor:g1103n",
+        "area_text": "নরফাদয় হাউসজিং এর অিংে সফরেষ",
+        "windows": [
+          {
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "১.২০",
+        "substation_bn": "ঢাকা উদ্যান ৩৩/১১ সকসব",
+        "billing_code": "G1103N"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G186H",
+        "feeder_id": "dpdc:adabor:g186h",
+        "area_text": "উত্তর আদাফর ও ঢাকা হাউসজিং এলাকা",
+        "windows": [
+          {
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "২.৬৬",
+        "substation_bn": "জা঩ান গারডনে সিটি ৩৩/১১ সকসব",
+        "billing_code": "G186H"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G186E",
+        "feeder_id": "dpdc:adabor:g186e",
+        "area_text": "সভাহাম্মদীয়া হাউসজিং ও তৎিিংলগ্ন এলাকা",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "৪.১০",
+        "substation_bn": "জা঩ান গারডনে সিটি ৩৩/১১ সকসব",
+        "billing_code": "G186E"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G1103BU",
+        "feeder_id": "dpdc:adabor:g1103bu",
+        "area_text": "ঢাকা উদ্যান সি ব্লক এলাকা",
+        "windows": [
+          {
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "০.৬০",
+        "substation_bn": "ঢাকা উদ্যান ৩৩/১১ সকসব",
+        "billing_code": "G1103BU"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G186D",
+        "feeder_id": "dpdc:adabor:g186d",
+        "area_text": "নফীনগর হাউসজিং ও ঢাকা উদ্যান এর সফ ব্লক এলাকা",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "০.১৬",
+        "substation_bn": "জা঩ান গারডনে সিটি ৩৩/১১ সকসব",
+        "billing_code": "G186D"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G1103DM",
+        "feeder_id": "dpdc:adabor:g1103dm",
+        "area_text": "ঢাকা উদ্যান এর এ ব্লক এলাকা",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "start": "21:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "২.৬০",
+        "substation_bn": "ঢাকা উদ্যান ৩৩/১১ সকসব",
+        "billing_code": "G1103DM"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G1103AK",
+        "feeder_id": "dpdc:adabor:g1103ak",
+        "area_text": "ঢাকা উদ্যান সড ব্লক ও একতা হাউসজিং এলাকা",
+        "windows": [
+          {
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "০.৩৮",
+        "substation_bn": "ঢাকা উদ্যান ৩৩/১১ সকসব",
+        "billing_code": "G1103AK"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G186C",
+        "feeder_id": "dpdc:adabor:g186c",
+        "area_text": "সেরেররেক ১-৬ নিং সরাড এলাকা",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "৪.০০",
+        "substation_bn": "জা঩ান গারডনে সিটি ৩৩/১১ সকসব",
+        "billing_code": "G186C"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G186S",
+        "feeder_id": "dpdc:adabor:g186s",
+        "area_text": "চসেভা ভরডল োউন এলাকা",
+        "windows": [
+          {
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "১.২৮",
+        "substation_bn": "ঢাকা উদ্যান ৩৩/১১ সকসব",
+        "billing_code": "G186S"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G134P",
+        "feeder_id": "dpdc:adabor:g134p",
+        "area_text": "সুই঩ার করলাসন ও গাফতসল",
+        "windows": [
+          {
+            "start": "19:00",
+            "end": "20:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "৩.০০",
+        "substation_bn": "কল্যাণপুর উ঩রকে",
+        "billing_code": "G134P"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G134M",
+        "feeder_id": "dpdc:adabor:g134m",
+        "area_text": "ভনসুরাফাদ হাউসজিং, ফাইতুল আভান হাউসজিং এর অিংে সফরেষ ও সুসনসফি হাউসজিং",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "৫.০০",
+        "substation_bn": "কল্যাণপুর উ঩রকে",
+        "billing_code": "G134M"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G134A",
+        "feeder_id": "dpdc:adabor:g134a",
+        "area_text": "ভনসুরাফাদ হাউসজিং, ফাইতুল আভান হাউসজিং ও স঩সি কালচার হাউসজিং এর সকছু অিংে",
+        "windows": [
+          {
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "৪.১৬",
+        "substation_bn": "কল্যাণপুর উ঩রকে",
+        "billing_code": "G134A"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G134K",
+        "feeder_id": "dpdc:adabor:g134k",
+        "area_text": "তুরাগ হাউসজিংএর অিংে সফরেষ ও দ্বী঩নগর এলাকা",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "০.৩৫",
+        "substation_bn": "কল্যাণপুর উ঩রকে",
+        "billing_code": "G134K"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G1103U",
+        "feeder_id": "dpdc:adabor:g1103u",
+        "area_text": "তুরাগ হাউসজিং এলাকা",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "১.৬০",
+        "substation_bn": "ঢাকা উদ্যান ৩৩/১১ সকসব",
+        "billing_code": "G1103U"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G1103L",
+        "feeder_id": "dpdc:adabor:g1103l",
+        "area_text": "চসেভা ভরডল োউন হাউসজিং এলাকা (আিংসেক)",
+        "windows": [
+          {
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "২.৩০",
+        "substation_bn": "ঢাকা উদ্যান ৩৩/১১ সকসব",
+        "billing_code": "G1103L"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G134T",
+        "feeder_id": "dpdc:adabor:g134t",
+        "area_text": "দারুি িালাভ ও সভরপুর সরাড এর অিংে সফরেষ",
+        "windows": [
+          {
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "৪.১৬",
+        "substation_bn": "কল্যাণপুর উ঩রকে",
+        "billing_code": "G134T"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G134G",
+        "feeder_id": "dpdc:adabor:g134g",
+        "area_text": "গগদাররেক এলাকা",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "৫.০০",
+        "substation_bn": "কল্যাণপুর উ঩রকে",
+        "billing_code": "G134G"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G134R",
+        "feeder_id": "dpdc:adabor:g134r",
+        "area_text": "সরিং সরাড এলাকা",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "২.৮৩",
+        "substation_bn": "কল্যাণপুর উ঩রকে",
+        "billing_code": "G134R"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G186MS",
+        "feeder_id": "dpdc:adabor:g186ms",
+        "area_text": "ফায়তুল আভান এলাকা",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "৪.২৫",
+        "substation_bn": "জা঩ান গারডনে সিটি উ঩রকে",
+        "billing_code": "G186MS"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G1121RV",
+        "feeder_id": "dpdc:adabor:g1121rv",
+        "area_text": "একতা হাউসজিং এলাকা",
+        "windows": [
+          {
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "০.৫৩",
+        "substation_bn": "আদাফর উ঩রকে",
+        "billing_code": "G1121RV"
+      },
+      {
+        "division": "Adabor",
+        "division_canonical": "Adabor",
+        "feeder": "G1121EG",
+        "feeder_id": "dpdc:adabor:g1121eg",
+        "area_text": "চসেভা সরাড-৪,৫,৬ এলাকা",
+        "windows": [
+          {
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "০.৫৮",
+        "substation_bn": "আদাফর উ঩রকে",
+        "billing_code": "G1121EG"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C608I",
+        "feeder_id": "dpdc:kakrail:c608i",
+        "area_text": "মগবাজার (cid:495)থেক বাংলামটর পয(cid:713)(cid:543) িনউ ই(cid:790)াটন (cid:495)রােডর দি(cid:635)ণ পা(cid:885)।(cid:543)",
+        "windows": [
+          {
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.5,
+        "feeder_name_bn": "গােডন(cid:543)",
+        "substation_bn": "মগবাজার ৩৩/১১ (cid:495)কিভ",
+        "billing_code": "C608I"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C6105Z",
+        "feeder_id": "dpdc:kakrail:c6105z",
+        "area_text": "(cid:495)মৗচাক (cid:495)মাড় হেত মািলবাগ পয(cid:713)(cid:543) রা(cid:796)ার দি(cid:635)ণ পা(cid:885),(cid:543) মািলবাগ হেত শাি(cid:713) নগর (cid:495)মাড় পয(cid:713)(cid:543) পি(cid:771)ম পাশ ও (cid:495)পা(cid:780) অিফেসর গিল।",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.2,
+        "feeder_name_bn": "(cid:495)পা(cid:780) অিফস",
+        "substation_bn": "মগবাজার (cid:618)এ(cid:709)(cid:618)",
+        "billing_code": "C6105Z"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C608BG",
+        "feeder_id": "dpdc:kakrail:c608bg",
+        "area_text": "বড় মগবাজার এলাকার িদ(cid:1239) (cid:495)রাড ও গাউসনগর এলাকা।",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 3.1,
+        "feeder_name_bn": "ই(cid:790)াটন",
+        "substation_bn": "মগবাজার ৩৩/১১ (cid:495)কিভ",
+        "billing_code": "C608BG"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C6105Y",
+        "feeder_id": "dpdc:kakrail:c6105y",
+        "area_text": "(cid:495)মৗচাক (cid:495)মাড় হেত মেনায়ারা হসিপটার পয(cid:713)(cid:543)।",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.5,
+        "feeder_name_bn": "আনারকিল",
+        "substation_bn": "মগবাজার (cid:618)এ(cid:709)(cid:618)",
+        "billing_code": "C6105Y"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C672BC",
+        "feeder_id": "dpdc:kakrail:c672bc",
+        "area_text": "ফাম (cid:543)(cid:495)গট হেত হািসনা মােকট(cid:543) পয(cid:713)(cid:543)।",
+        "windows": [
+          {
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.5,
+        "feeder_name_bn": "িব(cid:663)ান কেলজ",
+        "substation_bn": "মিন(cid:1221)রী পাড়া",
+        "billing_code": "C672BC"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C694A",
+        "feeder_id": "dpdc:kakrail:c694a",
+        "area_text": "জােজস টাওয়ার হেত শাি(cid:713)নগর (cid:495)মাড় পয(cid:713)(cid:543) (cid:495)মইন (cid:495)রােডর উ(cid:687)র ও পি(cid:771)ম পা(cid:885) (cid:543)এবং আেগাড়ার গিল।",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 3.2,
+        "feeder_name_bn": "ইশা খা",
+        "substation_bn": "িব(cid:1212)(cid:583)ৎ ভবন িজআইএস",
+        "billing_code": "C694A"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C608X",
+        "feeder_id": "dpdc:kakrail:c608x",
+        "area_text": "(cid:495)তজ(cid:1206)রী বাজার (cid:495)রামা(cid:790) টাওয়ার হেত জাহা(cid:650)ীর টাওয়ার হেয় জনতা টাওয়ার পয(cid:713)(cid:543)।",
+        "windows": [
+          {
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.2,
+        "feeder_name_bn": "(cid:1222)ব (cid:543)(cid:495)তজ(cid:1206)রী বাজার",
+        "substation_bn": "মগবাজার ৩৩/১১ (cid:495)কিভ",
+        "billing_code": "C608X"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C6105S",
+        "feeder_id": "dpdc:kakrail:c6105s",
+        "area_text": "(cid:495)মৗচাক (cid:495)মাড় হেত উ(cid:661)ল (cid:495)হােটল পয(cid:713)(cid:543) রা(cid:796)ার দি(cid:635)ণ পাশ এবং (cid:495)বইলী (cid:495)চৗরা(cid:796)া হেত ওয়(cid:583)ারেলস (cid:495)মাড় পয(cid:713)(cid:543)।",
+        "windows": [
+          {
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.5,
+        "feeder_name_bn": "(cid:495)স(cid:1044)রী",
+        "substation_bn": "মগবাজার (cid:618)এ(cid:709)(cid:618)",
+        "billing_code": "C6105S"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C665C",
+        "feeder_id": "dpdc:kakrail:c665c",
+        "area_text": "(cid:495)বইলী (cid:495)রাড হেত শাি(cid:713)নগর (cid:495)মাড় পয(cid:713)(cid:543) এবং",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 3.3,
+        "feeder_name_bn": "পাকে(cid:543)রাড",
+        "substation_bn": "(cid:495)বইলী (cid:495)রাড (cid:1247)ইিচং (cid:495)(cid:793)শন",
+        "billing_code": "C665C"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C672L",
+        "feeder_id": "dpdc:kakrail:c672l",
+        "area_text": "ফাম (cid:543)(cid:495)গট (cid:495)মাড় হেত আ(cid:879)রশাহ মসিজদ পয(cid:713)(cid:543) এবং মরণ চ(cid:1010)দ এর গিল ও মিহলা কেলেজর গিল।",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.1,
+        "feeder_name_bn": "কাওরান বাজার নথ(cid:543)",
+        "substation_bn": "মিন(cid:1221)রী পাড়া",
+        "billing_code": "C672L"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C6101NH",
+        "feeder_id": "dpdc:kakrail:c6101nh",
+        "area_text": "(cid:495)নভী হাউজ হেত বাংলামটর (cid:495)মােড়র (cid:495)মইন (cid:495)রােডর (cid:1222)ব (cid:543) পা(cid:885) (cid:543)পয(cid:713)(cid:543), পালপাড়া গিল, িবয়ােমর গিল, জনক(cid:707) ভবন হেত বাংলামটর পয(cid:713)(cid:543) রা(cid:796)ার উ(cid:687)র পা(cid:885)।(cid:543)",
+        "windows": [
+          {
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.5,
+        "feeder_name_bn": "(cid:495)নভী হাউজ",
+        "substation_bn": "িবএমইউ",
+        "billing_code": "C6101NH"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C665K",
+        "feeder_id": "dpdc:kakrail:c665k",
+        "area_text": "মগবাজার (cid:495)তেলর পা(cid:747) হেত মগবাজার (cid:495)মাড় পয(cid:713)(cid:543) দি(cid:635)ণ পাশ, মগবাজার (cid:495)মাড় হেত (cid:1221)রাতন রমনা থানার (cid:1222)ব (cid:543)পাশ হেয় রমনা থানা মসিজদ পয(cid:713)(cid:543)।",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.7,
+        "feeder_name_bn": "রমনা থানা",
+        "substation_bn": "(cid:495)বইলী (cid:495)রাড (cid:1247)ইিচং (cid:495)(cid:793)শন",
+        "billing_code": "C665K"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C608P",
+        "feeder_id": "dpdc:kakrail:c608p",
+        "area_text": "(cid:618)িসিব ভবন , (cid:495)পে(cid:593)াবাংলা ভবন, িডআই(cid:618) মােকট(cid:543), ও ওয়াসা ভবন।",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.2,
+        "feeder_name_bn": "(cid:618)িসিব",
+        "substation_bn": "মগবাজার ৩৩/১১ (cid:495)কিভ",
+        "billing_code": "C608P"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C6101UH",
+        "feeder_id": "dpdc:kakrail:c6101uh",
+        "area_text": "ইউিনক হাইট(cid:956) ভবন",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 0.63,
+        "feeder_name_bn": "ইউিনক হাইট(cid:956)-১",
+        "substation_bn": "িবএমইউ",
+        "billing_code": "C6101UH"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C6113VQ",
+        "feeder_id": "dpdc:kakrail:c6113vq",
+        "area_text": "মগবাজার ই(cid:801)ািহিন ও ওয়ািসস এলাকা",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 0.8,
+        "feeder_name_bn": "ওয়ািসস",
+        "substation_bn": "ই(cid:801)াহািন ৩৩/১১ (cid:495)কিভ",
+        "billing_code": "C6113VQ"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C6113KG",
+        "feeder_id": "dpdc:kakrail:c6113kg",
+        "area_text": "মগবাজােরর কািজর গিল, আদদীেনর গিল ও তৎসংল(cid:641) এলাকা",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.95,
+        "feeder_name_bn": "কািজর গিল",
+        "substation_bn": "ই(cid:801)াহািন ৩৩/১১ (cid:495)কিভ",
+        "billing_code": "C6113KG"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C6113VQ",
+        "feeder_id": "dpdc:kakrail:c6113vq",
+        "area_text": "িসে(cid:696)শরী, িভকা(cid:880)নিনসা, ই(cid:793)ান (cid:543)হাউিজং ও তৎসংল(cid:641) এলাকা",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 4.16,
+        "feeder_name_bn": "িভকা(cid:880)নিনসা",
+        "substation_bn": "ই(cid:801)াহািন ৩৩/১১ (cid:495)কিভ",
+        "billing_code": "C6113VQ"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C6101HF",
+        "feeder_id": "dpdc:kakrail:c6101hf",
+        "area_text": "হির ফ(cid:583)ােমিল ও তৎসংল(cid:641) এলাকা",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.13,
+        "feeder_name_bn": "হির ফ(cid:583)ােমিল",
+        "substation_bn": "িবএমইউ",
+        "billing_code": "C6101HF"
+      },
+      {
+        "division": "Kakrail",
+        "division_canonical": "Kakrail",
+        "feeder": "C608H",
+        "feeder_id": "dpdc:kakrail:c608h",
+        "area_text": "বাংলা মটর, ই(cid:790)াটন ও তৎসংল(cid:641) এলাকা",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.03,
+        "feeder_name_bn": "বাংলা মটর",
+        "substation_bn": "মগবাজার ৩৩/১১ (cid:495)কিভ",
+        "billing_code": "C608H"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A3109J",
+        "feeder_id": "dpdc:lalbag:a3109j",
+        "area_text": "এরশাদ কেলানী, মাওরার (cid:321)টগ, (cid:321)বৗ বাজার, িস(cid:460) কেপ(cid:369)ােরশন কাচা বাজার",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "4.18",
+        "substation_bn": "িস(cid:460) কেলানী",
+        "billing_code": "A3109J"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A3109L",
+        "feeder_id": "dpdc:lalbag:a3109l",
+        "area_text": "বাগানবািড়, খােলক (cid:321)চয়ারম(cid:422)ান গিল, বােরাহাজার (cid:321)লন",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "3.68",
+        "substation_bn": "আিলর ঘাট",
+        "billing_code": "A3109L"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A3109U",
+        "feeder_id": "dpdc:lalbag:a3109u",
+        "area_text": "কামালবাগ, হাজী (cid:321)সিলম িব(cid:741)িবদ(cid:422)ালয় কেলজ",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "3.56",
+        "substation_bn": "কামালবাগ",
+        "billing_code": "A3109U"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A3109C",
+        "feeder_id": "dpdc:lalbag:a3109c",
+        "area_text": "(cid:474)াবঘাট, নূর (cid:321)হােসন গিল, মনা হািজর গিল",
+        "windows": [
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "3.91",
+        "substation_bn": "(cid:474)াবঘাট",
+        "billing_code": "A3109C"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A3109K",
+        "feeder_id": "dpdc:lalbag:a3109k",
+        "area_text": "িমিন (cid:321)(cid:648)িডয়াম,নামাপাড়া,আর এ(cid:559) িড (cid:321)রাড, ইসলামবাগ",
+        "windows": [
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "0.65",
+        "substation_bn": "কাজী িরয়াজ উি(cid:546)ন",
+        "billing_code": "A3109K"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A3109B",
+        "feeder_id": "dpdc:lalbag:a3109b",
+        "area_text": "রহমতগ(cid:514) (cid:321)লন,ও ও (cid:321)রাড, হাজী বা(cid:623)ু (cid:321)রাড",
+        "windows": [
+          {
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "3.80",
+        "substation_bn": "রহমতগ(cid:514)",
+        "billing_code": "A3109B"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A3109V",
+        "feeder_id": "dpdc:lalbag:a3109v",
+        "area_text": "(cid:321)দিবদাসঘাট (cid:321)লন, (cid:321)সায়ারীঘাট (cid:321)লন, দাদাবািড়",
+        "windows": [
+          {
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "4.33",
+        "substation_bn": "(cid:321)দিবদাসঘাট",
+        "billing_code": "A3109V"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A377S",
+        "feeder_id": "dpdc:lalbag:a377s",
+        "area_text": "লালবাগ (cid:321)ক(cid:623)া, শােয়(cid:652)া খান (cid:321)রাড, খােজ (cid:321)দওয়ান",
+        "windows": [
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "1.67",
+        "substation_bn": "শােয়(cid:652)াখান",
+        "billing_code": "A377S"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A377N",
+        "feeder_id": "dpdc:lalbag:a377n",
+        "area_text": "রিহম ব(cid:480) (cid:321)লন,ও ও (cid:321)রাড,ইয়াসীর ব(cid:422)াপাির (cid:321)লন, (cid:321)পা(cid:652)া",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "3.00",
+        "substation_bn": "(cid:321)পা(cid:652)া",
+        "billing_code": "A377N"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A377Q",
+        "feeder_id": "dpdc:lalbag:a377q",
+        "area_text": "হরনাথ (cid:321)ঘাষ (cid:321)রাড, খােজ (cid:321)দওয়ান ১ম ও ২য় (cid:321)লন",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "1.33",
+        "substation_bn": "চাদনীঘাট",
+        "billing_code": "A377Q"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A3109M",
+        "feeder_id": "dpdc:lalbag:a3109m",
+        "area_text": "নািজম উি(cid:546)ন (cid:321)রাড, (cid:321)হাসাইনী দালান (cid:321)রাড",
+        "windows": [
+          {
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "1.50",
+        "substation_bn": "নািজম উি(cid:546)ন",
+        "billing_code": "A3109M"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A377E",
+        "feeder_id": "dpdc:lalbag:a377e",
+        "area_text": "(cid:321)কিব (cid:736)(cid:441) (cid:321)রাড, জয়নাগ (cid:321)রাড, ডাল িসং (cid:321)লন,",
+        "windows": [
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "1.83",
+        "substation_bn": "(cid:321)কিব (cid:736)(cid:441) (cid:321)রাড",
+        "billing_code": "A377E"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A3109X",
+        "feeder_id": "dpdc:lalbag:a3109x",
+        "area_text": "হািনফ হািজর গিল, ঈ(cid:542)াহ মােঠর পূব(cid:369) িদক, (cid:321)বিড়বাধ",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "2.31",
+        "substation_bn": "এিস মসিজদ",
+        "billing_code": "A3109X"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "1.67",
+        "feeder_id": "dpdc:lalbag:1-67",
+        "area_text": "(cid:321)বিড়বাধ, চুন ওয়ালা গিল, ইসলামবাগ, ঈদগাহ মাঠ",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "1.67",
+        "substation_bn": "চুনগিল",
+        "billing_code": null
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A320R",
+        "feeder_id": "dpdc:lalbag:a320r",
+        "area_text": "(cid:321)সায়ারীঘাট (cid:321)লন, (cid:321)দিবদাসঘাট (cid:321)লন,চকবাজার আংিশক",
+        "windows": [
+          {
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "4.60",
+        "substation_bn": "(cid:321)সায়ারীঘাট",
+        "billing_code": "A320R"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A3201",
+        "feeder_id": "dpdc:lalbag:a3201",
+        "area_text": "কামাল বাগ, (cid:321)জাড়া হািত, মিদনা রাবার সংল(cid:485)",
+        "windows": [
+          {
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "3.50",
+        "substation_bn": "মধুমিত",
+        "billing_code": "A3201"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A320Y",
+        "feeder_id": "dpdc:lalbag:a320y",
+        "area_text": "লালবাগ (cid:321)ক(cid:623)া ও (cid:321)চৗরা(cid:652)া",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "1.67",
+        "substation_bn": "লালবাগ",
+        "billing_code": "A320Y"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A320A",
+        "feeder_id": "dpdc:lalbag:a320a",
+        "area_text": "ইসলামবাগ (cid:321)চৗরা(cid:652)া, ঈ(cid:542)া মােঠর পি(cid:624)ম িদক",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "2.67",
+        "substation_bn": "ঈদগাহ",
+        "billing_code": "A320A"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A320D",
+        "feeder_id": "dpdc:lalbag:a320d",
+        "area_text": "পূব(cid:369) ইসলামবাগ, চুনগিল িফডার",
+        "windows": [
+          {
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "3.66",
+        "substation_bn": "ইসলামবাগ",
+        "billing_code": "A320D"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A320G",
+        "feeder_id": "dpdc:lalbag:a320g",
+        "area_text": "িশ(cid:740) হাসপাতাল,(cid:321)গৗড় সু(cid:568)র রায় (cid:321)লন,(cid:321)ক.িব (cid:736)(cid:441) (cid:321)রাড",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "2.16",
+        "substation_bn": "ওয়াটার ওয়াক(cid:369)স ২",
+        "billing_code": "A320G"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A3983",
+        "feeder_id": "dpdc:lalbag:a3983",
+        "area_text": "িশ(cid:479)া (cid:321)বাড(cid:369),নূর ফা(cid:536)াহ (cid:321)লন,ঢােক(cid:741)রী মি(cid:568)র,অফ(cid:369)ােনজ (cid:321)রাড",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "0.83",
+        "substation_bn": "(cid:321)বাড(cid:369) অিফস",
+        "billing_code": "A3983"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A3984",
+        "feeder_id": "dpdc:lalbag:a3984",
+        "area_text": "মা(cid:441)াসা ই আিলয়া ও সংল(cid:485), গীদ(cid:369)া উ(cid:830)(cid:369) (cid:321)রাড",
+        "windows": [
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "0.20",
+        "substation_bn": "আিলয়া মা(cid:441)াসা",
+        "billing_code": "A3984"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A3986",
+        "feeder_id": "dpdc:lalbag:a3986",
+        "area_text": "নব(cid:674)মার ই(cid:574)(cid:460)(cid:460)উট, িডআইিজ (cid:321)কায়াট(cid:369)ার, িত(cid:721)িতয়া কেলজ",
+        "windows": [
+          {
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "0.60",
+        "substation_bn": "শহীদ উ(cid:623)াহ কেলজ",
+        "billing_code": "A3986"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A398W",
+        "feeder_id": "dpdc:lalbag:a398w",
+        "area_text": "বদ(cid:736)ে(cid:572)সা কেলজ,(cid:321)তজপাতা গিল,বকশীবাজার আংিশক",
+        "windows": [
+          {
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "0.50",
+        "substation_bn": "বদ(cid:736)ে(cid:572)সা",
+        "billing_code": "A398W"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A3985",
+        "feeder_id": "dpdc:lalbag:a3985",
+        "area_text": "নািজম উি(cid:546)ন (cid:321)রাড, (cid:321)হাসাইিন দালান",
+        "windows": [
+          {
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "1.00",
+        "substation_bn": "(cid:321)হাসাইিন দালান",
+        "billing_code": "A3985"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A319Y",
+        "feeder_id": "dpdc:lalbag:a319y",
+        "area_text": "উ(cid:830)(cid:369) (cid:321)রাড, চকবাজার থানা, হাজী (cid:321)সিলম টাওয়ার, পুরাতন (cid:321)জলখানা",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "1.50",
+        "substation_bn": "কমলদহ",
+        "billing_code": "A319Y"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "A319Z",
+        "feeder_id": "dpdc:lalbag:a319z",
+        "area_text": "চকবাজার, হাজী (cid:321)সিলম টাওয়ার, চক সা(cid:674)(cid:369)লার (cid:321)রাড",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "1.85",
+        "substation_bn": "চকবাজার",
+        "billing_code": "A319Z"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "-",
+        "feeder_id": "dpdc:lalbag:unknown",
+        "area_text": "ঢােক(cid:741)রী মি(cid:568)র,ইবেন সীনা, মীম কিমউিন(cid:460) (cid:321)স(cid:556)ার, নূর ফা(cid:536)াহ (cid:321)লন",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "0.87",
+        "substation_bn": "ঢােক(cid:741)রী (cid:321)রাড",
+        "billing_code": "-"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "-",
+        "feeder_id": "dpdc:lalbag:unknown",
+        "area_text": "বাবুল হািজর গিল,টাইগাড় গিল",
+        "windows": [
+          {
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "3.98",
+        "substation_bn": "নামা পাড়া",
+        "billing_code": "-"
+      },
+      {
+        "division": "Lalbag",
+        "division_canonical": "Lalbag",
+        "feeder": "-",
+        "feeder_id": "dpdc:lalbag:unknown",
+        "area_text": "কাজী িরয়াজ উি(cid:801)দন (cid:321)রাড, (cid:423)ীড়া ভবন মাঠ",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "1.37",
+        "substation_bn": "িমিন (cid:321)(cid:648)িডয়াম",
+        "billing_code": "-"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A133E",
+        "feeder_id": "dpdc:motijheel:a133e",
+        "area_text": "জনতা ব্যাংক লোকাল অফিস",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.2,
+        "feeder_name_bn": "জনতা ব্যাংক",
+        "substation_bn": "ব½ভবন ১৩২/১১",
+        "billing_code": "A133E"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A133Q",
+        "feeder_id": "dpdc:motijheel:a133q",
+        "area_text": "বিসিআইসি ভবন",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.66,
+        "feeder_name_bn": "বিসিআইসি",
+        "substation_bn": null,
+        "billing_code": "A133Q"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A133I",
+        "feeder_id": "dpdc:motijheel:a133i",
+        "area_text": "অভয়দাস লেন",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.3,
+        "feeder_name_bn": "পিডিবি ডিজাইন",
+        "substation_bn": null,
+        "billing_code": "A133I"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A133W",
+        "feeder_id": "dpdc:motijheel:a133w",
+        "area_text": "দৈনিক বাংলার মোড়",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 3.01,
+        "feeder_name_bn": "নাভানা",
+        "substation_bn": null,
+        "billing_code": "A133W"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A133B",
+        "feeder_id": "dpdc:motijheel:a133b",
+        "area_text": "সুগার ভবন",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 0.95,
+        "feeder_name_bn": "সুগার এÛ ফূড",
+        "substation_bn": null,
+        "billing_code": "A133B"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A133N",
+        "feeder_id": "dpdc:motijheel:a133n",
+        "area_text": "সেনাকল্যান",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "সেনাকল্যান আর এম",
+        "substation_bn": null,
+        "billing_code": "A133N"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "ডিআইটি আর এম ইউ",
+        "feeder_id": "dpdc:motijheel:unknown",
+        "area_text": "",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.45,
+        "feeder_name_bn": "ডিআইটি আর এম ইউ",
+        "substation_bn": null,
+        "billing_code": null
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A133J",
+        "feeder_id": "dpdc:motijheel:a133j",
+        "area_text": "গোপিবাগ",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 0.89,
+        "feeder_name_bn": "মধুমিতা ভায়া অভিসার",
+        "substation_bn": null,
+        "billing_code": "A133J"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A161FB",
+        "feeder_id": "dpdc:motijheel:a161fb",
+        "area_text": "আরামবাগ",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.6,
+        "feeder_name_bn": "ফকিরাপুল বাজার",
+        "substation_bn": "পিএÛটি সাব-্রেশন",
+        "billing_code": "A161FB"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A161Z",
+        "feeder_id": "dpdc:motijheel:a161z",
+        "area_text": "মতিঝিল কলোনী",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.12,
+        "feeder_name_bn": "ইনারসাকূর্লার",
+        "substation_bn": null,
+        "billing_code": "A161Z"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A161PO",
+        "feeder_id": "dpdc:motijheel:a161po",
+        "area_text": "পো্রাল কলোনী",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 0.53,
+        "feeder_name_bn": "পো্রাল কলোনী",
+        "substation_bn": null,
+        "billing_code": "A161PO"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A161PW",
+        "feeder_id": "dpdc:motijheel:a161pw",
+        "area_text": "পিডবিøডি",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "পিডবিøউডি আরএম ই",
+        "substation_bn": null,
+        "billing_code": "A161PW"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A176A",
+        "feeder_id": "dpdc:motijheel:a176a",
+        "area_text": "দিলকূশা",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.5,
+        "feeder_name_bn": "দিলকূশা",
+        "substation_bn": "ডিআইটি সুইসিং ্রেশন",
+        "billing_code": "A176A"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A176O",
+        "feeder_id": "dpdc:motijheel:a176o",
+        "area_text": "কৃষি ভবন",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.48,
+        "feeder_name_bn": "কৃষি ভবন",
+        "substation_bn": null,
+        "billing_code": "A176O"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A176G",
+        "feeder_id": "dpdc:motijheel:a176g",
+        "area_text": "রাজউক ভবন",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 0.76,
+        "feeder_name_bn": "ডিআইটি ও/হে",
+        "substation_bn": null,
+        "billing_code": "A176G"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A176P",
+        "feeder_id": "dpdc:motijheel:a176p",
+        "area_text": "আদমজী কোর্ট",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "আদমজি কোর্ট আরএম",
+        "substation_bn": null,
+        "billing_code": "A176P"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A175K",
+        "feeder_id": "dpdc:motijheel:a175k",
+        "area_text": "মতিঝিল",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.01,
+        "feeder_name_bn": "মতিঝিল নিকর্ট বতীর্",
+        "substation_bn": null,
+        "billing_code": "A175K"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A175Y",
+        "feeder_id": "dpdc:motijheel:a175y",
+        "area_text": "ফকিরাপুল প~র্ব",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "ফকিরাপুল পানির টাংি",
+        "substation_bn": null,
+        "billing_code": "A175Y"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A175V",
+        "feeder_id": "dpdc:motijheel:a175v",
+        "area_text": "মোহামেডান ক্লাব পাড়া",
+        "windows": [
+          {
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 3.28,
+        "feeder_name_bn": "মোহামেডান ক্লাব",
+        "substation_bn": null,
+        "billing_code": "A175V"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A175O",
+        "feeder_id": "dpdc:motijheel:a175o",
+        "area_text": "অগÖনী ব্যাংক",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "অগÖনী ব্যাংক আরএম",
+        "substation_bn": null,
+        "billing_code": "A175O"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A175SB",
+        "feeder_id": "dpdc:motijheel:a175sb",
+        "area_text": "সোনালী ব্যাংক",
+        "windows": [
+          {
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "সোনালী ব্যাংক এ·পে",
+        "substation_bn": null,
+        "billing_code": "A175SB"
+      },
+      {
+        "division": "Motijheel",
+        "division_canonical": "Motijheel",
+        "feeder": "A175S",
+        "feeder_id": "dpdc:motijheel:a175s",
+        "area_text": "এনসিসি ব্যাংক",
+        "windows": [
+          {
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": null,
+        "feeder_name_bn": "এনসিসি ব্যাংক আরএ",
+        "substation_bn": null,
+        "billing_code": "A175S"
+      },
+      {
+        "division": "Narinda",
+        "division_canonical": "Narinda",
+        "feeder": "B124L",
+        "feeder_id": "dpdc:narinda:b124l",
+        "area_text": "লাল মোহন সাহা ó্রীট, গোয়াল ঘাট ও দÿণি মেৌসুÛ।ি",
+        "windows": [
+          {
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.28,
+        "feeder_name_bn": "লাল মোহন সাহা ó্রীট",
+        "substation_bn": "নাির(cid:1088)া ১৩২/৩৩/১১ (cid:941)কিভ (cid:962)ীড উপেক(cid:1014)",
+        "billing_code": "B124L"
+      },
+      {
+        "division": "Narinda",
+        "division_canonical": "Narinda",
+        "feeder": "B124N",
+        "feeder_id": "dpdc:narinda:b124n",
+        "area_text": "নাির(cid:1088)া, হাটেখালা, শহীদ নজ(cid:4296)ল ইসলাম (cid:1148)রণী",
+        "windows": [
+          {
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.38,
+        "feeder_name_bn": "নাির(cid:1088)া ওভারেহড",
+        "substation_bn": null,
+        "billing_code": "B124N"
+      },
+      {
+        "division": "Narinda",
+        "division_canonical": "Narinda",
+        "feeder": "B124F",
+        "feeder_id": "dpdc:narinda:b124f",
+        "area_text": "ফোìার ó্রীট, ওয়্যার ó্রীট, লারমিনি ó্রীট ও নবাব ó্রীট।",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.65,
+        "feeder_name_bn": "ফোìার ó্রীট ওভারহেড",
+        "substation_bn": null,
+        "billing_code": "B124F"
+      },
+      {
+        "division": "Narinda",
+        "division_canonical": "Narinda",
+        "feeder": "B124W",
+        "feeder_id": "dpdc:narinda:b124w",
+        "area_text": "র্যাংকিন ó্রীট, লারমিনি ó্রীট ও যোগী নগর।",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.38,
+        "feeder_name_bn": "ওয়ারী ওভারহেড",
+        "substation_bn": null,
+        "billing_code": "B124W"
+      },
+      {
+        "division": "Narinda",
+        "division_canonical": "Narinda",
+        "feeder": "B124S",
+        "feeder_id": "dpdc:narinda:b124s",
+        "area_text": "টিপ ুসুলতান রেড, জোড়পুল লেন ও নবে›দ্রনাথ বসাক লেন।",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.93,
+        "feeder_name_bn": "টিপ ুসুলতান ওভারহেড",
+        "substation_bn": null,
+        "billing_code": "B124S"
+      },
+      {
+        "division": "Narinda",
+        "division_canonical": "Narinda",
+        "feeder": "B124M",
+        "feeder_id": "dpdc:narinda:b124m",
+        "area_text": "মানসী হল, নবাবপরু রোড, টেকের হাট লেন ও ভিতরবাড়ী লেন।",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.65,
+        "feeder_name_bn": "মানসী ওভারহেড",
+        "substation_bn": null,
+        "billing_code": "B124M"
+      },
+      {
+        "division": "Narinda",
+        "division_canonical": "Narinda",
+        "feeder": "B124T",
+        "feeder_id": "dpdc:narinda:b124t",
+        "area_text": "ঠাটারী বাজার, জয়কালি ম›দির, বি.সি.সি রোড ও ফোìার ó্রীট।",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.38,
+        "feeder_name_bn": "ঠাটারী বাজার ওভারহেড",
+        "substation_bn": null,
+        "billing_code": "B124T"
+      },
+      {
+        "division": "Narinda",
+        "division_canonical": "Narinda",
+        "feeder": "B124V",
+        "feeder_id": "dpdc:narinda:b124v",
+        "area_text": "ভজহরী ó্রীট ও দÿণি মেৌসুÛ।ি",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.28,
+        "feeder_name_bn": "ভজহরী আর.এম.ইউ",
+        "substation_bn": null,
+        "billing_code": "B124V"
+      },
+      {
+        "division": "Narinda",
+        "division_canonical": "Narinda",
+        "feeder": "B124B",
+        "feeder_id": "dpdc:narinda:b124b",
+        "area_text": "বনগÖাম রোড, গোপী মোহন বসাক লেন, বি.সি.সি রোড।",
+        "windows": [
+          {
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.75,
+        "feeder_name_bn": "বনগÖাম আর.এম.ইউ",
+        "substation_bn": null,
+        "billing_code": "B124B"
+      },
+      {
+        "division": "Narinda",
+        "division_canonical": "Narinda",
+        "feeder": "B163D",
+        "feeder_id": "dpdc:narinda:b163d",
+        "area_text": "নর্থ সাইথ রোড, স›ুদরবন মাকের্ট ও কাজী আãুল হামিদ লেন।",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.05,
+        "feeder_name_bn": "সু›দরবন সঞয়ার ওভারহেড",
+        "substation_bn": "িবিব এিভিনউ ৩৩/১১(cid:941)কিভ (cid:962)ীড উপেক(cid:1014)",
+        "billing_code": "B163D"
+      },
+      {
+        "division": "Narinda",
+        "division_canonical": "Narinda",
+        "feeder": "B163G",
+        "feeder_id": "dpdc:narinda:b163g",
+        "area_text": "তাহের বাগ লেন, বি.সি.সি রোড ও নবাবপরু রোড।",
+        "windows": [
+          {
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.89,
+        "feeder_name_bn": "তাহের বাগ ওভারহেড",
+        "substation_bn": null,
+        "billing_code": "B163G"
+      },
+      {
+        "division": "Narinda",
+        "division_canonical": "Narinda",
+        "feeder": "B163P",
+        "feeder_id": "dpdc:narinda:b163p",
+        "area_text": "নবাবপুর রোড, মহাজনপুর লেন ও মদন পাল লেন।",
+        "windows": [
+          {
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.85,
+        "feeder_name_bn": "নবাবপুর ওভারহেড",
+        "substation_bn": null,
+        "billing_code": "B163P"
+      },
+      {
+        "division": "Narinda",
+        "division_canonical": "Narinda",
+        "feeder": "B124K",
+        "feeder_id": "dpdc:narinda:b124k",
+        "area_text": "কাßান বাজার।",
+        "windows": [
+          {
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 0.58,
+        "feeder_name_bn": "কাßান বাজার ওভারহেড",
+        "substation_bn": "িনউ রমনা ১৩২/৩৩/১১ (cid:941)কিভ (cid:962)ীড উপেক(cid:1014)",
+        "billing_code": "B124K"
+      },
+      {
+        "division": "Narinda",
+        "division_canonical": "Narinda",
+        "feeder": "B177R",
+        "feeder_id": "dpdc:narinda:b177r",
+        "area_text": "নর্থ সাউথ রোড, সুরিটোলা সঞূল ও লুৎফর রহমান লেন।",
+        "windows": [
+          {
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.9,
+        "feeder_name_bn": "সুরিটোলা ওভারহেড",
+        "substation_bn": "বংশাল ৩৩/১১(cid:941)কিভ (cid:962)ীড উপেক(cid:1014)",
+        "billing_code": "B177R"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D315D",
+        "feeder_id": "dpdc:ramna:d315d",
+        "area_text": "¸লিস’ান সংলগœ এলাকা।",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 0.67,
+        "feeder_name_bn": "মিমিও",
+        "substation_bn": "মনউরিনা",
+        "billing_code": "D315D"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D315Z",
+        "feeder_id": "dpdc:ramna:d315z",
+        "area_text": "পëন আংশিক এলাকা।",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.65,
+        "feeder_name_bn": "নয়ািল্টন",
+        "substation_bn": "মিএন্ডটি",
+        "billing_code": "D315Z"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D315X",
+        "feeder_id": "dpdc:ramna:d315x",
+        "area_text": "আন›দ বাজার এলাকা",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.0,
+        "feeder_name_bn": "িমিিািার",
+        "substation_bn": "মনউরিনা",
+        "billing_code": "D315X"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D315C",
+        "feeder_id": "dpdc:ramna:d315c",
+        "area_text": "কালভার্ট রোড এলাকা",
+        "windows": [
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.0,
+        "feeder_name_bn": "কালভাট ররাড",
+        "substation_bn": "মনউরিনা",
+        "billing_code": "D315C"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D394FP",
+        "feeder_id": "dpdc:ramna:d394fp",
+        "area_text": "কালভার্ট রোড এলাকা",
+        "windows": [
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.17,
+        "feeder_name_bn": "ফ্ুাযিমল প্ল্ুামনং",
+        "substation_bn": "মিদ্যুৎ ভিন",
+        "billing_code": "D394FP"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D363AP",
+        "feeder_id": "dpdc:ramna:d363ap",
+        "area_text": "¸লিস’ান সংলগœ এলাকা।",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.0,
+        "feeder_name_bn": "আহাদ পুমলশ িি",
+        "substation_bn": "মিমি এমভমনউ",
+        "billing_code": "D363AP"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D363A",
+        "feeder_id": "dpdc:ramna:d363a",
+        "area_text": "বিজয় নগর , কাকরাইল এলাকা",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.33,
+        "feeder_name_bn": "সসয়দ নিরুল",
+        "substation_bn": "মনউরিনা",
+        "billing_code": "D363A"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D364T",
+        "feeder_id": "dpdc:ramna:d364t",
+        "area_text": "র ািখানা আংমশক",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 0.83,
+        "feeder_name_bn": "র ািখানা",
+        "substation_bn": "মিদ্যুৎ ভিন সুইম ং",
+        "billing_code": "D364T"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D361MG",
+        "feeder_id": "dpdc:ramna:d361mg",
+        "area_text": "নয়াপëন এর কিছূ অংশ",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.0,
+        "feeder_name_bn": "িসমিদ গমল",
+        "substation_bn": "মিএন্ডটি",
+        "billing_code": "D361MG"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D366J",
+        "feeder_id": "dpdc:ramna:d366j",
+        "area_text": "দÿণি পলাশী, ঢাকা বিশ^বিদ্যালয় আংশিক",
+        "windows": [
+          {
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 0.83,
+        "feeder_name_bn": "িহুরুল হক",
+        "substation_bn": "আমিিপুর",
+        "billing_code": "D366J"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D304P",
+        "feeder_id": "dpdc:ramna:d304p",
+        "area_text": "পাইওনিয়ার রোড আংশিক",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 3.33,
+        "feeder_name_bn": "িাইওমনয়ার",
+        "substation_bn": "কাকরাইল",
+        "billing_code": "D304P"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D363KB",
+        "feeder_id": "dpdc:ramna:d363kb",
+        "area_text": "¸লিস’ান আংশিক",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.13,
+        "feeder_name_bn": "খযের িািার",
+        "substation_bn": "মিমি এমভমনউ",
+        "billing_code": "D363KB"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D363AR",
+        "feeder_id": "dpdc:ramna:d363ar",
+        "area_text": "পুরানা পëন আংশিক",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.17,
+        "feeder_name_bn": "আলরািী",
+        "substation_bn": "মিমি এমভমনউ",
+        "billing_code": "D363AR"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D304B",
+        "feeder_id": "dpdc:ramna:d304b",
+        "area_text": "বিজয়নগর আংশিক",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.33,
+        "feeder_name_bn": "মিিয়নগর",
+        "substation_bn": "কাকরাইল",
+        "billing_code": "D304B"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D394S",
+        "feeder_id": "dpdc:ramna:d394s",
+        "area_text": "সে¸নবাগিচা আংশিক",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.08,
+        "feeder_name_bn": "রসগুনিামগ া",
+        "substation_bn": "মিদ্যুৎ ভিন",
+        "billing_code": "D394S"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D315G",
+        "feeder_id": "dpdc:ramna:d315g",
+        "area_text": "সে¸নবাগিচা আংশিক",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.08,
+        "feeder_name_bn": "মিটিমভ",
+        "substation_bn": "মনউ রিনা",
+        "billing_code": "D315G"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D363RI",
+        "feeder_id": "dpdc:ramna:d363ri",
+        "area_text": "পুরানা পëন আংশিক",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 3.4,
+        "feeder_name_bn": "রাধুনী",
+        "substation_bn": "মিমি এমভমনউ",
+        "billing_code": "D363RI"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D3157",
+        "feeder_id": "dpdc:ramna:d3157",
+        "area_text": "গুমলস্থান আংমশক",
+        "windows": [
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 0.5,
+        "feeder_name_bn": "মিমিও মনকটি ী",
+        "substation_bn": "মিমি এমভমনউ",
+        "billing_code": "D3157"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D3647",
+        "feeder_id": "dpdc:ramna:d3647",
+        "area_text": "ফ্ামরষ্ট এন্ড মডআর টাওয়ার",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.5,
+        "feeder_name_bn": "ফ্ামরস্ট",
+        "substation_bn": "মিদ্যুৎ ভিন সুইম ং",
+        "billing_code": "D3647"
+      },
+      {
+        "division": "Ramna",
+        "division_canonical": "Ramna",
+        "feeder": "D361CT",
+        "feeder_id": "dpdc:ramna:d361ct",
+        "area_text": "িমনহার ায়না টাউন",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.0,
+        "feeder_name_bn": "ায়না টাউন",
+        "substation_bn": "মিএন্ড টি",
+        "billing_code": "D361CT"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C2103U",
+        "feeder_id": "dpdc:satmosjid:c2103u",
+        "area_text": "চঁানমিয়া হাউজিং, চঁাদ উদ্যান, রোড নং-০৮",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 4.6,
+        "feeder_name_bn": "ইউল্যাব",
+        "substation_bn": "ঢাকা উদ্যান",
+        "billing_code": "C2103U"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C209L",
+        "feeder_id": "dpdc:satmosjid:c209l",
+        "area_text": "শেরে-ই-বাংলা রোড, জাফরাবাদ, পুলপাড়",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.0,
+        "feeder_name_bn": "কাটাïর",
+        "substation_bn": "সাতমসজিদ",
+        "billing_code": "C209L"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C209M",
+        "feeder_id": "dpdc:satmosjid:c209m",
+        "area_text": "লালমাটিয়া-বøক-ডি, ই, সাতমসজিদ রোড",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.3,
+        "feeder_name_bn": "লালমাটিয়া",
+        "substation_bn": null,
+        "billing_code": "C209M"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C209P",
+        "feeder_id": "dpdc:satmosjid:c209p",
+        "area_text": "ফিজিক্যাল কলেজ, কাদেরাবাদ হাউজিং, ঢাকা",
+        "windows": [
+          {
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "start": "19:00",
+            "end": "20:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.7,
+        "feeder_name_bn": "ফিজিক্যাল",
+        "substation_bn": null,
+        "billing_code": "C209P"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C209V",
+        "feeder_id": "dpdc:satmosjid:c209v",
+        "area_text": "বসিলা রোড, স্বপøধারা হাউজিং, শাহাজালাল",
+        "windows": [
+          {
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 4.0,
+        "feeder_name_bn": "বসিলা",
+        "substation_bn": null,
+        "billing_code": "C209V"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C209H",
+        "feeder_id": "dpdc:satmosjid:c209h",
+        "area_text": "বঁাশবাড়ী মেইন রোড, মোঃ হাঃ লিঃ-রোড নং-",
+        "windows": [
+          {
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.7,
+        "feeder_name_bn": "বঁাশবাড়ী",
+        "substation_bn": null,
+        "billing_code": "C209H"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C209C",
+        "feeder_id": "dpdc:satmosjid:c209c",
+        "area_text": "লালমাটিয়া মহিলা কলেজ, কাজী নজরæল ইসলাম রোড",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.5,
+        "feeder_name_bn": "আগাদ এভিনিউ দÿনি",
+        "substation_bn": null,
+        "billing_code": "C209C"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C209S",
+        "feeder_id": "dpdc:satmosjid:c209s",
+        "area_text": "চঁানমিয়া হাউজিং, বেড়ীবাধ, নবোদয় হাউজিং",
+        "windows": [
+          {
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.5,
+        "feeder_name_bn": "সাতমসজিদ হাউজিং",
+        "substation_bn": null,
+        "billing_code": "C209S"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C270W",
+        "feeder_id": "dpdc:satmosjid:c270w",
+        "area_text": "লালমাটিয়া বøক-এ, বি ও সি আংশিক",
+        "windows": [
+          {
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "start": "21:00",
+            "end": "22:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 3.0,
+        "feeder_name_bn": "ওয়াসা",
+        "substation_bn": "আসাদগেট ৩৩/১১ কেভি",
+        "billing_code": "C270W"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C270J",
+        "feeder_id": "dpdc:satmosjid:c270j",
+        "area_text": "বøক-ই, সি আংশিক, লালমাটিয়াা।",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.17,
+        "feeder_name_bn": "জাকির হোসেন রোড",
+        "substation_bn": null,
+        "billing_code": "C270J"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C270N",
+        "feeder_id": "dpdc:satmosjid:c270n",
+        "area_text": "নিউ কলোনী বøক-এ, বি, স্বপøপ~রী হাউজিং",
+        "windows": [
+          {
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.7,
+        "feeder_name_bn": "নিউ কলোনী",
+        "substation_bn": null,
+        "billing_code": "C270N"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C207E",
+        "feeder_id": "dpdc:satmosjid:c207e",
+        "area_text": "আসাদ এভিনিউ মেইন রোড আংশিক, জাকির",
+        "windows": [
+          {
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.7,
+        "feeder_name_bn": "Avিা` †MU †jvKvj",
+        "substation_bn": null,
+        "billing_code": "C207E"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C209R",
+        "feeder_id": "dpdc:satmosjid:c209r",
+        "area_text": "মোহা¤§দীয়া হোমস লিঃ, মোঃ হাঃ লিঃ, পÖাধন",
+        "windows": [
+          {
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "start": "20:00",
+            "end": "21:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.33,
+        "feeder_name_bn": "চঁাদ হাউজিং",
+        "substation_bn": "জাপান গাডের্ন সিটি",
+        "billing_code": "C209R"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C2103D",
+        "feeder_id": "dpdc:satmosjid:c2103d",
+        "area_text": "মোহা¤§াদীয়া হাউজিং, পÖধান সরক",
+        "windows": [
+          {
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 1.0,
+        "feeder_name_bn": "চাঁদ উদ্যান",
+        "substation_bn": "ঢাকা উদ্যান",
+        "billing_code": "C2103D"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C2103G",
+        "feeder_id": "dpdc:satmosjid:c2103g",
+        "area_text": "গাডের্ন সিটি, ফিউচার টাউন, আরাম হাউজিং,",
+        "windows": [
+          {
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "start": "23:00",
+            "end": "24:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 3.0,
+        "feeder_name_bn": "গাডের্ন সিটি",
+        "substation_bn": null,
+        "billing_code": "C2103G"
+      },
+      {
+        "division": "Satmosjid",
+        "division_canonical": "Satmosjid",
+        "feeder": "C2121Y",
+        "feeder_id": "dpdc:satmosjid:c2121y",
+        "area_text": "বসিলা সিটি ডেভঃ বসিলা ফিউচার টাউন",
+        "windows": [
+          {
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "start": "22:00",
+            "end": "23:00"
+          }
+        ],
+        "weekday": null,
+        "load_mw": 2.5,
+        "feeder_name_bn": "দয়াল হাউজিং",
+        "substation_bn": "চ›দি্রমা",
+        "billing_code": "C2121Y"
+      }
+    ],
+    "stats": {
+      "claim_count": 145,
+      "feeder_count": 142,
+      "division_count": 7
+    },
+    "parse_meta": {
+      "zones_parsed": 19,
+      "zones_failed": [],
+      "zones_scanned": [
+        "azimpur",
+        "banglabazar",
+        "bangshal",
+        "bashaboo",
+        "demra",
+        "dhanmondi",
+        "fatulla",
+        "kamrangirchar",
+        "khilgaon",
+        "maniknagar",
+        "narayangonj (east)",
+        "paribag",
+        "postogola",
+        "rajarbag",
+        "shyampur",
+        "swamibag",
+        "tejgaon"
+      ],
+      "hour_column_count": 0,
+      "extraction_method": "pdfplumber + black-rectangle mark detection",
+      "warnings": [
+        "zones disagree on hour columns"
+      ]
+    }
+  }
+}

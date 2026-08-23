@@ -1,0 +1,8 @@
+# The repo is authored on Windows and built on Linux CI. Normalise text so the
+# shell scripts CI runs never arrive with CRLF endings.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.mp4 binary
+*.traineddata binary

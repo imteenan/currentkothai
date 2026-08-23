@@ -1,0 +1,108 @@
+{
+  "schema": "utilities/1",
+  "generated_at": "2026-08-23T00:00:00Z",
+  "utilities": [
+    {
+      "id": "DESCO",
+      "name": "DESCO",
+      "name_bn": "ডেসকো",
+      "full_name": "Dhaka Electricity Supply PLC",
+      "website": "https://desco.gov.bd/",
+      "coverage_description": "Northern Dhaka: Mirpur, Pallabi, Kafrul, Agargaon, Uttara, Uttarkhan, Dakshinkhan, Turag, Gulshan, Banani, Baridhara, Badda, Bashundhara, Khilkhet, and Tongi.",
+      "divisions": [
+        "Agargaon", "Badda", "Baridhara", "Bashundhara", "Dhakkhinkhan",
+        "Eastern Housing", "Gulshan", "Ibrahimpur", "Joarshahara", "Kafrul",
+        "Kallyanpur", "Khilkhet", "Mohakhali", "Monipur", "Pallabi", "Rupnagar",
+        "Shah Ali", "Shah Kabir", "Tongi Central", "Tongi East", "Tongi West",
+        "Turag", "Uttara East", "Uttara West", "Uttarkhan"
+      ],
+      "divisions_source": "Observed in the S&D Division column of DESCO's own load-management schedule PDF (July 2026 edition).",
+      "color_hex": "#0a84ff"
+    },
+    {
+      "id": "DPDC",
+      "name": "DPDC",
+      "name_bn": "ডিপিডিসি",
+      "full_name": "Dhaka Power Distribution Company Ltd",
+      "website": "https://dpdc.gov.bd/",
+      "coverage_description": "Southern Dhaka and Narayanganj: Old Dhaka, Dhanmondi, Motijheel, Ramna, Tejgaon, Khilgaon, Jatrabari, Postogola, Shyampur, Demra, plus Narayanganj, Fatulla, Siddhirganj.",
+      "divisions": [
+        "Adabor", "Azimpur", "Banasree", "Banglabazar", "Bangshal", "Bashaboo",
+        "Demra", "Dhanmondi", "Fatulla", "Jigatola", "Jurain", "Kakrail",
+        "Kamrangirchar", "Kazla", "Khilgaon", "Lalbag", "Maniknagar", "Matuail",
+        "Mogbazar", "Motijheel", "Mugdapara", "Narayangonj (East)",
+        "Narayangonj (West)", "Narinda", "Paribag", "Postogola", "Rajarbag",
+        "Ramna", "Satmosjid", "Shamoli", "Sher-e-Bangla Nagar", "Shyampur",
+        "Siddhirgonj", "Sitalakhya", "Swamibag", "Tejgaon"
+      ],
+      "divisions_source": "The 36 zone PDF links published on DPDC's own load-shedding index page.",
+      "color_hex": "#5e5ce6"
+    },
+    {
+      "id": "NESCO",
+      "name": "NESCO",
+      "name_bn": "নেসকো",
+      "full_name": "Northern Electricity Supply Company PLC",
+      "website": "https://nesco.gov.bd/",
+      "coverage_description": "Urban and municipal areas of the Rajshahi and Rangpur divisions.",
+      "divisions": [],
+      "divisions_source": "Not verified. NESCO publishes schedules as scanned images, so the division list could not be extracted from a primary source.",
+      "color_hex": "#30d158"
+    },
+    {
+      "id": "BPDB",
+      "name": "BPDB",
+      "name_bn": "বিপিডিবি",
+      "full_name": "Bangladesh Power Development Board",
+      "website": "https://bpdb.gov.bd/",
+      "coverage_description": "Urban distribution in the Chattogram, Sylhet and Mymensingh divisions, plus generation nationwide.",
+      "divisions": [],
+      "divisions_source": "Not verified from a primary source.",
+      "color_hex": "#ff9f0a"
+    },
+    {
+      "id": "BREB",
+      "name": "BREB",
+      "name_bn": "বিআরইবি",
+      "full_name": "Bangladesh Rural Electrification Board (Palli Bidyut)",
+      "website": "https://reb.gov.bd/",
+      "coverage_description": "Rural areas nationwide, delivered through roughly 80 local Palli Bidyut Samity (PBS) cooperatives, each publishing separately.",
+      "divisions": [],
+      "divisions_source": "Not verified. Each PBS runs its own site, so there is no single published list.",
+      "color_hex": "#bf5af2"
+    },
+    {
+      "id": "WZPDCL",
+      "name": "WZPDCL",
+      "name_bn": "ওজোপাডিকো",
+      "full_name": "West Zone Power Distribution Company Ltd",
+      "website": "https://wzpdcl.gov.bd/",
+      "coverage_description": "Urban areas of the Khulna and Barishal divisions.",
+      "divisions": [],
+      "divisions_source": "Not verified from a primary source.",
+      "color_hex": "#40cbe0"
+    },
+    {
+      "id": "PGCB",
+      "name": "PGCB",
+      "name_bn": "পিজিসিবি",
+      "full_name": "Power Grid Bangladesh PLC",
+      "website": "https://pgcb.gov.bd/",
+      "coverage_description": "National transmission grid. Does not serve consumers directly, but publishes daily generation and demand figures that explain why load shedding happens.",
+      "divisions": [],
+      "divisions_source": "Not applicable - transmission operator, not a distributor.",
+      "color_hex": "#ff375f"
+    },
+    {
+      "id": "POWERDIV",
+      "name": "Power Division",
+      "name_bn": "বিদ্যুৎ বিভাগ",
+      "full_name": "Power Division, Ministry of Power, Energy and Mineral Resources",
+      "website": "https://powerdivision.gov.bd/",
+      "coverage_description": "The ministry overseeing all distributors. Operates the unified 16999 power-sector call centre.",
+      "divisions": [],
+      "divisions_source": "Not applicable - ministry, not a distributor.",
+      "color_hex": "#98989d"
+    }
+  ]
+}

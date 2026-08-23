@@ -1,0 +1,15 @@
+<!-- Mark: a bolt cut from a warm plate, the moment before the light goes.
+     The gradient is sampled from the hero video: lit gold at the top left,
+     dying to the video's near-black at the bottom right. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" aria-hidden="true">
+  <defs>
+    <linearGradient id="ckPlate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e7c9a2"/>
+      <stop offset="0.42" stop-color="#b3814f"/>
+      <stop offset="1" stop-color="#141416"/>
+    </linearGradient>
+  </defs>
+  <rect width="44" height="44" rx="12" fill="url(#ckPlate)"/>
+  <path d="M24.6 8.4a1.05 1.05 0 0 1 1.84.94l-2.2 9.44h6.1a1.2 1.2 0 0 1 .93 1.96L18.1 36.2a1.05 1.05 0 0 1-1.83-.95l2.2-9.42h-6.08a1.2 1.2 0 0 1-.92-1.97Z"
+        fill="#141416" opacity=".92"/>
+</svg>

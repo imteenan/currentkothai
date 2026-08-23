@@ -1,0 +1,95 @@
+/* ============================================================
+   currentKothai — design tokens
+   Derived from the Apple style reference in DESIGN.md.
+
+   Single light theme, by deliberate choice: the reference specifies
+   `theme: light`, and one committed palette removes a whole class of
+   contrast bugs. Depth comes from surface shifts and hairline rules,
+   never from shadows. The one exception to the light canvas is the
+   full-bleed dark hero band, which the reference permits for feature
+   banners.
+   ============================================================ */
+
+:root {
+  color-scheme: light;
+
+  /* ---- Colour -------------------------------------------------------
+     Sampled from the hero video, which runs warm gold over near-black and
+     cools to grey as the lights go out. The accent is that gold; the
+     neutrals carry a matching warm bias so nothing reads as stock grey. */
+  --amber:      #a85a12;    /* filled actions only. 5.1:1 with white */
+  --amber-deep: #8a4a0e;    /* links and outlined actions on light */
+  --amber-lit:  #e7c9a2;    /* the video's highlight. Decorative only */
+
+  --carbon:   #17161a;      /* primary ink, warmed toward the video black */
+  --smoke:    #322f2c;
+  --graphite: #4a4643;
+  --ash:      #6e6862;      /* muted body. 4.9:1 on canvas */
+  --mist:     #8a837c;
+  --onyx:     #141416;      /* exactly the video's dark */
+  --hairline: #ddd8d2;
+
+  --frost:  #f7f5f2;        /* canvas, a warm paper white */
+  --ice:    #fbf8f4;        /* elevated wash */
+  --pebble: #e8e3dc;        /* filled surface */
+  --white:  #ffffff;
+
+  /* Aliases kept so older rules keep resolving. */
+  --apple-blue: var(--amber);
+  --link-blue: var(--amber-deep);
+  --signal-blue: var(--amber-lit);
+
+  /* Semantic. Each is contrast-checked against --frost and --white.
+     Text-safe variants are darkened; the bright value is fill-only. */
+  --shed:        #9a5300;   /* scheduled off. 5.4:1 on canvas */
+  --shed-fill:   #e08a1e;
+  --shed-wash:   #fdf1e2;
+  --live-now:    #b31f22;   /* happening now. 6.1:1 on canvas */
+  --live-fill:   #d94a3d;
+  --live-wash:   #fceeec;
+  --clear:       #1c7148;   /* supplied. 5.2:1 on canvas */
+  --clear-fill:  #2f9d63;
+  --clear-wash:  #eaf5ee;
+
+  /* ---- Type --------------------------------------------------------- */
+  /* Plus Jakarta Sans rather than Inter: same discipline, noticeably more
+     character in the letterforms, and it holds up at both 56px and 12px. */
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui,
+                  -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-text: "Plus Jakarta Sans", ui-sans-serif, system-ui,
+               -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "IBM Plex Mono", "Cascadia Code", monospace;
+  --font-bn: "Anek Bangla", "Noto Sans Bengali", var(--font-text);
+
+  --text-caption: 12px;    --leading-caption: 1.33;    --tracking-caption: -0.264px;
+  --text-body-sm: 14px;    --leading-body-sm: 1.29;    --tracking-body-sm: -0.224px;
+  --text-body: 17px;       --leading-body: 1.47;       --tracking-body: -0.272px;
+  --text-subheading: 21px; --leading-subheading: 1.24; --tracking-subheading: -0.105px;
+  --text-heading-sm: 28px; --leading-heading-sm: 1.18; --tracking-heading-sm: 0.196px;
+  --text-heading: 40px;    --leading-heading: 1.14;    --tracking-heading: 0.44px;
+  --text-display: 56px;    --leading-display: 1.07;    --tracking-display: 0.616px;
+
+  --w-light: 400; --w-regular: 400; --w-semibold: 600; --w-bold: 700;
+
+  /* ---- Space -------------------------------------------------------- */
+  --s-4: 4px;  --s-8: 8px;  --s-12: 12px; --s-16: 16px; --s-20: 20px;
+  --s-24: 24px; --s-40: 40px; --s-48: 48px; --s-56: 56px; --s-80: 80px;
+
+  --page-max: 1440px;
+  --measure: 980px;
+  --section-gap: 48px;
+  --nav-h: 48px;
+
+  /* ---- Shape -------------------------------------------------------- */
+  --r-card: 8px;
+  --r-pill: 980px;
+
+  /* The only shadow in the system, and only for lifting imagery. */
+  --shadow-image: rgba(0, 0, 0, 0.22) 3px 5px 30px 0px;
+
+  --focus-ring: 0 0 0 2px var(--white), 0 0 0 4px var(--amber);
+
+  /* ---- Motion ------------------------------------------------------- */
+  --ease: cubic-bezier(0.28, 0.11, 0.32, 1);
+  --t-1: 140ms; --t-2: 280ms; --t-3: 560ms;
+}

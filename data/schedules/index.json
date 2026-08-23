@@ -1,0 +1,109 @@
+{
+  "schema": "schedule-index/1",
+  "generated_at": "2026-08-23T20:24:49Z",
+  "stale_after_hours": 36,
+  "utilities": [
+    {
+      "utility": "DESCO",
+      "coverage_level": "feeder",
+      "status": "fresh",
+      "latest_date": "2026-08-24",
+      "claim_count": 558,
+      "retrieved_at": "2026-08-23T19:46:59Z",
+      "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/7/81a30f11-39ac-4747-89cd-9f2bd2427fb2.pdf",
+      "stale_after_hours": 36,
+      "message": null,
+      "division_count": 32,
+      "feeder_count": 558,
+      "tls_verified": true,
+      "validation_verdict": "quarantine"
+    },
+    {
+      "utility": "DPDC",
+      "coverage_level": "feeder",
+      "status": "fresh",
+      "latest_date": "2026-08-24",
+      "claim_count": 269,
+      "retrieved_at": "2026-08-23T20:24:49Z",
+      "source_url": "https://dpdc.org.bd/site/nocs/load_shedding",
+      "stale_after_hours": 36,
+      "message": "27 of 36 zone sheets read: 19 digital, 8 scanned and read by OCR; 9 scans still unreadable and linked instead",
+      "division_count": 15,
+      "feeder_count": 266,
+      "tls_verified": true,
+      "validation_verdict": "pass",
+      "zones_parsed": [
+        "Adabor",
+        "Demra",
+        "Dhanmondi",
+        "Kakrail",
+        "Lalbag",
+        "Maniknagar",
+        "Motijheel",
+        "Narayangonj (east)",
+        "Narinda",
+        "Postogola",
+        "Ramna",
+        "Satmosjid",
+        "Shyampur",
+        "Swamibag",
+        "Tejgaon"
+      ],
+      "zones_scanned": [
+        "azimpur (ScanError)",
+        "banglabazar (ScanError)",
+        "bangshal (ScanError)",
+        "bashaboo (ScanError)",
+        "fatulla (ScanError)",
+        "kamrangirchar (ScanError)",
+        "khilgaon (ScanError)",
+        "paribag (ScanError)",
+        "rajarbag (ScanError)"
+      ]
+    },
+    {
+      "utility": "BPDB",
+      "coverage_level": "utility",
+      "status": "link-only",
+      "latest_date": null,
+      "claim_count": 0,
+      "retrieved_at": null,
+      "source_url": "https://bpdb.gov.bd/",
+      "stale_after_hours": 36,
+      "message": "No machine-readable consumer load-shedding schedule identified."
+    },
+    {
+      "utility": "BREB",
+      "coverage_level": "utility",
+      "status": "link-only",
+      "latest_date": null,
+      "claim_count": 0,
+      "retrieved_at": null,
+      "source_url": "https://reb.gov.bd/",
+      "stale_after_hours": 36,
+      "message": "Rural supply runs through ~80 separate Palli Bidyut Samity offices, each publishing independently. No national feed exists."
+    },
+    {
+      "utility": "NESCO",
+      "coverage_level": "utility",
+      "status": "link-only",
+      "latest_date": null,
+      "claim_count": 0,
+      "retrieved_at": null,
+      "source_url": "https://nesco.gov.bd/",
+      "stale_after_hours": 36,
+      "message": "Schedules are published as scanned images. The layout matches DPDC's (hour grid with shaded cells) but the page is raster, so reading it needs Bangla OCR."
+    },
+    {
+      "utility": "WZPDCL",
+      "coverage_level": "utility",
+      "status": "link-only",
+      "latest_date": null,
+      "claim_count": 0,
+      "retrieved_at": null,
+      "source_url": "https://wzpdcl.gov.bd/",
+      "stale_after_hours": 36,
+      "message": "No machine-readable consumer load-shedding schedule identified."
+    }
+  ]
+}

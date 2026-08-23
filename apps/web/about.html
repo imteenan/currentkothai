@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Method · CurrentKothai</title>
+<meta name="description" content="How a government PDF becomes an answer on this site, what it gets wrong, and what it never collects about you.">
+<meta name="data-root" content="data/">
+<meta name="theme-color" content="#f7f5f2">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Anek+Bangla:wght@400;600&display=swap">
+<link rel="stylesheet" href="styles/tokens.css">
+<link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/components.css">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="ribbon" role="note">
+  <div class="wrap">
+    <b>Unofficial</b>
+    <span>Independent visualisation of schedules other people publish.</span>
+  </div>
+</div>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img class="brand-mark" src="logo.svg" alt="" width="26" height="26">Current<span class="b">Kothai</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="sources.html">Sources</a>
+      <a href="about.html" aria-current="page">Method</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="section">
+  <div class="wrap narrow">
+    <h1 class="t-display">Method</h1>
+    <p class="t-sub muted" style="margin-top:14px;max-width:54ch">
+      A robot reads a PDF. You read the robot. Here's everything worth knowing about
+      the bit in between.
+    </p>
+
+    <div class="stack" style="--flow:10px;margin-top:48px">
+
+      <details class="fold" open>
+        <summary>The pipeline, in four lines</summary>
+        <div class="body">
+          <ol style="margin:0 0 0 18px;display:grid;gap:8px">
+            <li>Every few hours a job fetches each distributor's page and hashes what it finds.</li>
+            <li>Changed? Archive the exact bytes forever, then parse the table.</li>
+            <li>A validator rejects anything malformed and <em>keeps the last good version</em>
+              rather than publishing junk.</li>
+            <li>The result is a static JSON file. Your browser does the rest. No server, no database.</li>
+          </ol>
+        </div>
+      </details>
+
+      <details class="fold">
+        <summary id="confidence">Why you'll never see a percentage</summary>
+        <div class="body">
+          Any score can be printed as a percentage. That doesn't make it a probability. Earning one
+          needs a dataset of verified address-to-feeder pairs, which nobody publishes. So confidence
+          is capped at Medium and no number is shown. The cap lifts by itself the day that dataset
+          exists. The honest behaviour is the default, and relaxing it takes evidence.
+        </div>
+      </details>
+
+      <details class="fold">
+        <summary>Where the map is guessing</summary>
+        <div class="body">
+          No distributor publishes service boundaries, and OpenStreetMap has no Dhaka North/South
+          city corporation limits either. So the DESCO/DPDC line is <em>constructed</em>: we geocode
+          the zone names each utility prints on its own sheets and split the city by whichever is
+          nearest. Reliable in the middle of a territory, a coin-toss along the join, which is why
+          those borders are dashed. Outside Dhaka it's coarser still: administrative divisions
+          standing in for service areas, which ignores that rural supply belongs to BREB.
+        </div>
+      </details>
+
+      <details class="fold">
+        <summary>Things we know are wrong</summary>
+        <div class="body">
+          <ul style="margin:0 0 0 18px;display:grid;gap:7px">
+            <li>DESCO publishes one sheet per weekday. If the newest we can fetch is Sunday's and
+              today is Wednesday, the page says so rather than pretending.</li>
+            <li>Feeder area descriptions are free text, inconsistently spelled, and often overlap.</li>
+            <li>DESCO's own PDF has rows printed on top of each other. One reads
+              <span class="mono">MGuolhsahkahnali:</span>, which is "Gulshan" interleaved with
+              "Mohakhali". Those rows are excluded, not guessed.</li>
+            <li>DPDC mixes digital sheets with scanned ones. The digital sheets are parsed; the scans are
+              linked, because reading a photograph needs OCR we do not trust yet.</li>
+            <li>NESCO publishes photographs of paper.</li>
+            <li>An outage you experience may just be a local fault. It looks identical from your side
+              of the meter.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="fold">
+        <summary id="privacy">What we collect about you</summary>
+        <div class="body">
+          Nothing. No account, no cookie, no analytics, no server of ours in the loop. Place search
+          runs against a list bundled with the page, so typing doesn't phone anyone. Saved locations
+          live in your browser and vanish when you clear site data. "Copy link" puts coordinates in
+          the part of a URL browsers never send to servers.
+          <br><br><b>We never ask for your bill, account or meter number, and you should never enter
+          one here.</b> Those belong only on your distributor's own site.
+        </div>
+      </details>
+
+      <details class="fold">
+        <summary>What it costs to run</summary>
+        <div class="body">
+          Nothing, on purpose. A project that needs money to stay alive eventually stops being free.
+          Static hosting, scheduled jobs, map tiles, geocoding and boundaries all come from free tiers
+          that never asked for a card. There's no database bill because the published JSON files
+          <em>are</em> the database.
+        </div>
+      </details>
+
+    </div>
+
+    <h2 class="t-heading" id="disclaimer" style="margin-top:64px">Disclaimer</h2>
+    <div class="note note-warn" style="margin-top:16px">
+      <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.6c.5 0 .96.27 1.2.7l9 15.9a1.4 1.4 0 0 1-1.2 2.1H3a1.4 1.4 0 0 1-1.2-2.1l9-15.9c.24-.43.7-.7 1.2-.7Zm0 5.3a1 1 0 0 0-1 1.05l.25 4.6a.75.75 0 0 0 1.5 0l.25-4.6A1 1 0 0 0 12 7.9Zm0 8.1a1.15 1.15 0 1 0 0 2.3 1.15 1.15 0 0 0 0-2.3Z"/></svg>
+      <div><b>Independent public-data visualization</b>
+      Not affiliated with DESCO, DPDC, NESCO, BPDB, BREB, WZPDCL, Power Grid Bangladesh, or the
+      Government of Bangladesh. Schedules are visualized from documents those providers publish and
+      linked to their originals. Feeder and area matches are estimated. Actual outages may differ due
+      to grid conditions, maintenance, emergencies or operational changes.
+      <b style="display:inline">Nothing here is a guarantee of supply.</b></div>
+    </div>
+    <p class="t-body-sm muted" style="margin-top:20px;max-width:70ch">
+      Do not use this site where being wrong is dangerous: medical equipment, life support, safety
+      systems, time-critical work. Arrange your own backup power and confirm with your distributor.
+      If a distributor wants something here corrected or removed, that's a reasonable request and this
+      project should honour it: the data is theirs, only the presentation is ours.
+    </p>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="legal">
+      <b>Independent public-data visualization.</b> Not affiliated with any Bangladeshi electricity
+      distributor or with the Government of Bangladesh. Nothing here is a guarantee of supply.
+    </p>
+  </div>
+</footer>
+</body>
+</html>

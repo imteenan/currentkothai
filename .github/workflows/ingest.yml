@@ -1,0 +1,120 @@
+name: Ingest schedules
+
+# Free on public repos. Cron is UTC; 00/06/12/18 UTC = 06/12/18/00 Dhaka.
+on:
+  schedule:
+    - cron: '17 0,6,12,18 * * *'
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Limit to one utility (e.g. DESCO)'
+        required: false
+        type: string
+      rebuild_registry:
+        description: 'Re-probe every source URL'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install poppler and Tesseract (scanned-sheet OCR)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-ben libgl1 libglib2.0-0
+
+      - name: Install dependencies
+        run: pip install -r workers/requirements.txt
+
+      - name: Re-probe source registry
+        if: inputs.rebuild_registry
+        run: python -m workers.ingestion.build_registry
+
+      # continue-on-error so a distributor being down never fails the run;
+      # the index.json it writes records the failure honestly instead.
+      - name: Run ingestion
+        id: ingest
+        continue-on-error: true
+        run: |
+          python -m workers.ingestion.run_ingest \
+            ${{ inputs.only && format('--only {0}', inputs.only) || '' }} \
+            | tee ingest.log
+
+      - name: Verify published data still parses
+        run: |
+          python - <<'PY'
+          import json, pathlib, sys
+          bad = []
+          for p in pathlib.Path('data').rglob('*.json'):
+              try:
+                  json.loads(p.read_text(encoding='utf-8'))
+              except Exception as e:
+                  bad.append(f"{p}: {e}")
+          if bad:
+              print("\n".join(bad)); sys.exit(1)
+          print("all JSON valid")
+          PY
+
+      - name: Run parser tests
+        run: python -m pytest tests -q
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "power-bd-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "no data changes"
+          else
+            git commit -m "data: refresh schedules $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      - name: Open an issue if ingestion failed
+        if: steps.ingest.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'Ingestion run failed';
+            const body = [
+              'The scheduled ingestion job reported a failure.',
+              '',
+              `Run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+              '',
+              'The site keeps serving the last validated schedule; check',
+              '`data/schedules/index.json` for which feed degraded and',
+              '`data/schedules/_quarantine/` for any rejected parse.',
+            ].join('\n');
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'ingestion',
+            });
+            if (existing.data.length) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: existing.data[0].number, body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body, labels: ['ingestion'],
+              });
+            }

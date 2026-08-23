@@ -1,0 +1,6 @@
+{
+  "type": "FeatureCollection",
+  "features": [],
+  "note": "Intentionally empty. DESCO does not publish S&D division boundaries, and OpenStreetMap has none either, so there is no honest polygon to draw. Division ranking therefore uses proximity to the reference points in desco-offices.geojson, which is the more defensible signal anyway. See docs/GEOSPATIAL.md. The app degrades gracefully when this layer is empty.",
+  "generated_at": "2026-08-23T00:00:00Z"
+}

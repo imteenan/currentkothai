@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CurrentKothai</title>
+<meta name="description" content="Load-shedding schedules the Bangladeshi distributors already publish, made readable by location. Independent and unofficial.">
+<meta name="data-root" content="data/">
+<meta name="theme-color" content="#f7f5f2">
+<meta property="og:title" content="CurrentKothai">
+<meta property="og:description" content="Published load-shedding schedules, made readable by location. Not an official service.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Anek+Bangla:wght@400;600&display=swap">
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<link rel="stylesheet" href="styles/tokens.css">
+<link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/components.css">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="icon" href="icon.svg">
+</head>
+<body>
+<a class="skip-link" href="#locate">Skip to the location finder</a>
+
+<div class="ribbon" role="note">
+  <div class="wrap">
+    <b>Unofficial</b>
+    <span>Not DESCO, DPDC, NESCO, BPDB, BREB, WZPDCL or the Government of Bangladesh.
+      <a href="about.html#disclaimer">Full disclaimer</a></span>
+  </div>
+</div>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img class="brand-mark" src="logo.svg" alt="" width="26" height="26">Current<span class="b">Kothai</span>
+      <span class="brand-tag">Unofficial</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#locate">Find yours</a>
+      <a href="#how" class="hide-sm">How</a>
+      <a href="sources.html">Sources</a>
+      <a href="about.html" class="hide-sm">Method</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ 1. hero ============ -->
+  <section class="hero">
+    <video id="hero-video" class="hero-media" autoplay muted loop playsinline
+           preload="metadata" aria-hidden="true">
+      <source src="media/hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-scrim" aria-hidden="true"></div>
+    <div class="wrap hero-inner">
+      <p class="kicker">Bangladesh · load shedding</p>
+      <h1>There's always light at the end of the tunnel.<br><span class="dim">Until there isn't.</span></h1>
+      <p>
+        In a country that plunges in and out of darkness, this is an attempt at a little
+        certainty. About when you will next be saying the words that used to be nostalgia:
+        <em>current kothai?</em>
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#locate">Find my schedule</a>
+        <a class="btn btn-outline" href="#how">How this works</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 2. what we are not ============ -->
+  <section class="section section-wash">
+    <div class="wrap narrow center">
+      <h2 class="t-heading">What we are not</h2>
+      <p class="t-sub muted" style="margin-top:16px;max-width:60ch;margin-inline:auto">
+        We are not a government body, and we do not track load shedding. We are ordinary
+        people making a sheet that is <em>already public</em> easier to read.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ 3. how ============ -->
+  <section class="section" id="how">
+    <div class="wrap narrow">
+      <h2 class="t-heading center">How? You ask.</h2>
+      <div class="steps" style="margin-top:48px">
+        <div class="step">
+          <h3>DESCO and DPDC publish</h3>
+          <p>Dhaka Electricity Supply PLC posts one sheet per weekday. Dhaka Power Distribution
+             Company posts one per NOCS zone, 36 of them. Both are ruled tables of feeders
+             against an hourly grid.</p>
+        </div>
+        <div class="step">
+          <h3>We read all of them</h3>
+          <p>Not one file. Every DESCO weekday sheet and every DPDC zone sheet, re-checked four
+             times a day. Where a sheet is a scan rather than a document, we say so and link it
+             instead of guessing.</p>
+        </div>
+        <div class="step">
+          <h3>You look</h3>
+          <p>Drop a pin. See the feeders near you and the hours they are scheduled off.</p>
+        </div>
+      </div>
+
+      <div class="grid-2" style="margin-top:48px">
+        <div class="note">
+          <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 4.2a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6Zm1.1 11.3h-2.2v-6.9h2.2Z"/></svg>
+          <div><b>What "publicly available" means</b>
+          Two things, and only two: the load-shedding sheets DESCO and DPDC publish on their
+          own websites, and OpenStreetMap place data. No private feeds, no scraping of anyone's
+          account, nothing invented. Where we are unsure, we say so out loud.</div>
+        </div>
+        <div class="note">
+          <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M10.6 13.4a1 1 0 0 1 0-1.42l3.54-3.54a1 1 0 1 1 1.42 1.42l-3.54 3.54a1 1 0 0 1-1.42 0ZM8.1 18.9a4.6 4.6 0 0 1 0-6.5l2.1-2.1a1 1 0 1 1 1.42 1.42l-2.1 2.1a2.6 2.6 0 0 0 3.66 3.66l2.1-2.1a1 1 0 1 1 1.42 1.42l-2.1 2.1a4.6 4.6 0 0 1-6.5 0Zm7.7-14.3a4.6 4.6 0 0 1 3.25 7.85l-2.1 2.1a1 1 0 1 1-1.42-1.42l2.1-2.1a2.6 2.6 0 0 0-3.66-3.66l-2.1 2.1A1 1 0 1 1 10.45 8l2.1-2.1a4.58 4.58 0 0 1 3.25-1.3Z"/></svg>
+          <div><b>Straight to the source</b>
+          Every row links back to the exact file it came from, with the SHA-256 of the bytes we
+          read. <a href="sources.html">See all sources</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. your location ============ -->
+  <section class="section section-wash" id="locate">
+    <div class="wrap narrow center">
+      <h2 class="t-heading">Your location</h2>
+      <p class="t-sub muted" style="margin-top:12px;max-width:52ch;margin-inline:auto">
+        Let your device find you. If it gets it wrong, move the pin on the map below.
+      </p>
+
+      <div style="max-width:420px;margin:36px auto 0">
+        <button class="btn btn-primary btn-block" id="btn-locate">
+          <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a1 1 0 0 1 1 1v1.06A8.01 8.01 0 0 1 19.94 11H21a1 1 0 1 1 0 2h-1.06A8.01 8.01 0 0 1 13 19.94V21a1 1 0 1 1-2 0v-1.06A8.01 8.01 0 0 1 4.06 13H3a1 1 0 1 1 0-2h1.06A8.01 8.01 0 0 1 11 4.06V3a1 1 0 0 1 1-1Zm0 4a6 6 0 1 0 0 12 6 6 0 0 0 0-12Zm0 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"/></svg>
+          Use my location
+        </button>
+        <p class="t-body-sm" style="margin-top:14px">
+          <a href="#map-section" id="link-pick-map">Or pick it on the map</a>
+        </p>
+        <div id="saved-row" style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:14px"></div>
+        <p class="t-caption muted" style="margin-top:16px">
+          No account, no tracking. Your location is used inside your browser and never sent to us.
+        </p>
+        <div id="feed-health" style="margin-top:16px"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 5. reading ============ -->
+  <section id="result-head" class="section" hidden aria-live="polite"></section>
+
+  <!-- ============ 6. map ============ -->
+  <section class="section" id="map-section">
+    <div class="wrap">
+      <div class="center" style="margin-bottom:32px">
+        <h2 class="t-heading">The map</h2>
+        <p class="t-sub muted" style="margin-top:12px;max-width:60ch;margin-inline:auto">
+          Tap anywhere to move your pin. Columns are DESCO zones: lit when supplied,
+          dark when a window is open.
+        </p>
+        <p id="map-live" class="t-caption muted" style="margin-top:10px">Loading…</p>
+      </div>
+
+      <div class="map-shell">
+        <div id="map"></div>
+        <div class="map-ui map-legend" id="map-legend"><b>Legend</b><span class="muted">Loading…</span></div>
+        <div class="map-ui map-tools">
+          <button class="btn btn-sm btn-quiet" id="btn-pitch" aria-pressed="true" title="Toggle 3D view">3D</button>
+          <button class="btn btn-sm btn-quiet" id="btn-map-locate">Locate me</button>
+        </div>
+      </div>
+      <div style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:12px">
+        <p class="t-caption muted" style="max-width:60ch">
+          Basemap <a href="https://openfreemap.org/" rel="noopener">OpenFreeMap</a> ·
+          data © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> ·
+          distributor areas are our estimates, not published boundaries.
+        </p>
+        <div class="segmented" id="map-layer-switch" role="group" aria-label="Map layer">
+          <button type="button" data-layer="territories" aria-pressed="true">Distributors</button>
+          <button type="button" data-layer="zones" aria-pressed="false">Zones</button>
+          <button type="button" data-layer="districts" aria-pressed="false">Districts</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 6b. the reading ============ -->
+  <section id="result-body" class="section" style="padding-top:0" hidden></section>
+
+  <!-- ============ 7. disclaimer ============ -->
+  <section class="section section-wash" id="disclaimer">
+    <div class="wrap narrow">
+      <h2 class="t-heading center">This is an estimate. Here's why.</h2>
+      <p class="t-sub muted center" style="margin-top:12px;max-width:62ch;margin-inline:auto">
+        No distributor publishes a "which feeder am I on" lookup, and none release feeder
+        boundaries as map data. So we infer, and we would rather show the workings than pretend.
+      </p>
+
+      <div class="stack" style="--flow:8px;margin-top:40px">
+        <details class="fold">
+          <summary>Why a shortlist, not "your feeder"</summary>
+          <div class="body">Your point is scored against distributor areas, zone centres, and each
+            feeder's own written area description. Several feeders legitimately describe overlapping
+            streets, so we show the closest matches instead of picking one and calling it yours.</div>
+        </details>
+        <details class="fold">
+          <summary>Why there's never a percentage</summary>
+          <div class="body">A score can always be printed as a percentage; that doesn't make it a
+            probability. We'd need a verified address-to-feeder dataset to earn one. Until that exists,
+            confidence is capped at Medium and no number is shown.</div>
+        </details>
+        <details class="fold">
+          <summary>A published window is not a guarantee</summary>
+          <div class="body">These are <em>probable</em> windows. Power can stay on right through one, or go out well
+            outside one. Generation, faults, weather and maintenance all decide on the day.
+            Nothing here is a promise of supply.</div>
+        </details>
+        <details class="fold">
+          <summary>How to get your exact schedule</summary>
+          <div class="body">
+            Your bill names your distributor and your S&amp;D or NOCS office. That office's own sheet is
+            the authoritative one.
+            <ol style="margin:10px 0 0 18px;display:grid;gap:6px">
+              <li>Call <a href="tel:16999" class="mono">16999</a> and choose your distributor, or call
+                them direct, numbers are under <a href="#official">Let them tell you</a>.</li>
+              <li>Open your distributor's own load-shedding page from <a href="sources.html">Sources</a>
+                and find your office's sheet.</li>
+              <li>Ask your building manager or nearest office which feeder your meter sits on. Once you
+                know the name, this site becomes exact rather than estimated.</li>
+            </ol>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 8. official ============ -->
+  <section class="section" id="official">
+    <div class="wrap narrow">
+      <h2 class="t-heading center">Let them tell you</h2>
+      <p class="t-sub muted center" style="margin-top:12px;max-width:58ch;margin-inline:auto">
+        We cannot notify anyone. Your distributor can. Register with them, on their own site,
+        using your own meter details.
+      </p>
+      <div class="note note-warn" style="margin-top:28px">
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.6c.5 0 .96.27 1.2.7l9 15.9a1.4 1.4 0 0 1-1.2 2.1H3a1.4 1.4 0 0 1-1.2-2.1l9-15.9c.24-.43.7-.7 1.2-.7Zm0 5.3a1 1 0 0 0-1 1.05l.25 4.6a.75.75 0 0 0 1.5 0l.25-4.6A1 1 0 0 0 12 7.9Zm0 8.1a1.15 1.15 0 1 0 0 2.3 1.15 1.15 0 0 0 0-2.3Z"/></svg>
+        <div><b>Never enter your bill or account number here</b>
+        We never ask for it and can't register you for anything.</div>
+      </div>
+      <div class="grid-2" id="alerts-grid" style="margin-top:24px"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>CurrentKothai</h4>
+        <p class="t-caption muted" style="max-width:30ch">
+          Independent, non-commercial, free to use and free to fork.</p>
+      </div>
+      <div><h4>Data</h4><ul>
+        <li><a href="sources.html">Sources</a></li>
+        <li><a href="sources.html#health">Feed health</a></li>
+      </ul></div>
+      <div><h4>Official</h4><ul id="footer-official"></ul></div>
+      <div><h4>Project</h4><ul>
+        <li><a href="about.html">Method</a></li>
+        <li><a href="about.html#privacy">Privacy</a></li>
+        <li><a href="about.html#disclaimer">Disclaimer</a></li>
+      </ul></div>
+    </div>
+    <p class="legal">
+      <b>Independent public-data visualization.</b> Not affiliated with DESCO, DPDC, NESCO, BPDB,
+      BREB, WZPDCL, Power Grid Bangladesh, or the Government of Bangladesh. Schedules are visualized
+      from documents those providers publish, and linked to their originals. Feeder and area matches
+      are estimated. Actual outages may differ due to grid conditions, maintenance, emergencies or
+      operational changes. Nothing here is a guarantee of supply.
+    </p>
+  </div>
+</footer>
+
+<script src="vendor/maplibre-gl.js" defer></script>
+<script type="module" src="src/app.js"></script>
+</body>
+</html>

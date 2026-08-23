@@ -1,0 +1,20 @@
+{
+  "name": "CurrentKothai — Bangladesh load-shedding schedules",
+  "short_name": "CurrentKothai",
+  "description": "Independent, non-official view of published Bangladesh load-shedding schedules by location.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#141416",
+  "theme_color": "#f7f5f2",
+  "orientation": "portrait-primary",
+  "categories": ["utilities", "news"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

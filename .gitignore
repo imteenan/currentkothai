@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+_site/
+*.tmp
+.DS_Store
+
+# The source archive is evidence, but it is also every PDF every distributor has
+# ever published. DPDC alone republishes 36 files at a time, so committing it
+# would add hundreds of megabytes a year for no benefit: each published claim
+# already carries the source_url and the SHA-256 of the exact bytes we read, so
+# provenance survives without the blobs. Kept locally and in the CI workspace.
+data/seed/archive/
