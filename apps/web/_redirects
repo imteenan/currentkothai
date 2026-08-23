@@ -1,9 +1,8 @@
 # Cloudflare Pages / Netlify redirects.
-# Friendly aliases, then a catch-all so a bad path lands on the site rather than
-# a bare 404 page.
+# Friendly aliases only. Unknown paths are handled by not_found_handling in
+# wrangler.toml, which serves 404.html.
 /sources        /sources.html   301
 /method         /about.html     301
 /about          /about.html     301
 /privacy        /about.html#privacy   301
 /disclaimer     /about.html#disclaimer 301
-/*              /index.html     404

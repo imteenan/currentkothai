@@ -1,0 +1,17 @@
+# Cloudflare Workers, assets-only. There is no Worker script and no `main`
+# entry: this project is static files, so Cloudflare just serves the built
+# _site directory straight off its edge.
+#
+# `_headers` and `_redirects` inside _site are honoured, which is why those
+# files live in apps/web and get copied by tools/build-site.sh.
+
+name = "currentkothai"
+compatibility_date = "2026-08-24"
+
+[assets]
+directory = "./_site"
+
+# Serve our styled 404 page for any unknown path rather than Cloudflare's
+# default. This is a multi-page site, so do NOT use "single-page-application":
+# that would rewrite every miss to index.html and hide genuine broken links.
+not_found_handling = "404-page"

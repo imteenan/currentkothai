@@ -27,6 +27,7 @@ done
 touch "$OUT/.nojekyll"
 
 test -f "$OUT/index.html"
+test -f "$OUT/404.html"
 test -f "$OUT/data/schedules/index.json"
 test -f "$OUT/data/registry/sources.json"
 
