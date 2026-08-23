@@ -15,3 +15,13 @@ directory = "./_site"
 # default. This is a multi-page site, so do NOT use "single-page-application":
 # that would rewrite every miss to index.html and hide genuine broken links.
 not_found_handling = "404-page"
+
+# Serve .html paths exactly as requested.
+#
+# Cloudflare's default (auto-trailing-slash) strips the extension and redirects
+# /sources.html -> /sources. Combined with the pretty-URL aliases in _redirects,
+# which point /sources -> /sources.html, that produced an infinite redirect loop
+# and took the Sources and Method pages down entirely. Turning html_handling off
+# makes production behave like local dev: every internal href ending in .html
+# resolves in one hop, and the _redirects aliases still catch the short forms.
+html_handling = "none"
