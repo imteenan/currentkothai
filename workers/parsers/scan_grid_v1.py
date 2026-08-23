@@ -60,7 +60,7 @@ _BN_TO_ASCII = str.maketrans(BN_DIGITS, "0123456789")
 _TESSDATA_CANDIDATES = [
     os.environ.get("TESSDATA_PREFIX"),
     os.path.join(os.environ.get("LOCALAPPDATA", ""), "tessdata"),
-    "C:\Program Files\Tesseract-OCR\tessdata",
+    r"C:\Program Files\Tesseract-OCR\tessdata",
     "/usr/share/tesseract-ocr/5/tessdata",
     "/usr/share/tesseract-ocr/4.00/tessdata",
     "/usr/share/tessdata",

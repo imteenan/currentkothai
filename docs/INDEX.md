@@ -25,11 +25,13 @@ opening several. Regenerate with `python tools/build_index.py`.
 
 | File | Purpose | Size | Key exports |
 |---|---|---|---|
-| `.gitignore` | Ignores caches, venvs and the assembled _site. | 74 B | — |
+| `.gitattributes` | _(undocumented — add to tools/build_index.py)_ | 227 B | — |
+| `.gitignore` | Ignores caches, venvs and the assembled _site. | 490 B | — |
 | `AGENTS.md` | The six mandatory rules. Read before changing anything. | 3 KB | — |
 | `CONTEXT.md` | _(undocumented — add to tools/build_index.py)_ | 5 KB | — |
 | `pytest.ini` | Test config; sets pythonpath so `workers` imports resolve. | 42 B | — |
 | `README.md` | Start here. What works, architecture, how to run and deploy. | 5 KB | — |
+| `SETUP.md` | _(undocumented — add to tools/build_index.py)_ | 5 KB | — |
 
 ## Docs — read these to understand the system
 
@@ -41,7 +43,7 @@ opening several. Regenerate with `python tools/build_index.py`.
 | `docs/DEPLOYMENT.md` | Hosting options and post-deploy checks. Zero-cost by design. | 3 KB | — |
 | `docs/GEOSPATIAL.md` | What each map layer is, where it came from, and where it is wrong. | 3 KB | — |
 | `docs/HOSTING.md` | _(undocumented — add to tools/build_index.py)_ | 4 KB | — |
-| `docs/INDEX.md` | This file. Regenerate with `python tools/build_index.py`. | 13 KB | — |
+| `docs/INDEX.md` | This file. Regenerate with `python tools/build_index.py`. | 14 KB | — |
 | `docs/INGESTION.md` | Pipeline stages, the validation table, and operational runbooks. | 5 KB | — |
 | `docs/NATIONAL_COVERAGE.md` | Per-entity verdict on nationwide daily coverage, with evidence. | 5 KB | — |
 | `docs/PRIVACY.md` | What leaves the browser (almost nothing) and what is never collected. | 2 KB | — |
@@ -51,6 +53,7 @@ opening several. Regenerate with `python tools/build_index.py`.
 | File | Purpose | Size | Key exports |
 |---|---|---|---|
 | `apps/web/_headers` | Cloudflare/Netlify cache + security headers. Ignored by GitHub Pages. | 1 KB | — |
+| `apps/web/_redirects` | _(undocumented — add to tools/build_index.py)_ | 369 B | — |
 | `apps/web/about.html` | Method, confidence model, geography limits, privacy, full disclaimer. | 8 KB | — |
 | `apps/web/icon.svg` | App icon: sodium bolt on petrol ground. | 615 B | — |
 | `apps/web/index.html` | Main page: locate → distributor → feeders → timeline → sources. | 15 KB | — |
