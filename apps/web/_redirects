@@ -2,6 +2,8 @@
 #
 # Deliberately almost empty. Cloudflare's default html_handling already serves
 # /sources from sources.html and / from index.html, so aliasing those here would
-# fight it and loop. Only genuine one-way aliases belong in this file.
-/privacy       /about.html#privacy      301
-/disclaimer    /about.html#disclaimer   301
+# fight it and loop. Targets are extensionless for the same reason: pointing at
+# .html would cost a second hop as Cloudflare redirected it back.
+/privacy       /about#privacy      301
+/disclaimer    /about#disclaimer   301
+/method        /about              301
