@@ -1,8 +1,7 @@
-# Cloudflare Pages / Netlify redirects.
-# Friendly aliases only. Unknown paths are handled by not_found_handling in
-# wrangler.toml, which serves 404.html.
-/sources        /sources.html   301
-/method         /about.html     301
-/about          /about.html     301
-/privacy        /about.html#privacy   301
-/disclaimer     /about.html#disclaimer 301
+# Cloudflare Workers static assets.
+#
+# Deliberately almost empty. Cloudflare's default html_handling already serves
+# /sources from sources.html and / from index.html, so aliasing those here would
+# fight it and loop. Only genuine one-way aliases belong in this file.
+/privacy       /about.html#privacy      301
+/disclaimer    /about.html#disclaimer   301
