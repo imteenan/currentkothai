@@ -1,6 +1,6 @@
 {
   "schema": "schedule-index/1",
-  "generated_at": "2026-08-23T20:24:49Z",
+  "generated_at": "2026-08-23T21:23:17Z",
   "stale_after_hours": 36,
   "utilities": [
     {
@@ -9,7 +9,7 @@
       "status": "fresh",
       "latest_date": "2026-08-24",
       "claim_count": 558,
-      "retrieved_at": "2026-08-23T19:46:59Z",
+      "retrieved_at": "2026-08-23T21:20:10Z",
       "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/7/81a30f11-39ac-4747-89cd-9f2bd2427fb2.pdf",
       "stale_after_hours": 36,
       "message": null,
@@ -24,7 +24,7 @@
       "status": "fresh",
       "latest_date": "2026-08-24",
       "claim_count": 269,
-      "retrieved_at": "2026-08-23T20:24:49Z",
+      "retrieved_at": "2026-08-23T21:23:17Z",
       "source_url": "https://dpdc.org.bd/site/nocs/load_shedding",
       "stale_after_hours": 36,
       "message": "27 of 36 zone sheets read: 19 digital, 8 scanned and read by OCR; 9 scans still unreadable and linked instead",
