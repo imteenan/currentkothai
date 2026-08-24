@@ -1,6 +1,18 @@
 # Cloudflare Pages / Netlify header rules.
-# Hashed-by-deploy assets are immutable; live data gets a short TTL so a schedule
-# change reaches people quickly without hammering the origin.
+#
+# The rule that matters: A LONG max-age IS ONLY SAFE ON A FILENAME THAT CHANGES
+# WHEN ITS CONTENT DOES. Nothing here is content-hashed. This file used to open
+# by calling these assets "hashed-by-deploy" and gave /src/* a seven day TTL,
+# which was an intent the filenames never implemented: /src/map.js keeps that
+# name forever, so every browser pinned the whole bundle for a week and no
+# deploy could reach a returning visitor. Fixing the service worker did not
+# help, because this is a second, independent cache sitting in front of it, and
+# the two failures look identical from the outside.
+#
+# So code revalidates on every load. With an ETag that costs one 304 and a few
+# hundred bytes, which is the right price for never shipping a fix nobody can
+# receive. Data keeps a short TTL so a schedule change lands quickly without
+# hammering the origin.
 
 /*
   X-Content-Type-Options: nosniff
@@ -8,14 +20,25 @@
   X-Frame-Options: SAMEORIGIN
   Permissions-Policy: geolocation=(self), camera=(), microphone=(), payment=()
 
+# Third-party bundles change only when we upgrade them, but the filename does
+# not change when we do, so "immutable" would strand everyone on the old copy.
+# A day bounds that without costing a revalidation on every page view.
 /vendor/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=86400
 
 /styles/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: no-cache
 
 /src/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: no-cache
+
+# The HTML names the scripts. Serving it stale hands back the old bundle even
+# when everything it references is fresh.
+/*.html
+  Cache-Control: no-cache
+
+/
+  Cache-Control: no-cache
 
 /data/geo/*
   Cache-Control: public, max-age=86400

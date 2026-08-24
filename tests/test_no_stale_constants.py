@@ -183,3 +183,44 @@ def test_sheet_total_in_the_copy_is_the_zones_plus_desco():
         pytest.skip("sheet total not stated in the copy")
     assert int(m.group(1)) == dpdc_zone_count() + 1, (
         "copy says %s sheets, data says %d" % (m.group(1), dpdc_zone_count() + 1))
+
+
+# ---------------------------------------------------------- the HTTP cache
+
+def test_unhashed_code_is_never_cached_long():
+    """A long max-age is only safe on a filename that changes with its content.
+
+    Nothing this project serves is content-hashed: /src/map.js keeps that name
+    forever. It was served with max-age=604800, so every browser pinned the
+    bundle for a week and no deploy could reach a returning visitor. Fixing the
+    service worker did not help, because this cache sits in front of it. The
+    two failures looked identical from the outside and had to be found twice.
+    """
+    headers = _read(WEB / "_headers")
+
+    rules: dict[str, str] = {}
+    current: list[str] = []
+    for line in headers.splitlines():
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        if not line.startswith((" ", "\t")):
+            current = [line.strip()]
+            continue
+        if "cache-control" in line.lower():
+            for path in current:
+                rules[path] = line.split(":", 1)[1].strip().lower()
+
+    #: Paths whose filenames never change, so their contents must be revalidated.
+    unhashed_code = ["/src/*", "/styles/*", "/*.html", "/"]
+    for path in unhashed_code:
+        assert path in rules, "%s has no Cache-Control rule" % path
+        value = rules[path]
+        assert "no-cache" in value or "max-age=0" in value, (
+            "%s serves unhashed code with %r; a returning visitor would keep "
+            "their old bundle for that long and never see a fix" % (path, value))
+
+    # Nothing anywhere should claim immutability, since no filename carries a
+    # content hash to justify it.
+    for path, value in rules.items():
+        assert "immutable" not in value, (
+            "%s is marked immutable but its filename never changes" % path)
