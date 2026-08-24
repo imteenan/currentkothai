@@ -18,13 +18,13 @@
     "badge": "DERIVED",
     "source": {
       "source_id": "desco-load-management-pdf",
-      "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/7/81a30f11-39ac-4747-89cd-9f2bd2427fb2.pdf",
-      "retrieved_at": "2026-08-23T21:20:10Z",
+      "source_url": "https://desco.gov.bd/pages/static-pages/69db2a3c6a42b12e9344d1f1",
+      "retrieved_at": "2026-08-24T01:59:15Z",
       "sha256": "ccd06fcdafc53f9d070e71b1d060cbe8505f59be38610f9c7220190214ba1b0d",
       "parser_adapter": "desco_pdf_v1",
       "parser_version": "1.0.0",
       "tls_verified": true,
-      "archive_path": "/home/runner/work/currentkothai/currentkothai/data/seed/archive/desco/2026-08-24-ccd06fcd.pdf",
+      "archive_path": "data/seed/samples/desco-load-management-sunday-2026-07.pdf",
       "published_date": null
     },
     "claims": [
