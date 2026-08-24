@@ -71,10 +71,43 @@ function renderFooterOfficial() {
  * so 423 DPDC claims never reached a layer. Adding a distributor is now one row
  * here, and anything the table does not list simply does not draw.
  */
+/**
+ * One place that decides what each distributor looks like.
+ *
+ * DPDC used to be #5e5ce6, a soft indigo that sat 7.8 dE from DESCO's blue on
+ * the basemap - close enough to read as "not really there". Simulated, it is
+ * far worse than that: 2.1 dE under deuteranopia and 1.7 under protanopia, so
+ * for roughly one man in twelve the two distributors were the same colour.
+ * Deep violet at a stronger fill measures 27.5 / 16.0 / 21.4 on the same three,
+ * which is the largest separation of every candidate tried.
+ */
 const ZONE_LAYERS = [
   { utility: 'DESCO', geo: 'descoDivisions', layer: 'divisions', color: '#0071e3' },
-  { utility: 'DPDC', geo: 'dpdcZones', layer: 'dpdc-zones', color: '#5e5ce6' },
+  { utility: 'DPDC', geo: 'dpdcZones', layer: 'dpdc-zones', color: '#6d28d9' },
 ];
+
+//: Amber belongs to the ring around the covered area, which is the one thing on
+//: this map every reader needs to find. BPDB shipped as #ff9f0a and would have
+//: put two amber swatches next to each other in the legend, so it moves to
+//: slate: it is a link-only utility with no schedule behind it, and nothing is
+//: drawn in its colour except a country-sized dashed outline.
+const SERVICE_AREA_COLOUR = '#f59e0b';
+
+//: Applied to the territory outlines and the legend so one change moves all
+//: three, rather than the colour being restated in generated GeoJSON.
+const UTILITY_COLOURS = {
+  ...Object.fromEntries(ZONE_LAYERS.map((z) => [z.utility, z.color])),
+  BPDB: '#64748b',
+};
+
+/** Overwrite the colour a generated file carries, where we have an opinion. */
+function recolour(fc) {
+  for (const f of fc?.features || []) {
+    const c = UTILITY_COLOURS[String(f.properties?.utility || '').toUpperCase()];
+    if (c) f.properties.color_hex = c;
+  }
+  return fc;
+}
 
 function initMap() {
   const container = $('#map');
@@ -91,13 +124,19 @@ function initMap() {
   window.__ck = state;
   state.map.onTick = () => updateZoneLoads();
 
-  const { territories, descoOffices } = state.data.geo;
+  const { territories, descoOffices, serviceArea } = state.data.geo;
+  recolour(territories);
+  for (const z of ZONE_LAYERS) recolour(state.data.geo[z.geo]);
   state.map.addPolygonLayer('territories', territories, {
     colorProperty: 'color_hex', fillOpacity: 0.14, lineWidth: 1.5,
   });
+  // One glowing ring around the whole covered area, drawn before the zone
+  // layers so it sits underneath them.
+  state.map.addServiceArea('service-area', serviceArea, { color: SERVICE_AREA_COLOUR });
+
   for (const z of ZONE_LAYERS) {
     state.map.addPolygonLayer(z.layer, state.data.geo[z.geo], {
-      colorProperty: 'fill_hex', color: z.color, fillOpacity: 0.18, visible: false,
+      colorProperty: 'fill_hex', color: z.color, fillOpacity: 0.30, visible: false,
     });
   }
   state.map.addPointLayer('offices', descoOffices, { color: '#0071e3', visible: false });
@@ -160,7 +199,7 @@ async function updateZoneLoads() {
 
   const zones = [];
 
-  const paint = (fc, layerId, status) => {
+  const paint = (fc, layerId, status, z) => {
     if (!fc?.features?.length) return false;
     const features = fc.features.map((f) => {
       const name = f.properties?.division || f.properties?.name || '';
@@ -173,7 +212,7 @@ async function updateZoneLoads() {
           ...f.properties,
           shedding: hit.shedding,
           // Dark where the sheet says off, the utility's own colour otherwise.
-          fill_hex: hit.shedding ? '#1a1a1e' : f.properties?.color_hex,
+          fill_hex: hit.shedding ? '#1a1a1e' : z.color,
         },
       };
     });
@@ -183,7 +222,7 @@ async function updateZoneLoads() {
 
   const drew = {};
   ZONE_LAYERS.forEach((z, i) => {
-    drew[z.utility] = paint(state.data.geo[z.geo], z.layer, statusOf(feeds[i]));
+    drew[z.utility] = paint(state.data.geo[z.geo], z.layer, statusOf(feeds[i]), z);
   });
 
   // Fall back to the office points for DESCO if its cells are missing, so a
@@ -255,6 +294,7 @@ function renderMapLegend(territories) {
       <span class="lg"><i class="sw" style="border-color:#c47b00;background:#ff9500"></i>Zone supplied</span>
       <span class="lg"><i class="sw" style="border-color:#555;background:#1a1a1e"></i>Off now</span>
     </div>
+    <span class="lg"><i class="sw" style="border-color:${SERVICE_AREA_COLOUR};background:${SERVICE_AREA_COLOUR}55;border-style:solid"></i>Area we cover</span>
     <span class="muted">Dashed borders are our estimates.</span>
   </details>`;
 }

@@ -281,6 +281,46 @@ export class CoverageMap {
     });
   }
 
+  /** One glowing edge around everything we have schedules for.
+   *
+   * Three stacked lines rather than one: a wide blurred wash, a tighter halo,
+   * then a crisp edge on top. MapLibre has no outer-glow, and a single fat
+   * blurred line reads as a smudge with no boundary in it, so the crisp line is
+   * what makes it a border and the blurred ones are what make it glow.
+   *
+   * Drawn under the zone columns. It is context for the city, not a thing to
+   * read, and it must never sit on top of the data.
+   */
+  addServiceArea(id, data, opts = {}) {
+    if (!data?.features?.length) return;
+    this.layers[id] = { data, opts };
+    this._whenReady(() => {
+      if (this.map.getLayer(`${id}-edge`)) return;
+      if (!this.map.getSource(id)) this.map.addSource(id, { type: 'geojson', data });
+      const color = opts.color || '#f59e0b';
+      const below = this.map.getLayer('zone-glow') ? 'zone-glow' : undefined;
+      const bands = [
+        { suffix: 'wash', width: [9, 10, 14, 34], blur: 3.2, opacity: 0.20 },
+        { suffix: 'halo', width: [9, 4, 14, 14], blur: 1.4, opacity: 0.34 },
+        { suffix: 'edge', width: [9, 1.4, 14, 2.6], blur: 0, opacity: 0.92 },
+      ];
+      for (const b of bands) {
+        this.map.addLayer({
+          id: `${id}-${b.suffix}`,
+          type: 'line',
+          source: id,
+          layout: { 'line-join': 'round', 'line-cap': 'round' },
+          paint: {
+            'line-color': color,
+            'line-width': ['interpolate', ['linear'], ['zoom'], ...b.width],
+            'line-blur': b.blur,
+            'line-opacity': b.opacity,
+          },
+        }, below);
+      }
+    });
+  }
+
   /** Frame a [[w, s], [e, n]] box, so the view follows the data.
    *
    * Called once on load with the union of the served territories. Anything that
