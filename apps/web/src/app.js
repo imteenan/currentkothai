@@ -95,6 +95,11 @@ function initMap() {
     color: '#707070', fillOpacity: 0.03, lineWidth: 0.6, visible: false,
   }));
 
+  // Frame the area we actually have schedules for. Both distributors, not the
+  // basemap and not the link-only utilities, whose territories span the whole
+  // country and would zoom the city out to nothing.
+  state.map.fitTo(boundsOf(territories, ['DESCO', 'DPDC']));
+
   renderMapLegend(territories);
   updateZoneLoads();
 
@@ -199,6 +204,30 @@ async function updateZoneLoads() {
          <span class="mono">${mw.toFixed(0)}</span> MW of feeder load`
       : `No zone is scheduled off right now · ${zones.length} zones tracked`;
   }
+}
+
+/** [[w, s], [e, n]] around the named utilities' territories, or null. */
+function boundsOf(fc, utilities) {
+  const want = new Set(utilities.map((u) => u.toUpperCase()));
+  let w = 180, s = 90, e = -180, n = -90, seen = false;
+  for (const f of fc?.features || []) {
+    if (!want.has(String(f.properties?.utility || '').toUpperCase())) continue;
+    // Walk the coordinate nesting rather than special-casing Polygon vs
+    // MultiPolygon: DESCO is one and DPDC is the other.
+    const walk = (c) => {
+      if (typeof c[0] === 'number') {
+        seen = true;
+        if (c[0] < w) w = c[0];
+        if (c[0] > e) e = c[0];
+        if (c[1] < s) s = c[1];
+        if (c[1] > n) n = c[1];
+        return;
+      }
+      for (const part of c) walk(part);
+    };
+    walk(f.geometry.coordinates);
+  }
+  return seen ? [[w, s], [e, n]] : null;
 }
 
 function renderMapLegend(territories) {

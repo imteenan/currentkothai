@@ -15,7 +15,14 @@
 const STYLE = 'https://tiles.openfreemap.org/styles/positron';
 const STYLE_FALLBACK = 'https://demotiles.maplibre.org/style.json';
 
-const DHAKA = { center: [90.4074, 23.7925], zoom: 10.2 };
+// Fallback view only. The real one is fitted to the served territories by
+// fitTo(), because a hardcoded centre goes stale the moment coverage changes.
+// This literal used to be [90.4074, 23.7925] zoom 10.2, chosen when the map
+// carried DESCO alone. DESCO sits between lat 23.73 and 23.90; adding DPDC took
+// the covered area down to 23.55, so that centre was 0.07 degrees too far north
+// and the default view cut Fatulla and Narayanganj off the bottom of the
+// screen. The data was right and the camera was pointed at the wrong half.
+const DHAKA = { center: [90.4309, 23.7228], zoom: 9.6 };
 const COL_SRC = 'zone-columns';
 const RIPPLE_SRC = 'ripple';
 
@@ -266,6 +273,23 @@ export class CoverageMap {
         },
       }, below);
 
+    });
+  }
+
+  /** Frame a [[w, s], [e, n]] box, so the view follows the data.
+   *
+   * Called once on load with the union of the served territories. Anything that
+   * moves the camera afterwards (a resolved pin, a search result) wins, which
+   * is why this is a plain fit with no animation rather than a constraint.
+   */
+  fitTo(bounds, opts = {}) {
+    if (!bounds) return;
+    this._whenReady(() => {
+      this.map.fitBounds(bounds, {
+        padding: opts.padding ?? { top: 40, bottom: 40, left: 40, right: 40 },
+        duration: 0,
+        maxZoom: opts.maxZoom ?? 11,
+      });
     });
   }
 
