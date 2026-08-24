@@ -44,7 +44,7 @@ from typing import Any
 import numpy as np
 
 from workers.ingestion.common import REGISTRY_DIR, iso_utc, read_json, slugify
-from workers.parsers import grid_detect
+from workers.parsers import grid_detect, scan_text_v1
 
 #: Human-read hour layouts for the scanned sheets, keyed by zone slug.
 _GRIDS_CACHE: dict | None = None
@@ -447,20 +447,19 @@ def parse(
     else:
         mark_thr = paper * 0.62
 
-    # ---- feeder code column: the leftmost column whose cells look like codes -
-    code_col = None
-    for ci in range(min(4, len(cols) - 1)):
-        hits = 0
-        for ri in range(header_row + 1, min(len(rows) - 1, header_row + 8)):
-            cell = gray[rows[ri] + 2:rows[ri + 1] - 2, cols[ci] + 2:cols[ci + 1] - 2]
-            if cell.size == 0:
-                continue
-            big = cv2.resize(cell, None, fx=2.4, fy=2.4, interpolation=cv2.INTER_CUBIC)
-            if _CODE.search(_ocr(pyt, big, "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789").upper()):
-                hits += 1
-        if hits >= 2:
-            code_col = ci
-            break
+    # ---- what the metadata columns hold -----------------------------------
+    # Everything left of the hour grid: serial, billing code, feeder name, load
+    # and the area list. Roles are decided by content, not position, because the
+    # column order is not consistent across zones.
+    def _ocr_fn(img, allow, psm, lang):
+        return _ocr(pyt, img, allow, psm, lang)
+
+    try:
+        roles = scan_text_v1.classify(_ocr_fn, gray, rows, cols,
+                                      header_row, widest_idx + 1)
+    except Exception:
+        roles = {}
+    code_col = roles.get("code")
 
     claims: list[dict[str, Any]] = []
     unread_codes = 0
@@ -470,13 +469,12 @@ def parse(
         if y1 - y0 < 10:
             continue
 
-        code = ""
-        if code_col is not None:
-            cell = gray[y0 + 2:y1 - 2, cols[code_col] + 2:cols[code_col + 1] - 2]
-            if cell.size:
-                big = cv2.resize(cell, None, fx=2.4, fy=2.4, interpolation=cv2.INTER_CUBIC)
-                m = _CODE.search(_ocr(pyt, big, "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789").upper())
-                code = m.group(1) if m else ""
+        try:
+            meta = scan_text_v1.read_row(_ocr_fn, gray, rows, cols, ri, roles)
+        except Exception:
+            meta = {"feeder_name": "", "area_text": "", "areas": [],
+                    "load_mw": None, "billing_code": ""}
+        code = meta["billing_code"]
         if not code:
             unread_codes += 1
 
@@ -494,16 +492,30 @@ def parse(
         if not marked:
             continue
 
-        feeder = code or ("row-%02d" % ri)
+        # A row with no readable code still has an identity if the sheet names
+        # its feeder. "11 kV Noyamati" tells a resident something; "row-04"
+        # tells them nothing, so fall back to it only when both are unreadable.
+        feeder = code or meta["feeder_name"] or ("row-%02d" % ri)
         claims.append({
             "division": zone,
             "division_canonical": zone,
             "feeder": feeder,
-            "feeder_id": "%s:%s:%s" % (utility.lower(), slugify(zone), slugify(feeder)),
-            "area_text": "",
+            # The id must stay unique per row. slugify() returns "unknown" for
+            # input it cannot render, so feeding it an unread Bengali label gave
+            # every unread row on the sheet the same id and collapsed 43 of them
+            # into duplicates. Fall back to the row position, which is unique by
+            # construction, rather than to anything slugify might flatten.
+            "feeder_id": "%s:%s:%s" % (utility.lower(), slugify(zone),
+                                       slugify(code) if code else "row-%02d" % ri),
+            "feeder_name": meta["feeder_name"] or None,
+            "area_text": meta["area_text"],
+            "areas": meta["areas"],
+            "area_search": scan_text_v1.search_text(meta["feeder_name"],
+                                                    meta["areas"]),
+            "text_source": "ocr" if (meta["area_text"] or meta["feeder_name"]) else None,
             "windows": _windows(marked),
             "weekday": None,
-            "load_mw": None,
+            "load_mw": meta["load_mw"],
             "billing_code": code or None,
             "read_by": "ocr-scan",
             "code_confident": bool(code),
@@ -539,6 +551,7 @@ def parse(
         "parse_meta": {
             "zone": zone,
             "hour_column_count": len(hour_cols),
+            "metadata_columns": {k: int(v) for k, v in roles.items()},
             "hour_grid_source": hour_source,
             "hour_columns": ["%02d:00-%02d:00" % (a, b) for _, a, b in hour_cols],
             "header_row_index": header_row,

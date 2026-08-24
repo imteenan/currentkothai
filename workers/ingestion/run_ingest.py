@@ -44,9 +44,21 @@ def _archive(utility: str, content: bytes, content_type: str, url: str) -> Path:
 
 
 def _newest_archive(utility: str, ext: str = "pdf") -> Path | None:
+    """The most recently fetched archived file for a utility.
+
+    Archive names are "<date>-<hash>.<ext>", so sorting by name alone lets the
+    content hash decide the winner whenever a utility republishes on the same
+    day. That is not a tie-break, it is a coin flip: DPDC reissued Ramna and the
+    name sort picked the superseded morning sheet, dropping 13 feeders. Order by
+    date prefix first, then by mtime, which is when we actually retrieved it.
+    """
     d = ARCHIVE_DIR / utility.lower()
-    files = sorted(d.glob("*.%s" % ext)) if d.exists() else []
-    return files[-1] if files else None
+    if not d.exists():
+        return None
+    files = list(d.glob("*.%s" % ext))
+    if not files:
+        return None
+    return max(files, key=lambda f: (f.name[:10], f.stat().st_mtime))
 
 
 # --------------------------------------------------------------------- DESCO

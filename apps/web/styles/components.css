@@ -293,3 +293,16 @@ table.data td.num { font-family: var(--font-mono); font-variant-numeric: tabular
 .toast { padding: 11px 18px; border-radius: var(--r-pill);
          background: var(--carbon); color: var(--white);
          font-size: var(--text-body-sm); animation: enter var(--t-2) var(--ease); }
+
+/* Feeder identity: code, Bengali name, and the areas the sheet lists.
+   The area line is what lets a reader recognise their own street, so it gets
+   room to breathe rather than being squeezed in beside the zone name. */
+.feeder-name, .feeder-sub, .feeder-meta, .feeder-areas { display: block; }
+.feeder-sub { font-size: var(--text-body-sm); color: var(--graphite); margin-top: 1px; }
+.feeder-areas { font-size: var(--text-body-sm); color: var(--ash); margin-top: 4px;
+                line-height: 1.45; }
+.areas-served { padding: 12px 14px; margin: 0 0 16px;
+                border: 1px solid var(--hairline); border-radius: var(--r-card);
+                background: var(--frost); }
+.areas-served b { display: block; color: var(--ash); text-transform: uppercase;
+                  letter-spacing: .06em; }

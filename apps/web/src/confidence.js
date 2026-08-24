@@ -5,6 +5,7 @@
 // until `calibration.json` reports measured Top-1/Top-3 accuracy on a holdout set.
 
 import { featuresAt, nearestPoints } from './geo.js';
+import { foldLatin } from './gazetteer.js';
 
 /** Below this, we refuse to name a feeder at all. */
 const MIN_EVIDENCE = 0.28;
@@ -71,6 +72,14 @@ export function normaliseTokens(text) {
     if (/^\d+$/.test(w)) continue;               // bare numbers are noise without their unit
     w = ALIAS.get(w) || w;
     tokens.add(w);
+    // Also index a folded form, using the same fold the gazetteer applies to
+    // place names. Romanised Bengali has no fixed spelling, and the scanned
+    // sheets add OCR drift on top: the area column transliterates to
+    // "nyamati" where the gazetteer holds "Noyamati". Both fold to "namata".
+    // Without this the whole transliteration pipeline matches nothing, because
+    // token comparison is exact.
+    const folded = foldLatin(w);
+    if (folded && folded !== w) tokens.add(`~${folded}`);
   }
   return tokens;
 }
@@ -80,7 +89,9 @@ function tokenCoverage(claimTokens, evidenceTokens) {
   if (!claimTokens.size) return 0;
   let hit = 0, weighted = 0, hitWeighted = 0;
   for (const t of claimTokens) {
-    const w = t.includes(':') ? 2 : 1;          // "sector:7" is worth more than a bare place word
+    // "sector:7" is worth more than a bare place word. A "~folded" token is
+    // worth less than an exact one, since folding collapses every vowel.
+    const w = t.includes(':') ? 2 : t.startsWith('~') ? 0.5 : 1;
     weighted += w;
     if (evidenceTokens.has(t)) { hit++; hitWeighted += w; }
   }
@@ -171,7 +182,11 @@ export function rankFeeders(ctx) {
   };
 
   const scored = claims.map((c) => {
-    const claimTokens = normaliseTokens(`${c.area_text ?? ''} ${c.feeder ?? ''}`);
+    // area_search is the Latin transliteration of the Bengali the scanned
+    // sheets carry. Without it the DPDC zones contribute no text at all and
+    // rank on distance alone, because the evidence tokens are Latin.
+    const claimTokens = normaliseTokens(
+      `${c.area_search ?? ''} ${c.area_text ?? ''} ${c.feeder_name ?? ''} ${c.feeder ?? ''}`);
     const areaScore = tokenCoverage(claimTokens, evidence);
     const divScore = divisionWeight(c.division);
     const matched = [...claimTokens].filter((t) => evidence.has(t));

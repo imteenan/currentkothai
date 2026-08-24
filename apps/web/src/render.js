@@ -96,6 +96,38 @@ const fact = (label, value, hint = '') => `<div class="fact">
 
 /* ---------------------------------------------------------- feeder list */
 
+/** First few areas, with a count for the rest. Keeps the row one line tall. */
+function areaSummary(areas, limit = 3) {
+  if (areas.length <= limit) return areas.join(', ');
+  return `${areas.slice(0, limit).join(', ')} +${areas.length - limit} more`;
+}
+
+/**
+ * The areas a feeder serves, as the sheet lists them.
+ *
+ * Marked as machine-read when it came from a scan. These names are OCR output
+ * from a photographed sheet and contain occasional wrong letters, so the note
+ * and the link to the original are not decoration: they are how a reader checks
+ * a name that looks not-quite-right.
+ */
+export function renderAreas(claim) {
+  const areas = Array.isArray(claim?.areas) ? claim.areas : [];
+  const name = claim?.feeder_name || '';
+  if (!areas.length && !name) return '';
+  // Only call it an area list when it is one. Where the sheet gives a feeder
+  // name and no areas, labelling the name "areas on this feeder" would be a
+  // small lie about what the source says.
+  const heading = areas.length ? 'Areas on this feeder' : 'Feeder name on the sheet';
+  return `<div class="areas-served">
+    <b class="t-caption">${heading}</b>
+    <p lang="bn" style="margin:4px 0 0">${esc(areas.join(', ') || name)}</p>
+    ${claim?.text_source === 'ocr'
+      ? `<p class="t-caption muted" style="margin:6px 0 0">Read automatically from a scanned
+         sheet, so spellings may be imperfect. Check against the original below.</p>`
+      : ''}
+  </div>`;
+}
+
 export function renderFeeders(candidates, evaluations, selectedIndex) {
   if (!candidates.length) return '';
   return `<div class="feeders">${candidates.map((c, i) => {
@@ -105,10 +137,25 @@ export function renderFeeders(candidates, evaluations, selectedIndex) {
       : ev.next ? `in ${fmtDuration(ev.minutesUntilNext)}`
       : 'Clear today';
     const zone = c.claim.division_canonical || c.claim.division || 'Unknown zone';
+    // A billing code identifies the feeder; the Bengali name and the area list
+    // are what let a reader recognise it as theirs. Scanned sheets often give
+    // one and not the other, so show whichever exist rather than a row number.
+    const code = c.claim.billing_code || '';
+    const name = c.claim.feeder_name || '';
+    // `feeder` falls back to a row position when nothing on the sheet could be
+    // read. "row-05" identifies nothing to a reader, so say so plainly and let
+    // the area list below do the identifying.
+    const positional = /^row-\d+$/.test(c.claim.feeder || '');
+    const label = code || name || (positional ? 'Unnamed feeder' : c.claim.feeder)
+                  || 'Unnamed feeder';
+    const sub = code && name ? name : '';
+    const areas = Array.isArray(c.claim.areas) ? c.claim.areas : [];
     return `<button type="button" class="feeder" data-cand="${i}" aria-pressed="${i === selectedIndex}">
       <span>
-        <span class="feeder-name">${esc(c.claim.feeder || 'Unnamed feeder')}</span>
+        <span class="feeder-name">${esc(label)}</span>
+        ${sub ? `<span class="feeder-sub" lang="bn">${esc(sub)}</span>` : ''}
         <span class="feeder-meta">${esc(zone)}${c.claim.load_mw ? ` · ${c.claim.load_mw} MW` : ''}</span>
+        ${areas.length ? `<span class="feeder-areas" lang="bn">${esc(areaSummary(areas))}</span>` : ''}
       </span>
       <span class="feeder-when${ev?.active ? ' on' : ''}">${esc(when)}</span>
     </button>`;

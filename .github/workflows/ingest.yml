@@ -27,7 +27,12 @@ concurrency:
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    # Reading the 17 scanned zones is OCR-bound: roughly 7 minutes on a fast
+    # local machine, and a hosted runner is slower. 25 was close enough to the
+    # real figure that a slow run would be killed mid-parse and the day would
+    # silently keep yesterday's data. Actions minutes are free on a public repo,
+    # so the headroom costs nothing.
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v5
 

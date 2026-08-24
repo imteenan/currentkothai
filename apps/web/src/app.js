@@ -7,7 +7,7 @@ import { deviceLocation, searchPlaces, searchPlacesRemote, reverseGeocode, GeoEr
 import { rankDivisions, rankFeeders, scheduleAgreement } from './confidence.js';
 import { dhakaNow, normaliseWindows, evaluateDay, claimsForWeekday, buildICS } from './schedule.js';
 import {
-  renderStrip, renderAnswer, renderFeeders, renderEvidence,
+  renderStrip, renderAnswer, renderFeeders, renderEvidence, renderAreas,
   renderProvenance, renderFeedHealth, renderAlertCards,
 } from './render.js';
 import { CoverageMap } from './map.js';
@@ -468,9 +468,11 @@ function renderScheduleBody(now) {
       ${esc(sched.publisher)} publishes one per weekday; this is the newest we could read.
     </div></div>` : ''}
 
-    <h3 class="t-heading-sm" style="margin-top:40px">Today: ${esc(sel?.claim?.feeder || 'this area')}</h3>
+    <h3 class="t-heading-sm" style="margin-top:40px">Today: ${esc(
+      sel?.claim?.billing_code || sel?.claim?.feeder_name || sel?.claim?.feeder || 'this area')}</h3>
     <p class="t-body-sm muted" style="margin:6px 0 16px">
       Hours this feeder is scheduled off. Pick another feeder below to compare.</p>
+    ${renderAreas(sel?.claim)}
     ${renderStrip(selEval?.windows || [], now.minutes)}
 
     <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:20px">
@@ -510,9 +512,10 @@ function renderNoSchedule(utility, indexRow) {
     ${zone ? `<div class="card">
         <h3 class="t-heading-sm">Your DPDC zone: ${esc(zone.name)}</h3>
         <p class="t-body-sm muted" style="margin-top:8px;max-width:62ch">
-          DPDC publishes a sheet per zone. This one is a scanned photograph rather than a document, so we cannot read it. The original is below
-          font that extracts as gibberish, but this is the sheet for the zone nearest you,
-          ${esc(zone.km.toFixed(1))} km away.</p>
+          DPDC publishes a sheet per zone, and all 36 are normally read here. Today's
+          could not be retrieved, so nothing is shown above. This is the sheet for the
+          zone nearest you, ${esc(zone.km.toFixed(1))} km away. Open it and read it
+          directly.</p>
         <a class="btn btn-primary" style="margin-top:16px" href="${esc(zone.pdf_url)}"
            target="_blank" rel="noopener">Open the ${esc(zone.name)} sheet ↗</a>
         <p class="t-caption muted" style="margin-top:12px">
