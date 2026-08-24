@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import json
 import re
+import sys
 from pathlib import Path
 
 import pytest
@@ -74,13 +75,40 @@ def test_service_worker_version_is_not_a_hand_written_literal():
         "VERSION must derive from BUILD_ID, found: %s" % version.group(1))
 
 
-def test_build_script_stamps_and_verifies_the_placeholder():
+def test_build_stamps_and_refuses_to_ship_unstamped():
+    """The stamping must happen, and must fail loudly when it does not.
+
+    A silent no-op here puts every returning visitor back on a stale bundle
+    while looking like a clean deploy, which is the failure this guards.
+    """
     sh = _read(ROOT / "tools" / "build-site.sh")
-    assert "__BUILD_ID__" in sh and "sha256sum" in sh, (
-        "build-site.sh must hash the shell and stamp sw.js")
-    assert "exit 1" in sh, (
-        "build-site.sh must fail if the placeholder survives, or a silent "
-        "no-op takes us straight back to the pinned-cache bug")
+    assert "stamp_build.py" in sh, "build-site.sh must run the stamper"
+
+    py = _read(ROOT / "tools" / "stamp_build.py")
+    assert "sha256" in py, "the id must be a hash of the built shell"
+    assert py.count("raise SystemExit") >= 2, (
+        "the stamper must abort when sw.js keeps the placeholder and when "
+        "index.html comes out unversioned")
+
+
+def test_stamper_versions_every_kind_of_asset_url():
+    """Versioning the HTML entry point alone would miss the ES imports.
+
+    app.js pulls in nine modules by relative path. Those URLs live inside the
+    JavaScript, not the markup, so a browser holding cached copies would keep
+    running the old modules behind a freshly fetched entry point.
+    """
+    sys.path.insert(0, str(ROOT))
+    from tools import stamp_build
+
+    for name, sample in (
+        ("IMPORT_RE", "import { x } from './util.js';"),
+        ("HTML_RE", '<script type="module" src="src/app.js"></script>'),
+        ("HTML_RE", '<link rel="stylesheet" href="styles/base.css">'),
+        ("SW_ASSET_RE", "  './src/app.js',"),
+    ):
+        pattern = getattr(stamp_build, name)
+        assert pattern.search(sample), "%s does not match %r" % (name, sample)
 
 
 # --------------------------------------------------------------- the camera
