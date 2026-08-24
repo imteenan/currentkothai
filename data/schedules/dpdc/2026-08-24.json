@@ -8,7 +8,7 @@
   "source": {
     "source_id": "dpdc-load-shedding-index",
     "source_url": "https://dpdc.org.bd/site/nocs/load_shedding",
-    "retrieved_at": "2026-08-24T02:02:39Z",
+    "retrieved_at": "2026-08-24T05:54:51Z",
     "sha256": "d036b38c2aa828fbc4c792d93270948b1715efec892c80c23f118c91ea18ed29",
     "part_hashes": [
       "adabor:ba9b142bc1929a55f4a869bd6a76ac0e95d4cc723eae262b3c790f4294fdff7b",
@@ -548,8 +548,8 @@
     {
       "division": "Demra",
       "division_canonical": "Demra",
-      "feeder": "E116G",
-      "feeder_id": "dpdc:demra:e116g",
+      "feeder": "row-01",
+      "feeder_id": "dpdc:demra:row-01",
       "area_text": "",
       "windows": [
         {
@@ -559,15 +559,15 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "E116G",
+      "billing_code": null,
       "read_by": "ocr-scan",
-      "code_confident": true
+      "code_confident": false
     },
     {
       "division": "Demra",
       "division_canonical": "Demra",
-      "feeder": "row-02",
-      "feeder_id": "dpdc:demra:row-02",
+      "feeder": "E183KL",
+      "feeder_id": "dpdc:demra:e183kl",
       "area_text": "",
       "windows": [
         {
@@ -581,9 +581,9 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": null,
+      "billing_code": "E183KL",
       "read_by": "ocr-scan",
-      "code_confident": false
+      "code_confident": true
     },
     {
       "division": "Demra",
@@ -880,8 +880,8 @@
     {
       "division": "Dhanmondi",
       "division_canonical": "Dhanmondi",
-      "feeder": "D207M",
-      "feeder_id": "dpdc:dhanmondi:d207m",
+      "feeder": "row-02",
+      "feeder_id": "dpdc:dhanmondi:row-02",
       "area_text": "",
       "windows": [
         {
@@ -891,9 +891,9 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "D207M",
+      "billing_code": null,
       "read_by": "ocr-scan",
-      "code_confident": true
+      "code_confident": false
     },
     {
       "division": "Dhanmondi",
@@ -920,8 +920,8 @@
     {
       "division": "Dhanmondi",
       "division_canonical": "Dhanmondi",
-      "feeder": "D207A",
-      "feeder_id": "dpdc:dhanmondi:d207a",
+      "feeder": "D207",
+      "feeder_id": "dpdc:dhanmondi:d207",
       "area_text": "",
       "windows": [
         {
@@ -931,7 +931,7 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "D207A",
+      "billing_code": "D207",
       "read_by": "ocr-scan",
       "code_confident": true
     },
@@ -1094,8 +1094,8 @@
     {
       "division": "Dhanmondi",
       "division_canonical": "Dhanmondi",
-      "feeder": "D207S",
-      "feeder_id": "dpdc:dhanmondi:d207s",
+      "feeder": "row-16",
+      "feeder_id": "dpdc:dhanmondi:row-16",
       "area_text": "",
       "windows": [
         {
@@ -1109,9 +1109,9 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "D207S",
+      "billing_code": null,
       "read_by": "ocr-scan",
-      "code_confident": true
+      "code_confident": false
     },
     {
       "division": "Dhanmondi",
@@ -4465,6 +4465,10 @@
         {
           "start": "11:00",
           "end": "13:00"
+        },
+        {
+          "start": "21:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -4483,6 +4487,10 @@
         {
           "start": "11:00",
           "end": "13:00"
+        },
+        {
+          "start": "21:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -4501,6 +4509,10 @@
         {
           "start": "11:00",
           "end": "13:00"
+        },
+        {
+          "start": "21:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -4519,6 +4531,10 @@
         {
           "start": "11:00",
           "end": "13:00"
+        },
+        {
+          "start": "21:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -4661,6 +4677,10 @@
         {
           "start": "09:00",
           "end": "11:00"
+        },
+        {
+          "start": "21:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -4941,6 +4961,10 @@
       "area_text": "",
       "windows": [
         {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
           "start": "16:00",
           "end": "17:00"
         }
@@ -5118,6 +5142,10 @@
       "feeder_id": "dpdc:swamibag:row-10",
       "area_text": "",
       "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
         {
           "start": "19:00",
           "end": "20:00"

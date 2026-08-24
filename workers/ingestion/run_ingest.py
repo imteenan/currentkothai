@@ -134,8 +134,12 @@ def ingest_desco(*, offline: bool = False) -> dict:
     doc["validation"] = report.to_dict()
     V.learn_divisions(doc)
 
-    write_json(SCHEDULES_DIR / "desco" / ("%s.json" % effective_date), doc)
-    write_json(latest_path, doc)
+    changed = publish_schedule(
+        latest_path, SCHEDULES_DIR / "desco" / ("%s.json" % effective_date), doc)
+    if not changed:
+        print("    unchanged since last publish; left as is")
+        # Keep reporting the timestamp the live file actually carries, not now.
+        doc = read_json(latest_path) or doc
 
     out.update({
         "status": "fresh",
@@ -291,8 +295,10 @@ def ingest_dpdc(*, offline: bool = False) -> dict:
         return _finish_unavailable(out, previous)
 
     doc["validation"] = report.to_dict()
-    write_json(SCHEDULES_DIR / "dpdc" / ("%s.json" % effective_date), doc)
-    write_json(latest_path, doc)
+    if not publish_schedule(
+            latest_path, SCHEDULES_DIR / "dpdc" / ("%s.json" % effective_date), doc):
+        print("    unchanged since last publish; left as is")
+        doc = read_json(latest_path) or doc
 
     out.update({
         "status": "fresh", "latest_date": effective_date,
@@ -343,6 +349,56 @@ LINK_ONLY = [
 ]
 
 
+#: Fields that move on every run even when the published schedule is identical.
+_VOLATILE = ("retrieved_at",)
+
+
+def _schedule_unchanged(old: dict | None, new: dict) -> bool:
+    """True when a freshly parsed document says exactly what the live one says.
+
+    Compares the claims and the source identity, ignoring only fields that tick
+    with the clock. The source SHA-256 is part of the comparison, so if the
+    distributor republishes even one byte this returns False and we republish.
+    """
+    if not old:
+        return False
+    import copy
+
+    def strip(d: dict) -> dict:
+        c = copy.deepcopy(d)
+        c.pop("parse_meta", None)
+        c.pop("validation", None)
+        src = c.get("source") or {}
+        for k in _VOLATILE:
+            src.pop(k, None)
+        return c
+
+    return strip(old) == strip(new)
+
+
+def publish_schedule(latest_path: Path, dated_path: Path, doc: dict) -> bool:
+    """Write a schedule only when it differs from what is already published.
+
+    Without this, every scheduled run rewrites identical files with a new
+    timestamp, producing a commit and a rebuild for no reason.
+    """
+    old = read_json(latest_path)
+    if _schedule_unchanged(old, doc):
+        return False
+    write_json(dated_path, doc)
+    write_json(latest_path, doc)
+    return True
+
+
+def _same_except_timestamps(a: dict, b: dict) -> bool:
+    """Two index documents differing only by when they were generated."""
+    import copy
+    x, y = copy.deepcopy(a), copy.deepcopy(b)
+    x.pop("generated_at", None)
+    y.pop("generated_at", None)
+    return x == y
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--only", help="ingest a single utility, e.g. DESCO")
@@ -380,16 +436,21 @@ def main(argv: list[str] | None = None) -> int:
                 if r["utility"].upper() != args.only.upper()]
         rows = rows + keep
 
-    write_json(SCHEDULES_DIR / "index.json", {
+    index_path = SCHEDULES_DIR / "index.json"
+    new_index = {
         "schema": "schedule-index/1",
         "generated_at": iso_utc(),
         "stale_after_hours": STALE_AFTER_HOURS,
         "utilities": sorted(rows, key=lambda r: (r["status"] != "fresh", r["utility"])),
-    })
-
-    state = read_json(STATE_PATH, {}) or {}
-    state["last_run"] = iso_utc()
-    write_json(STATE_PATH, state)
+    }
+    old_index = read_json(index_path, None)
+    if old_index and _same_except_timestamps(old_index, new_index):
+        print("  nothing changed since the last run; index left untouched")
+    else:
+        write_json(index_path, new_index)
+        state = read_json(STATE_PATH, {}) or {}
+        state["last_run"] = new_index["generated_at"]
+        write_json(STATE_PATH, state)
 
     for r in rows:
         print("  %-8s %-11s claims=%-5s %s" % (
