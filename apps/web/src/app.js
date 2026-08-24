@@ -623,8 +623,25 @@ function wireResultEvents() {
 
 function registerServiceWorker() {
   if (!('serviceWorker' in navigator)) return;
+
+  // A new worker claiming this page swaps the cache under it, but the modules
+  // already parsed keep running, so the tab stays on the old build until the
+  // visitor happens to reload. Reload it for them, once.
+  //
+  // `controllerchange` also fires on the very first install, when there was no
+  // previous controller and nothing has gone stale. Reloading then would throw
+  // away a perfectly good first paint, so that case is skipped.
+  let reloading = false;
+  const hadController = Boolean(navigator.serviceWorker.controller);
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (reloading || !hadController) return;
+    reloading = true;
+    window.location.reload();
+  });
+
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('sw.js')
+      .then((reg) => reg.update().catch(() => {}))
       .catch((err) => console.info('[sw] not registered:', err.message));
   });
 }
