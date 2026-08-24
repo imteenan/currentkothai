@@ -350,9 +350,15 @@ def link_only_row(utility: str, coverage: str, url: str, message: str) -> dict:
 
 
 LINK_ONLY = [
+    # This used to say reading NESCO "needs Bangla OCR", which stopped being
+    # the obstacle the day scan_grid_v1 started reading DPDC's 17 scanned
+    # sheets. The reader exists and the layout is the same. What is missing is
+    # the sheets: no per-zone schedule URL and no zone list have been found on
+    # nesco.gov.bd, so there is nothing to point the reader at.
     ("NESCO", "utility", "https://nesco.gov.bd/",
-     "Schedules are published as scanned images. The layout matches DPDC's (hour grid "
-     "with shaded cells) but the page is raster, so reading it needs Bangla OCR."),
+     "Schedules are published as scanned images in the same hour-grid layout as "
+     "DPDC's, which we already read. The blocker is finding the sheets: no "
+     "per-zone schedule URL or zone list has been located on their site yet."),
     ("BPDB", "utility", "https://bpdb.gov.bd/",
      "No machine-readable consumer load-shedding schedule identified."),
     ("BREB", "utility", "https://reb.gov.bd/",

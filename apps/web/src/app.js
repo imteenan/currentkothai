@@ -62,6 +62,20 @@ function renderFooterOfficial() {
 
 /* ============================================================ map */
 
+/**
+ * Every distributor that has zone geometry, and where to find it.
+ *
+ * This exists because 'DESCO' was written into the map code in four separate
+ * places, and each one had to be found and changed by hand when DPDC arrived.
+ * One of them was missed: updateZoneLoads() kept loading only the DESCO feed,
+ * so 423 DPDC claims never reached a layer. Adding a distributor is now one row
+ * here, and anything the table does not list simply does not draw.
+ */
+const ZONE_LAYERS = [
+  { utility: 'DESCO', geo: 'descoDivisions', layer: 'divisions', color: '#0071e3' },
+  { utility: 'DPDC', geo: 'dpdcZones', layer: 'dpdc-zones', color: '#5e5ce6' },
+];
+
 function initMap() {
   const container = $('#map');
   if (!container) return;
@@ -77,28 +91,24 @@ function initMap() {
   window.__ck = state;
   state.map.onTick = () => updateZoneLoads();
 
-  const { territories, descoDivisions, descoOffices, dpdcZones } = state.data.geo;
+  const { territories, descoOffices } = state.data.geo;
   state.map.addPolygonLayer('territories', territories, {
     colorProperty: 'color_hex', fillOpacity: 0.14, lineWidth: 1.5,
   });
-  // Zone cells for BOTH distributors. Without the DPDC layer the "Zones" view
-  // showed a scatter of DESCO markers over north Dhaka and left the entire
-  // southern half of the city blank, though its 36 sheets were parsed.
-  state.map.addPolygonLayer('divisions', descoDivisions, {
-    colorProperty: 'fill_hex', color: '#0071e3', fillOpacity: 0.18, visible: false,
-  });
-  state.map.addPolygonLayer('dpdc-zones', dpdcZones, {
-    colorProperty: 'fill_hex', color: '#5e5ce6', fillOpacity: 0.18, visible: false,
-  });
+  for (const z of ZONE_LAYERS) {
+    state.map.addPolygonLayer(z.layer, state.data.geo[z.geo], {
+      colorProperty: 'fill_hex', color: z.color, fillOpacity: 0.18, visible: false,
+    });
+  }
   state.map.addPointLayer('offices', descoOffices, { color: '#0071e3', visible: false });
   load.geo.districts().then((fc) => state.map.addPolygonLayer('districts', fc, {
     color: '#707070', fillOpacity: 0.03, lineWidth: 0.6, visible: false,
   }));
 
-  // Frame the area we actually have schedules for. Both distributors, not the
-  // basemap and not the link-only utilities, whose territories span the whole
-  // country and would zoom the city out to nothing.
-  state.map.fitTo(boundsOf(territories, ['DESCO', 'DPDC']));
+  // Frame the area we actually have schedules for, not the link-only
+  // utilities, whose territories span the whole country and would zoom the city
+  // out to nothing.
+  state.map.fitTo(boundsOf(territories, ZONE_LAYERS.map((z) => z.utility)));
 
   renderMapLegend(territories);
   updateZoneLoads();
@@ -111,8 +121,7 @@ function initMap() {
       b.setAttribute('aria-pressed', String(b === btn));
     }
     state.map.setLayerVisible('territories', chosen === 'territories');
-    state.map.setLayerVisible('divisions', chosen === 'zones');
-    state.map.setLayerVisible('dpdc-zones', chosen === 'zones');
+    for (const z of ZONE_LAYERS) state.map.setLayerVisible(z.layer, chosen === 'zones');
     state.map.setLayerVisible('offices', chosen === 'zones');
     state.map.setLayerVisible('districts', chosen === 'districts');
   });
@@ -128,13 +137,8 @@ async function updateZoneLoads() {
   if (!state.map) return;
   const now = dhakaNow();
 
-  // Both distributors, always. Reading only DESCO here was why the map went
-  // blank below the river: DPDC publishes 36 zone sheets and not one of them
-  // ever reached a layer.
-  const feeds = await Promise.all([
-    load.schedule('DESCO').catch(() => null),
-    load.schedule('DPDC').catch(() => null),
-  ]);
+  const feeds = await Promise.all(
+    ZONE_LAYERS.map((z) => load.schedule(z.utility).catch(() => null)));
 
   /** zone name (lowercased) -> { mw, shedding } for one utility's sheet. */
   const statusOf = (sched) => {
@@ -154,7 +158,6 @@ async function updateZoneLoads() {
     return byZone;
   };
 
-  const [descoStatus, dpdcStatus] = feeds.map(statusOf);
   const zones = [];
 
   const paint = (fc, layerId, status) => {
@@ -178,12 +181,15 @@ async function updateZoneLoads() {
     return true;
   };
 
-  const drewDesco = paint(state.data.geo.descoDivisions, 'divisions', descoStatus);
-  paint(state.data.geo.dpdcZones, 'dpdc-zones', dpdcStatus);
+  const drew = {};
+  ZONE_LAYERS.forEach((z, i) => {
+    drew[z.utility] = paint(state.data.geo[z.geo], z.layer, statusOf(feeds[i]));
+  });
 
   // Fall back to the office points for DESCO if its cells are missing, so a
   // failed geo build costs the fill and not the columns too.
-  if (!drewDesco) {
+  if (!drew.DESCO) {
+    const descoStatus = statusOf(feeds[ZONE_LAYERS.findIndex((z) => z.utility === 'DESCO')]);
     for (const f of state.data.geo.descoOffices?.features || []) {
       const c = centroidOf(f.geometry);
       const name = f.properties?.division || f.properties?.name;

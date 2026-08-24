@@ -179,6 +179,100 @@ def _find_meta_cols(header: list[str]) -> int | None:
     return None
 
 
+#: Glyph-run reconstruction, used to undo overprinted cells (see below).
+#:
+#: The "Area Under the feeder" column is CENTRE-aligned, and DESCO's typesetter
+#: does not clip it. When the area text is wider than its cell it overflows both
+#: sides, and the left overflow is drawn straight through the "S&D Division"
+#: cell. Both texts then sit on one baseline, so any extractor that sorts the
+#: glyphs in a cell by x -- which is what pdfplumber's cell text does -- returns
+#: them zipped together: "Gulshan" + "Mohakhali:" comes back as
+#: "MGuolhsahkahnali:". The division, the area and the feeder cell were all
+#: corrupted this way.
+#:
+#: The two texts are separable because each was printed as a contiguous run:
+#: inside one run every glyph starts where the previous glyph ended, whereas an
+#: overprinted run restarts far to the left. Measured over both document
+#: generations, the largest legitimate backward kern is 0.05 em and the smallest
+#: overprint step-back is 0.19 em, so the cut below sits between the two.
+_RUN_BACK_KERN = 0.10        # em; more backward travel than this starts a new run
+_RUN_FORWARD_GAP = 0.55      # em; slack for documents that space words by position
+_RUN_BASELINE_TOL = 0.6      # pt; glyphs further apart vertically are different lines
+
+
+def _text_runs(chars: list[dict]) -> list[dict]:
+    """Reassemble glyphs into the contiguous runs they were printed as.
+
+    Sorting glyphs by x is exactly what corrupts overprinted cells, so a glyph
+    joins the run whose end it continues (smallest |x0 - x1|), and starts a new
+    run when nothing on its baseline ends near it. Blank glyphs are kept so word
+    spacing survives; the caller strips the edges.
+    """
+    runs: list[dict] = []
+    for ch in sorted(chars, key=lambda c: (round(c["top"], 1), c["x0"])):
+        em = float(ch.get("size") or 8.0)
+        back, fwd = _RUN_BACK_KERN * em, _RUN_FORWARD_GAP * em
+        best: dict | None = None
+        best_gap: float | None = None
+        for run in runs:
+            if abs(run["top"] - ch["top"]) > _RUN_BASELINE_TOL:
+                continue
+            gap = ch["x0"] - run["x1"]
+            if -back <= gap <= fwd and (best_gap is None or abs(gap) < abs(best_gap)):
+                best, best_gap = run, gap
+        if best is None:
+            runs.append({"top": ch["top"], "x0": ch["x0"], "x1": ch["x1"],
+                         "glyphs": [ch["text"]]})
+        else:
+            best["glyphs"].append(ch["text"])
+            best["x1"] = max(best["x1"], ch["x1"])
+    for run in runs:
+        run["text"] = "".join(run["glyphs"])
+        run["center"] = (run["x0"] + run["x1"]) / 2.0
+    return runs
+
+
+def _extract_table_cells(page: Any) -> list[list[str]] | None:
+    """``page.extract_table()``, but overprint-safe.
+
+    Each run is filed under the cell containing its CENTRE rather than its left
+    edge. The columns are centre-aligned, so an overflowing area string is still
+    centred on the area column no matter how far it spills into its neighbours,
+    while the division name it is drawn over stays centred on the division
+    column. Returns None when the page carries no table, so the caller can skip
+    the page exactly as it did before.
+    """
+    tables = page.find_tables()
+    if not tables:
+        return None
+    table = max(tables,
+                key=lambda t: (t.bbox[2] - t.bbox[0]) * (t.bbox[3] - t.bbox[1]))
+    rows = table.rows
+    if not rows:
+        return None
+
+    grid: list[list[list[dict]]] = [[[] for _ in row.cells] for row in rows]
+    for run in _text_runs(page.chars):
+        for r_idx, row in enumerate(rows):
+            if not row.bbox[1] - _RUN_BASELINE_TOL <= run["top"] <= row.bbox[3]:
+                continue
+            for c_idx, cell in enumerate(row.cells):
+                if cell is not None and cell[0] <= run["center"] < cell[2]:
+                    grid[r_idx][c_idx].append(run)
+                    break
+            break
+
+    out: list[list[str]] = []
+    for r_idx, row in enumerate(rows):
+        line: list[str] = []
+        for c_idx in range(len(row.cells)):
+            found = sorted(grid[r_idx][c_idx],
+                           key=lambda r: (round(r["top"], 1), r["x0"]))
+            line.append(" ".join(t for t in (r["text"].strip() for r in found) if t))
+        out.append(line)
+    return out
+
+
 def _canonical_row(raw: list, meta_cols: int) -> list[str]:
     """Map a source row onto [division, area, feeder, load, marker, h0..h23]."""
     cells = [("" if c is None else str(c)) for c in raw]
@@ -239,7 +333,7 @@ def _extract_rows_pdfplumber(pdf_path: Path) -> tuple[list[list[str]], dict[str,
         hour_counts: set[int] = set()
         meta_col_counts: set[int] = set()
         for page_no, page in enumerate(pdf.pages, start=1):
-            table = page.extract_table()
+            table = _extract_table_cells(page)
             if not table or len(table) < 2:
                 meta["warnings"].append("page %d: no table detected" % page_no)
                 continue

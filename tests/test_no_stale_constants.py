@@ -1,0 +1,185 @@
+"""Catch constants that encode a fact about the data and then go quietly false.
+
+Two production bugs came from this one mistake, and neither was visible from
+the server:
+
+  1. `sw.js` had `const VERSION = 'ck-v2'`, a hand-bumped cache key that was
+     never bumped. `activate` deletes only caches that do not start with it, so
+     every deploy deleted nothing and returning visitors were pinned to the
+     first bundle they ever downloaded. The fix shipped and reached nobody.
+
+  2. `map.js` had `center: [90.4074, 23.7925]`, correct when the map carried
+     DESCO alone (lat 23.73-23.90). Adding DPDC took coverage down to 23.55 and
+     the opening view cut Fatulla and Narayanganj off the bottom of the screen.
+
+Both were true when written. Both were checked by nothing. The counts printed
+in the marketing copy are the same shape of risk: "36 zone sheets" is a fact
+about data/registry/dpdc-zones.json sitting in an HTML file that never reads it.
+
+These tests are deliberately about the *seam* between a written-down number and
+the data it describes, not about the numbers being any particular value.
+"""
+from __future__ import annotations
+
+import json
+import re
+from pathlib import Path
+
+import pytest
+
+ROOT = Path(__file__).resolve().parents[1]
+WEB = ROOT / "apps" / "web"
+DATA = ROOT / "data"
+
+
+def _read(path: Path) -> str:
+    if not path.exists():
+        pytest.skip("%s missing" % path.name)
+    return path.read_text(encoding="utf-8")
+
+
+def _json(path: Path):
+    if not path.exists():
+        pytest.skip("%s missing" % path.name)
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def dpdc_zone_count() -> int:
+    doc = _json(DATA / "registry" / "dpdc-zones.json")
+    zones = doc.get("zones", doc) if isinstance(doc, dict) else doc
+    return len(zones)
+
+
+def scanned_zone_count() -> int:
+    doc = _json(DATA / "schedules" / "dpdc" / "latest.json")
+    return len({c["division"] for c in doc["claims"]
+                if c.get("read_by") == "ocr-scan"})
+
+
+# ------------------------------------------------------- the service worker
+
+def test_service_worker_version_is_not_a_hand_written_literal():
+    """The exact bug: a cache key someone has to remember to change.
+
+    It must be stamped by the build from the content it caches, or every
+    deploy is invisible to everyone who has already visited once.
+    """
+    sw = _read(WEB / "sw.js")
+    assert "__BUILD_ID__" in sw, (
+        "sw.js no longer carries the build-time placeholder; if the cache key "
+        "went back to a literal, deploys stop reaching returning visitors")
+    version = re.search(r"const VERSION = ([^;]+);", sw)
+    assert version, "VERSION assignment not found in sw.js"
+    assert "BUILD_ID" in version.group(1), (
+        "VERSION must derive from BUILD_ID, found: %s" % version.group(1))
+
+
+def test_build_script_stamps_and_verifies_the_placeholder():
+    sh = _read(ROOT / "tools" / "build-site.sh")
+    assert "__BUILD_ID__" in sh and "sha256sum" in sh, (
+        "build-site.sh must hash the shell and stamp sw.js")
+    assert "exit 1" in sh, (
+        "build-site.sh must fail if the placeholder survives, or a silent "
+        "no-op takes us straight back to the pinned-cache bug")
+
+
+# --------------------------------------------------------------- the camera
+
+def _territory_bounds(utilities: set[str]):
+    fc = _json(DATA / "geo" / "utility-territories.geojson")
+    w, s, e, n = 180.0, 90.0, -180.0, -90.0
+    seen = False
+
+    def walk(c):
+        nonlocal w, s, e, n, seen
+        if isinstance(c[0], (int, float)):
+            seen = True
+            w, e = min(w, c[0]), max(e, c[0])
+            s, n = min(s, c[1]), max(n, c[1])
+            return
+        for part in c:
+            walk(part)
+
+    for f in fc["features"]:
+        if str(f["properties"].get("utility", "")).upper() in utilities:
+            walk(f["geometry"]["coordinates"])
+    assert seen, "no territory found for %s" % utilities
+    return w, s, e, n
+
+
+def test_map_fits_the_view_to_the_data():
+    """A hardcoded centre is what hid south Dhaka. It must not come back."""
+    js = _read(WEB / "src" / "map.js")
+    assert "fitTo(bounds" in js, "map.js must expose a data-driven fit"
+    app = _read(WEB / "src" / "app.js")
+    assert "fitTo(boundsOf(" in app, (
+        "app.js must fit the opening view to the served territories rather "
+        "than trusting a literal centre")
+
+
+def test_fallback_centre_still_sits_inside_the_served_area():
+    """The literal that remains is a fallback, and it must not drift again.
+
+    If a distributor is added whose territory moves the centre, this fails and
+    the fallback gets updated with it.
+    """
+    w, s, e, n = _territory_bounds({"DESCO", "DPDC"})
+    js = _read(WEB / "src" / "map.js")
+    m = re.search(r"center:\s*\[\s*(-?[\d.]+)\s*,\s*(-?[\d.]+)\s*\]", js)
+    assert m, "no fallback centre found in map.js"
+    lon, lat = float(m.group(1)), float(m.group(2))
+    mid_lon, mid_lat = (w + e) / 2, (s + n) / 2
+    # A tenth of a degree is about 11 km. The bug was 0.07 degrees north.
+    assert abs(lat - mid_lat) < 0.05, (
+        "fallback centre lat %.4f is %.4f from the centre of the served area "
+        "(%.4f); this is exactly how Fatulla and Narayanganj fell off screen"
+        % (lat, abs(lat - mid_lat), mid_lat))
+    assert abs(lon - mid_lon) < 0.05, "fallback centre lon drifted to %.4f" % lon
+
+
+def test_every_zone_cell_sits_inside_the_fitted_bounds():
+    """Fitting to territories must actually frame every zone we draw."""
+    w, s, e, n = _territory_bounds({"DESCO", "DPDC"})
+    for name in ("dpdc-zones.geojson", "desco-divisions.geojson"):
+        fc = _json(DATA / "geo" / name)
+        for f in fc["features"]:
+            coords = f["geometry"]["coordinates"]
+            while not isinstance(coords[0][0], (int, float)):
+                coords = coords[0]
+            lon, lat = coords[0][:2]
+            assert w - 0.01 <= lon <= e + 0.01 and s - 0.01 <= lat <= n + 0.01, (
+                "%s in %s falls outside the fitted view"
+                % (f["properties"].get("division"), name))
+
+
+# ------------------------------------------------------- numbers in the copy
+
+def test_zone_count_in_the_copy_matches_the_registry():
+    """"36 DPDC zone sheets" is a fact about a JSON file, written in HTML."""
+    expected = dpdc_zone_count()
+    for page in ("index.html", "about.html", "sources.html"):
+        html = _read(WEB / page)
+        for claimed in re.findall(r"\b(\d{2}) (?:of them|DPDC zone sheets|zones are read)", html):
+            assert int(claimed) == expected, (
+                "%s claims %s DPDC zones, registry has %d"
+                % (page, claimed, expected))
+
+
+def test_scanned_count_in_the_copy_matches_what_was_read():
+    expected = scanned_zone_count()
+    for page in ("index.html", "about.html", "sources.html"):
+        html = _read(WEB / page)
+        for claimed in re.findall(r"\b(\d{1,2})[ ]scanned photographs", html):
+            assert int(claimed) == expected, (
+                "%s claims %s scanned sheets, the feed reports %d"
+                % (page, claimed, expected))
+
+
+def test_sheet_total_in_the_copy_is_the_zones_plus_desco():
+    """"37 sheets" is 36 DPDC zone sheets plus DESCO's one weekday sheet."""
+    html = _read(WEB / "index.html")
+    m = re.search(r"\b(\d{2}) sheets\b", html)
+    if not m:
+        pytest.skip("sheet total not stated in the copy")
+    assert int(m.group(1)) == dpdc_zone_count() + 1, (
+        "copy says %s sheets, data says %d" % (m.group(1), dpdc_zone_count() + 1))
