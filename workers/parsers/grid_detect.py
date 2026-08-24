@@ -90,8 +90,19 @@ def hour_region(cols: list[int]) -> tuple[int, list[int]]:
     widths = [(i, cols[i + 1] - cols[i]) for i in range(len(cols) - 1)]
     if not widths:
         return 0, []
-    widest = max(widths, key=lambda t: t[1])[0]
-    return widest, [i for i, _ in widths if i > widest]
+    # Look for the area-name column only in the left portion. On maniknagar the
+    # widest column of all is the LAST one, which left no hour region at all.
+    left = [t for t in widths if t[0] < max(1, int(len(widths) * 0.62))] or widths
+    widest = max(left, key=lambda t: t[1])[0]
+    region = [i for i, _ in widths if i > widest]
+    # Drop a trailing column far wider than the rest: it is a margin, not an hour.
+    while len(region) > 4:
+        w = [cols[ci + 1] - cols[ci] for ci in region]
+        if w[-1] > float(np.median(w)) * 2.0:
+            region = region[:-1]
+        else:
+            break
+    return widest, region
 
 
 def split_merged(gray: np.ndarray, cols: list[int], region: list[int]) -> list[int]:

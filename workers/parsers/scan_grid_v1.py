@@ -43,8 +43,37 @@ from typing import Any
 
 import numpy as np
 
-from workers.ingestion.common import iso_utc, slugify
+from workers.ingestion.common import REGISTRY_DIR, iso_utc, read_json, slugify
 from workers.parsers import grid_detect
+
+#: Human-read hour layouts for the scanned sheets, keyed by zone slug.
+_GRIDS_CACHE: dict | None = None
+
+
+def recorded_grid(zone_slug: str) -> tuple[list[tuple[int, int] | None], int] | None:
+    """The recorded hour layout for a zone, as (entries, render_dpi).
+
+    Entries are (start, end) per column, or None for a blank spacer. Returns
+    None when no grid has been recorded, which means the zone must not publish.
+    """
+    global _GRIDS_CACHE
+    if _GRIDS_CACHE is None:
+        _GRIDS_CACHE = read_json(REGISTRY_DIR / "dpdc-hour-grids.json", {}) or {}
+    raw = (_GRIDS_CACHE.get("grids") or {}).get(zone_slug)
+    if not raw:
+        return None
+    dpi = int(((_GRIDS_CACHE.get("render") or {}).get("dpi")) or 400)
+    out: list[tuple[int, int] | None] = []
+    for token in raw:
+        if token == "blank":
+            out.append(None)
+            continue
+        a, b = token.split("-")
+        a, b = int(a), int(b)
+        if b == 0:                       # "23-00" means midnight, not hour zero
+            b = 24
+        out.append((a, b))
+    return out, dpi
 
 PARSER_ADAPTER = "scan_grid_v1"
 PARSER_VERSION = "1.0.0"
@@ -307,6 +336,7 @@ def parse(
     utility: str,
     zone: str,
     publisher: str,
+    zone_slug: str = "",
     template_hours: list[tuple[int, int]] | None = None,
     retrieved_at: str | None = None,
     tls_verified: bool = True,
@@ -343,7 +373,20 @@ def parse(
         if len(found) > len(hour_cols):
             hour_cols, header_row = found, ri
 
+    # ---- prefer the recorded human-read grid --------------------------------
     hour_source = "ocr"
+    recorded = recorded_grid(zone_slug) if zone_slug else None
+    if recorded:
+        entries, _ = recorded
+        if len(entries) != len(hour_region):
+            raise ScanError(
+                "recorded hour grid for %r has %d columns but this sheet has %d; "
+                "the layout changed and the grid must be re-read"
+                % (zone_slug, len(entries), len(hour_region)))
+        hour_cols = [(ci, e[0], e[1])
+                     for ci, e in zip(hour_region, entries) if e is not None]
+        hour_source = "recorded"
+        header_row = find_header_row(gray, rows, cols, hour_region)
     if len(hour_cols) < 6:
         # Tesseract's Bengali model cannot reliably read these small stacked
         # numerals out of a phone scan. The grid itself is sound, so fall back to
@@ -361,10 +404,42 @@ def parse(
                 "hour labels unreadable and column geometry does not match the "
                 "known %s grid; refusing to guess" % utility)
 
-    # ---- paper brightness, so exposure differences do not shift the threshold
+    # ---- shading threshold, learned from the cells themselves ---------------
+    # A fixed fraction of paper brightness fails across scan exposures: on a
+    # clean scan the paper is pure white, the threshold lands at 158, and
+    # genuinely shaded cells sitting around 200 are missed entirely. Instead,
+    # measure every hour cell and let Otsu split "blank" from "shaded" on that
+    # distribution, which adapts to whatever exposure the scan happens to have.
+    import cv2 as _cv2
     data_top = rows[header_row + 1]
     paper = float(np.percentile(gray[data_top:rows[-1], cols[0]:cols[-1]], 75))
-    mark_thr = paper * 0.62
+
+    samples: list[float] = []
+    for ri in range(header_row + 1, len(rows) - 1):
+        y0, y1 = rows[ri], rows[ri + 1]
+        if y1 - y0 < 10:
+            continue
+        for ci, _a, _b in hour_cols:
+            x0, x1 = cols[ci], cols[ci + 1]
+            mx, my = max(3, (x1 - x0) // 6), max(3, (y1 - y0) // 5)
+            patch = gray[y0 + my:y1 - my, x0 + mx:x1 - mx]
+            if patch.size >= 16:
+                samples.append(float(patch.mean()))
+
+    if samples:
+        arr = np.array(samples, dtype=np.float32)
+        spread = float(arr.max() - arr.min())
+        if spread > 18:
+            otsu, _ = _cv2.threshold(
+                arr.astype(np.uint8).reshape(-1, 1), 0, 255,
+                _cv2.THRESH_BINARY + _cv2.THRESH_OTSU)
+            # Otsu sits between the two clusters; keep it below the pale one.
+            mark_thr = float(otsu)
+        else:
+            # Everything looks the same: no shading on this sheet.
+            mark_thr = float(arr.min()) - 1.0
+    else:
+        mark_thr = paper * 0.62
 
     # ---- feeder code column: the leftmost column whose cells look like codes -
     code_col = None
@@ -475,6 +550,28 @@ def parse(
                          if unread_codes else []),
         },
     }
+
+
+def find_header_row(gray, rows: list[int], cols: list[int],
+                    region: list[int]) -> int:
+    """The band whose hour cells actually carry labels.
+
+    This is the same rule the review tool used to crop the headers a human then
+    read, so a recorded grid lines up with the columns it was read from.
+    """
+    def inked(cell) -> bool:
+        return bool(cell.size) and float((cell < 128).mean()) > 0.02
+
+    best = (0, 0)
+    for ri in range(min(6, len(rows) - 1)):
+        y0, y1 = rows[ri], rows[ri + 1]
+        if y1 - y0 < 14:
+            continue
+        n = sum(1 for ci in region
+                if inked(gray[y0 + 4:y1 - 4, cols[ci] + 4:cols[ci + 1] - 4]))
+        if n > best[0]:
+            best = (n, ri)
+    return best[1]
 
 
 def _guess_header_row(rows: list[int]) -> int:

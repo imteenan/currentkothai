@@ -238,8 +238,10 @@ def ingest_dpdc(*, offline: bool = False) -> dict:
                     archive, source_id="dpdc-zone-%s" % z["slug"], source_url=z["pdf_url"],
                     sha256=sha256_bytes(content), effective_date=effective_date,
                     utility="DPDC", zone=z["name"], publisher=dpdc_pdf_v1.PUBLISHER,
+                    zone_slug=z["slug"],
                     retrieved_at=iso_utc(), tls_verified=tls_ok,
                     archive_path=str(archive).replace("\\", "/"),
+                    dpi=400,
                     template_hours=DPDC_HOUR_TEMPLATE)
                 claims.extend(doc["claims"])
                 part_hashes.append("%s:%s" % (z["slug"], doc["source"]["sha256"]))

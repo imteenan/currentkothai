@@ -8,17 +8,21 @@
   "source": {
     "source_id": "dpdc-load-shedding-index",
     "source_url": "https://dpdc.org.bd/site/nocs/load_shedding",
-    "retrieved_at": "2026-08-24T07:23:06Z",
-    "sha256": "610ce062d381b5ae8edcfc8273328d9e4378e5d6f52d21b3254e2e4d18d049c4",
+    "retrieved_at": "2026-08-24T10:19:57Z",
+    "sha256": "090808e729c81252d667b991240e455a93b449d8e236d080fad48c1e8e765c20",
     "part_hashes": [
       "adabor:ba9b142bc1929a55f4a869bd6a76ac0e95d4cc723eae262b3c790f4294fdff7b",
+      "azimpur:68f381de7d8c5af371d1cadc0929c0fa528eac57285ba34131cb7bf7bf3c6caa",
       "banasree:062580837d87c0ca82622b8b996c0390f1523468ebee7cddd6163157536c64c2",
+      "banglabazar:c35f0f2a79e732ba1d0d7049db4b64416913f5228cd1fba515792270efe298fe",
       "bashaboo:59ecd20e1747dd98b7104c7d3109f4bedfdee12576a31bddb4ed3bb3891ed7f7",
       "demra:044c9a8bfb8341b1a1bf2bbe7b7cdae33cf8f987d7e299b682fdd8cf3ac5a60b",
       "dhanmondi:33d45df7ac26f3376f838482473297cd7530b9b53360314537d15686012af4e8",
+      "fatulla:5e4d9c2e005fc2103d2c30b48e090362817b19903a4f54c60d0c1aa0f05c3556",
       "jigatola:b3351e5dfd11e0d843d2d0e06d2105670d783fd8a9058e0a8bac1f97f388b579",
       "jurain:adc970fa65ca0cac9d2466c9a72a92e304d4c329e14924dc1a8d7ed20215e26d",
       "kakrail:1966bffd7d1e6f35c53e142d00f138a8009bfa5a24661a314540eb93dabf43ad",
+      "kamrangirchar:76d3715b34ea5f1887b08a9a9d3759c3432e66b9d183a70340eee57c0e903173",
       "kazla:b5219d3a160d39d12e3f2001491de561cb2f458e8ae4e1ebdab26349b272a395",
       "lalbag:0b7ce8de9dec1133e912c7d4b6c400a2bf3d54722e8f439fd45e6881b4dbe6de",
       "matuail:c8f9a7db1aea6e3e12d7e229995ee8ad55e3a66128eac79e42d527fa8ffa78ea",
@@ -29,7 +33,8 @@
       "narinda:466509b291a952a602d99ad8d3c514440f3bade651d2dc23fb7625ffd5ee921e",
       "paribag:2533ef8f49c2efe33c793d0e2afd2cc267c519e795f29d200d60f268645b5eb9",
       "postogola:6edf7ad44d9f0cb4e7f0b88a2670b0192279ead9990174f05595e311efb932c6",
-      "ramna:79e2ca21912ff463349d1fc705a78d3ba816aca6a23edd8e9b17266fd9a1a8aa",
+      "rajarbag:9864926651c0f1a286d8793dd441ae82f017b8e4c49b5a10ec3530e0d2be8789",
+      "ramna:631919ba79657f79e1b7c35f4bc377420a8e4ed88d97c8fdc33d952452688fc1",
       "satmosjid:bc20a10a86f1261eed594d20f0bd7fc389388854d9503dd2f8c5d810d978e588",
       "shamoli:79ce1e4883de1a99286c86913644bf850b08f8577f1290a6ea5bb167baf38793",
       "sher-e-bangla nagar:51e49bf132aea37ac71e2e80e1c49f83b4462d734645edadc73d984b75a1b1e6",
@@ -546,10 +551,86 @@
       "billing_code": "G1121EG"
     },
     {
-      "division": "Bashaboo",
-      "division_canonical": "Bashaboo",
-      "feeder": "row-01",
-      "feeder_id": "dpdc:bashaboo:row-01",
+      "division": "Azimpur",
+      "division_canonical": "Azimpur",
+      "feeder": "row-02",
+      "feeder_id": "dpdc:azimpur:row-02",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Azimpur",
+      "division_canonical": "Azimpur",
+      "feeder": "row-04",
+      "feeder_id": "dpdc:azimpur:row-04",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Azimpur",
+      "division_canonical": "Azimpur",
+      "feeder": "row-05",
+      "feeder_id": "dpdc:azimpur:row-05",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Azimpur",
+      "division_canonical": "Azimpur",
+      "feeder": "row-06",
+      "feeder_id": "dpdc:azimpur:row-06",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Azimpur",
+      "division_canonical": "Azimpur",
+      "feeder": "row-07",
+      "feeder_id": "dpdc:azimpur:row-07",
       "area_text": "",
       "windows": [
         {
@@ -568,28 +649,10 @@
       "code_confident": false
     },
     {
-      "division": "Bashaboo",
-      "division_canonical": "Bashaboo",
-      "feeder": "A997L",
-      "feeder_id": "dpdc:bashaboo:a997l",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "17:00",
-          "end": "18:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": "A997L",
-      "read_by": "ocr-scan",
-      "code_confident": true
-    },
-    {
-      "division": "Bashaboo",
-      "division_canonical": "Bashaboo",
-      "feeder": "A929P",
-      "feeder_id": "dpdc:bashaboo:a929p",
+      "division": "Azimpur",
+      "division_canonical": "Azimpur",
+      "feeder": "row-08",
+      "feeder_id": "dpdc:azimpur:row-08",
       "area_text": "",
       "windows": [
         {
@@ -603,17 +666,385 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "A929P",
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Azimpur",
+      "division_canonical": "Azimpur",
+      "feeder": "row-09",
+      "feeder_id": "dpdc:azimpur:row-09",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Azimpur",
+      "division_canonical": "Azimpur",
+      "feeder": "row-10",
+      "feeder_id": "dpdc:azimpur:row-10",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Azimpur",
+      "division_canonical": "Azimpur",
+      "feeder": "row-11",
+      "feeder_id": "dpdc:azimpur:row-11",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Azimpur",
+      "division_canonical": "Azimpur",
+      "feeder": "row-12",
+      "feeder_id": "dpdc:azimpur:row-12",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Azimpur",
+      "division_canonical": "Azimpur",
+      "feeder": "row-13",
+      "feeder_id": "dpdc:azimpur:row-13",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Azimpur",
+      "division_canonical": "Azimpur",
+      "feeder": "row-14",
+      "feeder_id": "dpdc:azimpur:row-14",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Azimpur",
+      "division_canonical": "Azimpur",
+      "feeder": "row-15",
+      "feeder_id": "dpdc:azimpur:row-15",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Azimpur",
+      "division_canonical": "Azimpur",
+      "feeder": "row-16",
+      "feeder_id": "dpdc:azimpur:row-16",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Banglabazar",
+      "division_canonical": "Banglabazar",
+      "feeder": "A618D",
+      "feeder_id": "dpdc:banglabazar:a618d",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A618D",
       "read_by": "ocr-scan",
       "code_confident": true
     },
     {
-      "division": "Bashaboo",
-      "division_canonical": "Bashaboo",
-      "feeder": "A914S",
-      "feeder_id": "dpdc:bashaboo:a914s",
+      "division": "Banglabazar",
+      "division_canonical": "Banglabazar",
+      "feeder": "A619",
+      "feeder_id": "dpdc:banglabazar:a619",
       "area_text": "",
       "windows": [
+        {
+          "start": "16:00",
+          "end": "17:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A619",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Banglabazar",
+      "division_canonical": "Banglabazar",
+      "feeder": "A619S",
+      "feeder_id": "dpdc:banglabazar:a619s",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A619S",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Banglabazar",
+      "division_canonical": "Banglabazar",
+      "feeder": "row-04",
+      "feeder_id": "dpdc:banglabazar:row-04",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Banglabazar",
+      "division_canonical": "Banglabazar",
+      "feeder": "A619B",
+      "feeder_id": "dpdc:banglabazar:a619b",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A619B",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Banglabazar",
+      "division_canonical": "Banglabazar",
+      "feeder": "A619K",
+      "feeder_id": "dpdc:banglabazar:a619k",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A619K",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Banglabazar",
+      "division_canonical": "Banglabazar",
+      "feeder": "row-07",
+      "feeder_id": "dpdc:banglabazar:row-07",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Banglabazar",
+      "division_canonical": "Banglabazar",
+      "feeder": "row-08",
+      "feeder_id": "dpdc:banglabazar:row-08",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Banglabazar",
+      "division_canonical": "Banglabazar",
+      "feeder": "A619L",
+      "feeder_id": "dpdc:banglabazar:a619l",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A619L",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Banglabazar",
+      "division_canonical": "Banglabazar",
+      "feeder": "row-10",
+      "feeder_id": "dpdc:banglabazar:row-10",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Banglabazar",
+      "division_canonical": "Banglabazar",
+      "feeder": "A687R",
+      "feeder_id": "dpdc:banglabazar:a687r",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        },
         {
           "start": "23:00",
           "end": "24:00"
@@ -621,7 +1052,139 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "A914S",
+      "billing_code": "A687R",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Banglabazar",
+      "division_canonical": "Banglabazar",
+      "feeder": "row-12",
+      "feeder_id": "dpdc:banglabazar:row-12",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Banglabazar",
+      "division_canonical": "Banglabazar",
+      "feeder": "A687C",
+      "feeder_id": "dpdc:banglabazar:a687c",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A687C",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Banglabazar",
+      "division_canonical": "Banglabazar",
+      "feeder": "A687F",
+      "feeder_id": "dpdc:banglabazar:a687f",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A687F",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Banglabazar",
+      "division_canonical": "Banglabazar",
+      "feeder": "row-15",
+      "feeder_id": "dpdc:banglabazar:row-15",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Bashaboo",
+      "division_canonical": "Bashaboo",
+      "feeder": "row-02",
+      "feeder_id": "dpdc:bashaboo:row-02",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Bashaboo",
+      "division_canonical": "Bashaboo",
+      "feeder": "A997C",
+      "feeder_id": "dpdc:bashaboo:a997c",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A997C",
       "read_by": "ocr-scan",
       "code_confident": true
     },
@@ -635,6 +1198,10 @@
         {
           "start": "14:00",
           "end": "15:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
         }
       ],
       "weekday": null,
@@ -655,7 +1222,11 @@
           "end": "17:00"
         },
         {
-          "start": "20:00",
+          "start": "19:00",
+          "end": "20:00"
+        },
+        {
+          "start": "22:00",
           "end": "23:00"
         }
       ],
@@ -668,10 +1239,14 @@
     {
       "division": "Bashaboo",
       "division_canonical": "Bashaboo",
-      "feeder": "A929A",
-      "feeder_id": "dpdc:bashaboo:a929a",
+      "feeder": "row-06",
+      "feeder_id": "dpdc:bashaboo:row-06",
       "area_text": "",
       "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
         {
           "start": "14:00",
           "end": "15:00"
@@ -679,37 +1254,15 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "A929A",
+      "billing_code": null,
       "read_by": "ocr-scan",
-      "code_confident": true
+      "code_confident": false
     },
     {
       "division": "Bashaboo",
       "division_canonical": "Bashaboo",
-      "feeder": "A929T",
-      "feeder_id": "dpdc:bashaboo:a929t",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "17:00",
-          "end": "18:00"
-        },
-        {
-          "start": "20:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": "A929T",
-      "read_by": "ocr-scan",
-      "code_confident": true
-    },
-    {
-      "division": "Bashaboo",
-      "division_canonical": "Bashaboo",
-      "feeder": "A929P",
-      "feeder_id": "dpdc:bashaboo:a929p",
+      "feeder": "row-07",
+      "feeder_id": "dpdc:bashaboo:row-07",
       "area_text": "",
       "windows": [
         {
@@ -719,15 +1272,15 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "A929P",
+      "billing_code": null,
       "read_by": "ocr-scan",
-      "code_confident": true
+      "code_confident": false
     },
     {
       "division": "Demra",
       "division_canonical": "Demra",
-      "feeder": "E116G",
-      "feeder_id": "dpdc:demra:e116g",
+      "feeder": "row-01",
+      "feeder_id": "dpdc:demra:row-01",
       "area_text": "",
       "windows": [
         {
@@ -737,9 +1290,9 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "E116G",
+      "billing_code": null,
       "read_by": "ocr-scan",
-      "code_confident": true
+      "code_confident": false
     },
     {
       "division": "Demra",
@@ -766,24 +1319,6 @@
     {
       "division": "Demra",
       "division_canonical": "Demra",
-      "feeder": "E118B",
-      "feeder_id": "dpdc:demra:e118b",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": "E118B",
-      "read_by": "ocr-scan",
-      "code_confident": true
-    },
-    {
-      "division": "Demra",
-      "division_canonical": "Demra",
       "feeder": "E183T",
       "feeder_id": "dpdc:demra:e183t",
       "area_text": "",
@@ -795,6 +1330,10 @@
         {
           "start": "16:00",
           "end": "17:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -857,10 +1396,6 @@
         {
           "start": "12:00",
           "end": "13:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
         }
       ],
       "weekday": null,
@@ -945,6 +1480,10 @@
         {
           "start": "09:00",
           "end": "10:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -956,8 +1495,8 @@
     {
       "division": "Demra",
       "division_canonical": "Demra",
-      "feeder": "E1102A",
-      "feeder_id": "dpdc:demra:e1102a",
+      "feeder": "row-16",
+      "feeder_id": "dpdc:demra:row-16",
       "area_text": "",
       "windows": [
         {
@@ -967,9 +1506,9 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "E1102A",
+      "billing_code": null,
       "read_by": "ocr-scan",
-      "code_confident": true
+      "code_confident": false
     },
     {
       "division": "Demra",
@@ -1039,14 +1578,6 @@
         {
           "start": "12:00",
           "end": "13:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
         }
       ],
       "weekday": null,
@@ -1063,6 +1594,10 @@
       "area_text": "",
       "windows": [
         {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
           "start": "18:00",
           "end": "20:00"
         }
@@ -1076,6 +1611,24 @@
     {
       "division": "Dhanmondi",
       "division_canonical": "Dhanmondi",
+      "feeder": "D207C",
+      "feeder_id": "dpdc:dhanmondi:d207c",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "18:00",
+          "end": "19:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D207C",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Dhanmondi",
+      "division_canonical": "Dhanmondi",
       "feeder": "D201E",
       "feeder_id": "dpdc:dhanmondi:d201e",
       "area_text": "",
@@ -1083,6 +1636,10 @@
         {
           "start": "10:00",
           "end": "11:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
         },
         {
           "start": "20:00",
@@ -1103,6 +1660,10 @@
       "area_text": "",
       "windows": [
         {
+          "start": "18:00",
+          "end": "19:00"
+        },
+        {
           "start": "21:00",
           "end": "22:00"
         }
@@ -1116,20 +1677,24 @@
     {
       "division": "Dhanmondi",
       "division_canonical": "Dhanmondi",
-      "feeder": "D207K",
-      "feeder_id": "dpdc:dhanmondi:d207k",
+      "feeder": "row-05",
+      "feeder_id": "dpdc:dhanmondi:row-05",
       "area_text": "",
       "windows": [
         {
           "start": "15:00",
           "end": "17:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
         }
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "D207K",
+      "billing_code": null,
       "read_by": "ocr-scan",
-      "code_confident": true
+      "code_confident": false
     },
     {
       "division": "Dhanmondi",
@@ -1141,6 +1706,10 @@
         {
           "start": "11:00",
           "end": "13:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
         },
         {
           "start": "22:00",
@@ -1163,6 +1732,10 @@
         {
           "start": "15:00",
           "end": "17:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
         }
       ],
       "weekday": null,
@@ -1174,10 +1747,14 @@
     {
       "division": "Dhanmondi",
       "division_canonical": "Dhanmondi",
-      "feeder": "D207T",
-      "feeder_id": "dpdc:dhanmondi:d207t",
+      "feeder": "D207F",
+      "feeder_id": "dpdc:dhanmondi:d207f",
       "area_text": "",
       "windows": [
+        {
+          "start": "18:00",
+          "end": "19:00"
+        },
         {
           "start": "21:00",
           "end": "22:00"
@@ -1185,20 +1762,42 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "D207T",
+      "billing_code": "D207F",
       "read_by": "ocr-scan",
       "code_confident": true
     },
     {
       "division": "Dhanmondi",
       "division_canonical": "Dhanmondi",
-      "feeder": "row-11",
-      "feeder_id": "dpdc:dhanmondi:row-11",
+      "feeder": "row-09",
+      "feeder_id": "dpdc:dhanmondi:row-09",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "18:00",
+          "end": "19:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Dhanmondi",
+      "division_canonical": "Dhanmondi",
+      "feeder": "row-10",
+      "feeder_id": "dpdc:dhanmondi:row-10",
       "area_text": "",
       "windows": [
         {
           "start": "10:00",
           "end": "11:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
         },
         {
           "start": "20:00",
@@ -1223,6 +1822,10 @@
           "end": "13:00"
         },
         {
+          "start": "18:00",
+          "end": "19:00"
+        },
+        {
           "start": "22:00",
           "end": "23:00"
         }
@@ -1243,6 +1846,10 @@
         {
           "start": "15:00",
           "end": "16:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
         }
       ],
       "weekday": null,
@@ -1259,6 +1866,10 @@
       "area_text": "",
       "windows": [
         {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
           "start": "18:00",
           "end": "20:00"
         }
@@ -1272,6 +1883,24 @@
     {
       "division": "Dhanmondi",
       "division_canonical": "Dhanmondi",
+      "feeder": "D270R",
+      "feeder_id": "dpdc:dhanmondi:d270r",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "18:00",
+          "end": "19:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D270R",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Dhanmondi",
+      "division_canonical": "Dhanmondi",
       "feeder": "D207S",
       "feeder_id": "dpdc:dhanmondi:d207s",
       "area_text": "",
@@ -1279,6 +1908,10 @@
         {
           "start": "13:00",
           "end": "14:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
         },
         {
           "start": "23:00",
@@ -1301,6 +1934,10 @@
         {
           "start": "15:00",
           "end": "17:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
         }
       ],
       "weekday": null,
@@ -1319,6 +1956,10 @@
         {
           "start": "13:00",
           "end": "14:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
         },
         {
           "start": "23:00",
@@ -1341,6 +1982,10 @@
         {
           "start": "15:00",
           "end": "16:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
         }
       ],
       "weekday": null,
@@ -1348,6 +1993,718 @@
       "billing_code": "D2118H",
       "read_by": "ocr-scan",
       "code_confident": true
+    },
+    {
+      "division": "Dhanmondi",
+      "division_canonical": "Dhanmondi",
+      "feeder": "row-19",
+      "feeder_id": "dpdc:dhanmondi:row-19",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "11:00",
+          "end": "14:00"
+        },
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "15:00",
+          "end": "17:00"
+        },
+        {
+          "start": "19:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-04",
+      "feeder_id": "dpdc:fatulla:row-04",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-05",
+      "feeder_id": "dpdc:fatulla:row-05",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-06",
+      "feeder_id": "dpdc:fatulla:row-06",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-07",
+      "feeder_id": "dpdc:fatulla:row-07",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-08",
+      "feeder_id": "dpdc:fatulla:row-08",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-09",
+      "feeder_id": "dpdc:fatulla:row-09",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-10",
+      "feeder_id": "dpdc:fatulla:row-10",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-11",
+      "feeder_id": "dpdc:fatulla:row-11",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-12",
+      "feeder_id": "dpdc:fatulla:row-12",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "16:00",
+          "end": "17:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-13",
+      "feeder_id": "dpdc:fatulla:row-13",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-14",
+      "feeder_id": "dpdc:fatulla:row-14",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-15",
+      "feeder_id": "dpdc:fatulla:row-15",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-16",
+      "feeder_id": "dpdc:fatulla:row-16",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-17",
+      "feeder_id": "dpdc:fatulla:row-17",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-18",
+      "feeder_id": "dpdc:fatulla:row-18",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-19",
+      "feeder_id": "dpdc:fatulla:row-19",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-20",
+      "feeder_id": "dpdc:fatulla:row-20",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-21",
+      "feeder_id": "dpdc:fatulla:row-21",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-22",
+      "feeder_id": "dpdc:fatulla:row-22",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-23",
+      "feeder_id": "dpdc:fatulla:row-23",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-24",
+      "feeder_id": "dpdc:fatulla:row-24",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-25",
+      "feeder_id": "dpdc:fatulla:row-25",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-26",
+      "feeder_id": "dpdc:fatulla:row-26",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "16:00",
+          "end": "17:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-27",
+      "feeder_id": "dpdc:fatulla:row-27",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "16:00",
+          "end": "17:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-28",
+      "feeder_id": "dpdc:fatulla:row-28",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-29",
+      "feeder_id": "dpdc:fatulla:row-29",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-30",
+      "feeder_id": "dpdc:fatulla:row-30",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-31",
+      "feeder_id": "dpdc:fatulla:row-31",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-32",
+      "feeder_id": "dpdc:fatulla:row-32",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-33",
+      "feeder_id": "dpdc:fatulla:row-33",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-34",
+      "feeder_id": "dpdc:fatulla:row-34",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "16:00",
+          "end": "17:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-35",
+      "feeder_id": "dpdc:fatulla:row-35",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Fatulla",
+      "division_canonical": "Fatulla",
+      "feeder": "row-36",
+      "feeder_id": "dpdc:fatulla:row-36",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        },
+        {
+          "start": "21:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
     },
     {
       "division": "Kakrail",
@@ -1770,6 +3127,526 @@
       "feeder_name_bn": "বাংলা মটর",
       "substation_bn": "মগবাজার ৩৩/১১ (cid:495)কিভ",
       "billing_code": "C608H"
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "F120S",
+      "feeder_id": "dpdc:kamrangirchar:f120s",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "17:00",
+          "end": "18:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "F120S",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "row-02",
+      "feeder_id": "dpdc:kamrangirchar:row-02",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "row-03",
+      "feeder_id": "dpdc:kamrangirchar:row-03",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "F140H",
+      "feeder_id": "dpdc:kamrangirchar:f140h",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "F140H",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "row-05",
+      "feeder_id": "dpdc:kamrangirchar:row-05",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "row-06",
+      "feeder_id": "dpdc:kamrangirchar:row-06",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "F140D",
+      "feeder_id": "dpdc:kamrangirchar:f140d",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "F140D",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "row-08",
+      "feeder_id": "dpdc:kamrangirchar:row-08",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "13:00",
+          "end": "14:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "row-09",
+      "feeder_id": "dpdc:kamrangirchar:row-09",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "row-11",
+      "feeder_id": "dpdc:kamrangirchar:row-11",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "row-12",
+      "feeder_id": "dpdc:kamrangirchar:row-12",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "16:00",
+          "end": "17:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "row-13",
+      "feeder_id": "dpdc:kamrangirchar:row-13",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "F1114P",
+      "feeder_id": "dpdc:kamrangirchar:f1114p",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "F1114P",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "F114V",
+      "feeder_id": "dpdc:kamrangirchar:f114v",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "17:00",
+          "end": "18:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "F114V",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "F1114U",
+      "feeder_id": "dpdc:kamrangirchar:f1114u",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "F1114U",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "F1114Q",
+      "feeder_id": "dpdc:kamrangirchar:f1114q",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "F1114Q",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "F1114W",
+      "feeder_id": "dpdc:kamrangirchar:f1114w",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "F1114W",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "row-19",
+      "feeder_id": "dpdc:kamrangirchar:row-19",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "row-20",
+      "feeder_id": "dpdc:kamrangirchar:row-20",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "16:00",
+          "end": "17:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "F1118AB",
+      "feeder_id": "dpdc:kamrangirchar:f1118ab",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "F1118AB",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "row-22",
+      "feeder_id": "dpdc:kamrangirchar:row-22",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "13:00",
+          "end": "14:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "row-23",
+      "feeder_id": "dpdc:kamrangirchar:row-23",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "row-24",
+      "feeder_id": "dpdc:kamrangirchar:row-24",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Kamrangirchar",
+      "division_canonical": "Kamrangirchar",
+      "feeder": "row-25",
+      "feeder_id": "dpdc:kamrangirchar:row-25",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
     },
     {
       "division": "Lalbag",
@@ -3138,8 +5015,8 @@
     {
       "division": "Paribag",
       "division_canonical": "Paribag",
-      "feeder": "row-02",
-      "feeder_id": "dpdc:paribag:row-02",
+      "feeder": "row-03",
+      "feeder_id": "dpdc:paribag:row-03",
       "area_text": "",
       "windows": [
         {
@@ -3156,8 +5033,8 @@
     {
       "division": "Paribag",
       "division_canonical": "Paribag",
-      "feeder": "C30T",
-      "feeder_id": "dpdc:paribag:c30t",
+      "feeder": "C3011",
+      "feeder_id": "dpdc:paribag:c3011",
       "area_text": "",
       "windows": [
         {
@@ -3167,7 +5044,7 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "C30T",
+      "billing_code": "C3011",
       "read_by": "ocr-scan",
       "code_confident": true
     },
@@ -3192,8 +5069,8 @@
     {
       "division": "Paribag",
       "division_canonical": "Paribag",
-      "feeder": "row-05",
-      "feeder_id": "dpdc:paribag:row-05",
+      "feeder": "C301E",
+      "feeder_id": "dpdc:paribag:c301e",
       "area_text": "",
       "windows": [
         {
@@ -3203,9 +5080,9 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": null,
+      "billing_code": "C301E",
       "read_by": "ocr-scan",
-      "code_confident": false
+      "code_confident": true
     },
     {
       "division": "Paribag",
@@ -3244,24 +5121,6 @@
       "weekday": null,
       "load_mw": null,
       "billing_code": "C301U",
-      "read_by": "ocr-scan",
-      "code_confident": true
-    },
-    {
-      "division": "Paribag",
-      "division_canonical": "Paribag",
-      "feeder": "C302J",
-      "feeder_id": "dpdc:paribag:c302j",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": "C302J",
       "read_by": "ocr-scan",
       "code_confident": true
     },
@@ -3322,8 +5181,8 @@
     {
       "division": "Paribag",
       "division_canonical": "Paribag",
-      "feeder": "C302A",
-      "feeder_id": "dpdc:paribag:c302a",
+      "feeder": "C8028",
+      "feeder_id": "dpdc:paribag:c8028",
       "area_text": "",
       "windows": [
         {
@@ -3333,7 +5192,7 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "C302A",
+      "billing_code": "C8028",
       "read_by": "ocr-scan",
       "code_confident": true
     },
@@ -3394,8 +5253,8 @@
     {
       "division": "Postogola",
       "division_canonical": "Postogola",
-      "feeder": "A525",
-      "feeder_id": "dpdc:postogola:a525",
+      "feeder": "A525I",
+      "feeder_id": "dpdc:postogola:a525i",
       "area_text": "",
       "windows": [
         {
@@ -3405,33 +5264,7 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "A525",
-      "read_by": "ocr-scan",
-      "code_confident": true
-    },
-    {
-      "division": "Postogola",
-      "division_canonical": "Postogola",
-      "feeder": "A525M",
-      "feeder_id": "dpdc:postogola:a525m",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": "A525M",
+      "billing_code": "A525I",
       "read_by": "ocr-scan",
       "code_confident": true
     },
@@ -3456,106 +5289,10 @@
     {
       "division": "Postogola",
       "division_canonical": "Postogola",
-      "feeder": "A525H",
-      "feeder_id": "dpdc:postogola:a525h",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": "A525H",
-      "read_by": "ocr-scan",
-      "code_confident": true
-    },
-    {
-      "division": "Postogola",
-      "division_canonical": "Postogola",
-      "feeder": "A524N",
-      "feeder_id": "dpdc:postogola:a524n",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": "A524N",
-      "read_by": "ocr-scan",
-      "code_confident": true
-    },
-    {
-      "division": "Postogola",
-      "division_canonical": "Postogola",
-      "feeder": "A580S",
-      "feeder_id": "dpdc:postogola:a580s",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": "A580S",
-      "read_by": "ocr-scan",
-      "code_confident": true
-    },
-    {
-      "division": "Postogola",
-      "division_canonical": "Postogola",
-      "feeder": "A524D",
-      "feeder_id": "dpdc:postogola:a524d",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": "A524D",
-      "read_by": "ocr-scan",
-      "code_confident": true
-    },
-    {
-      "division": "Postogola",
-      "division_canonical": "Postogola",
       "feeder": "A587F",
       "feeder_id": "dpdc:postogola:a587f",
       "area_text": "",
       "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
         {
           "start": "19:00",
           "end": "20:00"
@@ -3568,28 +5305,32 @@
       "code_confident": true
     },
     {
-      "division": "Postogola",
-      "division_canonical": "Postogola",
-      "feeder": "A525L",
-      "feeder_id": "dpdc:postogola:a525l",
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D6106R",
+      "feeder_id": "dpdc:rajarbag:d6106r",
       "area_text": "",
       "windows": [
         {
-          "start": "09:00",
-          "end": "10:00"
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "14:00",
+          "end": "15:00"
         }
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "A525L",
+      "billing_code": "D6106R",
       "read_by": "ocr-scan",
       "code_confident": true
     },
     {
-      "division": "Postogola",
-      "division_canonical": "Postogola",
-      "feeder": "A581A",
-      "feeder_id": "dpdc:postogola:a581a",
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D606D",
+      "feeder_id": "dpdc:rajarbag:d606d",
       "area_text": "",
       "windows": [
         {
@@ -3603,7 +5344,369 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "A581A",
+      "billing_code": "D606D",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D606E",
+      "feeder_id": "dpdc:rajarbag:d606e",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "13:00",
+          "end": "14:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D606E",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D606G",
+      "feeder_id": "dpdc:rajarbag:d606g",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D606G",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "row-06",
+      "feeder_id": "dpdc:rajarbag:row-06",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "13:00",
+          "end": "14:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D662M",
+      "feeder_id": "dpdc:rajarbag:d662m",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D662M",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D662B",
+      "feeder_id": "dpdc:rajarbag:d662b",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "13:00",
+          "end": "14:00"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D662B",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D662C",
+      "feeder_id": "dpdc:rajarbag:d662c",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D662C",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D604N",
+      "feeder_id": "dpdc:rajarbag:d604n",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D604N",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D604L",
+      "feeder_id": "dpdc:rajarbag:d604l",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D604L",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D661F",
+      "feeder_id": "dpdc:rajarbag:d661f",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "13:00",
+          "end": "14:00"
+        },
+        {
+          "start": "17:00",
+          "end": "18:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D661F",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D6106T",
+      "feeder_id": "dpdc:rajarbag:d6106t",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D6106T",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D6106K",
+      "feeder_id": "dpdc:rajarbag:d6106k",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D6106K",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D6106",
+      "feeder_id": "dpdc:rajarbag:d6106",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "13:00",
+          "end": "14:00"
+        },
+        {
+          "start": "17:00",
+          "end": "18:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D6106",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D6106A",
+      "feeder_id": "dpdc:rajarbag:d6106a",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "17:00",
+          "end": "18:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D6106A",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D6106V",
+      "feeder_id": "dpdc:rajarbag:d6106v",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "14:00",
+          "end": "15:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D6106V",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Rajarbag",
+      "division_canonical": "Rajarbag",
+      "feeder": "D6106P",
+      "feeder_id": "dpdc:rajarbag:d6106p",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "D6106P",
       "read_by": "ocr-scan",
       "code_confident": true
     },
@@ -3615,16 +5718,16 @@
       "area_text": "¸লিস’ান সংলগœ এলাকা।",
       "windows": [
         {
-          "start": "11:00",
-          "end": "12:00"
+          "start": "09:00",
+          "end": "10:00"
         },
         {
-          "start": "19:00",
-          "end": "20:00"
+          "start": "21:00",
+          "end": "22:00"
         }
       ],
       "weekday": null,
-      "load_mw": 0.67,
+      "load_mw": 0.5,
       "feeder_name_bn": "মিমিও",
       "substation_bn": "মনউরিনা",
       "billing_code": "D315D"
@@ -3637,16 +5740,24 @@
       "area_text": "পëন আংশিক এলাকা।",
       "windows": [
         {
-          "start": "09:00",
-          "end": "10:00"
+          "start": "11:00",
+          "end": "12:00"
         },
         {
-          "start": "21:00",
-          "end": "22:00"
+          "start": "14:00",
+          "end": "15:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
         }
       ],
       "weekday": null,
-      "load_mw": 2.65,
+      "load_mw": 1.7,
       "feeder_name_bn": "নয়ািল্টন",
       "substation_bn": "মিএন্ডটি",
       "billing_code": "D315Z"
@@ -3659,16 +5770,20 @@
       "area_text": "আন›দ বাজার এলাকা",
       "windows": [
         {
-          "start": "09:00",
-          "end": "10:00"
+          "start": "11:00",
+          "end": "12:00"
         },
         {
-          "start": "21:00",
-          "end": "22:00"
+          "start": "14:00",
+          "end": "15:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
         }
       ],
       "weekday": null,
-      "load_mw": 2.0,
+      "load_mw": 1.6,
       "feeder_name_bn": "িমিিািার",
       "substation_bn": "মনউরিনা",
       "billing_code": "D315X"
@@ -3686,7 +5801,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 2.0,
+      "load_mw": 1.5,
       "feeder_name_bn": "কালভাট ররাড",
       "substation_bn": "মনউরিনা",
       "billing_code": "D315C"
@@ -3704,7 +5819,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 1.17,
+      "load_mw": 1.1,
       "feeder_name_bn": "ফ্ুাযিমল প্ল্ুামনং",
       "substation_bn": "মিদ্যুৎ ভিন",
       "billing_code": "D394FP"
@@ -3717,16 +5832,20 @@
       "area_text": "¸লিস’ান সংলগœ এলাকা।",
       "windows": [
         {
-          "start": "10:00",
-          "end": "11:00"
+          "start": "11:00",
+          "end": "12:00"
         },
         {
-          "start": "14:00",
-          "end": "15:00"
+          "start": "20:00",
+          "end": "21:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
         }
       ],
       "weekday": null,
-      "load_mw": 2.0,
+      "load_mw": 2.1,
       "feeder_name_bn": "আহাদ পুমলশ িি",
       "substation_bn": "মিমি এমভমনউ",
       "billing_code": "D363AP"
@@ -3739,16 +5858,16 @@
       "area_text": "বিজয় নগর , কাকরাইল এলাকা",
       "windows": [
         {
-          "start": "09:00",
-          "end": "10:00"
+          "start": "12:00",
+          "end": "13:00"
         },
         {
-          "start": "21:00",
-          "end": "22:00"
+          "start": "15:00",
+          "end": "16:00"
         }
       ],
       "weekday": null,
-      "load_mw": 2.33,
+      "load_mw": 1.7,
       "feeder_name_bn": "সসয়দ নিরুল",
       "substation_bn": "মনউরিনা",
       "billing_code": "D363A"
@@ -3761,16 +5880,16 @@
       "area_text": "র ািখানা আংমশক",
       "windows": [
         {
-          "start": "09:00",
-          "end": "10:00"
+          "start": "12:00",
+          "end": "13:00"
         },
         {
-          "start": "21:00",
-          "end": "22:00"
+          "start": "15:00",
+          "end": "16:00"
         }
       ],
       "weekday": null,
-      "load_mw": 0.83,
+      "load_mw": 1.2,
       "feeder_name_bn": "র ািখানা",
       "substation_bn": "মিদ্যুৎ ভিন সুইম ং",
       "billing_code": "D364T"
@@ -3783,16 +5902,12 @@
       "area_text": "নয়াপëন এর কিছূ অংশ",
       "windows": [
         {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
+          "start": "09:00",
+          "end": "10:00"
         }
       ],
       "weekday": null,
-      "load_mw": 2.0,
+      "load_mw": 1.6,
       "feeder_name_bn": "িসমিদ গমল",
       "substation_bn": "মিএন্ডটি",
       "billing_code": "D361MG"
@@ -3807,10 +5922,14 @@
         {
           "start": "15:00",
           "end": "16:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
         }
       ],
       "weekday": null,
-      "load_mw": 0.83,
+      "load_mw": 1.0,
       "feeder_name_bn": "িহুরুল হক",
       "substation_bn": "আমিিপুর",
       "billing_code": "D366J"
@@ -3823,16 +5942,24 @@
       "area_text": "পাইওনিয়ার রোড আংশিক",
       "windows": [
         {
-          "start": "10:00",
-          "end": "11:00"
+          "start": "09:00",
+          "end": "10:00"
         },
         {
-          "start": "14:00",
-          "end": "15:00"
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
         }
       ],
       "weekday": null,
-      "load_mw": 3.33,
+      "load_mw": 3.2,
       "feeder_name_bn": "িাইওমনয়ার",
       "substation_bn": "কাকরাইল",
       "billing_code": "D304P"
@@ -3847,22 +5974,10 @@
         {
           "start": "11:00",
           "end": "12:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
         }
       ],
       "weekday": null,
-      "load_mw": 1.13,
+      "load_mw": 1.2,
       "feeder_name_bn": "খযের িািার",
       "substation_bn": "মিমি এমভমনউ",
       "billing_code": "D363KB"
@@ -3875,24 +5990,20 @@
       "area_text": "পুরানা পëন আংশিক",
       "windows": [
         {
-          "start": "11:00",
-          "end": "12:00"
+          "start": "09:00",
+          "end": "10:00"
         },
         {
           "start": "15:00",
           "end": "16:00"
         },
         {
-          "start": "19:00",
-          "end": "20:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
+          "start": "21:00",
+          "end": "22:00"
         }
       ],
       "weekday": null,
-      "load_mw": 2.17,
+      "load_mw": 1.7,
       "feeder_name_bn": "আলরািী",
       "substation_bn": "মিমি এমভমনউ",
       "billing_code": "D363AR"
@@ -3905,24 +6016,16 @@
       "area_text": "বিজয়নগর আংশিক",
       "windows": [
         {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
+          "start": "10:00",
+          "end": "11:00"
         },
         {
           "start": "19:00",
           "end": "20:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
         }
       ],
       "weekday": null,
-      "load_mw": 2.33,
+      "load_mw": 1.5,
       "feeder_name_bn": "মিিয়নগর",
       "substation_bn": "কাকরাইল",
       "billing_code": "D304B"
@@ -3935,16 +6038,8 @@
       "area_text": "সে¸নবাগিচা আংশিক",
       "windows": [
         {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
           "start": "16:00",
           "end": "17:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
         }
       ],
       "weekday": null,
@@ -3961,20 +6056,12 @@
       "area_text": "সে¸নবাগিচা আংশিক",
       "windows": [
         {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
           "start": "16:00",
           "end": "17:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
         }
       ],
       "weekday": null,
-      "load_mw": 1.08,
+      "load_mw": 1.5,
       "feeder_name_bn": "মিটিমভ",
       "substation_bn": "মনউ রিনা",
       "billing_code": "D315G"
@@ -3987,12 +6074,34 @@
       "area_text": "পুরানা পëন আংশিক",
       "windows": [
         {
-          "start": "12:00",
-          "end": "13:00"
+          "start": "10:00",
+          "end": "11:00"
         },
         {
           "start": "16:00",
           "end": "17:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 3.2,
+      "feeder_name_bn": "রাধুনী",
+      "substation_bn": "মিমি এমভমনউ",
+      "billing_code": "D363RI"
+    },
+    {
+      "division": "Ramna",
+      "division_canonical": "Ramna",
+      "feeder": "D301U",
+      "feeder_id": "dpdc:ramna:d301u",
+      "area_text": "শাহিাহ আংমশক",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
         },
         {
           "start": "20:00",
@@ -4000,10 +6109,10 @@
         }
       ],
       "weekday": null,
-      "load_mw": 3.4,
-      "feeder_name_bn": "রাধুনী",
-      "substation_bn": "মিমি এমভমনউ",
-      "billing_code": "D363RI"
+      "load_mw": 0.83,
+      "feeder_name_bn": "টিএসমস",
+      "substation_bn": "ধানিমন্ড",
+      "billing_code": "D301U"
     },
     {
       "division": "Ramna",
@@ -4013,8 +6122,8 @@
       "area_text": "গুমলস্থান আংমশক",
       "windows": [
         {
-          "start": "23:00",
-          "end": "24:00"
+          "start": "11:00",
+          "end": "12:00"
         }
       ],
       "weekday": null,
@@ -4031,20 +6140,16 @@
       "area_text": "ফ্ামরষ্ট এন্ড মডআর টাওয়ার",
       "windows": [
         {
-          "start": "12:00",
-          "end": "13:00"
+          "start": "11:00",
+          "end": "12:00"
         },
         {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
+          "start": "23:00",
+          "end": "24:00"
         }
       ],
       "weekday": null,
-      "load_mw": 1.5,
+      "load_mw": 1.1,
       "feeder_name_bn": "ফ্ামরস্ট",
       "substation_bn": "মিদ্যুৎ ভিন সুইম ং",
       "billing_code": "D3647"
@@ -4057,16 +6162,8 @@
       "area_text": "িমনহার ায়না টাউন",
       "windows": [
         {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
+          "start": "14:00",
+          "end": "15:00"
         },
         {
           "start": "23:00",
@@ -4074,10 +6171,242 @@
         }
       ],
       "weekday": null,
-      "load_mw": 1.0,
+      "load_mw": 1.1,
       "feeder_name_bn": "ায়না টাউন",
       "substation_bn": "মিএন্ড টি",
       "billing_code": "D361CT"
+    },
+    {
+      "division": "Ramna",
+      "division_canonical": "Ramna",
+      "feeder": "D366BU",
+      "feeder_id": "dpdc:ramna:d366bu",
+      "area_text": "বুযয়ট",
+      "windows": [
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 1.8,
+      "feeder_name_bn": "বুযয়ট",
+      "substation_bn": "আমিিপুর",
+      "billing_code": "D366BU"
+    },
+    {
+      "division": "Ramna",
+      "division_canonical": "Ramna",
+      "feeder": "ঢাকা ভিন",
+      "feeder_id": "dpdc:ramna:unknown",
+      "area_text": "ফ্মকরাপুল িামনর ট্াংক",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 1.1,
+      "feeder_name_bn": "ঢাকা ভিন",
+      "substation_bn": "রিাস্টাল কলনী",
+      "billing_code": null
+    },
+    {
+      "division": "Ramna",
+      "division_canonical": "Ramna",
+      "feeder": "D3153",
+      "feeder_id": "dpdc:ramna:d3153",
+      "area_text": "গুমলস্তান শমিং কিযপ্ল্ি",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 0.8,
+      "feeder_name_bn": "গুমলস্তান শমিং কিযপ্ল্ি",
+      "substation_bn": "মনউ রিনা",
+      "billing_code": "D3153"
+    },
+    {
+      "division": "Ramna",
+      "division_canonical": "Ramna",
+      "feeder": "D398AB",
+      "feeder_id": "dpdc:ramna:d398ab",
+      "area_text": "রদাযয়ল ত্তর",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 0.3,
+      "feeder_name_bn": "আনন্দিািার",
+      "substation_bn": "ঢাকা রিমডযকল",
+      "billing_code": "D398AB"
+    },
+    {
+      "division": "Ramna",
+      "division_canonical": "Ramna",
+      "feeder": "D363NB",
+      "feeder_id": "dpdc:ramna:d363nb",
+      "area_text": "¸লিস’ান আংশিক",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 0.5,
+      "feeder_name_bn": "নাটাি ভিন মফ্ডার",
+      "substation_bn": "শহীদ আিরার ফ্াহাদ",
+      "billing_code": "D363NB"
+    },
+    {
+      "division": "Ramna",
+      "division_canonical": "Ramna",
+      "feeder": "D398SN",
+      "feeder_id": "dpdc:ramna:d398sn",
+      "area_text": "শািসুন নাহার হল, টিএসমস ও িরিানু শমি কমিশন",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 1.0,
+      "feeder_name_bn": "শািসুন নাহার হল",
+      "substation_bn": "ঢাকা রিমডযকল",
+      "billing_code": "D398SN"
+    },
+    {
+      "division": "Ramna",
+      "division_canonical": "Ramna",
+      "feeder": "D301H",
+      "feeder_id": "dpdc:ramna:d301h",
+      "area_text": "মসযনট ভিন, মিটিশ কাউমিল, এসএি হল",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 1.3,
+      "feeder_name_bn": "সূ যযসন হল",
+      "substation_bn": "ধানিমন্ড",
+      "billing_code": "D301H"
+    },
+    {
+      "division": "Ramna",
+      "division_canonical": "Ramna",
+      "feeder": "D398JA",
+      "feeder_id": "dpdc:ramna:d398ja",
+      "area_text": "িগন্নাথ হল",
+      "windows": [
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 0.3,
+      "feeder_name_bn": "িগন্নাথ হল",
+      "substation_bn": "ঢাকা রিমডযকল",
+      "billing_code": "D398JA"
+    },
+    {
+      "division": "Ramna",
+      "division_canonical": "Ramna",
+      "feeder": "D3108KH",
+      "feeder_id": "dpdc:ramna:d3108kh",
+      "area_text": "কািনয হল",
+      "windows": [
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 1.0,
+      "feeder_name_bn": "কািনয হল",
+      "substation_bn": "ঢাকা মিশ্বমিদ্যালয়",
+      "billing_code": "D3108KH"
+    },
+    {
+      "division": "Ramna",
+      "division_canonical": "Ramna",
+      "feeder": "D361K",
+      "feeder_id": "dpdc:ramna:d361k",
+      "area_text": "পুরানা িল্টন আংমশক",
+      "windows": [
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 0.3,
+      "feeder_name_bn": "কস্তুরী",
+      "substation_bn": "মনউ রিনা",
+      "billing_code": "D361K"
+    },
+    {
+      "division": "Ramna",
+      "division_canonical": "Ramna",
+      "feeder": "D3108MA",
+      "feeder_id": "dpdc:ramna:d3108ma",
+      "area_text": "এিমিএ ভিন, ইন্াাঃ হল",
+      "windows": [
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 0.8,
+      "feeder_name_bn": "এিমিএ ভিন",
+      "substation_bn": "ঢাকা মিশ্বমিদ্যালয়",
+      "billing_code": "D3108MA"
+    },
+    {
+      "division": "Ramna",
+      "division_canonical": "Ramna",
+      "feeder": "D3638",
+      "feeder_id": "dpdc:ramna:d3638",
+      "area_text": "িা ীয় রস্টমডয়াি",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 0.7,
+      "feeder_name_bn": "রস্টমডয়াি",
+      "substation_bn": "শহীদ আিরার ফ্াহাদ",
+      "billing_code": "D3638"
     },
     {
       "division": "Satmosjid",
@@ -4424,11 +6753,11 @@
       "windows": [
         {
           "start": "09:00",
-          "end": "11:00"
+          "end": "10:00"
         },
         {
           "start": "19:00",
-          "end": "21:00"
+          "end": "20:00"
         }
       ],
       "weekday": null,
@@ -4446,11 +6775,11 @@
       "windows": [
         {
           "start": "09:00",
-          "end": "11:00"
+          "end": "10:00"
         },
         {
           "start": "19:00",
-          "end": "21:00"
+          "end": "20:00"
         }
       ],
       "weekday": null,
@@ -4468,11 +6797,11 @@
       "windows": [
         {
           "start": "09:00",
-          "end": "11:00"
+          "end": "10:00"
         },
         {
           "start": "19:00",
-          "end": "21:00"
+          "end": "20:00"
         }
       ],
       "weekday": null,
@@ -4490,11 +6819,11 @@
       "windows": [
         {
           "start": "09:00",
-          "end": "11:00"
+          "end": "10:00"
         },
         {
           "start": "19:00",
-          "end": "21:00"
+          "end": "20:00"
         }
       ],
       "weekday": null,
@@ -4513,6 +6842,10 @@
         {
           "start": "11:00",
           "end": "13:00"
+        },
+        {
+          "start": "21:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -4531,6 +6864,10 @@
         {
           "start": "11:00",
           "end": "13:00"
+        },
+        {
+          "start": "21:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -4549,6 +6886,10 @@
         {
           "start": "11:00",
           "end": "13:00"
+        },
+        {
+          "start": "21:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -4567,6 +6908,10 @@
         {
           "start": "11:00",
           "end": "13:00"
+        },
+        {
+          "start": "21:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -4584,7 +6929,7 @@
       "windows": [
         {
           "start": "14:00",
-          "end": "16:00"
+          "end": "15:00"
         },
         {
           "start": "23:00",
@@ -4606,7 +6951,7 @@
       "windows": [
         {
           "start": "14:00",
-          "end": "16:00"
+          "end": "15:00"
         },
         {
           "start": "23:00",
@@ -4628,7 +6973,7 @@
       "windows": [
         {
           "start": "14:00",
-          "end": "16:00"
+          "end": "15:00"
         },
         {
           "start": "23:00",
@@ -4650,7 +6995,7 @@
       "windows": [
         {
           "start": "14:00",
-          "end": "16:00"
+          "end": "15:00"
         },
         {
           "start": "23:00",
@@ -4672,7 +7017,7 @@
       "windows": [
         {
           "start": "14:00",
-          "end": "16:00"
+          "end": "15:00"
         }
       ],
       "weekday": null,
@@ -4690,7 +7035,11 @@
       "windows": [
         {
           "start": "09:00",
-          "end": "11:00"
+          "end": "10:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
         }
       ],
       "weekday": null,
@@ -4708,7 +7057,11 @@
       "windows": [
         {
           "start": "09:00",
-          "end": "11:00"
+          "end": "10:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -4845,6 +7198,14 @@
       "area_text": "",
       "windows": [
         {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
           "start": "14:00",
           "end": "15:00"
         }
@@ -4863,44 +7224,8 @@
       "area_text": "",
       "windows": [
         {
-          "start": "15:00",
-          "end": "16:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Shyampur",
-      "division_canonical": "Shyampur",
-      "feeder": "row-29",
-      "feeder_id": "dpdc:shyampur:row-29",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "15:00",
-          "end": "16:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Shyampur",
-      "division_canonical": "Shyampur",
-      "feeder": "row-30",
-      "feeder_id": "dpdc:shyampur:row-30",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "15:00",
-          "end": "16:00"
+          "start": "09:00",
+          "end": "10:00"
         }
       ],
       "weekday": null,
@@ -4948,13 +7273,13 @@
     {
       "division": "Shyampur",
       "division_canonical": "Shyampur",
-      "feeder": "row-36",
-      "feeder_id": "dpdc:shyampur:row-36",
+      "feeder": "row-38",
+      "feeder_id": "dpdc:shyampur:row-38",
       "area_text": "",
       "windows": [
         {
-          "start": "20:00",
-          "end": "21:00"
+          "start": "21:00",
+          "end": "22:00"
         }
       ],
       "weekday": null,
@@ -4966,13 +7291,93 @@
     {
       "division": "Shyampur",
       "division_canonical": "Shyampur",
-      "feeder": "row-37",
-      "feeder_id": "dpdc:shyampur:row-37",
+      "feeder": "row-39",
+      "feeder_id": "dpdc:shyampur:row-39",
       "area_text": "",
       "windows": [
         {
-          "start": "20:00",
-          "end": "21:00"
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Shyampur",
+      "division_canonical": "Shyampur",
+      "feeder": "row-40",
+      "feeder_id": "dpdc:shyampur:row-40",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "13:00"
+        },
+        {
+          "start": "14:00",
+          "end": "15:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Shyampur",
+      "division_canonical": "Shyampur",
+      "feeder": "row-44",
+      "feeder_id": "dpdc:shyampur:row-44",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "21:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Shyampur",
+      "division_canonical": "Shyampur",
+      "feeder": "row-46",
+      "feeder_id": "dpdc:shyampur:row-46",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "21:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Shyampur",
+      "division_canonical": "Shyampur",
+      "feeder": "row-49",
+      "feeder_id": "dpdc:shyampur:row-49",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "21:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -5002,57 +7407,13 @@
     {
       "division": "Swamibag",
       "division_canonical": "Swamibag",
-      "feeder": "row-02",
-      "feeder_id": "dpdc:swamibag:row-02",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Swamibag",
-      "division_canonical": "Swamibag",
       "feeder": "row-03",
       "feeder_id": "dpdc:swamibag:row-03",
       "area_text": "",
       "windows": [
         {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
           "start": "19:00",
           "end": "20:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Swamibag",
-      "division_canonical": "Swamibag",
-      "feeder": "row-04",
-      "feeder_id": "dpdc:swamibag:row-04",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "20:00",
-          "end": "21:00"
         }
       ],
       "weekday": null,
@@ -5147,10 +7508,6 @@
         {
           "start": "14:00",
           "end": "15:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
         }
       ],
       "weekday": null,
@@ -5247,10 +7604,6 @@
       "area_text": "",
       "windows": [
         {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
           "start": "21:00",
           "end": "22:00"
         }
@@ -5286,28 +7639,6 @@
     {
       "division": "Tejgaon",
       "division_canonical": "Tejgaon",
-      "feeder": "row-05",
-      "feeder_id": "dpdc:tejgaon:row-05",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Tejgaon",
-      "division_canonical": "Tejgaon",
       "feeder": "row-06",
       "feeder_id": "dpdc:tejgaon:row-06",
       "area_text": "",
@@ -5315,10 +7646,6 @@
         {
           "start": "10:00",
           "end": "11:00"
-        },
-        {
-          "start": "17:00",
-          "end": "18:00"
         }
       ],
       "weekday": null,
@@ -5337,36 +7664,6 @@
         {
           "start": "10:00",
           "end": "11:00"
-        },
-        {
-          "start": "17:00",
-          "end": "18:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Tejgaon",
-      "division_canonical": "Tejgaon",
-      "feeder": "row-08",
-      "feeder_id": "dpdc:tejgaon:row-08",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -5385,10 +7682,6 @@
         {
           "start": "10:00",
           "end": "11:00"
-        },
-        {
-          "start": "17:00",
-          "end": "18:00"
         }
       ],
       "weekday": null,
@@ -5448,42 +7741,6 @@
     {
       "division": "Tejgaon",
       "division_canonical": "Tejgaon",
-      "feeder": "row-12",
-      "feeder_id": "dpdc:tejgaon:row-12",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Tejgaon",
-      "division_canonical": "Tejgaon",
-      "feeder": "row-13",
-      "feeder_id": "dpdc:tejgaon:row-13",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Tejgaon",
-      "division_canonical": "Tejgaon",
       "feeder": "row-14",
       "feeder_id": "dpdc:tejgaon:row-14",
       "area_text": "",
@@ -5499,114 +7756,6 @@
         {
           "start": "23:00",
           "end": "24:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Tejgaon",
-      "division_canonical": "Tejgaon",
-      "feeder": "row-15",
-      "feeder_id": "dpdc:tejgaon:row-15",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Tejgaon",
-      "division_canonical": "Tejgaon",
-      "feeder": "row-16",
-      "feeder_id": "dpdc:tejgaon:row-16",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Tejgaon",
-      "division_canonical": "Tejgaon",
-      "feeder": "row-17",
-      "feeder_id": "dpdc:tejgaon:row-17",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Tejgaon",
-      "division_canonical": "Tejgaon",
-      "feeder": "row-18",
-      "feeder_id": "dpdc:tejgaon:row-18",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Tejgaon",
-      "division_canonical": "Tejgaon",
-      "feeder": "row-19",
-      "feeder_id": "dpdc:tejgaon:row-19",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Tejgaon",
-      "division_canonical": "Tejgaon",
-      "feeder": "row-20",
-      "feeder_id": "dpdc:tejgaon:row-20",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
         }
       ],
       "weekday": null,
@@ -5669,24 +7818,19 @@
     }
   ],
   "stats": {
-    "claim_count": 271,
-    "feeder_count": 267,
-    "division_count": 15
+    "claim_count": 369,
+    "feeder_count": 366,
+    "division_count": 20
   },
   "parse_meta": {
     "zones_parsed": 19,
-    "zones_read_by_ocr": 8,
+    "zones_read_by_ocr": 13,
     "zones_failed": [],
     "zones_unreadable": [
-      "azimpur (ScanError)",
-      "banglabazar (ScanError)",
       "bangshal (ScanError)",
-      "fatulla (ScanError)",
-      "kamrangirchar (ScanError)",
       "khilgaon (ScanError)",
       "maniknagar (ScanError)",
-      "narayangonj (east) (ScanError)",
-      "rajarbag (ScanError)"
+      "narayangonj (east) (ScanError)"
     ],
     "hour_column_count": 24,
     "hour_grids_seen": 5,

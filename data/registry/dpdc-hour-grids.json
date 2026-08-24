@@ -1,0 +1,55 @@
+{
+  "schema": "dpdc-hour-grids/1",
+  "recorded_at": "2026-08-24T00:00:00Z",
+  "note": "Hour-column layout for DPDC's SCANNED zone sheets, read by a Bangla reader from magnified crops of the actual headers and recorded once. This is sheet LAYOUT, not daily data: which cells are shaded is still detected automatically on every run. No free offline OCR reads these Bengali numerals at this scan quality (see docs/SCAN_OCR_FINDINGS.md), so a human reading is the source of truth.",
+  "render": {
+    "dpi": 400,
+    "why": "The grid detector resolves a different number of columns at different resolutions, so a recorded grid is only valid for the DPI it was read at. scan_grid_v1 renders scans at this DPI and refuses if the detected column count does not match the recorded length."
+  },
+  "legend": {
+    "HH-HH": "an hour band, 24-hour clock, e.g. 09-10 means 09:00 to 10:00",
+    "blank": "a spacer column with no label. Carries no schedule and is skipped"
+  },
+  "verification": "Every grid below was read by a human. Where the automated ink detection disagreed about which columns are blank, the human reading was taken as correct: on azimpur, bashaboo and rajarbag the detector called faint spacer columns inked. Recorded here, the blanks come from the reading, not the detector.",
+  "grids": {
+    "azimpur": [
+      "09-10", "10-11", "11-12", "12-13", "blank", "14-15", "15-16", "16-17",
+      "blank", "19-20", "20-21"
+    ],
+    "banglabazar": [
+      "09-10", "10-11", "11-12", "12-13", "14-15", "15-16", "16-17", "19-20",
+      "20-21", "21-22", "22-23", "23-24"
+    ],
+    "bashaboo": [
+      "09-10", "10-11", "11-12", "12-13", "blank", "14-15", "15-16", "16-17",
+      "17-18", "blank", "19-20", "20-21", "21-22", "22-23", "23-24", "blank",
+      "blank"
+    ],
+    "fatulla": [
+      "09-10", "10-11", "11-12", "12-13", "14-15", "15-16", "16-17", "19-20",
+      "20-21", "21-22", "22-23", "23-24", "blank"
+    ],
+    "kamrangirchar": [
+      "09-10", "10-11", "11-12", "12-13", "13-14", "14-15", "15-16", "16-17",
+      "17-18", "18-19", "19-20", "20-21", "21-22", "22-23", "23-24", "blank"
+    ],
+    "paribag": [
+      "09-10", "10-11", "11-12", "12-13", "14-15", "15-16", "16-17", "19-20",
+      "20-21", "21-22", "22-23", "23-24"
+    ],
+    "rajarbag": [
+      "09-10", "10-11", "11-12", "12-13", "13-14", "blank", "14-15", "15-16",
+      "16-17", "17-18", "18-19", "blank", "19-20", "20-21", "21-22", "22-23",
+      "23-24", "blank"
+    ],
+    "kakrail": [
+      "09-10", "10-11", "11-12", "12-13", "blank", "14-15", "15-16", "16-17",
+      "blank", "19-20", "20-21", "21-22", "22-23", "23-24"
+    ]
+  },
+  "unrecorded": {
+    "bangshal": "The grid detector produced 24 columns with 10 blanks, which the reader confirmed bears no relation to the real sheet. Grid detection is wrong here, not just the labels, so no grid is recorded and the zone links its PDF instead.",
+    "khilgaon": "Refused by the segmentation guard: one cell is 3.0x the median width, meaning a vertical rule was missed and two hours share a cell.",
+    "maniknagar": "No ruled grid found at any threshold."
+  }
+}
