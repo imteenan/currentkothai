@@ -92,8 +92,10 @@
             <li>DESCO's own PDF has rows printed on top of each other. One reads
               <span class="mono">MGuolhsahkahnali:</span>, which is "Gulshan" interleaved with
               "Mohakhali". Those rows are excluded, not guessed.</li>
-            <li>DPDC mixes digital sheets with scanned ones. The digital sheets are parsed; the scans are
-              linked, because reading a photograph needs OCR we do not trust yet.</li>
+            <li>DPDC mixes digital sheets with scanned ones. Nineteen digital sheets are parsed
+              directly, and eight scans are read by finding the ruled grid in the image and measuring
+              which cells are shaded. Nine scans still defeat that, so those zones link the original
+              PDF instead of guessing at it.</li>
             <li>NESCO publishes photographs of paper.</li>
             <li>An outage you experience may just be a local fault. It looks identical from your side
               of the meter.</li>
