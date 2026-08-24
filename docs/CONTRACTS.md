@@ -101,6 +101,18 @@ rather than a large feeder. A wrong load is worse than no load.
 
 ## 3. `data/geo/<name>.geojson`
 
+**The join that makes the map work.** `apps/web/src/app.js` matches a claim's
+`division_canonical` to a zone polygon's `division` property, lowercased. It is
+one string on each side and nothing else connects the schedule to the map. If a
+zone is renamed on either side the map silently stops lighting up while every
+other check stays green, which is exactly how DPDC ended up with 36 parsed
+sheets and no shape to draw them on. `tests/test_zone_geometry.py` guards it.
+
+Zone cells (`dpdc-zones.geojson`, `desco-divisions.geojson`) are **constructed**:
+a Voronoi partition of geocoded zone offices, clipped to the utility territory.
+No distributor publishes zone boundaries. They must always carry
+`status: "estimated"`, which is what makes the map draw them dashed.
+
 Standard GeoJSON `FeatureCollection`. Every `Feature.properties`:
 
 ```jsonc
@@ -108,7 +120,7 @@ Standard GeoJSON `FeatureCollection`. Every `Feature.properties`:
   "id": "desco",                       // stable slug
   "name": "DESCO",
   "name_bn": "ডেসকো",
-  "level": "utility",                  // utility|division|feeder|admin
+  "level": "utility",                  // utility|zone|division|feeder|admin
   "utility": "DESCO",
   "status": "official",                // official|derived|estimated
   "confidence": "high",                // high|medium|low

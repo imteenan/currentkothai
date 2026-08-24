@@ -71,14 +71,24 @@ function initMap() {
     },
   });
   state.map.init();
+  // Debug handle. Everything on it is already public data the page fetched;
+  // it exists so layer and join state can be inspected from the console, which
+  // is how the missing DPDC zone layer was finally pinned down.
+  window.__ck = state;
   state.map.onTick = () => updateZoneLoads();
 
-  const { territories, descoDivisions, descoOffices } = state.data.geo;
+  const { territories, descoDivisions, descoOffices, dpdcZones } = state.data.geo;
   state.map.addPolygonLayer('territories', territories, {
     colorProperty: 'color_hex', fillOpacity: 0.14, lineWidth: 1.5,
   });
+  // Zone cells for BOTH distributors. Without the DPDC layer the "Zones" view
+  // showed a scatter of DESCO markers over north Dhaka and left the entire
+  // southern half of the city blank, though its 36 sheets were parsed.
   state.map.addPolygonLayer('divisions', descoDivisions, {
-    color: '#0071e3', fillOpacity: 0.1, visible: false,
+    colorProperty: 'fill_hex', color: '#0071e3', fillOpacity: 0.18, visible: false,
+  });
+  state.map.addPolygonLayer('dpdc-zones', dpdcZones, {
+    colorProperty: 'fill_hex', color: '#5e5ce6', fillOpacity: 0.18, visible: false,
   });
   state.map.addPointLayer('offices', descoOffices, { color: '#0071e3', visible: false });
   load.geo.districts().then((fc) => state.map.addPolygonLayer('districts', fc, {
@@ -97,6 +107,7 @@ function initMap() {
     }
     state.map.setLayerVisible('territories', chosen === 'territories');
     state.map.setLayerVisible('divisions', chosen === 'zones');
+    state.map.setLayerVisible('dpdc-zones', chosen === 'zones');
     state.map.setLayerVisible('offices', chosen === 'zones');
     state.map.setLayerVisible('districts', chosen === 'districts');
   });
@@ -110,32 +121,72 @@ function initMap() {
 
 async function updateZoneLoads() {
   if (!state.map) return;
-  const offices = state.data.geo.descoOffices;
-  if (!offices?.features?.length) return;
-
-  const sched = state.schedule || await load.schedule('DESCO');
   const now = dhakaNow();
-  const byZone = new Map();
 
-  if (sched?.claims?.length) {
-    for (const c of claimsForWeekday(sched.claims, now.weekday)) {
+  // Both distributors, always. Reading only DESCO here was why the map went
+  // blank below the river: DPDC publishes 36 zone sheets and not one of them
+  // ever reached a layer.
+  const feeds = await Promise.all([
+    load.schedule('DESCO').catch(() => null),
+    load.schedule('DPDC').catch(() => null),
+  ]);
+
+  /** zone name (lowercased) -> { mw, shedding } for one utility's sheet. */
+  const statusOf = (sched) => {
+    const byZone = new Map();
+    for (const c of claimsForWeekday(sched?.claims || [], now.weekday)) {
       const zone = c.division_canonical || c.division;
       if (!zone) continue;
       const on = normaliseWindows(c.windows)
         .some((w) => now.minutes >= w.startMin && now.minutes < w.endMin);
-      const prev = byZone.get(zone) || { mw: 0, shedding: false };
+      const prev = byZone.get(zone.toLowerCase()) || { mw: 0, shedding: false };
+      // Feeders on the scanned sheets often have no readable load. A nominal
+      // 0.5 MW keeps the zone's column visible rather than flat; the figure is
+      // only ever used for relative column height.
       if (on) { prev.mw += c.load_mw || 0.5; prev.shedding = true; }
-      byZone.set(zone, prev);
+      byZone.set(zone.toLowerCase(), prev);
+    }
+    return byZone;
+  };
+
+  const [descoStatus, dpdcStatus] = feeds.map(statusOf);
+  const zones = [];
+
+  const paint = (fc, layerId, status) => {
+    if (!fc?.features?.length) return false;
+    const features = fc.features.map((f) => {
+      const name = f.properties?.division || f.properties?.name || '';
+      const hit = status.get(name.toLowerCase()) || { mw: 0, shedding: false };
+      const c = centroidOf(f.geometry);
+      if (c) zones.push({ name, lat: c.lat, lon: c.lon, mw: hit.mw, shedding: hit.shedding });
+      return {
+        ...f,
+        properties: {
+          ...f.properties,
+          shedding: hit.shedding,
+          // Dark where the sheet says off, the utility's own colour otherwise.
+          fill_hex: hit.shedding ? '#1a1a1e' : f.properties?.color_hex,
+        },
+      };
+    });
+    state.map.setPolygonData(layerId, { ...fc, features });
+    return true;
+  };
+
+  const drewDesco = paint(state.data.geo.descoDivisions, 'divisions', descoStatus);
+  paint(state.data.geo.dpdcZones, 'dpdc-zones', dpdcStatus);
+
+  // Fall back to the office points for DESCO if its cells are missing, so a
+  // failed geo build costs the fill and not the columns too.
+  if (!drewDesco) {
+    for (const f of state.data.geo.descoOffices?.features || []) {
+      const c = centroidOf(f.geometry);
+      const name = f.properties?.division || f.properties?.name;
+      if (!c || !name) continue;
+      const hit = descoStatus.get(name.toLowerCase()) || { mw: 0, shedding: false };
+      zones.push({ name, lat: c.lat, lon: c.lon, mw: hit.mw, shedding: hit.shedding });
     }
   }
-
-  const zones = offices.features.map((f) => {
-    const c = centroidOf(f.geometry);
-    if (!c) return null;
-    const name = f.properties?.division || f.properties?.name;
-    const hit = byZone.get(name) || { mw: 0, shedding: false };
-    return { name, lat: c.lat, lon: c.lon, mw: hit.mw, shedding: hit.shedding };
-  }).filter(Boolean);
 
   state.map.setZoneLoads(zones);
 
@@ -144,9 +195,9 @@ async function updateZoneLoads() {
   const live = $('#map-live');
   if (live) {
     live.innerHTML = off.length
-      ? `<span class="mono">${off.length}</span> of ${zones.length} DESCO zones scheduled off right now ·
+      ? `<span class="mono">${off.length}</span> of ${zones.length} zones scheduled off right now ·
          <span class="mono">${mw.toFixed(0)}</span> MW of feeder load`
-      : 'No DESCO zone is scheduled off right now';
+      : `No zone is scheduled off right now · ${zones.length} zones tracked`;
   }
 }
 

@@ -1,0 +1,2224 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.36360280713215,
+       23.763853467673908
+      ],
+      [
+       90.33022787709922,
+       23.75155275779708
+      ],
+      [
+       90.330361,
+       23.7521784
+      ],
+      [
+       90.3375817,
+       23.7600336
+      ],
+      [
+       90.3395609,
+       23.7649937
+      ],
+      [
+       90.3441777,
+       23.768489
+      ],
+      [
+       90.3442815,
+       23.7701511
+      ],
+      [
+       90.3428624,
+       23.7718849
+      ],
+      [
+       90.3443497,
+       23.7725672
+      ],
+      [
+       90.3420217,
+       23.7723213
+      ],
+      [
+       90.3345005,
+       23.7748831
+      ],
+      [
+       90.3345824,
+       23.775669
+      ],
+      [
+       90.3377421,
+       23.7783064
+      ],
+      [
+       90.33807790361668,
+       23.779259001345785
+      ],
+      [
+       90.36133085689876,
+       23.777855021437862
+      ],
+      [
+       90.36360280713215,
+       23.763853467673908
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-adabor",
+    "slug": "adabor",
+    "name": "Adabor",
+    "division": "Adabor",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/adabor/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+     [
+      [
+       [
+        90.36522832237189,
+        23.72328783281399
+       ],
+       [
+        90.37733626136242,
+        23.732488037413773
+       ],
+       [
+        90.39295434784118,
+        23.727262254886437
+       ],
+       [
+        90.38275904342139,
+        23.71985280317776
+       ],
+       [
+        90.36522832237189,
+        23.72328783281399
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        90.38356174097554,
+        23.737218497535714
+       ],
+       [
+        90.38649198863719,
+        23.735404784314007
+       ],
+       [
+        90.37849327747995,
+        23.733367220960524
+       ],
+       [
+        90.38356174097554,
+        23.737218497535714
+       ]
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-azimpur",
+    "slug": "azimpur",
+    "name": "Azimpur",
+    "division": "Azimpur",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/azimpur/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.43403590682567,
+       23.75129813574467
+      ],
+      [
+       90.41683614474572,
+       23.76373479106068
+      ],
+      [
+       90.4156374002589,
+       23.765584368286383
+      ],
+      [
+       90.42552133355593,
+       23.77803156723806
+      ],
+      [
+       90.4284882070403,
+       23.779562967990163
+      ],
+      [
+       90.45441993346134,
+       23.7532927173257
+      ],
+      [
+       90.43403590682567,
+       23.75129813574467
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-banasree",
+    "slug": "banasree",
+    "name": "Banasree",
+    "division": "Banasree",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/banasree/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.40274597326345,
+       23.731926471883664
+      ],
+      [
+       90.41138806972907,
+       23.729433296819487
+      ],
+      [
+       90.4124070794253,
+       23.723755468136567
+      ],
+      [
+       90.39756840644849,
+       23.715607907836368
+      ],
+      [
+       90.39349876296009,
+       23.727317432420307
+      ],
+      [
+       90.39761310647378,
+       23.727734969335053
+      ],
+      [
+       90.39628965333122,
+       23.7316490344069
+      ],
+      [
+       90.40274597326345,
+       23.731926471883664
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-banglabazar",
+    "slug": "banglabazar",
+    "name": "Banglabazar",
+    "division": "Banglabazar",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/banglabazar/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.39756840644849,
+       23.715607907836368
+      ],
+      [
+       90.4124070794253,
+       23.723755468136567
+      ],
+      [
+       90.41509636710187,
+       23.720588275345268
+      ],
+      [
+       90.41004385084815,
+       23.703890983500273
+      ],
+      [
+       90.3986641,
+       23.7107439
+      ],
+      [
+       90.396763719417,
+       23.71072457685676
+      ],
+      [
+       90.39756840644849,
+       23.715607907836368
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-bangshal",
+    "slug": "bangshal",
+    "name": "Bangshal",
+    "division": "Bangshal",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/bangshal/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.42503800438642,
+       23.742337620711684
+      ],
+      [
+       90.43403590682567,
+       23.75129813574467
+      ],
+      [
+       90.45441993346134,
+       23.7532927173257
+      ],
+      [
+       90.4679902962839,
+       23.748409292199902
+      ],
+      [
+       90.46595046622973,
+       23.73757125686891
+      ],
+      [
+       90.46314088412059,
+       23.73539830843364
+      ],
+      [
+       90.42640057770822,
+       23.734700483795418
+      ],
+      [
+       90.42503800438642,
+       23.742337620711684
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-bashaboo",
+    "slug": "bashaboo",
+    "name": "Bashaboo",
+    "division": "Bashaboo",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/bashaboo/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.48994929646194,
+       23.69957181724144
+      ],
+      [
+       90.46595046622973,
+       23.73757125686891
+      ],
+      [
+       90.4679902962839,
+       23.748409292199902
+      ],
+      [
+       90.48278031529716,
+       23.764138648294413
+      ],
+      [
+       90.483751,
+       23.7576256
+      ],
+      [
+       90.4879096,
+       23.7560271
+      ],
+      [
+       90.4885448,
+       23.7550824
+      ],
+      [
+       90.487461,
+       23.7523671
+      ],
+      [
+       90.4857204,
+       23.7509303
+      ],
+      [
+       90.4854509,
+       23.7497588
+      ],
+      [
+       90.4907889,
+       23.7444567
+      ],
+      [
+       90.4942057,
+       23.744106
+      ],
+      [
+       90.4943928,
+       23.7432084
+      ],
+      [
+       90.4920927,
+       23.7385476
+      ],
+      [
+       90.4918084,
+       23.735896
+      ],
+      [
+       90.492554,
+       23.7332444
+      ],
+      [
+       90.4958987,
+       23.7328623
+      ],
+      [
+       90.4991293,
+       23.730469
+      ],
+      [
+       90.500482,
+       23.728423
+      ],
+      [
+       90.5004185,
+       23.7266519
+      ],
+      [
+       90.4990041,
+       23.7238171
+      ],
+      [
+       90.4992781,
+       23.719366
+      ],
+      [
+       90.5006563,
+       23.7168628
+      ],
+      [
+       90.5029094,
+       23.7148982
+      ],
+      [
+       90.5096532,
+       23.7118906
+      ],
+      [
+       90.51252328289704,
+       23.70921985303679
+      ],
+      [
+       90.48994929646194,
+       23.69957181724144
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-demra",
+    "slug": "demra",
+    "name": "Demra",
+    "division": "Demra",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/demra/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.37938947460377,
+       23.76137806765858
+      ],
+      [
+       90.38378144664594,
+       23.751438964386686
+      ],
+      [
+       90.38239670816901,
+       23.74840988859941
+      ],
+      [
+       90.3683124344749,
+       23.74655349953038
+      ],
+      [
+       90.36774072989294,
+       23.763939584077683
+      ],
+      [
+       90.3690874870588,
+       23.764254572313725
+      ],
+      [
+       90.37938947460377,
+       23.76137806765858
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-dhanmondi",
+    "slug": "dhanmondi",
+    "name": "Dhanmondi",
+    "division": "Dhanmondi",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/dhanmondi/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.4697742641267,
+       23.67325049022355
+      ],
+      [
+       90.48111876351736,
+       23.675478656250938
+      ],
+      [
+       90.49878281900624,
+       23.658697015314488
+      ],
+      [
+       90.43832549546369,
+       23.56200046713253
+      ],
+      [
+       90.4365885,
+       23.5646192
+      ],
+      [
+       90.4345819,
+       23.5701581
+      ],
+      [
+       90.4336664,
+       23.5749246
+      ],
+      [
+       90.4342081,
+       23.5936625
+      ],
+      [
+       90.4339029,
+       23.6001322
+      ],
+      [
+       90.4317896,
+       23.6084177
+      ],
+      [
+       90.4322106,
+       23.61403
+      ],
+      [
+       90.4445857,
+       23.6276757
+      ],
+      [
+       90.4505682,
+       23.6310929
+      ],
+      [
+       90.4592449,
+       23.6314658
+      ],
+      [
+       90.4687171,
+       23.6340451
+      ],
+      [
+       90.4709783,
+       23.6359671
+      ],
+      [
+       90.4718866,
+       23.63998
+      ],
+      [
+       90.4673006,
+       23.6474072
+      ],
+      [
+       90.4635472,
+       23.6505526
+      ],
+      [
+       90.45431823511812,
+       23.661725029947533
+      ],
+      [
+       90.4697742641267,
+       23.67325049022355
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-fatulla",
+    "slug": "fatulla",
+    "name": "Fatulla",
+    "division": "Fatulla",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/fatulla/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.38239670816901,
+       23.74840988859941
+      ],
+      [
+       90.38356174097554,
+       23.737218497535714
+      ],
+      [
+       90.37849327747995,
+       23.733367220960524
+      ],
+      [
+       90.3775950565168,
+       23.73313841133334
+      ],
+      [
+       90.37733627493876,
+       23.732488071532263
+      ],
+      [
+       90.36522832237189,
+       23.72328783281399
+      ],
+      [
+       90.35919907513879,
+       23.721109798833695
+      ],
+      [
+       90.3582039,
+       23.7258838
+      ],
+      [
+       90.3557439,
+       23.732598
+      ],
+      [
+       90.35227374510073,
+       23.73897074862041
+      ],
+      [
+       90.3683124344749,
+       23.74655349953038
+      ],
+      [
+       90.38239670816901,
+       23.74840988859941
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-jigatola",
+    "slug": "jigatola",
+    "name": "Jigatola",
+    "division": "Jigatola",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/jigatola/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.44848587758219,
+       23.697802118824765
+      ],
+      [
+       90.44877573229478,
+       23.696956521835663
+      ],
+      [
+       90.43455057445834,
+       23.69019402013377
+      ],
+      [
+       90.42491143796731,
+       23.702295268721596
+      ],
+      [
+       90.43298943478585,
+       23.707347902650017
+      ],
+      [
+       90.44848587758219,
+       23.697802118824765
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-jurain",
+    "slug": "jurain",
+    "name": "Jurain",
+    "division": "Jurain",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/jurain/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.40274597326345,
+       23.731926471883664
+      ],
+      [
+       90.40650718158747,
+       23.745876667802793
+      ],
+      [
+       90.41248149146416,
+       23.742865748066958
+      ],
+      [
+       90.41214874851752,
+       23.73038070606585
+      ],
+      [
+       90.41138806972907,
+       23.729433296819487
+      ],
+      [
+       90.40274597326345,
+       23.731926471883664
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-kakrail",
+    "slug": "kakrail",
+    "name": "Kakrail",
+    "division": "Kakrail",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/kakrail/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.36522832237189,
+       23.72328783281399
+      ],
+      [
+       90.38275904342139,
+       23.71985280317776
+      ],
+      [
+       90.38923599127295,
+       23.709608189432103
+      ],
+      [
+       90.3875894,
+       23.7089482
+      ],
+      [
+       90.381823,
+       23.7082064
+      ],
+      [
+       90.3706409,
+       23.7076539
+      ],
+      [
+       90.3637905,
+       23.7101146
+      ],
+      [
+       90.3617246,
+       23.7119255
+      ],
+      [
+       90.3606362,
+       23.7142157
+      ],
+      [
+       90.35919907513879,
+       23.721109798833695
+      ],
+      [
+       90.36522832237189,
+       23.72328783281399
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-kamrangirchar",
+    "slug": "kamrangirchar",
+    "name": "Kamrangirchar",
+    "division": "Kamrangirchar",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/kamrangirchar/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.43298943478585,
+       23.707347902650017
+      ],
+      [
+       90.43363838494349,
+       23.71312750615593
+      ],
+      [
+       90.44656120238818,
+       23.724581772643727
+      ],
+      [
+       90.46031068410133,
+       23.73218677769996
+      ],
+      [
+       90.44848587758219,
+       23.697802118824765
+      ],
+      [
+       90.43298943478585,
+       23.707347902650017
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-kazla",
+    "slug": "kazla",
+    "name": "Kazla",
+    "division": "Kazla",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/kazla/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.41683614474572,
+       23.76373479106068
+      ],
+      [
+       90.43403590682567,
+       23.75129813574467
+      ],
+      [
+       90.42503800438642,
+       23.742337620711684
+      ],
+      [
+       90.41846013514561,
+       23.745365149651366
+      ],
+      [
+       90.41683614474572,
+       23.76373479106068
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-khilgaon",
+    "slug": "khilgaon",
+    "name": "Khilgaon",
+    "division": "Khilgaon",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/khilgaon/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.396763719417,
+       23.71072457685676
+      ],
+      [
+       90.3918978,
+       23.7106751
+      ],
+      [
+       90.38923599127295,
+       23.709608189432103
+      ],
+      [
+       90.38275904342139,
+       23.71985280317776
+      ],
+      [
+       90.39295434784118,
+       23.727262254886437
+      ],
+      [
+       90.39349876296009,
+       23.727317432420307
+      ],
+      [
+       90.39756840644849,
+       23.715607907836368
+      ],
+      [
+       90.396763719417,
+       23.71072457685676
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-lalbag",
+    "slug": "lalbag",
+    "name": "Lalbag",
+    "division": "Lalbag",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/lalbag/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.42550513795716,
+       23.720864842882115
+      ],
+      [
+       90.42759077985622,
+       23.72679414095511
+      ],
+      [
+       90.44656120238818,
+       23.724581772643727
+      ],
+      [
+       90.43363838494349,
+       23.71312750615593
+      ],
+      [
+       90.42550513795716,
+       23.720864842882115
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-maniknagar",
+    "slug": "maniknagar",
+    "name": "Maniknagar",
+    "division": "Maniknagar",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/maniknagar/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.46314088412059,
+       23.73539830843364
+      ],
+      [
+       90.46595046622973,
+       23.73757125686891
+      ],
+      [
+       90.48994929646194,
+       23.69957181724144
+      ],
+      [
+       90.48111876351736,
+       23.675478656250938
+      ],
+      [
+       90.4697742641267,
+       23.67325049022355
+      ],
+      [
+       90.44877573229478,
+       23.696956521835663
+      ],
+      [
+       90.44848587758219,
+       23.697802118824765
+      ],
+      [
+       90.46031068410133,
+       23.73218677769996
+      ],
+      [
+       90.46314088412059,
+       23.73539830843364
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-matuail",
+    "slug": "matuail",
+    "name": "Matuail",
+    "division": "Matuail",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/matuail/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.41683614474572,
+       23.76373479106068
+      ],
+      [
+       90.41846013514561,
+       23.745365149651366
+      ],
+      [
+       90.41248149146416,
+       23.742865748066958
+      ],
+      [
+       90.40650718158747,
+       23.745876667802793
+      ],
+      [
+       90.40160696457254,
+       23.7510985686011
+      ],
+      [
+       90.40055951425882,
+       23.753840697079728
+      ],
+      [
+       90.40693222123637,
+       23.764298497592954
+      ],
+      [
+       90.4156374002589,
+       23.765584368286383
+      ],
+      [
+       90.41683614474572,
+       23.76373479106068
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-mogbazar",
+    "slug": "mogbazar",
+    "name": "Mogbazar",
+    "division": "Mogbazar",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/mogbazar/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.41214874851752,
+       23.73038070606585
+      ],
+      [
+       90.42610548504109,
+       23.734970369103674
+      ],
+      [
+       90.42759077985622,
+       23.72679414095511
+      ],
+      [
+       90.42550513795716,
+       23.720864842882115
+      ],
+      [
+       90.41953920779294,
+       23.71983638261866
+      ],
+      [
+       90.41509636710187,
+       23.720588275345268
+      ],
+      [
+       90.4124070794253,
+       23.723755468136567
+      ],
+      [
+       90.41138806972907,
+       23.729433296819487
+      ],
+      [
+       90.41214874851752,
+       23.73038070606585
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-motijheel",
+    "slug": "motijheel",
+    "name": "Motijheel",
+    "division": "Motijheel",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/motijheel/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.46031068410133,
+       23.73218677769996
+      ],
+      [
+       90.44656120238818,
+       23.724581772643727
+      ],
+      [
+       90.42759077985622,
+       23.72679414095511
+      ],
+      [
+       90.42640057770822,
+       23.734700483795418
+      ],
+      [
+       90.46314088412059,
+       23.73539830843364
+      ],
+      [
+       90.46031068410133,
+       23.73218677769996
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-mugdapara",
+    "slug": "mugdapara",
+    "name": "Mugdapara",
+    "division": "Mugdapara",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/mugdapara/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.49878281900624,
+       23.658697015314488
+      ],
+      [
+       90.51537141259227,
+       23.652088782280277
+      ],
+      [
+       90.44188802823423,
+       23.552016015424215
+      ],
+      [
+       90.441334,
+       23.5531236
+      ],
+      [
+       90.4422953,
+       23.5581876
+      ],
+      [
+       90.440098,
+       23.5593282
+      ],
+      [
+       90.43832549546369,
+       23.56200046713253
+      ],
+      [
+       90.49878281900624,
+       23.658697015314488
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-narayangonj (east)",
+    "slug": "narayangonj (east)",
+    "name": "Narayangonj (east)",
+    "division": "Narayangonj (east)",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/narayangonj%20%28east%29/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.51537141259227,
+       23.652088782280277
+      ],
+      [
+       90.51997529012895,
+       23.65079731430878
+      ],
+      [
+       90.5183811,
+       23.6360505
+      ],
+      [
+       90.5155532,
+       23.631774
+      ],
+      [
+       90.5135684,
+       23.627064
+      ],
+      [
+       90.5092851,
+       23.6216914
+      ],
+      [
+       90.5070783,
+       23.6151386
+      ],
+      [
+       90.507066,
+       23.6038268
+      ],
+      [
+       90.5080563,
+       23.5948558
+      ],
+      [
+       90.5090944,
+       23.591293
+      ],
+      [
+       90.5140503,
+       23.5825562
+      ],
+      [
+       90.521336,
+       23.5750632
+      ],
+      [
+       90.517795,
+       23.5748763
+      ],
+      [
+       90.5151212,
+       23.5734775
+      ],
+      [
+       90.500427,
+       23.5736543
+      ],
+      [
+       90.493931,
+       23.5759889
+      ],
+      [
+       90.4913523,
+       23.5750257
+      ],
+      [
+       90.4910929,
+       23.570345
+      ],
+      [
+       90.4868967,
+       23.5670186
+      ],
+      [
+       90.4826166,
+       23.5668412
+      ],
+      [
+       90.4790537,
+       23.5681306
+      ],
+      [
+       90.4746057,
+       23.5624124
+      ],
+      [
+       90.4668161,
+       23.5550023
+      ],
+      [
+       90.4590494,
+       23.552168
+      ],
+      [
+       90.4536478,
+       23.5457841
+      ],
+      [
+       90.4504282,
+       23.5458661
+      ],
+      [
+       90.4434473,
+       23.5488988
+      ],
+      [
+       90.44188802823423,
+       23.552016015424215
+      ],
+      [
+       90.51537141259227,
+       23.652088782280277
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-narayangonj (west)",
+    "slug": "narayangonj (west)",
+    "name": "Narayangonj (west)",
+    "division": "Narayangonj (west)",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/narayangonj%20%28west%29/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.41509636710187,
+       23.720588275345268
+      ],
+      [
+       90.41953920779294,
+       23.71983638261866
+      ],
+      [
+       90.42358173232297,
+       23.701980388618278
+      ],
+      [
+       90.41730972995626,
+       23.69890771318314
+      ],
+      [
+       90.4160883,
+       23.700251
+      ],
+      [
+       90.41004385084815,
+       23.703890983500273
+      ],
+      [
+       90.41509636710187,
+       23.720588275345268
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-narinda",
+    "slug": "narinda",
+    "name": "Narinda",
+    "division": "Narinda",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/narinda/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.38378144664594,
+       23.751438964386686
+      ],
+      [
+       90.40055951425882,
+       23.753840697079728
+      ],
+      [
+       90.40160696457254,
+       23.7510985686011
+      ],
+      [
+       90.39561977689567,
+       23.733630169873326
+      ],
+      [
+       90.3922015695243,
+       23.736859222729223
+      ],
+      [
+       90.38649198863719,
+       23.735404784314007
+      ],
+      [
+       90.38356174097554,
+       23.737218497535714
+      ],
+      [
+       90.38239670816901,
+       23.74840988859941
+      ],
+      [
+       90.38378144664594,
+       23.751438964386686
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-paribag",
+    "slug": "paribag",
+    "name": "Paribag",
+    "division": "Paribag",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/paribag/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.41730972995626,
+       23.69890771318314
+      ],
+      [
+       90.42491143796731,
+       23.702295268721596
+      ],
+      [
+       90.43455057445834,
+       23.69019402013377
+      ],
+      [
+       90.43146344886682,
+       23.684456605505808
+      ],
+      [
+       90.4280834,
+       23.6870592
+      ],
+      [
+       90.41730972995626,
+       23.69890771318314
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-postogola",
+    "slug": "postogola",
+    "name": "Postogola",
+    "division": "Postogola",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/postogola/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.41248149146416,
+       23.742865748066958
+      ],
+      [
+       90.41846013514561,
+       23.745365149651366
+      ],
+      [
+       90.42503800438642,
+       23.742337620711684
+      ],
+      [
+       90.42610548504109,
+       23.734970369103674
+      ],
+      [
+       90.41214874851752,
+       23.73038070606585
+      ],
+      [
+       90.41248149146416,
+       23.742865748066958
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-rajarbag",
+    "slug": "rajarbag",
+    "name": "Rajarbag",
+    "division": "Rajarbag",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/rajarbag/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.40650718158747,
+       23.745876667802793
+      ],
+      [
+       90.40274597326345,
+       23.731926471883664
+      ],
+      [
+       90.39628965333122,
+       23.7316490344069
+      ],
+      [
+       90.39561977689567,
+       23.733630169873326
+      ],
+      [
+       90.40160696457254,
+       23.7510985686011
+      ],
+      [
+       90.40650718158747,
+       23.745876667802793
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-ramna",
+    "slug": "ramna",
+    "name": "Ramna",
+    "division": "Ramna",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/ramna/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.36360280713215,
+       23.763853467673908
+      ],
+      [
+       90.36774072989294,
+       23.763939584077683
+      ],
+      [
+       90.3683124344749,
+       23.74655349953038
+      ],
+      [
+       90.35227374510073,
+       23.73897074862041
+      ],
+      [
+       90.3468711,
+       23.7430281
+      ],
+      [
+       90.3410511,
+       23.7486396
+      ],
+      [
+       90.3382874,
+       23.7495267
+      ],
+      [
+       90.3333246,
+       23.7490159
+      ],
+      [
+       90.3299477,
+       23.750236
+      ],
+      [
+       90.33022787709922,
+       23.75155275779708
+      ],
+      [
+       90.36360280713215,
+       23.763853467673908
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-satmosjid",
+    "slug": "satmosjid",
+    "name": "Satmosjid",
+    "division": "Satmosjid",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/satmosjid/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.3690874870588,
+       23.764254572313725
+      ],
+      [
+       90.36360280713215,
+       23.763853467673908
+      ],
+      [
+       90.36133085689876,
+       23.777855021437862
+      ],
+      [
+       90.37002025518295,
+       23.786271133271956
+      ],
+      [
+       90.37162826272186,
+       23.780440371285934
+      ],
+      [
+       90.3690874870588,
+       23.764254572313725
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-shamoli",
+    "slug": "shamoli",
+    "name": "Shamoli",
+    "division": "Shamoli",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/shamoli/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.37938947460377,
+       23.76137806765858
+      ],
+      [
+       90.3690874870588,
+       23.764254572313725
+      ],
+      [
+       90.37162826272186,
+       23.780440371285934
+      ],
+      [
+       90.38495935077071,
+       23.77010845453435
+      ],
+      [
+       90.37938947460377,
+       23.76137806765858
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-sher-e-bangla nagar",
+    "slug": "sher-e-bangla nagar",
+    "name": "Sher E Bangla Nagar",
+    "division": "Sher E Bangla Nagar",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/sher-e-bangla%20nagar/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.44877573229478,
+       23.696956521835663
+      ],
+      [
+       90.4697742641267,
+       23.67325049022355
+      ],
+      [
+       90.45431823511812,
+       23.661725029947533
+      ],
+      [
+       90.4450462,
+       23.6729496
+      ],
+      [
+       90.4392893,
+       23.6784308
+      ],
+      [
+       90.43146344886682,
+       23.684456605505808
+      ],
+      [
+       90.43455057445834,
+       23.69019402013377
+      ],
+      [
+       90.44877573229478,
+       23.696956521835663
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-shyampur",
+    "slug": "shyampur",
+    "name": "Shyampur",
+    "division": "Shyampur",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/shyampur/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.51537141259227,
+       23.652088782280277
+      ],
+      [
+       90.49878281900624,
+       23.658697015314488
+      ],
+      [
+       90.48111876351736,
+       23.675478656250938
+      ],
+      [
+       90.48994929646194,
+       23.69957181724144
+      ],
+      [
+       90.51252328289704,
+       23.70921985303679
+      ],
+      [
+       90.5150379,
+       23.7049538
+      ],
+      [
+       90.5204289,
+       23.700464
+      ],
+      [
+       90.5257744,
+       23.6867379
+      ],
+      [
+       90.5306576,
+       23.6797555
+      ],
+      [
+       90.5317794,
+       23.6742242
+      ],
+      [
+       90.5310559,
+       23.6718437
+      ],
+      [
+       90.5260639,
+       23.6670205
+      ],
+      [
+       90.5236787,
+       23.6655563
+      ],
+      [
+       90.5201543,
+       23.657367
+      ],
+      [
+       90.51997529012895,
+       23.65079731430878
+      ],
+      [
+       90.51537141259227,
+       23.652088782280277
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-siddhirgonj",
+    "slug": "siddhirgonj",
+    "name": "Siddhirgonj",
+    "division": "Siddhirgonj",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/siddhirgonj/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.42358173232297,
+       23.701980388618278
+      ],
+      [
+       90.41953920779294,
+       23.71983638261866
+      ],
+      [
+       90.42550513795716,
+       23.720864842882115
+      ],
+      [
+       90.43363838494349,
+       23.71312750615593
+      ],
+      [
+       90.43298943478585,
+       23.707347902650017
+      ],
+      [
+       90.42491143796731,
+       23.702295268721596
+      ],
+      [
+       90.42358173232297,
+       23.701980388618278
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-swamibag",
+    "slug": "swamibag",
+    "name": "Swamibag",
+    "division": "Swamibag",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/swamibag/250.pdf"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.37938947460377,
+       23.76137806765858
+      ],
+      [
+       90.38495935077071,
+       23.77010845453435
+      ],
+      [
+       90.39431112939599,
+       23.776848666198887
+      ],
+      [
+       90.40693222123637,
+       23.764298497592954
+      ],
+      [
+       90.40055951425882,
+       23.753840697079728
+      ],
+      [
+       90.38378144664594,
+       23.751438964386686
+      ],
+      [
+       90.37938947460377,
+       23.76137806765858
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "dpdc-zone-tejgaon",
+    "slug": "tejgaon",
+    "name": "Tejgaon",
+    "division": "Tejgaon",
+    "level": "zone",
+    "utility": "DPDC",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#5e5ce6",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one.",
+    "pdf_url": "https://dpdc.org.bd/site/load_shedding/tejgaon/250.pdf"
+   }
+  }
+ ],
+ "properties": {
+  "utility": "DPDC",
+  "level": "zone",
+  "count": 35,
+  "method": "Constructed, not published. 35 DPDC zone offices were geocoded from the zone names DPDC itself prints on its schedules, then split by a Voronoi partition and clipped to the DPDC service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DPDC does not publish one."
+ }
+}

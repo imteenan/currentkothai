@@ -376,11 +376,22 @@ def build_neighbourhoods() -> None:
     save("dhaka-neighbourhoods.geojson", fc(feats))
 
 
+def build_zone_cells() -> None:
+    """Per-zone polygons for both distributors.
+
+    Runs after `territories` and `desco-points`, because it clips its cells to
+    the territory polygons and seeds the DESCO ones from the office points.
+    """
+    from workers.geospatial import zone_cells
+    zone_cells.build()
+
+
 LAYERS = {
     "districts": build_districts,
     "territories": build_territories,
     "desco-points": build_desco_points,
     "neighbourhoods": build_neighbourhoods,
+    "zone-cells": build_zone_cells,
 }
 
 

@@ -1,6 +1,6 @@
 {
   "schema": "schedule-index/1",
-  "generated_at": "2026-08-24T13:19:09Z",
+  "generated_at": "2026-08-24T17:46:17Z",
   "stale_after_hours": 36,
   "utilities": [
     {
@@ -24,7 +24,7 @@
       "status": "fresh",
       "latest_date": "2026-08-24",
       "claim_count": 423,
-      "retrieved_at": "2026-08-24T13:19:09Z",
+      "retrieved_at": "2026-08-24T17:46:17Z",
       "source_url": "https://dpdc.org.bd/site/nocs/load_shedding",
       "stale_after_hours": 36,
       "message": "36 of 36 zone sheets read: 19 digital, 17 scanned and read by OCR",

@@ -269,6 +269,20 @@ export class CoverageMap {
     });
   }
 
+  /** Replace an existing polygon layer's data, keeping its paint rules.
+   *
+   * Used to recolour zone cells as the clock moves: a zone inside a published
+   * window is filled dark, the rest stay tinted in their utility's colour. The
+   * geometry never changes, only the properties the paint expression reads.
+   */
+  setPolygonData(id, data) {
+    if (this.layers[id]) this.layers[id].data = data;
+    this._whenReady(() => {
+      const src = this.map.getSource(id);
+      if (src) src.setData(data);
+    });
+  }
+
   addPointLayer(id, data, opts = {}) {
     if (!data?.features?.length) return;
     this.layers[id] = { data, opts, point: true };

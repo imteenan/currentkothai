@@ -39,6 +39,7 @@ export const load = {
     territories:    () => getJSON('geo/utility-territories.geojson', EMPTY_FC),
     descoDivisions: () => getJSON('geo/desco-divisions.geojson', EMPTY_FC),
     descoOffices:   () => getJSON('geo/desco-offices.geojson', EMPTY_FC),
+    dpdcZones:      () => getJSON('geo/dpdc-zones.geojson', EMPTY_FC),
     neighbourhoods: () => getJSON('geo/dhaka-neighbourhoods.geojson', EMPTY_FC),
     districts:      () => getJSON('geo/bangladesh-admin.geojson', EMPTY_FC),
     divisionsAdmin: () => getJSON('geo/bangladesh-divisions.geojson', EMPTY_FC),
@@ -47,10 +48,12 @@ export const load = {
 
 /** Everything the location panel needs, loaded once, in parallel. */
 export async function bootstrap() {
-  const [utilities, sources, alerts, index, calibration, territories, descoDivisions, descoOffices] =
+  const [utilities, sources, alerts, index, calibration, territories, descoDivisions, descoOffices,
+         dpdcZones] =
     await Promise.all([
       load.utilities(), load.sources(), load.alerts(), load.scheduleIndex(), load.calibration(),
       load.geo.territories(), load.geo.descoDivisions(), load.geo.descoOffices(),
+      load.geo.dpdcZones(),
     ]);
   return {
     utilities: utilities.utilities ?? utilities ?? [],
@@ -59,7 +62,7 @@ export async function bootstrap() {
     alerts: alerts.alerts ?? alerts ?? [],
     index: index.utilities ?? index ?? [],
     calibration,
-    geo: { territories, descoDivisions, descoOffices },
+    geo: { territories, descoDivisions, descoOffices, dpdcZones },
   };
 }
 

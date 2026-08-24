@@ -131,9 +131,10 @@
       "name": "Kazla",
       "pdf_url": "https://dpdc.org.bd/site/load_shedding/kazla/250.pdf",
       "pdf_live": true,
-      "lat": null,
-      "lon": null,
-      "geocoded_query": "Kazla, Dhaka"
+      "lat": 23.71116,
+      "lon": 90.4435,
+      "geocoded_query": "Kajla, Dhaka",
+      "geocode_note": "DPDC spells this zone Kazla; OpenStreetMap spells the place Kajla. Nominatim's free-text search for 'Kazla, Dhaka' returns a Kazla in Rajshahi, 250km away, so this comes from the Kajla place node in data/geo/dhaka-neighbourhoods.geojson instead."
     },
     {
       "slug": "khilgaon",
@@ -313,7 +314,8 @@
       "pdf_live": true,
       "lat": null,
       "lon": null,
-      "geocoded_query": "Sitalakhya, Narayanganj"
+      "geocoded_query": "Sitalakhya, Narayanganj",
+      "geocode_note": "No coordinates. The zone is named for the Shitalakshya river in Narayanganj and no place node matching it exists in our OSM extract; Nominatim returns nothing for either spelling. Without a point it gets no Voronoi cell, so this zone has no shape on the map. Its schedule is still read and still searchable."
     },
     {
       "slug": "swamibag",

@@ -1,6 +1,1575 @@
 {
-  "type": "FeatureCollection",
-  "features": [],
-  "note": "Intentionally empty. DESCO does not publish S&D division boundaries, and OpenStreetMap has none either, so there is no honest polygon to draw. Division ranking therefore uses proximity to the reference points in desco-offices.geojson, which is the more defensible signal anyway. See docs/GEOSPATIAL.md. The app degrades gracefully when this layer is empty.",
-  "generated_at": "2026-08-23T00:00:00Z"
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.39430669454408,
+       23.77684546975588
+      ],
+      [
+       90.38495943923614,
+       23.770108385977757
+      ],
+      [
+       90.37162859375313,
+       23.780439170940465
+      ],
+      [
+       90.37001645069513,
+       23.78626744843742
+      ],
+      [
+       90.37060358575667,
+       23.789833930009525
+      ],
+      [
+       90.39425317503604,
+       23.77786776468305
+      ],
+      [
+       90.39430669454408,
+       23.77684546975588
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-agargaon",
+    "slug": "desco-div-agargaon",
+    "name": "Agargaon",
+    "division": "Agargaon",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.4342444388206,
+       23.790886390264305
+      ],
+      [
+       90.44186719900603,
+       23.79828745943762
+      ],
+      [
+       90.4757366771977,
+       23.812525637785328
+      ],
+      [
+       90.48509299728862,
+       23.814312584735617
+      ],
+      [
+       90.4842028,
+       23.8097203
+      ],
+      [
+       90.4851938,
+       23.8064956
+      ],
+      [
+       90.4821278,
+       23.8014429
+      ],
+      [
+       90.4809748,
+       23.7945418
+      ],
+      [
+       90.4795669,
+       23.7913264
+      ],
+      [
+       90.4743003,
+       23.787235
+      ],
+      [
+       90.4719176,
+       23.7862053
+      ],
+      [
+       90.4706433,
+       23.7846804
+      ],
+      [
+       90.4713324,
+       23.781603
+      ],
+      [
+       90.4737102,
+       23.7786187
+      ],
+      [
+       90.4774774,
+       23.7780903
+      ],
+      [
+       90.4824072,
+       23.7722062
+      ],
+      [
+       90.48327,
+       23.7703906
+      ],
+      [
+       90.4822629,
+       23.7670447
+      ],
+      [
+       90.48278031529716,
+       23.764138648294413
+      ],
+      [
+       90.46799012433951,
+       23.74840910933505
+      ],
+      [
+       90.45442018216684,
+       23.75329246537349
+      ],
+      [
+       90.42848405320704,
+       23.779560823920516
+      ],
+      [
+       90.4342444388206,
+       23.790886390264305
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-badda",
+    "slug": "desco-div-badda",
+    "name": "Badda",
+    "division": "Badda",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.40098225925618,
+       23.80529303951385
+      ],
+      [
+       90.4242387226364,
+       23.81043269822871
+      ],
+      [
+       90.44186719900603,
+       23.79828745943762
+      ],
+      [
+       90.4342444388206,
+       23.790886390264305
+      ],
+      [
+       90.4010785901655,
+       23.804858764787166
+      ],
+      [
+       90.40098225925618,
+       23.80529303951385
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-baridhara",
+    "slug": "desco-div-baridhara",
+    "name": "Baridhara",
+    "division": "Baridhara",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.42186139459018,
+       23.829102647818402
+      ],
+      [
+       90.4757366771977,
+       23.812525637785328
+      ],
+      [
+       90.44186719900603,
+       23.79828745943762
+      ],
+      [
+       90.4242387226364,
+       23.81043269822871
+      ],
+      [
+       90.42186139459018,
+       23.829102647818402
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-bashundhara",
+    "slug": "desco-div-bashundhara",
+    "name": "Bashundhara",
+    "division": "Bashundhara",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.41640698045258,
+       23.87698967941044
+      ],
+      [
+       90.42064652566631,
+       23.8835541365156
+      ],
+      [
+       90.46755200942019,
+       23.860389810234565
+      ],
+      [
+       90.40786680013167,
+       23.841015726972813
+      ],
+      [
+       90.41640698045258,
+       23.87698967941044
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-dhakkhinkhan",
+    "slug": "desco-div-dhakkhinkhan",
+    "name": "Dhakkhinkhan",
+    "division": "Dhakkhinkhan",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.36254655942861,
+       23.86663532454362
+      ],
+      [
+       90.36778351323588,
+       23.859615036763135
+      ],
+      [
+       90.35785035217408,
+       23.829478455351712
+      ],
+      [
+       90.33684959945128,
+       23.819351043178013
+      ],
+      [
+       90.3364054,
+       23.8204437
+      ],
+      [
+       90.3395808,
+       23.824094
+      ],
+      [
+       90.3443165,
+       23.828113
+      ],
+      [
+       90.3428142,
+       23.8277796
+      ],
+      [
+       90.3431148,
+       23.8288462
+      ],
+      [
+       90.3421181,
+       23.8274417
+      ],
+      [
+       90.3407128,
+       23.827981
+      ],
+      [
+       90.3398379,
+       23.8294739
+      ],
+      [
+       90.3379925,
+       23.8300236
+      ],
+      [
+       90.3373812,
+       23.8309077
+      ],
+      [
+       90.3375049,
+       23.8323178
+      ],
+      [
+       90.3389532,
+       23.8341681
+      ],
+      [
+       90.3380863,
+       23.8376513
+      ],
+      [
+       90.3416411,
+       23.8413676
+      ],
+      [
+       90.3414264,
+       23.8423101
+      ],
+      [
+       90.3373088,
+       23.8461457
+      ],
+      [
+       90.3372417,
+       23.8468768
+      ],
+      [
+       90.3394947,
+       23.8498848
+      ],
+      [
+       90.3392805,
+       23.8515728
+      ],
+      [
+       90.3398382,
+       23.8525537
+      ],
+      [
+       90.3433816,
+       23.8566127
+      ],
+      [
+       90.3464961,
+       23.8590167
+      ],
+      [
+       90.350914,
+       23.865763
+      ],
+      [
+       90.350532,
+       23.8764086
+      ],
+      [
+       90.35157324946287,
+       23.877200314923396
+      ],
+      [
+       90.36254655942861,
+       23.86663532454362
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-eastern-housing",
+    "slug": "desco-div-eastern-housing",
+    "name": "Eastern Housing",
+    "division": "Eastern Housing",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.40010690053357,
+       23.79540825067227
+      ],
+      [
+       90.4010785901655,
+       23.804858764787166
+      ],
+      [
+       90.4342444388206,
+       23.790886390264305
+      ],
+      [
+       90.42848405320704,
+       23.779560823920516
+      ],
+      [
+       90.42552838404765,
+       23.778035206465812
+      ],
+      [
+       90.40036369123771,
+       23.792863301740116
+      ],
+      [
+       90.40010690053357,
+       23.79540825067227
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-gulshan",
+    "slug": "desco-div-gulshan",
+    "name": "Gulshan",
+    "division": "Gulshan",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.38029612128575,
+       23.811133874179358
+      ],
+      [
+       90.38697066894656,
+       23.819094560369972
+      ],
+      [
+       90.39116098746818,
+       23.82183726479069
+      ],
+      [
+       90.40098225925618,
+       23.80529303951385
+      ],
+      [
+       90.40010690053357,
+       23.79540825067227
+      ],
+      [
+       90.37176746879042,
+       23.78954021424393
+      ],
+      [
+       90.37060358575667,
+       23.789833930009525
+      ],
+      [
+       90.3686994992763,
+       23.793594965045404
+      ],
+      [
+       90.38029612128575,
+       23.811133874179358
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-ibrahimpur",
+    "slug": "desco-div-ibrahimpur",
+    "name": "Ibrahimpur",
+    "division": "Ibrahimpur",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.39418191740323,
+       23.836532343437426
+      ],
+      [
+       90.40834685370208,
+       23.840924485689456
+      ],
+      [
+       90.42186139459018,
+       23.829102647818402
+      ],
+      [
+       90.4242387226364,
+       23.81043269822871
+      ],
+      [
+       90.40098225925618,
+       23.80529303951385
+      ],
+      [
+       90.39116098746818,
+       23.82183726479069
+      ],
+      [
+       90.39418191740323,
+       23.836532343437426
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-joarshahara",
+    "slug": "desco-div-joarshahara",
+    "name": "Joarshahara",
+    "division": "Joarshahara",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.40010690053357,
+       23.79540825067227
+      ],
+      [
+       90.40036369123771,
+       23.792863301740116
+      ],
+      [
+       90.39425317503604,
+       23.77786776468305
+      ],
+      [
+       90.37176746879042,
+       23.78954021424393
+      ],
+      [
+       90.40010690053357,
+       23.79540825067227
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-kafrul",
+    "slug": "desco-div-kafrul",
+    "name": "Kafrul",
+    "division": "Kafrul",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.36067072356111,
+       23.795473976041105
+      ],
+      [
+       90.3686994992763,
+       23.793594965045404
+      ],
+      [
+       90.37060358575667,
+       23.789833930009525
+      ],
+      [
+       90.37001645069513,
+       23.78626744843742
+      ],
+      [
+       90.36114350050681,
+       23.777673557509534
+      ],
+      [
+       90.33807790361668,
+       23.779259001345785
+      ],
+      [
+       90.3356074,
+       23.7830236
+      ],
+      [
+       90.3358645,
+       23.7842091
+      ],
+      [
+       90.3383982,
+       23.7864592
+      ],
+      [
+       90.3387306,
+       23.7888492
+      ],
+      [
+       90.33983834382654,
+       23.791196124066445
+      ],
+      [
+       90.36067072356111,
+       23.795473976041105
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-kallyanpur",
+    "slug": "desco-div-kallyanpur",
+    "name": "Kallyanpur",
+    "division": "Kallyanpur",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.47157512346185,
+       23.85992592916058
+      ],
+      [
+       90.4709679,
+       23.8578323
+      ],
+      [
+       90.4664156,
+       23.8545666
+      ],
+      [
+       90.4651809,
+       23.8522245
+      ],
+      [
+       90.4637506,
+       23.8474783
+      ],
+      [
+       90.4649019,
+       23.844806
+      ],
+      [
+       90.464448,
+       23.8445544
+      ],
+      [
+       90.4654598,
+       23.8436284
+      ],
+      [
+       90.4661143,
+       23.8437854
+      ],
+      [
+       90.4699659,
+       23.846906
+      ],
+      [
+       90.4724429,
+       23.8469898
+      ],
+      [
+       90.4726696,
+       23.8427452
+      ],
+      [
+       90.4770985,
+       23.8374937
+      ],
+      [
+       90.4784975,
+       23.8342242
+      ],
+      [
+       90.4823988,
+       23.8310033
+      ],
+      [
+       90.4852867,
+       23.8322864
+      ],
+      [
+       90.4864803,
+       23.8319851
+      ],
+      [
+       90.4881592,
+       23.8262152
+      ],
+      [
+       90.4866693,
+       23.8224443
+      ],
+      [
+       90.48509299728862,
+       23.814312584735617
+      ],
+      [
+       90.4757366771977,
+       23.812525637785328
+      ],
+      [
+       90.42186139459018,
+       23.829102647818402
+      ],
+      [
+       90.40834685370208,
+       23.840924485689456
+      ],
+      [
+       90.46755200942019,
+       23.860389810234565
+      ],
+      [
+       90.47157512346185,
+       23.85992592916058
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-khilkhet",
+    "slug": "desco-div-khilkhet",
+    "name": "Khilkhet",
+    "division": "Khilkhet",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.35586466476649,
+       23.814817378111584
+      ],
+      [
+       90.36084268305231,
+       23.81928389360107
+      ],
+      [
+       90.38697066894656,
+       23.819094560369972
+      ],
+      [
+       90.38029612128575,
+       23.811133874179358
+      ],
+      [
+       90.35814003182477,
+       23.810290979471592
+      ],
+      [
+       90.35586466476649,
+       23.814817378111584
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-mirpur",
+    "slug": "desco-div-mirpur",
+    "name": "Mirpur",
+    "division": "Mirpur",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.39425317503604,
+       23.77786776468305
+      ],
+      [
+       90.40036369123771,
+       23.792863301740116
+      ],
+      [
+       90.42552838404765,
+       23.778035206465812
+      ],
+      [
+       90.41563783634051,
+       23.765584432704706
+      ],
+      [
+       90.40693227845138,
+       23.764298440699463
+      ],
+      [
+       90.39430669454408,
+       23.77684546975588
+      ],
+      [
+       90.39425317503604,
+       23.77786776468305
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-mohakhali",
+    "slug": "desco-div-mohakhali",
+    "name": "Mohakhali",
+    "division": "Mohakhali",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.35586466476649,
+       23.814817378111584
+      ],
+      [
+       90.35814003182477,
+       23.810290979471592
+      ],
+      [
+       90.36067072356111,
+       23.795473976041105
+      ],
+      [
+       90.33983834382654,
+       23.791196124066445
+      ],
+      [
+       90.3401389,
+       23.79508
+      ],
+      [
+       90.3396051,
+       23.7976282
+      ],
+      [
+       90.3419166,
+       23.798504
+      ],
+      [
+       90.3433977,
+       23.8012933
+      ],
+      [
+       90.3428176,
+       23.8051095
+      ],
+      [
+       90.3400738,
+       23.8084043
+      ],
+      [
+       90.3396235,
+       23.8112294
+      ],
+      [
+       90.34084062844606,
+       23.81607317278888
+      ],
+      [
+       90.35586466476649,
+       23.814817378111584
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-monipur",
+    "slug": "desco-div-monipur",
+    "name": "Monipur",
+    "division": "Monipur",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.35785035217408,
+       23.829478455351712
+      ],
+      [
+       90.36778351323588,
+       23.859615036763135
+      ],
+      [
+       90.39418191740323,
+       23.836532343437426
+      ],
+      [
+       90.39116098746818,
+       23.82183726479069
+      ],
+      [
+       90.38697066894656,
+       23.819094560369972
+      ],
+      [
+       90.36084268305231,
+       23.81928389360107
+      ],
+      [
+       90.35785035217408,
+       23.829478455351712
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-pallabi",
+    "slug": "desco-div-pallabi",
+    "name": "Pallabi",
+    "division": "Pallabi",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.36084268305231,
+       23.81928389360107
+      ],
+      [
+       90.35586466476649,
+       23.814817378111584
+      ],
+      [
+       90.34084062844606,
+       23.81607317278888
+      ],
+      [
+       90.3411387,
+       23.8172594
+      ],
+      [
+       90.3403531,
+       23.8184425
+      ],
+      [
+       90.3370913,
+       23.8187565
+      ],
+      [
+       90.33684959945128,
+       23.819351043178013
+      ],
+      [
+       90.35785035217408,
+       23.829478455351712
+      ],
+      [
+       90.36084268305231,
+       23.81928389360107
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-rupnagar",
+    "slug": "desco-div-rupnagar",
+    "name": "Rupnagar",
+    "division": "Rupnagar",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.3686994992763,
+       23.793594965045404
+      ],
+      [
+       90.36067072356111,
+       23.795473976041105
+      ],
+      [
+       90.35814003182477,
+       23.810290979471592
+      ],
+      [
+       90.38029612128575,
+       23.811133874179358
+      ],
+      [
+       90.3686994992763,
+       23.793594965045404
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-shah-ali",
+    "slug": "desco-div-shah-ali",
+    "name": "Shah Ali",
+    "division": "Shah Ali",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.36032047485249,
+       23.892756109842537
+      ],
+      [
+       90.3604466,
+       23.893118
+      ],
+      [
+       90.3653507,
+       23.8943382
+      ],
+      [
+       90.3665753,
+       23.894132
+      ],
+      [
+       90.3707642,
+       23.8959044
+      ],
+      [
+       90.3736306,
+       23.8951761
+      ],
+      [
+       90.3801134,
+       23.8991134
+      ],
+      [
+       90.3847764,
+       23.8981449
+      ],
+      [
+       90.3871181110694,
+       23.895775561810638
+      ],
+      [
+       90.36032047485249,
+       23.892756109842537
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-tongi-central",
+    "slug": "desco-div-tongi-central",
+    "name": "Tongi Central",
+    "division": "Tongi Central",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.39295451174843,
+       23.727262200043377
+      ],
+      [
+       90.37733626136242,
+       23.732488037413773
+      ],
+      [
+       90.3775950565168,
+       23.73313841133334
+      ],
+      [
+       90.3922015695243,
+       23.736859222729223
+      ],
+      [
+       90.39561949976449,
+       23.7336309894788
+      ],
+      [
+       90.39761310647378,
+       23.727734969335053
+      ],
+      [
+       90.39295451174843,
+       23.727262200043377
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-turag",
+    "slug": "desco-div-turag",
+    "name": "Turag",
+    "division": "Turag",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.36778351323588,
+       23.859615036763135
+      ],
+      [
+       90.36254655942861,
+       23.86663532454362
+      ],
+      [
+       90.41640698045258,
+       23.87698967941044
+      ],
+      [
+       90.40786680013167,
+       23.841015726972813
+      ],
+      [
+       90.39418191740323,
+       23.836532343437426
+      ],
+      [
+       90.36778351323588,
+       23.859615036763135
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-uttara-east",
+    "slug": "desco-div-uttara-east",
+    "name": "Uttara East",
+    "division": "Uttara East",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.35157324946287,
+       23.877200314923396
+      ],
+      [
+       90.3581932,
+       23.8822338
+      ],
+      [
+       90.3587422,
+       23.883984
+      ],
+      [
+       90.3576013,
+       23.8887737
+      ],
+      [
+       90.3599011,
+       23.8915528
+      ],
+      [
+       90.36032047485249,
+       23.892756109842537
+      ],
+      [
+       90.3871181110694,
+       23.895775561810638
+      ],
+      [
+       90.3888958,
+       23.8939769
+      ],
+      [
+       90.3893191,
+       23.8922266
+      ],
+      [
+       90.3918469,
+       23.8894513
+      ],
+      [
+       90.3926091,
+       23.8852413
+      ],
+      [
+       90.3922285,
+       23.883597
+      ],
+      [
+       90.3940169,
+       23.8805696
+      ],
+      [
+       90.412599,
+       23.8830126
+      ],
+      [
+       90.416591,
+       23.8858802
+      ],
+      [
+       90.41967036273134,
+       23.886927743232988
+      ],
+      [
+       90.42064652566631,
+       23.8835541365156
+      ],
+      [
+       90.41640698045258,
+       23.87698967941044
+      ],
+      [
+       90.36254655942861,
+       23.86663532454362
+      ],
+      [
+       90.35157324946287,
+       23.877200314923396
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-uttara-west",
+    "slug": "desco-div-uttara-west",
+    "name": "Uttara West",
+    "division": "Uttara West",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.46755200942019,
+       23.860389810234565
+      ],
+      [
+       90.42064652566631,
+       23.8835541365156
+      ],
+      [
+       90.41967036273134,
+       23.886927743232988
+      ],
+      [
+       90.4221348,
+       23.8877661
+      ],
+      [
+       90.4261129,
+       23.8917994
+      ],
+      [
+       90.4379572,
+       23.8998739
+      ],
+      [
+       90.4408056,
+       23.8998381
+      ],
+      [
+       90.4458524,
+       23.8981569
+      ],
+      [
+       90.4525564,
+       23.89498
+      ],
+      [
+       90.4576756,
+       23.8947004
+      ],
+      [
+       90.4599114,
+       23.8914682
+      ],
+      [
+       90.4596017,
+       23.8889465
+      ],
+      [
+       90.4601289,
+       23.8871508
+      ],
+      [
+       90.4587155,
+       23.8858155
+      ],
+      [
+       90.4588472,
+       23.8846961
+      ],
+      [
+       90.460428,
+       23.8842779
+      ],
+      [
+       90.46106,
+       23.8833915
+      ],
+      [
+       90.4607382,
+       23.8814716
+      ],
+      [
+       90.464212,
+       23.8745202
+      ],
+      [
+       90.4717866,
+       23.8671225
+      ],
+      [
+       90.47157512346185,
+       23.85992592916058
+      ],
+      [
+       90.46755200942019,
+       23.860389810234565
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-uttarkhan",
+    "slug": "desco-div-uttarkhan",
+    "name": "Uttarkhan",
+    "division": "Uttarkhan",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  }
+ ],
+ "properties": {
+  "utility": "DESCO",
+  "level": "zone",
+  "count": 23,
+  "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+ }
 }
