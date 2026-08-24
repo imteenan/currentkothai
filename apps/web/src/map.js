@@ -131,10 +131,15 @@ export class CoverageMap {
       type: 'circle',
       source: COL_SRC,
       paint: {
-        'circle-radius': ['interpolate', ['linear'], ['zoom'], 9, 9, 14, 30],
+        // Tuned for 23 zones filling the screen. Fitting both distributors
+        // opens at zoom ~9.2 with 58 of them, where a 9px disc blurred by 1.1
+        // spreads into its neighbours and the city reads as one orange stain.
+        // Small and tight when zoomed out, generous once they are apart.
+        'circle-radius': ['interpolate', ['linear'], ['zoom'], 9, 3.5, 11, 11, 14, 30],
         'circle-color': ['case', ['get', 'shedding'], '#1a1a1e', ['get', 'colorOn']],
-        'circle-opacity': ['case', ['get', 'shedding'], 0.30, 0.34],
-        'circle-blur': 1.1,
+        'circle-opacity': ['interpolate', ['linear'], ['zoom'],
+          9, 0.18, 11.5, ['case', ['get', 'shedding'], 0.30, 0.34]],
+        'circle-blur': ['interpolate', ['linear'], ['zoom'], 9, 0.55, 12, 1.1],
       },
     }, 'zone-columns');
 
@@ -285,11 +290,24 @@ export class CoverageMap {
   fitTo(bounds, opts = {}) {
     if (!bounds) return;
     this._whenReady(() => {
+      // fitBounds computes a whole camera, and a camera has a pitch. Leave it
+      // out and MapLibre flattens the map to 0: the extruded columns collapse
+      // into flat octagons and the 3D skyline turns into orange smears. Carry
+      // the current angle through the fit rather than letting it be reset.
+      const pitch = this.map.getPitch();
+      const bearing = this.map.getBearing();
       this.map.fitBounds(bounds, {
         padding: opts.padding ?? { top: 40, bottom: 40, left: 40, right: 40 },
         duration: 0,
         maxZoom: opts.maxZoom ?? 11,
+        pitch,
+        bearing,
       });
+      // Not every version honours pitch inside fitBounds, and a silently flat
+      // map is the whole bug, so assert it rather than trusting the option.
+      if (Math.abs(this.map.getPitch() - pitch) > 1) this.map.setPitch(pitch);
+      if (Math.abs(this.map.getBearing() - bearing) > 1) this.map.setBearing(bearing);
+      this.pitched = this.map.getPitch() > 1;
     });
   }
 

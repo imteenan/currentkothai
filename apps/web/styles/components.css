@@ -211,10 +211,20 @@
               -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
               border: 1px solid var(--hairline);
               font-size: var(--text-caption); color: var(--graphite);
-              display: grid; gap: 6px; max-width: 240px; }
+              display: grid; gap: 6px; max-width: min(320px, 60vw); }
 .map-legend b { font-size: var(--text-caption); font-weight: var(--w-semibold); color: var(--carbon); }
-.map-legend .lg { display: flex; align-items: center; gap: 8px; }
+.map-legend .lg { display: flex; align-items: center; gap: 7px; white-space: nowrap; }
 .map-legend .sw { width: 14px; height: 10px; border-radius: 2px; flex: none; border: 1.5px solid; }
+
+/* Two columns instead of one long stack: same information, half the height,
+   so the panel stops sitting on top of the south of the city. */
+.legend-fold { display: grid; gap: 6px; }
+.legend-fold > summary { cursor: pointer; list-style: none; }
+.legend-fold > summary::-webkit-details-marker { display: none; }
+.legend-fold > summary::after { content: " ▾"; color: var(--ash); }
+.legend-fold[open] > summary::after { content: " ▴"; }
+.legend-grid { display: grid; grid-template-columns: repeat(2, auto);
+               gap: 4px 14px; justify-content: start; }
 .map-tools { right: 12px; top: 12px; pointer-events: auto; display: flex; gap: 6px; }
 
 /* MapLibre's default popup is white-on-white against our styling — restyle it

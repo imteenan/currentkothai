@@ -244,10 +244,19 @@ function renderMapLegend(territories) {
     return `<span class="lg"><i class="sw" style="border-color:${esc(p.color_hex || '#707070')};
       background:${esc(p.color_hex || '#707070')}22;border-style:dashed"></i>${esc(p.name)}</span>`;
   });
-  legend.innerHTML = `<b>Legend</b>${rows.join('')}
-    <span class="lg"><i class="sw" style="border-color:#c47b00;background:#ff9500"></i>Zone supplied</span>
-    <span class="lg"><i class="sw" style="border-color:#555;background:#1a1a1e"></i>Zone scheduled off</span>
-    <span class="muted" style="margin-top:2px">Dashed borders are our estimates.</span>`;
+  // A <details> so it can be folded away. Eight stacked rows covered the whole
+  // lower-left of the map, which on a narrow screen meant the legend sat on top
+  // of Fatulla and Narayanganj - the exact corner that had just been fixed.
+  // Open on a wide screen where there is room, shut on a phone where there is not.
+  legend.innerHTML = `<details class="legend-fold"${window.innerWidth >= 900 ? ' open' : ''}>
+    <summary><b>Legend</b></summary>
+    <div class="legend-grid">${rows.join('')}</div>
+    <div class="legend-grid">
+      <span class="lg"><i class="sw" style="border-color:#c47b00;background:#ff9500"></i>Zone supplied</span>
+      <span class="lg"><i class="sw" style="border-color:#555;background:#1a1a1e"></i>Off now</span>
+    </div>
+    <span class="muted">Dashed borders are our estimates.</span>
+  </details>`;
 }
 
 /* ============================================================ search */
