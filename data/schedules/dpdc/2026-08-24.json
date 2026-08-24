@@ -8,8 +8,8 @@
   "source": {
     "source_id": "dpdc-load-shedding-index",
     "source_url": "https://dpdc.org.bd/site/nocs/load_shedding",
-    "retrieved_at": "2026-08-24T05:54:51Z",
-    "sha256": "d036b38c2aa828fbc4c792d93270948b1715efec892c80c23f118c91ea18ed29",
+    "retrieved_at": "2026-08-24T06:07:14Z",
+    "sha256": "dc8375902855cf2d31c120f4d874f58b410e8d9bd7a9a4174e03a107b3a5da9e",
     "part_hashes": [
       "adabor:ba9b142bc1929a55f4a869bd6a76ac0e95d4cc723eae262b3c790f4294fdff7b",
       "banasree:062580837d87c0ca82622b8b996c0390f1523468ebee7cddd6163157536c64c2",
@@ -20,14 +20,13 @@
       "kakrail:1966bffd7d1e6f35c53e142d00f138a8009bfa5a24661a314540eb93dabf43ad",
       "kazla:b5219d3a160d39d12e3f2001491de561cb2f458e8ae4e1ebdab26349b272a395",
       "lalbag:0b7ce8de9dec1133e912c7d4b6c400a2bf3d54722e8f439fd45e6881b4dbe6de",
-      "maniknagar:dfc93853a0881b1a6a4139af46d905ef544b901b946abfa91209f1489bbd1eb1",
       "matuail:c8f9a7db1aea6e3e12d7e229995ee8ad55e3a66128eac79e42d527fa8ffa78ea",
       "mogbazar:d072c3952046045477f192b3d26cd65d771392dd3d08011ed34e08dbf2bee40b",
       "motijheel:dd0e2da4c0f293d2e098ec8137f2ad6631a4799e077617bd704ec4251ec45c2b",
       "mugdapara:8ace531dc09c593fe10ee79c6c07a698d75ef4591fa10c69902aef2151374d23",
-      "narayangonj (east):24a4c78660f50fb5af6badbeb94315e562d387fa449d24f4397c3b34ddc15718",
       "narayangonj (west):dccdca5e727d8ba9f53b2301426816594f5af36293d8ddbb4bb61ab0ae5fa64b",
       "narinda:466509b291a952a602d99ad8d3c514440f3bade651d2dc23fb7625ffd5ee921e",
+      "paribag:2533ef8f49c2efe33c793d0e2afd2cc267c519e795f29d200d60f268645b5eb9",
       "postogola:6edf7ad44d9f0cb4e7f0b88a2670b0192279ead9990174f05595e311efb932c6",
       "ramna:79e2ca21912ff463349d1fc705a78d3ba816aca6a23edd8e9b17266fd9a1a8aa",
       "satmosjid:bc20a10a86f1261eed594d20f0bd7fc389388854d9503dd2f8c5d810d978e588",
@@ -2194,194 +2193,6 @@
       "billing_code": "-"
     },
     {
-      "division": "Maniknagar",
-      "division_canonical": "Maniknagar",
-      "feeder": "row-01",
-      "feeder_id": "dpdc:maniknagar:row-01",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Maniknagar",
-      "division_canonical": "Maniknagar",
-      "feeder": "row-02",
-      "feeder_id": "dpdc:maniknagar:row-02",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Maniknagar",
-      "division_canonical": "Maniknagar",
-      "feeder": "row-03",
-      "feeder_id": "dpdc:maniknagar:row-03",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Maniknagar",
-      "division_canonical": "Maniknagar",
-      "feeder": "row-04",
-      "feeder_id": "dpdc:maniknagar:row-04",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Maniknagar",
-      "division_canonical": "Maniknagar",
-      "feeder": "row-05",
-      "feeder_id": "dpdc:maniknagar:row-05",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Maniknagar",
-      "division_canonical": "Maniknagar",
-      "feeder": "row-06",
-      "feeder_id": "dpdc:maniknagar:row-06",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Maniknagar",
-      "division_canonical": "Maniknagar",
-      "feeder": "row-07",
-      "feeder_id": "dpdc:maniknagar:row-07",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Maniknagar",
-      "division_canonical": "Maniknagar",
-      "feeder": "row-08",
-      "feeder_id": "dpdc:maniknagar:row-08",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Maniknagar",
-      "division_canonical": "Maniknagar",
-      "feeder": "row-09",
-      "feeder_id": "dpdc:maniknagar:row-09",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "14:00",
-          "end": "16:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Maniknagar",
-      "division_canonical": "Maniknagar",
-      "feeder": "row-10",
-      "feeder_id": "dpdc:maniknagar:row-10",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
       "division": "Motijheel",
       "division_canonical": "Motijheel",
       "feeder": "A133E",
@@ -2850,204 +2661,6 @@
       "billing_code": "A175S"
     },
     {
-      "division": "Narayangonj (east)",
-      "division_canonical": "Narayangonj (east)",
-      "feeder": "row-02",
-      "feeder_id": "dpdc:narayangonj-east:row-02",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "16:00",
-          "end": "17:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Narayangonj (east)",
-      "division_canonical": "Narayangonj (east)",
-      "feeder": "row-05",
-      "feeder_id": "dpdc:narayangonj-east:row-05",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Narayangonj (east)",
-      "division_canonical": "Narayangonj (east)",
-      "feeder": "row-06",
-      "feeder_id": "dpdc:narayangonj-east:row-06",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "14:00",
-          "end": "15:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Narayangonj (east)",
-      "division_canonical": "Narayangonj (east)",
-      "feeder": "row-09",
-      "feeder_id": "dpdc:narayangonj-east:row-09",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Narayangonj (east)",
-      "division_canonical": "Narayangonj (east)",
-      "feeder": "row-10",
-      "feeder_id": "dpdc:narayangonj-east:row-10",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Narayangonj (east)",
-      "division_canonical": "Narayangonj (east)",
-      "feeder": "row-11",
-      "feeder_id": "dpdc:narayangonj-east:row-11",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Narayangonj (east)",
-      "division_canonical": "Narayangonj (east)",
-      "feeder": "row-15",
-      "feeder_id": "dpdc:narayangonj-east:row-15",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Narayangonj (east)",
-      "division_canonical": "Narayangonj (east)",
-      "feeder": "row-16",
-      "feeder_id": "dpdc:narayangonj-east:row-16",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "16:00",
-          "end": "17:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Narayangonj (east)",
-      "division_canonical": "Narayangonj (east)",
-      "feeder": "row-17",
-      "feeder_id": "dpdc:narayangonj-east:row-17",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Narayangonj (east)",
-      "division_canonical": "Narayangonj (east)",
-      "feeder": "row-18",
-      "feeder_id": "dpdc:narayangonj-east:row-18",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
-      "division": "Narayangonj (east)",
-      "division_canonical": "Narayangonj (east)",
-      "feeder": "row-19",
-      "feeder_id": "dpdc:narayangonj-east:row-19",
-      "area_text": "",
-      "windows": [
-        {
-          "start": "15:00",
-          "end": "16:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "billing_code": null,
-      "read_by": "ocr-scan",
-      "code_confident": false
-    },
-    {
       "division": "Narinda",
       "division_canonical": "Narinda",
       "feeder": "B124L",
@@ -3342,6 +2955,262 @@
       "feeder_name_bn": "সুরিটোলা ওভারহেড",
       "substation_bn": "বংশাল ৩৩/১১(cid:941)কিভ (cid:962)ীড উপেক(cid:1014)",
       "billing_code": "B177R"
+    },
+    {
+      "division": "Paribag",
+      "division_canonical": "Paribag",
+      "feeder": "row-02",
+      "feeder_id": "dpdc:paribag:row-02",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": null,
+      "read_by": "ocr-scan",
+      "code_confident": false
+    },
+    {
+      "division": "Paribag",
+      "division_canonical": "Paribag",
+      "feeder": "C301",
+      "feeder_id": "dpdc:paribag:c301",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "16:00",
+          "end": "17:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "C301",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Paribag",
+      "division_canonical": "Paribag",
+      "feeder": "C301D",
+      "feeder_id": "dpdc:paribag:c301d",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "C301D",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Paribag",
+      "division_canonical": "Paribag",
+      "feeder": "C301",
+      "feeder_id": "dpdc:paribag:c301",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "16:00",
+          "end": "17:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "C301",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Paribag",
+      "division_canonical": "Paribag",
+      "feeder": "C301M",
+      "feeder_id": "dpdc:paribag:c301m",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "C301M",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Paribag",
+      "division_canonical": "Paribag",
+      "feeder": "C301U",
+      "feeder_id": "dpdc:paribag:c301u",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "C301U",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Paribag",
+      "division_canonical": "Paribag",
+      "feeder": "C302J",
+      "feeder_id": "dpdc:paribag:c302j",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "C302J",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Paribag",
+      "division_canonical": "Paribag",
+      "feeder": "C302N",
+      "feeder_id": "dpdc:paribag:c302n",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "C302N",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Paribag",
+      "division_canonical": "Paribag",
+      "feeder": "C305G",
+      "feeder_id": "dpdc:paribag:c305g",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "C305G",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Paribag",
+      "division_canonical": "Paribag",
+      "feeder": "C302T",
+      "feeder_id": "dpdc:paribag:c302t",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "C302T",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Paribag",
+      "division_canonical": "Paribag",
+      "feeder": "C302A",
+      "feeder_id": "dpdc:paribag:c302a",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "C302A",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Paribag",
+      "division_canonical": "Paribag",
+      "feeder": "C301C",
+      "feeder_id": "dpdc:paribag:c301c",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "C301C",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Paribag",
+      "division_canonical": "Paribag",
+      "feeder": "C302H",
+      "feeder_id": "dpdc:paribag:c302h",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "C302H",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Paribag",
+      "division_canonical": "Paribag",
+      "feeder": "C302W",
+      "feeder_id": "dpdc:paribag:c302w",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "C302W",
+      "read_by": "ocr-scan",
+      "code_confident": true
     },
     {
       "division": "Postogola",
@@ -5649,13 +5518,13 @@
     }
   ],
   "stats": {
-    "claim_count": 269,
-    "feeder_count": 266,
-    "division_count": 15
+    "claim_count": 262,
+    "feeder_count": 258,
+    "division_count": 14
   },
   "parse_meta": {
     "zones_parsed": 19,
-    "zones_read_by_ocr": 8,
+    "zones_read_by_ocr": 7,
     "zones_failed": [],
     "zones_unreadable": [
       "azimpur (ScanError)",
@@ -5665,7 +5534,8 @@
       "fatulla (ScanError)",
       "kamrangirchar (ScanError)",
       "khilgaon (ScanError)",
-      "paribag (ScanError)",
+      "maniknagar (ScanError)",
+      "narayangonj (east) (ScanError)",
       "rajarbag (ScanError)"
     ],
     "hour_column_count": 24,
@@ -5676,7 +5546,13 @@
     ]
   },
   "validation": {
-    "verdict": "pass",
-    "findings": []
+    "verdict": "quarantine",
+    "findings": [
+      {
+        "verdict": "quarantine",
+        "check": "duplicates",
+        "detail": "1 duplicate feeder/window row(s)"
+      }
+    ]
   }
 }

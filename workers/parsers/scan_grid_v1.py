@@ -44,6 +44,7 @@ from typing import Any
 import numpy as np
 
 from workers.ingestion.common import iso_utc, slugify
+from workers.parsers import grid_detect
 
 PARSER_ADAPTER = "scan_grid_v1"
 PARSER_VERSION = "1.0.0"
@@ -311,18 +312,21 @@ def parse(
     tls_verified: bool = True,
     archive_path: str | None = None,
     dpi: int = 300,
+    page: int = 0,
 ) -> dict[str, Any]:
     """Read one scanned sheet into schedule-claims/1."""
     import cv2
     pyt = _tesseract()
     pdf_path = Path(pdf_path)
 
-    gray = deskew(render(pdf_path, 0, dpi))
-    binary = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C,
-                                   cv2.THRESH_BINARY_INV, 35, 12)
-    rows, cols = grid_lines(binary)
+    gray = deskew(render(pdf_path, page, dpi))
+    rows, cols, widest_idx, hour_region, problem = grid_detect.resolve(gray)
     if len(rows) < 4 or len(cols) < 8:
         raise ScanError("grid not found (%d rows, %d cols)" % (len(rows), len(cols)))
+    if problem:
+        # Refusing costs a zone. Publishing a mis-segmented grid costs the
+        # reader their evening, so this is the cheaper failure.
+        raise ScanError("column segmentation unreliable: %s" % problem)
 
     # ---- hour columns -------------------------------------------------------
     # The header is NOT the first band: these sheets open with a title and two or
@@ -458,6 +462,7 @@ def parse(
             "hour_columns": ["%02d:00-%02d:00" % (a, b) for _, a, b in hour_cols],
             "header_row_index": header_row,
             "grid_rows": len(rows),
+            "hour_region_columns": len(hour_region),
             "grid_cols": len(cols),
             "paper_brightness": round(paper, 1),
             "mark_threshold": round(mark_thr, 1),
