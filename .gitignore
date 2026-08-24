@@ -13,3 +13,4 @@ _site/
 # already carries the source_url and the SHA-256 of the exact bytes we read, so
 # provenance survives without the blobs. Kept locally and in the CI workspace.
 data/seed/archive/
+build/
