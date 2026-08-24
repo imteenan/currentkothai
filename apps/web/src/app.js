@@ -127,8 +127,20 @@ function initMap() {
   const { territories, descoOffices, serviceArea } = state.data.geo;
   recolour(territories);
   for (const z of ZONE_LAYERS) recolour(state.data.geo[z.geo]);
+  // "Distributors" is the tab everyone lands on, and it draws this layer, not
+  // the zone cells. Raising the zone fill alone left DPDC just as faint as
+  // before on the only view most people ever see.
+  //
+  // The two distributors we read get a fill you can actually find; NESCO,
+  // WZPDCL and BPDB stay faint on purpose. Their territories are the size of
+  // the country and carry no schedule, so at equal weight they would flood the
+  // map and imply coverage that does not exist.
   state.map.addPolygonLayer('territories', territories, {
-    colorProperty: 'color_hex', fillOpacity: 0.14, lineWidth: 1.5,
+    colorProperty: 'color_hex',
+    fillOpacity: ['match', ['get', 'utility'],
+      ZONE_LAYERS.map((z) => z.utility), 0.26, 0.07],
+    lineWidth: ['match', ['get', 'utility'],
+      ZONE_LAYERS.map((z) => z.utility), 2.0, 1.2],
   });
   // One glowing ring around the whole covered area, drawn before the zone
   // layers so it sits underneath them.
