@@ -1,6 +1,6 @@
 {
   "schema": "schedule-index/1",
-  "generated_at": "2026-08-24T10:23:34Z",
+  "generated_at": "2026-08-24T11:40:19Z",
   "stale_after_hours": 36,
   "utilities": [
     {
@@ -23,27 +23,31 @@
       "coverage_level": "feeder",
       "status": "fresh",
       "latest_date": "2026-08-24",
-      "claim_count": 369,
-      "retrieved_at": "2026-08-24T10:19:57Z",
+      "claim_count": 423,
+      "retrieved_at": "2026-08-24T11:40:19Z",
       "source_url": "https://dpdc.org.bd/site/nocs/load_shedding",
       "stale_after_hours": 36,
-      "message": "32 of 36 zone sheets read: 19 digital, 13 scanned and read by OCR; 4 scans still unreadable and linked instead",
-      "division_count": 20,
-      "feeder_count": 366,
+      "message": "36 of 36 zone sheets read: 19 digital, 17 scanned and read by OCR",
+      "division_count": 24,
+      "feeder_count": 420,
       "tls_verified": true,
       "validation_verdict": "pass",
       "zones_parsed": [
         "Adabor",
         "Azimpur",
         "Banglabazar",
+        "Bangshal",
         "Bashaboo",
         "Demra",
         "Dhanmondi",
         "Fatulla",
         "Kakrail",
         "Kamrangirchar",
+        "Khilgaon",
         "Lalbag",
+        "Maniknagar",
         "Motijheel",
+        "Narayangonj (east)",
         "Narinda",
         "Paribag",
         "Postogola",
@@ -54,12 +58,7 @@
         "Swamibag",
         "Tejgaon"
       ],
-      "zones_scanned": [
-        "bangshal (ScanError)",
-        "khilgaon (ScanError)",
-        "maniknagar (ScanError)",
-        "narayangonj (east) (ScanError)"
-      ]
+      "zones_scanned": []
     },
     {
       "utility": "BPDB",

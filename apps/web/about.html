@@ -92,10 +92,12 @@
             <li>DESCO's own PDF has rows printed on top of each other. One reads
               <span class="mono">MGuolhsahkahnali:</span>, which is "Gulshan" interleaved with
               "Mohakhali". Those rows are excluded, not guessed.</li>
-            <li>DPDC mixes digital sheets with scanned ones. Nineteen digital sheets are parsed
-              directly, and eight scans are read by finding the ruled grid in the image and measuring
-              which cells are shaded. Nine scans still defeat that, so those zones link the original
-              PDF instead of guessing at it.</li>
+            <li>DPDC mixes digital sheets with scanned ones. All 36 zones are read: 19 digital PDFs
+              parsed directly, and 17 scanned photographs read by finding the ruled grid and measuring
+              which cells are shaded. The Bengali hour labels on those scans defeat every free OCR we
+              tried, so a Bangla reader read each sheet's hour layout once and it is recorded in the
+              repository. The layout is checked against the image on every run: if a sheet's column
+              count stops matching, the parser refuses rather than shifting the hours.</li>
             <li>NESCO publishes photographs of paper.</li>
             <li>An outage you experience may just be a local fault. It looks identical from your side
               of the meter.</li>

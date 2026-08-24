@@ -140,11 +140,90 @@ def split_merged(gray: np.ndarray, cols: list[int], region: list[int]) -> list[i
     return sorted(set(cols) | set(extra)) if extra else cols
 
 
-def segmentation_problem(cols: list[int], region: list[int]) -> str | None:
-    """Describe why these columns cannot be trusted, or None if they can."""
+def drop_leading_metadata(cols: list[int], region: list[int]) -> list[int]:
+    """Remove metadata columns that leaked into the left of the hour region.
+
+    When the area-name column is misidentified, wide text columns end up counted
+    as hours: maniknagar had 288px and 422px cells sitting among 105px ones. The
+    hour grid is uniform by construction, so anything at the left edge that is
+    far wider than the body of the region is not an hour column.
+    """
+    if len(region) < 6:
+        return region
+    while len(region) > 4:
+        widths = [cols[ci + 1] - cols[ci] for ci in region]
+        body = float(np.median(widths[len(widths) // 3:]))
+        if body > 0 and widths[0] > body * 1.9:
+            region = region[1:]
+        else:
+            break
+    return region
+
+
+def split_to_target(gray: np.ndarray, cols: list[int], region: list[int],
+                    target: int) -> list[int]:
+    """Split merged cells until the hour region has exactly `target` columns.
+
+    Safe to do only because `target` comes from a human-verified record of the
+    sheet's layout, not from a guess: we know how many columns there are, and
+    only need to find where the faint rules sit. Each split is placed at the
+    darkest pixel column near where an evenly divided cell would put it, so a
+    real (if faint) rule wins over an arbitrary cut.
+
+    Returns the original columns unchanged if it cannot reach the target, which
+    leaves the caller's segmentation guard to refuse the sheet.
+    """
+    if not region or target <= len(region):
+        return cols
+
+    cols = list(cols)
+    for _ in range(max(0, target - len(region)) + 2):
+        if len(region) >= target:
+            break
+        widths = [(ci, cols[ci + 1] - cols[ci]) for ci in region]
+        if not widths:
+            break
+        ci, span = max(widths, key=lambda t: t[1])
+        x0 = cols[ci]
+        band = gray[:, x0 + 4:x0 + span - 4]
+        if band.size == 0:
+            break
+        darkness = (band < 150).mean(axis=0)
+        mid = len(darkness) // 2
+        window = max(6, len(darkness) // 6)
+        lo, hi = max(0, mid - window), min(len(darkness), mid + window)
+        if hi <= lo:
+            break
+        cut = x0 + 4 + lo + int(np.argmax(darkness[lo:hi]))
+        if cut <= cols[ci] + 6 or cut >= cols[ci + 1] - 6:
+            break
+        cols = sorted(set(cols) | {cut})
+        # Recompute the region the same way the caller does, metadata trimmed,
+        # or the next iteration picks a wide metadata cell as "the merge".
+        _, region = hour_region(cols)
+        region = drop_leading_metadata(cols, region)
+        if len(region) >= target:
+            break
+    return cols
+
+
+def segmentation_problem(cols: list[int], region: list[int],
+                         labelled: list[bool] | None = None) -> str | None:
+    """Describe why these columns cannot be trusted, or None if they can.
+
+    `labelled` marks which columns carry an hour label. Blank spacer columns are
+    excluded from the width check because several sheets draw them deliberately
+    wide: maniknagar's two gaps are ~4x an hour column, which is the sheet's
+    design, not a missed rule.
+    """
     if not region:
         return "no hour columns found to the right of the widest column"
-    widths = [cols[ci + 1] - cols[ci] for ci in region]
+    if labelled and len(labelled) == len(region):
+        checked = [cols[ci + 1] - cols[ci]
+                   for ci, keep in zip(region, labelled) if keep]
+    else:
+        checked = [cols[ci + 1] - cols[ci] for ci in region]
+    widths = checked or [cols[ci + 1] - cols[ci] for ci in region]
     median = float(np.median(widths))
     widest = max(widths)
     if median <= 0:
@@ -156,7 +235,8 @@ def segmentation_problem(cols: list[int], region: list[int]) -> str | None:
     return None
 
 
-def resolve(gray: np.ndarray):
+def resolve(gray: np.ndarray, target_columns: int | None = None,
+            labelled: list[bool] | None = None):
     """Full recovery: find, split, then judge.
 
     Returns (rows, cols, widest_idx, region, problem). `problem` is None when the
@@ -166,8 +246,25 @@ def resolve(gray: np.ndarray):
     if not rows or not cols:
         return rows, cols, 0, [], "no ruled grid found at any threshold"
     widest, region = hour_region(cols)
+    region = drop_leading_metadata(cols, region)
     split = split_merged(gray, cols, region)
     if len(split) != len(cols):
         cols = split
         widest, region = hour_region(cols)
-    return rows, cols, widest, region, segmentation_problem(cols, region)
+        region = drop_leading_metadata(cols, region)
+
+    # With a recorded layout we know exactly how many columns to expect, so a
+    # remaining merge can be split deliberately rather than refused.
+    if target_columns and len(region) < target_columns:
+        cols = split_to_target(gray, cols, region, target_columns)
+        widest, region = hour_region(cols)
+        region = drop_leading_metadata(cols, region)
+
+    # Too MANY columns means the area-name column was misidentified and metadata
+    # leaked in from the left: on maniknagar two 288px and 422px cells sat among
+    # 105px hour cells. The hour grid is always the rightmost run, so trim to the
+    # recorded count rather than trying to re-guess which column is the widest.
+    if target_columns and len(region) > target_columns:
+        region = region[-target_columns:]
+
+    return rows, cols, widest, region, segmentation_problem(cols, region, labelled)

@@ -350,7 +350,13 @@ def parse(
     pdf_path = Path(pdf_path)
 
     gray = deskew(render(pdf_path, page, dpi))
-    rows, cols, widest_idx, hour_region, problem = grid_detect.resolve(gray)
+    # Tell the grid detector how many hour columns this sheet is recorded as
+    # having, so a faint missed rule can be placed rather than refused.
+    _recorded = recorded_grid(zone_slug) if zone_slug else None
+    _target = len(_recorded[0]) if _recorded else None
+    _labelled = [e is not None for e in _recorded[0]] if _recorded else None
+    rows, cols, widest_idx, hour_region, problem = grid_detect.resolve(
+        gray, _target, _labelled)
     if len(rows) < 4 or len(cols) < 8:
         raise ScanError("grid not found (%d rows, %d cols)" % (len(rows), len(cols)))
     if problem:
