@@ -24,20 +24,14 @@ for dir in "$OUT"/data/schedules/*/; do
     | sort -r | tail -n +8 | while read -r old; do rm -f "$dir$old"; done
 done
 
-# Stamp the service worker with a hash of the files it caches.
+# Stamp the build id into the service worker and every asset URL.
 #
-# Without this the cache name never changes, so a returning visitor keeps the
-# app.js they first downloaded no matter how many times we deploy: the fix ships
-# and they never see it. Hash the shell inputs, not the clock, so an unchanged
-# site keeps its cache and only a real change invalidates it.
-BUILD_ID="$(
-  find "$OUT" -type f \( -name '*.html' -o -name '*.js' -o -name '*.css' \)     -not -path "$OUT/data/*" -print0   | sort -z | xargs -0 cat | sha256sum | cut -c1-12
-)"
-if [ -f "$OUT/sw.js" ]; then
-  sed -i "s/__BUILD_ID__/$BUILD_ID/" "$OUT/sw.js"
-  grep -q "__BUILD_ID__" "$OUT/sw.js" && { echo "sw.js placeholder not replaced" >&2; exit 1; }
-  echo "  service worker build id: $BUILD_ID"
-fi
+# Three caches sit between a deploy and a visitor: the service worker, the HTTP
+# cache, and the copy a browser already holds, which keeps whatever max-age it
+# was stored with. Only a URL nobody has requested before escapes all three, so
+# every script, stylesheet and relative import gets ?v=<id>. See the module for
+# the full account; it fails the build rather than shipping an unstamped site.
+python tools/stamp_build.py "$OUT"
 
 touch "$OUT/.nojekyll"
 
