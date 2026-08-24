@@ -8,11 +8,12 @@
   "source": {
     "source_id": "dpdc-load-shedding-index",
     "source_url": "https://dpdc.org.bd/site/nocs/load_shedding",
-    "retrieved_at": "2026-08-24T06:07:14Z",
-    "sha256": "dc8375902855cf2d31c120f4d874f58b410e8d9bd7a9a4174e03a107b3a5da9e",
+    "retrieved_at": "2026-08-24T07:23:06Z",
+    "sha256": "610ce062d381b5ae8edcfc8273328d9e4378e5d6f52d21b3254e2e4d18d049c4",
     "part_hashes": [
       "adabor:ba9b142bc1929a55f4a869bd6a76ac0e95d4cc723eae262b3c790f4294fdff7b",
       "banasree:062580837d87c0ca82622b8b996c0390f1523468ebee7cddd6163157536c64c2",
+      "bashaboo:59ecd20e1747dd98b7104c7d3109f4bedfdee12576a31bddb4ed3bb3891ed7f7",
       "demra:044c9a8bfb8341b1a1bf2bbe7b7cdae33cf8f987d7e299b682fdd8cf3ac5a60b",
       "dhanmondi:33d45df7ac26f3376f838482473297cd7530b9b53360314537d15686012af4e8",
       "jigatola:b3351e5dfd11e0d843d2d0e06d2105670d783fd8a9058e0a8bac1f97f388b579",
@@ -545,15 +546,19 @@
       "billing_code": "G1121EG"
     },
     {
-      "division": "Demra",
-      "division_canonical": "Demra",
+      "division": "Bashaboo",
+      "division_canonical": "Bashaboo",
       "feeder": "row-01",
-      "feeder_id": "dpdc:demra:row-01",
+      "feeder_id": "dpdc:bashaboo:row-01",
       "area_text": "",
       "windows": [
         {
-          "start": "10:00",
-          "end": "11:00"
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00"
         }
       ],
       "weekday": null,
@@ -563,10 +568,184 @@
       "code_confident": false
     },
     {
+      "division": "Bashaboo",
+      "division_canonical": "Bashaboo",
+      "feeder": "A997L",
+      "feeder_id": "dpdc:bashaboo:a997l",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "17:00",
+          "end": "18:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A997L",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Bashaboo",
+      "division_canonical": "Bashaboo",
+      "feeder": "A929P",
+      "feeder_id": "dpdc:bashaboo:a929p",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A929P",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Bashaboo",
+      "division_canonical": "Bashaboo",
+      "feeder": "A914S",
+      "feeder_id": "dpdc:bashaboo:a914s",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A914S",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Bashaboo",
+      "division_canonical": "Bashaboo",
+      "feeder": "A929V",
+      "feeder_id": "dpdc:bashaboo:a929v",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A929V",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Bashaboo",
+      "division_canonical": "Bashaboo",
+      "feeder": "A997Y",
+      "feeder_id": "dpdc:bashaboo:a997y",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "16:00",
+          "end": "17:00"
+        },
+        {
+          "start": "20:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A997Y",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Bashaboo",
+      "division_canonical": "Bashaboo",
+      "feeder": "A929A",
+      "feeder_id": "dpdc:bashaboo:a929a",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A929A",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Bashaboo",
+      "division_canonical": "Bashaboo",
+      "feeder": "A929T",
+      "feeder_id": "dpdc:bashaboo:a929t",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "17:00",
+          "end": "18:00"
+        },
+        {
+          "start": "20:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A929T",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Bashaboo",
+      "division_canonical": "Bashaboo",
+      "feeder": "A929P",
+      "feeder_id": "dpdc:bashaboo:a929p",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "A929P",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
       "division": "Demra",
       "division_canonical": "Demra",
-      "feeder": "E183KL",
-      "feeder_id": "dpdc:demra:e183kl",
+      "feeder": "E116G",
+      "feeder_id": "dpdc:demra:e116g",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": null,
+      "billing_code": "E116G",
+      "read_by": "ocr-scan",
+      "code_confident": true
+    },
+    {
+      "division": "Demra",
+      "division_canonical": "Demra",
+      "feeder": "row-02",
+      "feeder_id": "dpdc:demra:row-02",
       "area_text": "",
       "windows": [
         {
@@ -580,9 +759,9 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "E183KL",
+      "billing_code": null,
       "read_by": "ocr-scan",
-      "code_confident": true
+      "code_confident": false
     },
     {
       "division": "Demra",
@@ -879,8 +1058,8 @@
     {
       "division": "Dhanmondi",
       "division_canonical": "Dhanmondi",
-      "feeder": "row-02",
-      "feeder_id": "dpdc:dhanmondi:row-02",
+      "feeder": "D207M",
+      "feeder_id": "dpdc:dhanmondi:d207m",
       "area_text": "",
       "windows": [
         {
@@ -890,9 +1069,9 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": null,
+      "billing_code": "D207M",
       "read_by": "ocr-scan",
-      "code_confident": false
+      "code_confident": true
     },
     {
       "division": "Dhanmondi",
@@ -919,8 +1098,8 @@
     {
       "division": "Dhanmondi",
       "division_canonical": "Dhanmondi",
-      "feeder": "D207",
-      "feeder_id": "dpdc:dhanmondi:d207",
+      "feeder": "D207A",
+      "feeder_id": "dpdc:dhanmondi:d207a",
       "area_text": "",
       "windows": [
         {
@@ -930,7 +1109,7 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "D207",
+      "billing_code": "D207A",
       "read_by": "ocr-scan",
       "code_confident": true
     },
@@ -1093,8 +1272,8 @@
     {
       "division": "Dhanmondi",
       "division_canonical": "Dhanmondi",
-      "feeder": "row-16",
-      "feeder_id": "dpdc:dhanmondi:row-16",
+      "feeder": "D207S",
+      "feeder_id": "dpdc:dhanmondi:d207s",
       "area_text": "",
       "windows": [
         {
@@ -1108,9 +1287,9 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": null,
+      "billing_code": "D207S",
       "read_by": "ocr-scan",
-      "code_confident": false
+      "code_confident": true
     },
     {
       "division": "Dhanmondi",
@@ -2977,8 +3156,8 @@
     {
       "division": "Paribag",
       "division_canonical": "Paribag",
-      "feeder": "C301",
-      "feeder_id": "dpdc:paribag:c301",
+      "feeder": "C30T",
+      "feeder_id": "dpdc:paribag:c30t",
       "area_text": "",
       "windows": [
         {
@@ -2988,7 +3167,7 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "C301",
+      "billing_code": "C30T",
       "read_by": "ocr-scan",
       "code_confident": true
     },
@@ -3013,8 +3192,8 @@
     {
       "division": "Paribag",
       "division_canonical": "Paribag",
-      "feeder": "C301",
-      "feeder_id": "dpdc:paribag:c301",
+      "feeder": "row-05",
+      "feeder_id": "dpdc:paribag:row-05",
       "area_text": "",
       "windows": [
         {
@@ -3024,9 +3203,9 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "C301",
+      "billing_code": null,
       "read_by": "ocr-scan",
-      "code_confident": true
+      "code_confident": false
     },
     {
       "division": "Paribag",
@@ -4334,10 +4513,6 @@
         {
           "start": "11:00",
           "end": "13:00"
-        },
-        {
-          "start": "21:00",
-          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -4356,10 +4531,6 @@
         {
           "start": "11:00",
           "end": "13:00"
-        },
-        {
-          "start": "21:00",
-          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -4378,10 +4549,6 @@
         {
           "start": "11:00",
           "end": "13:00"
-        },
-        {
-          "start": "21:00",
-          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -4400,10 +4567,6 @@
         {
           "start": "11:00",
           "end": "13:00"
-        },
-        {
-          "start": "21:00",
-          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -4546,10 +4709,6 @@
         {
           "start": "09:00",
           "end": "11:00"
-        },
-        {
-          "start": "21:00",
-          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -4830,10 +4989,6 @@
       "area_text": "",
       "windows": [
         {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
           "start": "16:00",
           "end": "17:00"
         }
@@ -5011,10 +5166,6 @@
       "feeder_id": "dpdc:swamibag:row-10",
       "area_text": "",
       "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
         {
           "start": "19:00",
           "end": "20:00"
@@ -5518,19 +5669,18 @@
     }
   ],
   "stats": {
-    "claim_count": 262,
-    "feeder_count": 258,
-    "division_count": 14
+    "claim_count": 271,
+    "feeder_count": 267,
+    "division_count": 15
   },
   "parse_meta": {
     "zones_parsed": 19,
-    "zones_read_by_ocr": 7,
+    "zones_read_by_ocr": 8,
     "zones_failed": [],
     "zones_unreadable": [
       "azimpur (ScanError)",
       "banglabazar (ScanError)",
       "bangshal (ScanError)",
-      "bashaboo (ScanError)",
       "fatulla (ScanError)",
       "kamrangirchar (ScanError)",
       "khilgaon (ScanError)",
@@ -5546,13 +5696,7 @@
     ]
   },
   "validation": {
-    "verdict": "quarantine",
-    "findings": [
-      {
-        "verdict": "quarantine",
-        "check": "duplicates",
-        "detail": "1 duplicate feeder/window row(s)"
-      }
-    ]
+    "verdict": "pass",
+    "findings": []
   }
 }

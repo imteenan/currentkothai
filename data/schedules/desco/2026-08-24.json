@@ -8,12 +8,12 @@
   "source": {
     "source_id": "desco-load-management-pdf",
     "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/7/3f2ef7c6-a963-4f49-8f0a-959f7e40c771.pdf",
-    "retrieved_at": "2026-08-24T05:54:55Z",
+    "retrieved_at": "2026-08-24T07:19:59Z",
     "sha256": "c6e5f99c3319f498fa98a7e61be3022efad92a0018c158ee55a3153100b6d36d",
     "parser_adapter": "desco_pdf_v1",
     "parser_version": "1.0.0",
     "tls_verified": true,
-    "archive_path": "E:/ClaudeWork/CurrentKothai/power-bd/data/seed/archive/desco/2026-08-24-c6e5f99c.pdf",
+    "archive_path": "/home/runner/work/currentkothai/currentkothai/data/seed/archive/desco/2026-08-24-c6e5f99c.pdf",
     "published_date": null
   },
   "claims": [
@@ -13056,11 +13056,6 @@
       "findings": [
         {
           "verdict": "quarantine",
-          "check": "unknown-division",
-          "detail": "division name(s) not seen before, review then add to known_divisions.json: Moniipur, ibrahimpur"
-        },
-        {
-          "verdict": "quarantine",
           "check": "canonical-division",
           "detail": "1/570 claim(s) (0%) have no canonical division"
         }
@@ -13070,11 +13065,6 @@
   "validation": {
     "verdict": "quarantine",
     "findings": [
-      {
-        "verdict": "quarantine",
-        "check": "unknown-division",
-        "detail": "division name(s) not seen before, review then add to known_divisions.json: Moniipur, ibrahimpur"
-      },
       {
         "verdict": "quarantine",
         "check": "canonical-division",
