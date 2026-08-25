@@ -1,6 +1,6 @@
 {
   "schema": "schedule-index/1",
-  "generated_at": "2026-08-25T06:52:58Z",
+  "generated_at": "2026-08-25T07:15:05Z",
   "stale_after_hours": 36,
   "utilities": [
     {
@@ -8,13 +8,13 @@
       "coverage_level": "feeder",
       "status": "fresh",
       "latest_date": "2026-08-25",
-      "claim_count": 570,
-      "retrieved_at": "2026-08-25T06:52:39Z",
-      "source_url": "https://desco.gov.bd/pages/static-pages/69db2a3c6a42b12e9344d1f1",
+      "claim_count": 573,
+      "retrieved_at": "2026-08-25T07:08:28Z",
+      "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/7/b30c4fe6-1905-4166-b30c-71cdb2425497.pdf",
       "stale_after_hours": 36,
-      "message": " (parsed from local archive)",
+      "message": null,
       "division_count": 32,
-      "feeder_count": 570,
+      "feeder_count": 573,
       "tls_verified": true,
       "validation_verdict": "pass"
     },
