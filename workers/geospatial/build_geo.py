@@ -26,6 +26,8 @@ from typing import Any
 
 import requests
 
+from statistics import median
+
 from workers.ingestion.common import DATA, USER_AGENT, iso_utc, write_json
 
 GEO = DATA / "geo"
@@ -260,8 +262,23 @@ def _build_territories_nominatim_DEPRECATED() -> None:
 
 # --------------------------------------------------------------- layer 3
 
+#: Nominatim ranks a bare locality name against the whole planet, so the
+#: multi-query entries below are bounded to the Dhaka/Gazipur region.
+_REGION_VIEWBOX = {"viewbox": "90.34,23.96,90.50,23.84", "bounded": 1}
+
 #: DESCO S&D divisions, exactly as they appear in DESCO's own schedule PDF.
 #: The value is the query we geocode to place the office/area point.
+#:
+#: THREE divisions are not places OSM knows. "Tongi East, Gazipur", "Tongi West,
+#: Gazipur" and "Shah Kabir Mazar Road, Uttara, Dhaka" each returned zero hits,
+#: the loop below skipped them, and the file shipped with 23 of 26 points -- so
+#: those three divisions had no polygon and could never light up on the map. For
+#: them the value is a LIST of localities that DESCO's own schedule names under
+#: that division, and the point is the median of whichever ones geocode. That
+#: keeps the anchor sourced: every locality is a real OSM feature that DESCO
+#: itself printed against the division, rather than a guess at where "east"
+#: Tongi is. The medians land west-to-east in the order the names claim --
+#: Tongi West 90.377, Tongi Central 90.394, Tongi East 90.410.
 DESCO_DIVISIONS = {
     "Agargaon": "Agargaon, Dhaka", "Badda": "Badda, Dhaka",
     "Baridhara": "Baridhara, Dhaka", "Bashundhara": "Bashundhara R/A, Dhaka",
@@ -272,9 +289,13 @@ DESCO_DIVISIONS = {
     "Mirpur": "Mirpur, Dhaka", "Mohakhali": "Mohakhali, Dhaka",
     "Monipur": "Monipur, Mirpur, Dhaka", "Pallabi": "Pallabi, Dhaka",
     "Rupnagar": "Rupnagar, Mirpur, Dhaka", "Shah Ali": "Shah Ali, Mirpur, Dhaka",
-    "Shah Kabir": "Shah Kabir Mazar Road, Uttara, Dhaka",
-    "Tongi Central": "Tongi, Gazipur", "Tongi East": "Tongi East, Gazipur",
-    "Tongi West": "Tongi West, Gazipur", "Turag": "Turag, Dhaka",
+    "Shah Kabir": ["Shah Kabir Mazar", "Chalabon, Dhaka", "Faidabad, Dhaka",
+                   "Atipara, Dhaka"],
+    "Tongi Central": "Tongi, Gazipur",
+    "Tongi East": ["Morkun, Tongi", "BSCIC Industrial Area, Tongi",
+                   "Bonomala, Tongi"],
+    "Tongi West": ["Auchpara, Tongi", "Sataish, Tongi", "Dewra, Tongi"],
+    "Turag": "Turag, Dhaka",
     "Uttara East": "Uttara Sector 4, Dhaka", "Uttara West": "Uttara Sector 12, Dhaka",
     "Uttarkhan": "Uttarkhan, Dhaka",
 }
@@ -284,20 +305,30 @@ def build_desco_points() -> None:
     print("  DESCO division reference points (OSM via Nominatim, ODbL)")
     feats = []
     for name, query in DESCO_DIVISIONS.items():
-        try:
-            rows = nominatim({"q": query, "limit": 1})
-        except Exception as exc:
-            print("      ! %s: %s" % (name, exc))
-            continue
-        if not rows:
+        queries = [query] if isinstance(query, str) else list(query)
+        extra = {} if isinstance(query, str) else _REGION_VIEWBOX
+        hits = []
+        for one in queries:
+            try:
+                rows = nominatim({"q": one, "limit": 1, **extra})
+            except Exception as exc:
+                print("      ! %s (%s): %s" % (name, one, exc))
+                continue
+            if rows:
+                hits.append(rows[0])
+        if not hits:
             print("      ! %s: not found" % name)
             continue
-        row = rows[0]
+        row = hits[0]
+        lat = median(float(h["lat"]) for h in hits)
+        lon = median(float(h["lon"]) for h in hits)
+        if len(queries) > 1:
+            print("      . %s: median of %d/%d localities"
+                  % (name, len(hits), len(queries)))
         feats.append({
             "type": "Feature",
             "geometry": {"type": "Point",
-                         "coordinates": [round(float(row["lon"]), 5),
-                                         round(float(row["lat"]), 5)]},
+                         "coordinates": [round(lon, 5), round(lat, 5)]},
             "properties": {
                 "id": "desco-div-%s" % name.lower().replace(" ", "-"),
                 "name": name,
@@ -309,11 +340,15 @@ def build_desco_points() -> None:
                 "source_url": "https://nominatim.openstreetmap.org/",
                 "source_license": "ODbL (OpenStreetMap contributors)",
                 "retrieved_at": iso_utc(),
-                "geocoded_query": query,
+                "geocoded_query": " | ".join(queries),
                 "osm_display_name": row.get("display_name", "")[:140],
                 "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. "
                          "This is NOT the location of DESCO's S&D office and NOT a service "
-                         "boundary. It exists only to rank which division a point is nearest to.",
+                         "boundary. It exists only to rank which division a point is nearest to."
+                         + ("" if len(queries) == 1 else
+                            " OSM does not carry this division as a place, so the point is the "
+                            "median of %d localities DESCO's own schedule lists under it."
+                            % len(hits)),
             },
         })
     print("      + %d/%d divisions placed" % (len(feats), len(DESCO_DIVISIONS)))

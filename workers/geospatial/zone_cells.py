@@ -1,7 +1,7 @@
 """Build per-zone map polygons: data/geo/dpdc-zones.geojson and desco-divisions.
 
 The map had nothing to draw for DPDC. `utility-territories.geojson` carries one
-polygon per distributor, and `desco-offices.geojson` carries 23 DESCO points,
+polygon per distributor, and `desco-offices.geojson` carries 26 DESCO points,
 so the "Zones" layer showed a scatter of DESCO markers over north Dhaka and left
 the entire southern half of the city - all 36 DPDC zones, 423 claims - blank.
 The schedule data was fine. It simply had no geometry to attach itself to.
@@ -89,6 +89,30 @@ def dpdc_seeds() -> list[dict]:
     return out
 
 
+#: DESCO divisions the Voronoi cannot honestly place, and why.
+#:
+#: DESCO runs three S&D divisions in Tongi. `utility-territories.geojson` stops
+#: at the Dhaka Metropolitan boundary (lat 23.900) and Tongi is north of it, so
+#: none of the three sits inside the territory they are being split against.
+#: Tongi Central alone was harmless: its cell reached back south over the
+#: boundary and clipped to a 0.3% sliver. Adding the other two is not. Measured:
+#: Tongi West takes 2.10% of the territory and Tongi East 0.03%, all of it
+#: northern Dhaka that Uttara West actually serves (6.15% -> 4.39%), and between
+#: them they starve Tongi Central's cell to nothing -- a division with 25
+#: feeders drops off the map so that two others can be drawn in the wrong place.
+#:
+#: Restoring the Gazipur Sadar clip that the territory build intended is NOT the
+#: fix, and was measured too: that upazila runs to lat 24.18, is mostly not
+#: DESCO's, and hands the three Tongi divisions 59% of the territory.
+#:
+#: So the two are held out here rather than dropped from the office file: the
+#: points are real and still rank nearest-division correctly, there is simply no
+#: boundary to draw them inside. Placing them needs a territory that covers
+#: Tongi, which no source we have publishes. Drawing a Tongi division over
+#: Uttara would be worse than drawing nothing.
+UNPLACEABLE_DESCO = {"Tongi East", "Tongi West"}
+
+
 def desco_seeds() -> list[dict]:
     fc = _load(GEO_DIR / "desco-offices.geojson")
     out = []
@@ -98,7 +122,7 @@ def desco_seeds() -> list[dict]:
         lon, lat = f["geometry"]["coordinates"][:2]
         p = f["properties"]
         name = p.get("division") or p.get("name")
-        if not name:
+        if not name or name in UNPLACEABLE_DESCO:
             continue
         out.append({"slug": p.get("id") or name.lower().replace(" ", "-"),
                     "name": name, "lat": float(lat), "lon": float(lon),

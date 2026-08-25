@@ -50,7 +50,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -166,7 +166,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -214,7 +214,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -258,7 +258,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -268,12 +268,16 @@
     "coordinates": [
      [
       [
-       90.41640698045258,
-       23.87698967941044
+       90.40786680013167,
+       23.841015726972813
       ],
       [
-       90.42064652566631,
-       23.8835541365156
+       90.41149023784774,
+       23.856278797676346
+      ],
+      [
+       90.43364042380976,
+       23.87713708519945
       ],
       [
        90.46755200942019,
@@ -282,10 +286,6 @@
       [
        90.40786680013167,
        23.841015726972813
-      ],
-      [
-       90.41640698045258,
-       23.87698967941044
       ]
      ]
     ]
@@ -302,7 +302,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -446,7 +446,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -498,7 +498,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -558,7 +558,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -610,7 +610,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -654,7 +654,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -726,7 +726,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -850,7 +850,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -898,7 +898,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -950,7 +950,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -1026,7 +1026,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -1078,7 +1078,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -1138,7 +1138,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -1182,7 +1182,67 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       90.43364042380976,
+       23.87713708519945
+      ],
+      [
+       90.41149023784774,
+       23.856278797676346
+      ],
+      [
+       90.40785731776674,
+       23.87534605613833
+      ],
+      [
+       90.41127191393397,
+       23.882838127186954
+      ],
+      [
+       90.412599,
+       23.8830126
+      ],
+      [
+       90.416591,
+       23.8858802
+      ],
+      [
+       90.4221348,
+       23.8877661
+      ],
+      [
+       90.42321393436579,
+       23.88886020840289
+      ],
+      [
+       90.43364042380976,
+       23.87713708519945
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "desco-zone-desco-div-shah-kabir",
+    "slug": "desco-div-shah-kabir",
+    "name": "Shah Kabir",
+    "division": "Shah Kabir",
+    "level": "zone",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "color_hex": "#0a84ff",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -1246,7 +1306,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -1298,7 +1358,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -1316,8 +1376,12 @@
        23.86663532454362
       ],
       [
-       90.41640698045258,
-       23.87698967941044
+       90.40785731776674,
+       23.87534605613833
+      ],
+      [
+       90.41149023784774,
+       23.856278797676346
       ],
       [
        90.40786680013167,
@@ -1346,7 +1410,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -1408,24 +1472,12 @@
        23.8805696
       ],
       [
-       90.412599,
-       23.8830126
+       90.41127191393397,
+       23.882838127186954
       ],
       [
-       90.416591,
-       23.8858802
-      ],
-      [
-       90.41967036273134,
-       23.886927743232988
-      ],
-      [
-       90.42064652566631,
-       23.8835541365156
-      ],
-      [
-       90.41640698045258,
-       23.87698967941044
+       90.40785731776674,
+       23.87534605613833
       ],
       [
        90.36254655942861,
@@ -1450,7 +1502,7 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   },
   {
@@ -1464,16 +1516,12 @@
        23.860389810234565
       ],
       [
-       90.42064652566631,
-       23.8835541365156
+       90.43364042380976,
+       23.87713708519945
       ],
       [
-       90.41967036273134,
-       23.886927743232988
-      ],
-      [
-       90.4221348,
-       23.8877661
+       90.42321393436579,
+       23.88886020840289
       ],
       [
        90.4261129,
@@ -1562,14 +1610,14 @@
     "color_hex": "#0a84ff",
     "source_url": "https://nominatim.openstreetmap.org/",
     "source_license": "ODbL (OpenStreetMap contributors)",
-    "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+    "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
    }
   }
  ],
  "properties": {
   "utility": "DESCO",
   "level": "zone",
-  "count": 23,
-  "method": "Constructed, not published. 23 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
+  "count": 24,
+  "method": "Constructed, not published. 24 DESCO zone offices were geocoded from the zone names DESCO itself prints on its schedules, then split by a Voronoi partition and clipped to the DESCO service territory. A cell is the area closer to that zone office than to any other. It is a catchment estimate, not a service boundary: DESCO does not publish one."
  }
 }

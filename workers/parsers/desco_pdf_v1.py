@@ -179,96 +179,156 @@ def _find_meta_cols(header: list[str]) -> int | None:
     return None
 
 
-#: Glyph-run reconstruction, used to undo overprinted cells (see below).
+#: Overprint repair.
 #:
-#: The "Area Under the feeder" column is CENTRE-aligned, and DESCO's typesetter
-#: does not clip it. When the area text is wider than its cell it overflows both
-#: sides, and the left overflow is drawn straight through the "S&D Division"
-#: cell. Both texts then sit on one baseline, so any extractor that sorts the
-#: glyphs in a cell by x -- which is what pdfplumber's cell text does -- returns
-#: them zipped together: "Gulshan" + "Mohakhali:" comes back as
-#: "MGuolhsahkahnali:". The division, the area and the feeder cell were all
-#: corrupted this way.
+#: The "Area Under the feeder" column is CENTRE-aligned and DESCO's typesetter
+#: does not clip it, so an area string wider than its cell overflows both sides
+#: and is drawn straight through the neighbouring "S&D Division" and "Feeder
+#: Name" cells. The overflow lands on the SAME baseline as the text already
+#: there, so any extractor that orders a cell's glyphs by x -- which is what
+#: pdfplumber does -- returns the two texts zipped together: "Gulshan" printed
+#: under "Mohakhali:" comes back as "MGuolhsahkahnali:", and the feeder
+#: "NIPSOM" comes back as "WaterN PIuPmSOp.M".
 #:
 #: The two texts are separable because each was printed as a contiguous run:
 #: inside one run every glyph starts where the previous glyph ended, whereas an
-#: overprinted run restarts far to the left. Measured over both document
-#: generations, the largest legitimate backward kern is 0.05 em and the smallest
+#: overprinted run restarts well to the left. Measured across both document
+#: generations the largest legitimate backward kern is 0.05 em and the smallest
 #: overprint step-back is 0.19 em, so the cut below sits between the two.
+#:
+#: Glyphs are still placed in cells exactly the way pdfplumber places them, so
+#: every cell that is not overprinted extracts byte-for-byte as before. Runs are
+#: used only to decide which glyphs in a *conflicted* cell do not belong there.
 _RUN_BACK_KERN = 0.10        # em; more backward travel than this starts a new run
-_RUN_FORWARD_GAP = 0.55      # em; slack for documents that space words by position
-_RUN_BASELINE_TOL = 0.6      # pt; glyphs further apart vertically are different lines
+_RUN_FORWARD_GAP = 0.55      # em; slack for lines that space words by position
+_RUN_BASELINE_TOL = 0.6      # pt; further apart vertically means a different line
+_CELL_EDGE_TOL = 0.5         # pt; slack when asking "does this run fit the cell"
 
 
 def _text_runs(chars: list[dict]) -> list[dict]:
     """Reassemble glyphs into the contiguous runs they were printed as.
 
-    Sorting glyphs by x is exactly what corrupts overprinted cells, so a glyph
-    joins the run whose end it continues (smallest |x0 - x1|), and starts a new
-    run when nothing on its baseline ends near it. Blank glyphs are kept so word
-    spacing survives; the caller strips the edges.
+    Ordering glyphs by x is exactly what corrupts an overprinted cell, so a
+    glyph instead joins the run whose end it continues (smallest gap), and opens
+    a new run when nothing on its baseline ends near it. Blank glyphs are kept so
+    that word spacing is preserved.
     """
     runs: list[dict] = []
     for ch in sorted(chars, key=lambda c: (round(c["top"], 1), c["x0"])):
         em = float(ch.get("size") or 8.0)
-        back, fwd = _RUN_BACK_KERN * em, _RUN_FORWARD_GAP * em
+        back, forward = _RUN_BACK_KERN * em, _RUN_FORWARD_GAP * em
         best: dict | None = None
-        best_gap: float | None = None
+        best_gap = 0.0
         for run in runs:
             if abs(run["top"] - ch["top"]) > _RUN_BASELINE_TOL:
                 continue
             gap = ch["x0"] - run["x1"]
-            if -back <= gap <= fwd and (best_gap is None or abs(gap) < abs(best_gap)):
+            if -back <= gap <= forward and (best is None or abs(gap) < abs(best_gap)):
                 best, best_gap = run, gap
         if best is None:
             runs.append({"top": ch["top"], "x0": ch["x0"], "x1": ch["x1"],
-                         "glyphs": [ch["text"]]})
+                         "chars": [ch]})
         else:
-            best["glyphs"].append(ch["text"])
+            best["chars"].append(ch)
             best["x1"] = max(best["x1"], ch["x1"])
     for run in runs:
-        run["text"] = "".join(run["glyphs"])
+        run["text"] = collapse_ws("".join(c["text"] for c in run["chars"]))
         run["center"] = (run["x0"] + run["x1"]) / 2.0
     return runs
 
 
-def _extract_table_cells(page: Any) -> list[list[str]] | None:
-    """``page.extract_table()``, but overprint-safe.
+def _midpoint_in(glyph: dict, bbox: tuple) -> bool:
+    """pdfplumber's own glyph-in-box test, reproduced so placement is identical."""
+    x0, top, x1, bottom = bbox
+    return (x0 <= (glyph["x0"] + glyph["x1"]) / 2.0 < x1
+            and top <= (glyph["top"] + glyph["bottom"]) / 2.0 < bottom)
 
-    Each run is filed under the cell containing its CENTRE rather than its left
-    edge. The columns are centre-aligned, so an overflowing area string is still
-    centred on the area column no matter how far it spills into its neighbours,
-    while the division name it is drawn over stays centred on the division
-    column. Returns None when the page carries no table, so the caller can skip
-    the page exactly as it did before.
+
+def _drop_overprint(cell_chars: list[dict], cell: tuple, runs: list[dict],
+                    run_of: dict[int, int]) -> tuple[list[dict], list[int]]:
+    """Remove glyphs that only pass through ``cell`` because they overprint it.
+
+    A conflict is two runs on one baseline whose x-extents overlap. The run that
+    stays inside the cell is the cell's own text; a run that carries on past the
+    cell edge is a neighbouring centre-aligned column overflowing, and is
+    evicted. When no run fits the cell there is nothing to prefer, so everything
+    is kept and the cell is left as the source printed it.
     """
+    grouped: dict[int, list[dict]] = {}
+    for glyph in cell_chars:
+        grouped.setdefault(run_of[id(glyph)], []).append(glyph)
+    if len(grouped) < 2:
+        return cell_chars, []
+
+    fits = [i for i in grouped
+            if runs[i]["x0"] >= cell[0] - _CELL_EDGE_TOL
+            and runs[i]["x1"] <= cell[2] + _CELL_EDGE_TOL]
+    if not fits:
+        return cell_chars, []
+
+    evicted: list[int] = []
+    for i in grouped:
+        if i in fits:
+            continue
+        over, keep = runs[i], None
+        for j in fits:
+            keep = runs[j]
+            if (abs(over["top"] - keep["top"]) <= _RUN_BASELINE_TOL
+                    and over["x0"] < keep["x1"] and keep["x0"] < over["x1"]):
+                evicted.append(i)
+                break
+    if not evicted:
+        return cell_chars, []
+    return [g for g in cell_chars if run_of[id(g)] not in evicted], evicted
+
+
+def _extract_table_cells(page: Any) -> list[list[str]] | None:
+    """``page.extract_table()`` with overprinted cells repaired.
+
+    Returns None when the page carries no table, so the caller skips the page
+    exactly as it did before.
+    """
+    from pdfplumber import utils
+
     tables = page.find_tables()
     if not tables:
         return None
     table = max(tables,
                 key=lambda t: (t.bbox[2] - t.bbox[0]) * (t.bbox[3] - t.bbox[1]))
-    rows = table.rows
-    if not rows:
+    if not table.rows:
         return None
 
-    grid: list[list[list[dict]]] = [[[] for _ in row.cells] for row in rows]
-    for run in _text_runs(page.chars):
-        for r_idx, row in enumerate(rows):
-            if not row.bbox[1] - _RUN_BASELINE_TOL <= run["top"] <= row.bbox[3]:
-                continue
-            for c_idx, cell in enumerate(row.cells):
-                if cell is not None and cell[0] <= run["center"] < cell[2]:
-                    grid[r_idx][c_idx].append(run)
-                    break
-            break
+    chars = page.chars
+    runs = _text_runs(chars)
+    run_of = {id(g): i for i, run in enumerate(runs) for g in run["chars"]}
 
     out: list[list[str]] = []
-    for r_idx, row in enumerate(rows):
+    for row in table.rows:
+        row_chars = [c for c in chars if _midpoint_in(c, row.bbox)]
         line: list[str] = []
-        for c_idx in range(len(row.cells)):
-            found = sorted(grid[r_idx][c_idx],
-                           key=lambda r: (round(r["top"], 1), r["x0"]))
-            line.append(" ".join(t for t in (r["text"].strip() for r in found) if t))
+        evicted_here: dict[int, int] = {}      # run index -> cell it was evicted from
+        for c_idx, cell in enumerate(row.cells):
+            if cell is None:
+                line.append("")
+                continue
+            cell_chars = [c for c in row_chars if _midpoint_in(c, cell)]
+            kept, evicted = _drop_overprint(cell_chars, cell, runs, run_of)
+            for i in evicted:
+                evicted_here[i] = c_idx
+            line.append(utils.extract_text(kept) if kept else "")
+
+        # An evicted run is a column overflowing its own cell, so put it back
+        # whole in the column it is centred on -- but only when that cell holds
+        # nothing except this run's own fragment, so no real text is displaced.
+        for i in evicted_here:
+            run = runs[i]
+            for c_idx, cell in enumerate(row.cells):
+                if cell is None or not cell[0] <= run["center"] < cell[2]:
+                    continue
+                home = [c for c in row_chars if _midpoint_in(c, cell)]
+                if home and all(run_of[id(c)] == i for c in home):
+                    line[c_idx] = run["text"]
+                break
         out.append(line)
     return out
 

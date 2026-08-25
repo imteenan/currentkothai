@@ -1,582 +1,657 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.38005,
-          23.77843
-        ]
-      },
-      "properties": {
-        "id": "desco-div-agargaon",
-        "name": "Agargaon",
-        "division": "Agargaon",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:34Z",
-        "geocoded_query": "Agargaon, Dhaka",
-        "osm_display_name": "আগারগাঁও, 9, বেগম রোকেয়া সরণী, ফলপট্টি, পশ্চিম কাজিপাড়া, শেওড়াপাড়া, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1216, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.4463,
-          23.77654
-        ]
-      },
-      "properties": {
-        "id": "desco-div-badda",
-        "name": "Badda",
-        "division": "Badda",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:35Z",
-        "geocoded_query": "Badda, Dhaka",
-        "osm_display_name": "বাড্ডা, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.42026,
-          23.80336
-        ]
-      },
-      "properties": {
-        "id": "desco-div-baridhara",
-        "name": "Baridhara",
-        "division": "Baridhara",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:36Z",
-        "geocoded_query": "Baridhara, Dhaka",
-        "osm_display_name": "Baridhara, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.42943,
-          23.81667
-        ]
-      },
-      "properties": {
-        "id": "desco-div-bashundhara",
-        "name": "Bashundhara",
-        "division": "Bashundhara",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:37Z",
-        "geocoded_query": "Bashundhara R/A, Dhaka",
-        "osm_display_name": "Korean school, Bashundhara R/A, Aftab Uddin Ahmed Road, ব্লক বি, কুড়িল, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1229, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.42645,
-          23.86147
-        ]
-      },
-      "properties": {
-        "id": "desco-div-dhakkhinkhan",
-        "name": "Dhakkhinkhan",
-        "division": "Dhakkhinkhan",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:38Z",
-        "geocoded_query": "Dakshinkhan, Dhaka",
-        "osm_display_name": "Dakshinkhan Darul Ulum Madrasa, উত্তর খান মাজার সড়ক, ভূঁইয়া পাড়া, মোল্লাপাড়া, দক্ষিণ খান, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1276, ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.35078,
-          23.83058
-        ]
-      },
-      "properties": {
-        "id": "desco-div-eastern-housing",
-        "name": "Eastern Housing",
-        "division": "Eastern Housing",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:40Z",
-        "geocoded_query": "Eastern Housing, Pallabi, Dhaka",
-        "osm_display_name": "ইস্টার্ন হাউজিং, পল্লবী, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1216, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.41555,
-          23.79218
-        ]
-      },
-      "properties": {
-        "id": "desco-div-gulshan",
-        "name": "Gulshan",
-        "division": "Gulshan",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:41Z",
-        "geocoded_query": "Gulshan, Dhaka",
-        "osm_display_name": "গুলশান, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.38433,
-          23.79539
-        ]
-      },
-      "properties": {
-        "id": "desco-div-ibrahimpur",
-        "name": "Ibrahimpur",
-        "division": "Ibrahimpur",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:42Z",
-        "geocoded_query": "Ibrahimpur, Dhaka",
-        "osm_display_name": "ইব্রাহিমপুর, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1206, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.41765,
-          23.81517
-        ]
-      },
-      "properties": {
-        "id": "desco-div-joarshahara",
-        "name": "Joarshahara",
-        "division": "Joarshahara",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:43Z",
-        "geocoded_query": "Joar Sahara, Dhaka",
-        "osm_display_name": "জোয়ার সাহারা, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1229, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.38562,
-          23.78916
-        ]
-      },
-      "properties": {
-        "id": "desco-div-kafrul",
-        "name": "Kafrul",
-        "division": "Kafrul",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:44Z",
-        "geocoded_query": "Kafrul, Dhaka",
-        "osm_display_name": "কাফরুল, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 2467, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.358,
-          23.78206
-        ]
-      },
-      "properties": {
-        "id": "desco-div-kallyanpur",
-        "name": "Kallyanpur",
-        "division": "Kallyanpur",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:45Z",
-        "geocoded_query": "Kalyanpur, Dhaka",
-        "osm_display_name": "Kalyanpur Basti Pond, সড়ক গবেষণাগার, কল্যাণপুর, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.43511,
-          23.83513
-        ]
-      },
-      "properties": {
-        "id": "desco-div-khilkhet",
-        "name": "Khilkhet",
-        "division": "Khilkhet",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:46Z",
-        "geocoded_query": "Khilkhet, Dhaka",
-        "osm_display_name": "লেকসিটি কনকর্ড, Khilkhet, নামাপাড়া, খিলক্ষেত, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1229, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.36409,
-          23.81236
-        ]
-      },
-      "properties": {
-        "id": "desco-div-mirpur",
-        "name": "Mirpur",
-        "division": "Mirpur",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:47Z",
-        "geocoded_query": "Mirpur, Dhaka",
-        "osm_display_name": "মিরপুর, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1216, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.40832,
-          23.77991
-        ]
-      },
-      "properties": {
-        "id": "desco-div-mohakhali",
-        "name": "Mohakhali",
-        "division": "Mohakhali",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:48Z",
-        "geocoded_query": "Mohakhali, Dhaka",
-        "osm_display_name": "Mohakhali, বীর উত্তম এ. কে. খন্দকার সড়ক, গুলশান ১, মহাখালী, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1213, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.35293,
-          23.80675
-        ]
-      },
-      "properties": {
-        "id": "desco-div-monipur",
-        "name": "Monipur",
-        "division": "Monipur",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:49Z",
-        "geocoded_query": "Monipur, Mirpur, Dhaka",
-        "osm_display_name": "Dhaka Commerce College, Commerce College Road, মিরপুর ৩, বড়বাগ, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1216, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.36419,
-          23.82616
-        ]
-      },
-      "properties": {
-        "id": "desco-div-pallabi",
-        "name": "Pallabi",
-        "division": "Pallabi",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:50Z",
-        "geocoded_query": "Pallabi, Dhaka",
-        "osm_display_name": "পল্লবী, G4, বেগম রোকেয়া সরণী, মিরপুর ৭, পল্লবী, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1216, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.35431,
-          23.82326
-        ]
-      },
-      "properties": {
-        "id": "desco-div-rupnagar",
-        "name": "Rupnagar",
-        "division": "Rupnagar",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:51Z",
-        "geocoded_query": "Rupnagar, Mirpur, Dhaka",
-        "osm_display_name": "কেন্দ্রীয় মসজিদ, Rupnagar, Road 16, পল্লবী ২, পল্লবী, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1216, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.36423,
-          23.80868
-        ]
-      },
-      "properties": {
-        "id": "desco-div-shah-ali",
-        "name": "Shah Ali",
-        "division": "Shah Ali",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:53Z",
-        "geocoded_query": "Shah Ali, Mirpur, Dhaka",
-        "osm_display_name": "Shah Ali Dry Cleaners, Lane 5, Mirpur 6, মিরপুর ৬, মিরপুর, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1216, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.39429,
-          23.91384
-        ]
-      },
-      "properties": {
-        "id": "desco-div-tongi-central",
-        "name": "Tongi Central",
-        "division": "Tongi Central",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:55Z",
-        "geocoded_query": "Tongi, Gazipur",
-        "osm_display_name": "Amarnet System Tongi gazipur, Mollah Bari Road, চেরাগ আলী, টঙ্গী, গাজীপুর সদর উপজেলা, গাজীপুর জেলা, ঢাকা বিভাগ, 1712, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.38656,
-          23.73455
-        ]
-      },
-      "properties": {
-        "id": "desco-div-turag",
-        "name": "Turag",
-        "division": "Turag",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:08:58Z",
-        "geocoded_query": "Turag, Dhaka",
-        "osm_display_name": "তুরাগ, বাবুপাড়া, নীলক্ষেত, শাহবাগ, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1205, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.40046,
-          23.86764
-        ]
-      },
-      "properties": {
-        "id": "desco-div-uttara-east",
-        "name": "Uttara East",
-        "division": "Uttara East",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:09:00Z",
-        "geocoded_query": "Uttara Sector 4, Dhaka",
-        "osm_display_name": "ঢাকা-ময়মনসিংহ মহাসড়ক, সেক্টর ৬, উত্তরা, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1276, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.39813,
-          23.87976
-        ]
-      },
-      "properties": {
-        "id": "desco-div-uttara-west",
-        "name": "Uttara West",
-        "division": "Uttara West",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:09:01Z",
-        "geocoded_query": "Uttara Sector 12, Dhaka",
-        "osm_display_name": "Dhaka Boys And Girls College, সড়ক ১২, সেক্টর ৯, উত্তরা, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1231, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          90.44171,
-          23.89237
-        ]
-      },
-      "properties": {
-        "id": "desco-div-uttarkhan",
-        "name": "Uttarkhan",
-        "division": "Uttarkhan",
-        "level": "division",
-        "utility": "DESCO",
-        "status": "estimated",
-        "confidence": "low",
-        "source_url": "https://nominatim.openstreetmap.org/",
-        "source_license": "ODbL (OpenStreetMap contributors)",
-        "retrieved_at": "2026-08-23T10:09:01Z",
-        "geocoded_query": "Uttarkhan, Dhaka",
-        "osm_display_name": "Sarker Bari, Mausaid, uttarkhan., আটিপাড়া তেরমুখ সড়ক, মৈনারটেক, উত্তর খান, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1710, বাংলাদেশ",
-        "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
-      }
-    }
-  ],
-  "note": "Reference points for DESCO's S&D divisions, geocoded from neighbourhood names that match the division names printed in DESCO's schedule PDF. Approximate by construction.",
-  "generated_at": "2026-08-23T10:09:01Z"
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.38005,
+     23.77843
+    ]
+   },
+   "properties": {
+    "id": "desco-div-agargaon",
+    "name": "Agargaon",
+    "division": "Agargaon",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:34Z",
+    "geocoded_query": "Agargaon, Dhaka",
+    "osm_display_name": "আগারগাঁও, 9, বেগম রোকেয়া সরণী, ফলপট্টি, পশ্চিম কাজিপাড়া, শেওড়াপাড়া, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1216, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.4463,
+     23.77654
+    ]
+   },
+   "properties": {
+    "id": "desco-div-badda",
+    "name": "Badda",
+    "division": "Badda",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:35Z",
+    "geocoded_query": "Badda, Dhaka",
+    "osm_display_name": "বাড্ডা, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.42026,
+     23.80336
+    ]
+   },
+   "properties": {
+    "id": "desco-div-baridhara",
+    "name": "Baridhara",
+    "division": "Baridhara",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:36Z",
+    "geocoded_query": "Baridhara, Dhaka",
+    "osm_display_name": "Baridhara, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.42943,
+     23.81667
+    ]
+   },
+   "properties": {
+    "id": "desco-div-bashundhara",
+    "name": "Bashundhara",
+    "division": "Bashundhara",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:37Z",
+    "geocoded_query": "Bashundhara R/A, Dhaka",
+    "osm_display_name": "Korean school, Bashundhara R/A, Aftab Uddin Ahmed Road, ব্লক বি, কুড়িল, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1229, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.42645,
+     23.86147
+    ]
+   },
+   "properties": {
+    "id": "desco-div-dhakkhinkhan",
+    "name": "Dhakkhinkhan",
+    "division": "Dhakkhinkhan",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:38Z",
+    "geocoded_query": "Dakshinkhan, Dhaka",
+    "osm_display_name": "Dakshinkhan Darul Ulum Madrasa, উত্তর খান মাজার সড়ক, ভূঁইয়া পাড়া, মোল্লাপাড়া, দক্ষিণ খান, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1276, ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.35078,
+     23.83058
+    ]
+   },
+   "properties": {
+    "id": "desco-div-eastern-housing",
+    "name": "Eastern Housing",
+    "division": "Eastern Housing",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:40Z",
+    "geocoded_query": "Eastern Housing, Pallabi, Dhaka",
+    "osm_display_name": "ইস্টার্ন হাউজিং, পল্লবী, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1216, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.41555,
+     23.79218
+    ]
+   },
+   "properties": {
+    "id": "desco-div-gulshan",
+    "name": "Gulshan",
+    "division": "Gulshan",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:41Z",
+    "geocoded_query": "Gulshan, Dhaka",
+    "osm_display_name": "গুলশান, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.38433,
+     23.79539
+    ]
+   },
+   "properties": {
+    "id": "desco-div-ibrahimpur",
+    "name": "Ibrahimpur",
+    "division": "Ibrahimpur",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:42Z",
+    "geocoded_query": "Ibrahimpur, Dhaka",
+    "osm_display_name": "ইব্রাহিমপুর, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1206, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.41765,
+     23.81517
+    ]
+   },
+   "properties": {
+    "id": "desco-div-joarshahara",
+    "name": "Joarshahara",
+    "division": "Joarshahara",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:43Z",
+    "geocoded_query": "Joar Sahara, Dhaka",
+    "osm_display_name": "জোয়ার সাহারা, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1229, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.38562,
+     23.78916
+    ]
+   },
+   "properties": {
+    "id": "desco-div-kafrul",
+    "name": "Kafrul",
+    "division": "Kafrul",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:44Z",
+    "geocoded_query": "Kafrul, Dhaka",
+    "osm_display_name": "কাফরুল, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 2467, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.358,
+     23.78206
+    ]
+   },
+   "properties": {
+    "id": "desco-div-kallyanpur",
+    "name": "Kallyanpur",
+    "division": "Kallyanpur",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:45Z",
+    "geocoded_query": "Kalyanpur, Dhaka",
+    "osm_display_name": "Kalyanpur Basti Pond, সড়ক গবেষণাগার, কল্যাণপুর, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.43511,
+     23.83513
+    ]
+   },
+   "properties": {
+    "id": "desco-div-khilkhet",
+    "name": "Khilkhet",
+    "division": "Khilkhet",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:46Z",
+    "geocoded_query": "Khilkhet, Dhaka",
+    "osm_display_name": "লেকসিটি কনকর্ড, Khilkhet, নামাপাড়া, খিলক্ষেত, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1229, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.36409,
+     23.81236
+    ]
+   },
+   "properties": {
+    "id": "desco-div-mirpur",
+    "name": "Mirpur",
+    "division": "Mirpur",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:47Z",
+    "geocoded_query": "Mirpur, Dhaka",
+    "osm_display_name": "মিরপুর, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1216, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.40832,
+     23.77991
+    ]
+   },
+   "properties": {
+    "id": "desco-div-mohakhali",
+    "name": "Mohakhali",
+    "division": "Mohakhali",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:48Z",
+    "geocoded_query": "Mohakhali, Dhaka",
+    "osm_display_name": "Mohakhali, বীর উত্তম এ. কে. খন্দকার সড়ক, গুলশান ১, মহাখালী, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1213, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.35293,
+     23.80675
+    ]
+   },
+   "properties": {
+    "id": "desco-div-monipur",
+    "name": "Monipur",
+    "division": "Monipur",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:49Z",
+    "geocoded_query": "Monipur, Mirpur, Dhaka",
+    "osm_display_name": "Dhaka Commerce College, Commerce College Road, মিরপুর ৩, বড়বাগ, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1216, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.36419,
+     23.82616
+    ]
+   },
+   "properties": {
+    "id": "desco-div-pallabi",
+    "name": "Pallabi",
+    "division": "Pallabi",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:50Z",
+    "geocoded_query": "Pallabi, Dhaka",
+    "osm_display_name": "পল্লবী, G4, বেগম রোকেয়া সরণী, মিরপুর ৭, পল্লবী, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1216, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.35431,
+     23.82326
+    ]
+   },
+   "properties": {
+    "id": "desco-div-rupnagar",
+    "name": "Rupnagar",
+    "division": "Rupnagar",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:51Z",
+    "geocoded_query": "Rupnagar, Mirpur, Dhaka",
+    "osm_display_name": "কেন্দ্রীয় মসজিদ, Rupnagar, Road 16, পল্লবী ২, পল্লবী, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1216, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.36423,
+     23.80868
+    ]
+   },
+   "properties": {
+    "id": "desco-div-shah-ali",
+    "name": "Shah Ali",
+    "division": "Shah Ali",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:53Z",
+    "geocoded_query": "Shah Ali, Mirpur, Dhaka",
+    "osm_display_name": "Shah Ali Dry Cleaners, Lane 5, Mirpur 6, মিরপুর ৬, মিরপুর, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1216, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.41757,
+     23.8709
+    ]
+   },
+   "properties": {
+    "id": "desco-div-shah-kabir",
+    "name": "Shah Kabir",
+    "division": "Shah Kabir",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-24T18:48:09Z",
+    "geocoded_query": "Shah Kabir Mazar | Chalabon, Dhaka | Faidabad, Dhaka | Atipara, Dhaka",
+    "osm_display_name": "শাহ কবির মাজার সড়ক, ভূঁইয়া পাড়া, গোবিন্দপুর, উত্তর খান, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1276, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to. OSM does not carry this division as a place, so the point is the median of 4 localities DESCO's own schedule lists under it."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.39429,
+     23.91384
+    ]
+   },
+   "properties": {
+    "id": "desco-div-tongi-central",
+    "name": "Tongi Central",
+    "division": "Tongi Central",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:55Z",
+    "geocoded_query": "Tongi, Gazipur",
+    "osm_display_name": "Amarnet System Tongi gazipur, Mollah Bari Road, চেরাগ আলী, টঙ্গী, গাজীপুর সদর উপজেলা, গাজীপুর জেলা, ঢাকা বিভাগ, 1712, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.40953,
+     23.89869
+    ]
+   },
+   "properties": {
+    "id": "desco-div-tongi-east",
+    "name": "Tongi East",
+    "division": "Tongi East",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-24T18:48:12Z",
+    "geocoded_query": "Morkun, Tongi | BSCIC Industrial Area, Tongi | Bonomala, Tongi",
+    "osm_display_name": "BRAC morkun branch, Tongi Kaliganj Highway, চেরাগ আলী, টঙ্গী, গাজীপুর সদর উপজেলা, গাজীপুর জেলা, ঢাকা বিভাগ, 1710, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to. OSM does not carry this division as a place, so the point is the median of 3 localities DESCO's own schedule lists under it."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.37728,
+     23.91085
+    ]
+   },
+   "properties": {
+    "id": "desco-div-tongi-west",
+    "name": "Tongi West",
+    "division": "Tongi West",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-24T18:48:15Z",
+    "geocoded_query": "Auchpara, Tongi | Sataish, Tongi | Dewra, Tongi",
+    "osm_display_name": "Auchpara, চেরাগ আলী, টঙ্গী, গাজীপুর সদর উপজেলা, গাজীপুর জেলা, ঢাকা বিভাগ, 1712, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to. OSM does not carry this division as a place, so the point is the median of 3 localities DESCO's own schedule lists under it."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.38656,
+     23.73455
+    ]
+   },
+   "properties": {
+    "id": "desco-div-turag",
+    "name": "Turag",
+    "division": "Turag",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:08:58Z",
+    "geocoded_query": "Turag, Dhaka",
+    "osm_display_name": "তুরাগ, বাবুপাড়া, নীলক্ষেত, শাহবাগ, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1205, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.40046,
+     23.86764
+    ]
+   },
+   "properties": {
+    "id": "desco-div-uttara-east",
+    "name": "Uttara East",
+    "division": "Uttara East",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:09:00Z",
+    "geocoded_query": "Uttara Sector 4, Dhaka",
+    "osm_display_name": "ঢাকা-ময়মনসিংহ মহাসড়ক, সেক্টর ৬, উত্তরা, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1276, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.39813,
+     23.87976
+    ]
+   },
+   "properties": {
+    "id": "desco-div-uttara-west",
+    "name": "Uttara West",
+    "division": "Uttara West",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:09:01Z",
+    "geocoded_query": "Uttara Sector 12, Dhaka",
+    "osm_display_name": "Dhaka Boys And Girls College, সড়ক ১২, সেক্টর ৯, উত্তরা, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1231, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.44171,
+     23.89237
+    ]
+   },
+   "properties": {
+    "id": "desco-div-uttarkhan",
+    "name": "Uttarkhan",
+    "division": "Uttarkhan",
+    "level": "division",
+    "utility": "DESCO",
+    "status": "estimated",
+    "confidence": "low",
+    "source_url": "https://nominatim.openstreetmap.org/",
+    "source_license": "ODbL (OpenStreetMap contributors)",
+    "retrieved_at": "2026-08-23T10:09:01Z",
+    "geocoded_query": "Uttarkhan, Dhaka",
+    "osm_display_name": "Sarker Bari, Mausaid, uttarkhan., আটিপাড়া তেরমুখ সড়ক, মৈনারটেক, উত্তর খান, ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1710, বাংলাদেশ",
+    "notes": "Centre of the NAMED NEIGHBOURHOOD, geocoded from OpenStreetMap. This is NOT the location of DESCO's S&D office and NOT a service boundary. It exists only to rank which division a point is nearest to."
+   }
+  }
+ ],
+ "note": "Reference points for DESCO's S&D divisions, geocoded from neighbourhood names that match the division names printed in DESCO's schedule PDF. Approximate by construction.",
+ "generated_at": "2026-08-23T10:09:01Z"
 }
