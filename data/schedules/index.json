@@ -1,6 +1,6 @@
 {
   "schema": "schedule-index/1",
-  "generated_at": "2026-08-25T19:04:50Z",
+  "generated_at": "2026-08-26T07:17:11Z",
   "stale_after_hours": 36,
   "utilities": [
     {
@@ -12,7 +12,7 @@
       "retrieved_at": "2026-08-25T18:57:03Z",
       "source_url": "https://desco.gov.bd/pages/static-pages/69db2a3c6a42b12e9344d1f1",
       "stale_after_hours": 36,
-      "message": "no schedule PDF link found on the listing page (parsed from local archive)",
+      "message": "listing page unreachable: ConnectTimeout: HTTPSConnectionPool(host='desco.gov.bd', port=443): Max retries exceeded with url: /pages/static-pages/69db2a3c6a42b12e9344d1f1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='desco.gov.bd', port=443) at 0x7fb004973cb0>, 'Connection to desco.gov.bd timed out. (connect timeout=60)')) (parsed from local archive)",
       "division_count": 30,
       "feeder_count": 558,
       "tls_verified": true,
