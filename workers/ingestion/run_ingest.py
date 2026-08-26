@@ -86,30 +86,60 @@ def ingest_desco(*, offline: bool = False) -> dict:
     tls_ok = True
     archive_path: Path | None = None
 
+    def _try_pdf(url: str) -> bool:
+        """Fetch one PDF URL into the enclosing scope. True when it worked."""
+        nonlocal pdf_bytes, pdf_url, tls_ok, archive_path
+        got = http_get(url, timeout=120)
+        if not got.ok:
+            return False
+        pdf_bytes, tls_ok = got.content, got.tls_verified
+        pdf_url = url
+        archive_path = _archive("desco", got.content, got.content_type, url)
+        return True
+
     if not offline:
         page = http_get(listing_url, timeout=60)
         if not page.ok:
             out["message"] = "listing page unreachable: %s" % (page.error or page.status)
+            # The listing lives on desco.gov.bd, which times out from GitHub's
+            # runners; the PDF itself lives on Oracle object storage, which does
+            # not. Losing the page should not mean losing the schedule, so try
+            # the last PDF URL we successfully read. It is only a route to the
+            # same publisher, and if DESCO has since replaced the file this
+            # fetches the old one and the run is marked stale rather than fresh.
+            last = ((previous or {}).get("source") or {}).get("source_url") or ""
+            if last.lower().endswith(".pdf") and _try_pdf(last):
+                out["message"] += " (reached the PDF directly at its last known URL)"
         else:
             candidates = desco_listing_v1.discover(page.content)
             if not candidates:
                 out["message"] = "no schedule PDF link found on the listing page"
             else:
-                pdf_url = candidates[0]["url"]
-                got = http_get(pdf_url, timeout=120)
-                if got.ok:
-                    pdf_bytes, tls_ok = got.content, got.tls_verified
-                    archive_path = _archive("desco", got.content, got.content_type, pdf_url)
-                else:
-                    out["message"] = "schedule PDF unreachable: %s" % (got.error or got.status)
+                if not _try_pdf(candidates[0]["url"]):
+                    out["message"] = "schedule PDF unreachable: %s" % candidates[0]["url"]
+
+    fetched_live = pdf_bytes is not None
 
     if pdf_bytes is None:
-        # Offline, or the network failed. Fall back to the newest archived copy
-        # so the pipeline is still exercised -- but say so.
-        archive_path = _newest_archive("desco") or Path(
-            "data/seed/samples/desco-load-management-sunday-2026-07.pdf")
-        if not archive_path.exists():
-            out["message"] = out["message"] or "no archived DESCO PDF available"
+        # Nothing was fetched this run.
+        #
+        # This fallback used to end at data/seed/samples/...-sunday-2026-07.pdf.
+        # data/seed/archive is gitignored, so a CI runner has no archive at all
+        # and always reached that sample - and desco.gov.bd times out from
+        # GitHub's runners. The live site therefore served a July fixture, on a
+        # Wednesday, as Sunday's schedule, reported as "fresh".
+        #
+        # A seed sample is a test fixture and must never reach a reader. An
+        # offline run may use one because the operator asked for offline. A
+        # scheduled run must fall back to the last thing we really published and
+        # say that it is stale, which is the honest answer to "we could not
+        # reach them today".
+        archive_path = _newest_archive("desco")
+        if archive_path is None and offline:
+            sample = Path("data/seed/samples/desco-load-management-sunday-2026-07.pdf")
+            archive_path = sample if sample.exists() else None
+        if archive_path is None or not archive_path.exists():
+            out["message"] = (out["message"] or "") + " no DESCO schedule could be fetched"
             return _finish_unavailable(out, previous)
         pdf_bytes = archive_path.read_bytes()
         pdf_url = pdf_url or "https://desco.gov.bd/pages/static-pages/69db2a3c6a42b12e9344d1f1"
@@ -153,8 +183,26 @@ def ingest_desco(*, offline: bool = False) -> dict:
         # Keep reporting the timestamp the live file actually carries, not now.
         doc = read_json(latest_path) or doc
 
+    # DESCO publishes one sheet per weekday and prints the weekday on it, so the
+    # sheet says whether it is today's. That is a stronger test than provenance:
+    # a fetch can succeed and still hand back a superseded file, which is what
+    # the "reached the PDF at its last known URL" route can do. Freshness is
+    # therefore about the schedule being for today, not about our luck with the
+    # network. The live site was showing Sunday's sheet on a Wednesday and
+    # calling it fresh.
+    sheet_weekday = next((c.get("weekday") for c in doc["claims"]
+                          if c.get("weekday") is not None), None)
+    sheet_is_today = sheet_weekday is None or sheet_weekday == weekday_index_for_date(effective_date)
+    if not sheet_is_today:
+        out["message"] = ((out["message"] or "")
+                          + " sheet is for %s, not today"
+                          % (doc.get("parse_meta", {}).get("weekday_name") or "another day"))
+
     out.update({
-        "status": "fresh",
+        # Only a run that reached the publisher AND came back with today's sheet
+        # may call itself fresh. Saying "fresh" otherwise is what let a July
+        # fixture reach readers with nothing on the page to warn them.
+        "status": "fresh" if (fetched_live and sheet_is_today) else "stale",
         "latest_date": effective_date,
         "claim_count": len(doc["claims"]),
         # When these bytes were first seen. Distinct from the index's

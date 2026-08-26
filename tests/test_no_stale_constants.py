@@ -252,3 +252,59 @@ def test_unhashed_code_is_never_cached_long():
     for path, value in rules.items():
         assert "immutable" not in value, (
             "%s is marked immutable but its filename never changes" % path)
+
+
+# ------------------------------------------------- fixtures reaching readers
+
+def _sample_hashes() -> dict:
+    import hashlib
+    out = {}
+    d = DATA / "seed" / "samples"
+    if not d.is_dir():
+        pytest.skip("no seed samples")
+    for f in sorted(d.glob("*.pdf")):
+        out[hashlib.sha256(f.read_bytes()).hexdigest()] = f.name
+    return out
+
+
+def test_no_published_schedule_is_a_seed_sample():
+    """A test fixture must never be served as a live schedule.
+
+    data/seed/archive is gitignored, so a CI runner has no archive and the
+    DESCO fallback chain always reached
+    data/seed/samples/desco-load-management-sunday-2026-07.pdf. desco.gov.bd
+    times out from GitHub's runners, so the live site served that July fixture
+    as the current schedule - Sunday's sheet, on a Wednesday, reported "fresh".
+
+    This compares what is published against every sample byte-for-byte, which
+    is what makes it catch the substitution rather than the excuse for it.
+    """
+    samples = _sample_hashes()
+    for utility in ("desco", "dpdc"):
+        doc = _json(DATA / "schedules" / utility / "latest.json")
+        sha = (doc.get("source") or {}).get("sha256")
+        assert sha not in samples, (
+            "%s is publishing the seed fixture %s as a live schedule"
+            % (utility.upper(), samples.get(sha)))
+
+
+def test_seed_samples_are_only_reachable_offline():
+    """The fallback that produced the above must stay behind the offline flag."""
+    src = _read(ROOT / "workers" / "ingestion" / "run_ingest.py")
+    for line in src.splitlines():
+        if "seed/samples" in line and not line.lstrip().startswith("#"):
+            assert "offline" in src[max(0, src.index(line) - 400):src.index(line)], (
+                "a seed sample is referenced outside an offline-only branch: %s"
+                % line.strip())
+
+
+def test_freshness_requires_the_sheet_to_be_for_today():
+    """DESCO prints its weekday, so the sheet says whether it is current.
+
+    A fetch can succeed and still return a superseded file, so provenance alone
+    cannot decide freshness.
+    """
+    src = _read(ROOT / "workers" / "ingestion" / "run_ingest.py")
+    assert "sheet_is_today" in src, "DESCO freshness must check the sheet's weekday"
+    assert '"status": "fresh" if (fetched_live and sheet_is_today) else "stale"' in src, (
+        "status must require both a live fetch and today's sheet")

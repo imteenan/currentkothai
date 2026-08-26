@@ -1,6 +1,6 @@
 {
   "schema": "schedule-index/1",
-  "generated_at": "2026-08-26T07:17:11Z",
+  "generated_at": "2026-08-26T10:09:44Z",
   "stale_after_hours": 36,
   "utilities": [
     {
@@ -8,13 +8,14 @@
       "coverage_level": "feeder",
       "status": "fresh",
       "latest_date": "2026-08-26",
-      "claim_count": 558,
-      "retrieved_at": "2026-08-25T18:57:03Z",
-      "source_url": "https://desco.gov.bd/pages/static-pages/69db2a3c6a42b12e9344d1f1",
+      "claim_count": 570,
+      "retrieved_at": "2026-08-26T10:06:19Z",
+      "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/7/c97151d6-78fa-429b-b553-e6e4c1b5053d.pdf",
       "stale_after_hours": 36,
-      "message": "listing page unreachable: ConnectTimeout: HTTPSConnectionPool(host='desco.gov.bd', port=443): Max retries exceeded with url: /pages/static-pages/69db2a3c6a42b12e9344d1f1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='desco.gov.bd', port=443) at 0x7fb004973cb0>, 'Connection to desco.gov.bd timed out. (connect timeout=60)')) (parsed from local archive)",
-      "division_count": 30,
-      "feeder_count": 558,
+      "message": null,
+      "content_changed_at": "2026-08-26T10:06:19Z",
+      "division_count": 32,
+      "feeder_count": 570,
       "tls_verified": true,
       "validation_verdict": "pass"
     },
