@@ -62,6 +62,10 @@ export async function bootstrap() {
     sourcesMeta: sources,
     alerts: alerts.alerts ?? alerts ?? [],
     index: index.utilities ?? index ?? [],
+    // The whole index document, for `generated_at`: the only field that
+    // says when the ingest last looked, as opposed to when a distributor
+    // last changed something.
+    indexMeta: index,
     calibration,
     geo: { territories, descoDivisions, descoOffices, dpdcZones, serviceArea },
   };

@@ -157,6 +157,9 @@ def ingest_desco(*, offline: bool = False) -> dict:
         "status": "fresh",
         "latest_date": effective_date,
         "claim_count": len(doc["claims"]),
+        # When these bytes were first seen. Distinct from the index's
+        # generated_at, which is when we last looked at all.
+        "content_changed_at": doc["source"]["retrieved_at"],
         "retrieved_at": doc["source"]["retrieved_at"],
         "source_url": pdf_url,
         "coverage_level": doc["coverage_level"],
@@ -316,7 +319,12 @@ def ingest_dpdc(*, offline: bool = False) -> dict:
 
     out.update({
         "status": "fresh", "latest_date": effective_date,
-        "claim_count": len(claims), "retrieved_at": doc["source"]["retrieved_at"],
+        "claim_count": len(claims),
+        # When these bytes were first seen, which is NOT when we last looked:
+        # an unchanged schedule is not rewritten, so this stops advancing while
+        # the ingest keeps checking. The index's generated_at is the check.
+        "content_changed_at": doc["source"]["retrieved_at"],
+        "retrieved_at": doc["source"]["retrieved_at"],
         "coverage_level": "feeder",
         "division_count": doc["stats"]["division_count"],
         "feeder_count": doc["stats"]["feeder_count"],
@@ -410,15 +418,6 @@ def publish_schedule(latest_path: Path, dated_path: Path, doc: dict) -> bool:
     return True
 
 
-def _same_except_timestamps(a: dict, b: dict) -> bool:
-    """Two index documents differing only by when they were generated."""
-    import copy
-    x, y = copy.deepcopy(a), copy.deepcopy(b)
-    x.pop("generated_at", None)
-    y.pop("generated_at", None)
-    return x == y
-
-
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--only", help="ingest a single utility, e.g. DESCO")
@@ -463,14 +462,22 @@ def main(argv: list[str] | None = None) -> int:
         "stale_after_hours": STALE_AFTER_HOURS,
         "utilities": sorted(rows, key=lambda r: (r["status"] != "fresh", r["utility"])),
     }
-    old_index = read_json(index_path, None)
-    if old_index and _same_except_timestamps(old_index, new_index):
-        print("  nothing changed since the last run; index left untouched")
-    else:
-        write_json(index_path, new_index)
-        state = read_json(STATE_PATH, {}) or {}
-        state["last_run"] = new_index["generated_at"]
-        write_json(STATE_PATH, state)
+    # The index is always written, even when nothing changed.
+    #
+    # publish_schedule deliberately skips rewriting an unchanged schedule, which
+    # is right: it avoids a commit and a rebuild for a file that says the same
+    # thing. But `retrieved_at` lives inside that file, so it froze at whenever
+    # the content last changed, and the UI read it as "when did we last look".
+    # DPDC had not republished for two days, so the site told visitors it had
+    # not been read in two days and raised a Stale badge - while the ingest was
+    # in fact fetching it every six hours and finding it identical.
+    #
+    # `generated_at` here is the honest answer to "when did we last check", and
+    # it is only true if this file is rewritten on every run. It is ~2KB.
+    write_json(index_path, new_index)
+    state = read_json(STATE_PATH, {}) or {}
+    state["last_run"] = new_index["generated_at"]
+    write_json(STATE_PATH, state)
 
     for r in rows:
         print("  %-8s %-11s claims=%-5s %s" % (

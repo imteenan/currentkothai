@@ -32,7 +32,8 @@ async function boot() {
   state.data = await bootstrap();
   getJSON('registry/dpdc-zones.json', null).then((z) => { state.dpdcZones = z; });
 
-  $('#feed-health').innerHTML = renderFeedHealth(state.data.index);
+  $('#feed-health').innerHTML = renderFeedHealth(
+    state.data.index, state.data.indexMeta?.generated_at);
   $('#alerts-grid').innerHTML = renderAlertCards(state.data.alerts, state.data.utilities);
   renderFooterOfficial();
   renderSaved();
@@ -637,7 +638,7 @@ function renderScheduleBody(now) {
       ranking: state.ranking, feeders: state.feeders, reverse: state.reverse })}</div>
 
     <h3 class="t-heading-sm" style="margin-top:48px">Where this came from</h3>
-    <div style="margin-top:12px">${renderProvenance(sched, sourceEntry)}</div>
+    <div style="margin-top:12px">${renderProvenance(sched, sourceEntry, state.data.indexMeta?.generated_at)}</div>
     <div class="note" style="margin-top:16px">${icon('info')}<div>
       <b>No guarantees, and here is exactly what we used</b>
       Every hour shown above was read from

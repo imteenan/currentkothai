@@ -187,38 +187,55 @@ export function renderEvidence({ ranking, feeders, reverse }) {
 
 /* -------------------------------------------------------------- source */
 
-export function renderProvenance(schedule, sourceEntry) {
+/**
+ * @param checkedAt  when the ingest last looked, from the index's generated_at.
+ *
+ * Two different times, and conflating them was a bug. `retrieved_at` inside the
+ * schedule is when its bytes last CHANGED, because an unchanged schedule is not
+ * rewritten. Reading that as "when did we last look" told visitors DPDC had not
+ * been read for two days and raised a Stale badge, while the ingest was
+ * fetching it every six hours and finding it identical each time.
+ *
+ * Staleness is a property of our checking, so the badge follows checkedAt. How
+ * old the sheet is belongs on the page too, but as information rather than
+ * alarm: a distributor that has not changed its schedule is not a fault.
+ */
+export function renderProvenance(schedule, sourceEntry, checkedAt) {
   if (!schedule?.source) {
     return `<div class="prov">No source record for this view.</div>`;
   }
   const s = schedule.source;
-  const f = freshness(s.retrieved_at);
+  const f = freshness(checkedAt || s.retrieved_at);
   const stale = f.state === 'fresh' ? ''
     : `<span class="tag tag-stale">${f.state === 'very-stale' ? 'Very stale' : 'Stale'}</span>`;
+  const checked = checkedAt
+    ? `checked ${esc(relTime(checkedAt))}` : `read ${esc(relTime(s.retrieved_at))}`;
   return `<div class="prov">
     <span class="${tagClass(schedule.badge)}">${esc(schedule.badge || 'UNKNOWN')}</span>
     ${stale}
-    <span>${esc(schedule.publisher || schedule.utility)} · read ${esc(relTime(s.retrieved_at))}</span>
+    <span>${esc(schedule.publisher || schedule.utility)} · ${checked}</span>
     <span class="grow"></span>
     <a href="${esc(s.source_url)}" target="_blank" rel="noopener noreferrer">
       Open the original ${esc(sourceEntry?.format?.toUpperCase() || 'document')} ↗</a>
   </div>
   <p class="prov-meta">${esc(s.parser_adapter || 'n/a')}@${esc(s.parser_version || '0')}
     · sha ${esc((s.sha256 || '').slice(0, 12) || 'n/a')}
-    · effective ${esc(schedule.effective_date || 'unknown')}</p>`;
+    · sheet unchanged since ${esc(relTime(s.retrieved_at))}</p>`;
 }
 
 /* --------------------------------------------------------- feed health */
 
-export function renderFeedHealth(index) {
+export function renderFeedHealth(index, checkedAt) {
   if (!index?.length) return '';
   const pill = (u) => {
-    const f = freshness(u.retrieved_at, u.stale_after_hours ?? 36);
+    // Health is about whether we are still looking, not about whether the
+    // distributor has changed anything. See renderProvenance.
+    const f = freshness(checkedAt || u.retrieved_at, u.stale_after_hours ?? 36);
     let cls = 'tag-unknown', label = 'unknown';
     if (u.status === 'link-only') { cls = 'tag-unknown'; label = 'PDF link only'; }
     else if (u.status === 'unavailable') { cls = 'tag-stale'; label = 'source down'; }
-    else if (f.state === 'fresh') { cls = 'tag-official'; label = `read ${relTime(u.retrieved_at)}`; }
-    else if (f.state !== 'unknown') { cls = 'tag-estimated'; label = `stale · ${relTime(u.retrieved_at)}`; }
+    else if (f.state === 'fresh') { cls = 'tag-official'; label = `checked ${relTime(checkedAt || u.retrieved_at)}`; }
+    else if (f.state !== 'unknown') { cls = 'tag-estimated'; label = `stale · ${relTime(checkedAt || u.retrieved_at)}`; }
     return `<span class="tag ${cls}" title="${esc(u.message || u.source_url || '')}">${esc(u.utility)} · ${esc(label)}</span>`;
   };
   return `<div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;justify-content:center">
