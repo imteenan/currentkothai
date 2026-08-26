@@ -2,6 +2,14 @@ name: Ingest schedules
 
 # Free on public repos. Cron is UTC; 00/06/12/18 UTC = 06/12/18/00 Dhaka.
 on:
+  # A run whenever the ingest itself changes: pushing a fix immediately proves
+  # it in the environment where it has to work. The data-commit the job makes
+  # cannot re-trigger this (GITHUB_TOKEN pushes do not fire workflows, and
+  # data/ is not in the paths filter).
+  push:
+    paths:
+      - ".github/workflows/ingest.yml"
+      - "workers/**"
   schedule:
     - cron: '17 0,6,12,18 * * *'
   workflow_dispatch:

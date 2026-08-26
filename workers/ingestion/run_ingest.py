@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+import time
 import traceback
 from pathlib import Path
 
@@ -98,9 +99,21 @@ def ingest_desco(*, offline: bool = False) -> dict:
         return True
 
     if not offline:
-        page = http_get(listing_url, timeout=60)
+        # desco.gov.bd drops connections from GitHub's runners intermittently:
+        # the 01:51Z run on 2026-08-25 fetched fine and the 18:56Z one hit
+        # ConnectTimeout, same code both times. www is no escape - it is the
+        # same IP and 301s straight back - so the useful response to a dropped
+        # SYN is simply to try again. Three attempts, a minute apart, inside a
+        # job whose budget is 45 minutes.
+        page = None
+        for attempt in range(3):
+            if attempt:
+                time.sleep(60)
+            page = http_get(listing_url, timeout=60)
+            if page.ok:
+                break
         if not page.ok:
-            out["message"] = "listing page unreachable: %s" % (page.error or page.status)
+            out["message"] = "listing page unreachable after 3 tries: %s" % (page.error or page.status)
             # The listing lives on desco.gov.bd, which times out from GitHub's
             # runners; the PDF itself lives on Oracle object storage, which does
             # not. Losing the page should not mean losing the schedule, so try
