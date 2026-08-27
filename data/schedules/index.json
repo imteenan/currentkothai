@@ -1,6 +1,6 @@
 {
   "schema": "schedule-index/1",
-  "generated_at": "2026-08-27T18:30:27Z",
+  "generated_at": "2026-08-27T22:23:27Z",
   "stale_after_hours": 36,
   "utilities": [
     {
@@ -77,12 +77,7 @@
       "retrieved_at": "2026-08-27T18:23:52Z",
       "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/7/baf77900-660a-4dd7-ab70-4abade938ccc.pdf",
       "stale_after_hours": 36,
-      "message": " sheet is for Thursday, not today",
-      "content_changed_at": "2026-08-27T18:23:52Z",
-      "division_count": 29,
-      "feeder_count": 501,
-      "tls_verified": true,
-      "validation_verdict": "pass"
+      "message": "no schedule PDF link found on the listing page no DESCO schedule could be fetched"
     },
     {
       "utility": "NESCO",
