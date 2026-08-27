@@ -1,6 +1,6 @@
 {
   "schema": "schedule-index/1",
-  "generated_at": "2026-08-27T06:40:09Z",
+  "generated_at": "2026-08-27T09:54:39Z",
   "stale_after_hours": 36,
   "utilities": [
     {
@@ -8,14 +8,14 @@
       "coverage_level": "feeder",
       "status": "fresh",
       "latest_date": "2026-08-27",
-      "claim_count": 572,
-      "retrieved_at": "2026-08-27T06:31:52Z",
-      "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/7/189b6709-10c2-4d58-b6eb-ad6f347a9341.pdf",
+      "claim_count": 501,
+      "retrieved_at": "2026-08-27T09:46:55Z",
+      "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/7/baf77900-660a-4dd7-ab70-4abade938ccc.pdf",
       "stale_after_hours": 36,
       "message": null,
-      "content_changed_at": "2026-08-27T06:31:52Z",
-      "division_count": 32,
-      "feeder_count": 572,
+      "content_changed_at": "2026-08-27T09:46:55Z",
+      "division_count": 29,
+      "feeder_count": 501,
       "tls_verified": true,
       "validation_verdict": "pass"
     },
