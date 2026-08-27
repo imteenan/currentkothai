@@ -11,7 +11,18 @@ on:
       - ".github/workflows/ingest.yml"
       - "workers/**"
   schedule:
+    # Full run, both distributors. DPDC's 17 scanned sheets are the expensive
+    # part (OCR, ~10 min), and its schedule is a standing one that changes
+    # rarely, so four times a day is right for it.
     - cron: '17 0,6,12,18 * * *'
+    # DESCO only, every two hours across the Dhaka working day (07:35-21:35
+    # Dhaka). DESCO issues a NEW sheet each weekday, usually during the morning,
+    # and one PDF costs about a minute to fetch and parse. With four runs a day
+    # the last check before Thursday's sheet appeared was 02:01 Dhaka, so the
+    # site showed Wednesday's sheet through Thursday lunchtime. GitHub also
+    # delays scheduled runs by up to ~100 minutes, which a six-hour gap cannot
+    # absorb and a two-hour one can.
+    - cron: '35 1,3,5,7,9,11,13,15 * * *'
   workflow_dispatch:
     inputs:
       only:

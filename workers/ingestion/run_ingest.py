@@ -523,6 +523,14 @@ def main(argv: list[str] | None = None) -> int:
         "stale_after_hours": STALE_AFTER_HOURS,
         "utilities": sorted(rows, key=lambda r: (r["status"] != "fresh", r["utility"])),
     }
+    def _same_but_for_the_clock(a: dict, b: dict) -> bool:
+        """Two index documents differing only by when they were generated."""
+        import copy
+        x, y = copy.deepcopy(a), copy.deepcopy(b)
+        x.pop("generated_at", None)
+        y.pop("generated_at", None)
+        return x == y
+
     # The index is always written, even when nothing changed.
     #
     # publish_schedule deliberately skips rewriting an unchanged schedule, which
@@ -535,10 +543,20 @@ def main(argv: list[str] | None = None) -> int:
     #
     # `generated_at` here is the honest answer to "when did we last check", and
     # it is only true if this file is rewritten on every run. It is ~2KB.
-    write_json(index_path, new_index)
-    state = read_json(STATE_PATH, {}) or {}
-    state["last_run"] = new_index["generated_at"]
-    write_json(STATE_PATH, state)
+    # ...except on a targeted run. The two-hourly DESCO sweep exists to catch a
+    # newly published sheet, not to heartbeat: writing the index every time
+    # would commit and rebuild the site eight extra times a day to change one
+    # timestamp. The four full runs keep generated_at within six hours, which is
+    # well inside the 36-hour staleness threshold it feeds.
+    old_index = read_json(index_path, None)
+    heartbeat = args.only is None
+    if heartbeat or not (old_index and _same_but_for_the_clock(old_index, new_index)):
+        write_json(index_path, new_index)
+        state = read_json(STATE_PATH, {}) or {}
+        state["last_run"] = new_index["generated_at"]
+        write_json(STATE_PATH, state)
+    else:
+        print("  nothing changed on this targeted run; index left untouched")
 
     for r in rows:
         print("  %-8s %-11s claims=%-5s %s" % (

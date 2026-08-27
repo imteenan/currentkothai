@@ -27,13 +27,24 @@ TWO layout generations are in circulation and both are handled:
   date inside the document -- the date comes from the listing page or from the
   retrieval time, and is supplied by the caller.
 
-Division names in the source are NOT clean. Beyond typos ("Ibrhimpur",
-"Joarshara", "Uttara Eas") the PDF contains rows where two cells were printed
-over each other, e.g. "MGuolhsahkahnali:" = "Gulshan" interleaved with
-"Mohakhali". The verbatim string always stays in ``division``; folding happens
-only via ``data/registry/desco-division-aliases.json`` so that every mapping is
-reviewable in one diff. Unrecoverable garble yields ``division_canonical: null``
+Division names in the source are NOT clean, and there are two separate problems.
+
+Typos ("Ibrhimpur", "Joarshara", "Uttara Eas") are folded through
+``data/registry/desco-division-aliases.json`` and nowhere else, so that every
+mapping is reviewable in one diff. The verbatim string always stays in
+``division``; a name that cannot be folded yields ``division_canonical: null``
 and is excluded from geographic matching rather than guessed at.
+
+The second problem looked like the first and is not. Two rows came out as
+"DhakkhKinakohwanla" and "MGuolhsahkahnali:", and were recorded as two division
+cells printed over each other and unrecoverable. They are neither. The "Area
+Under the feeder" column is centre-aligned and is not clipped, so an area string
+wider than its cell overflows and prints straight through the division and
+feeder cells beside it, on the same baseline -- the feeders came out as
+"eer ArKotawlar" and "WaterN PIuPmSOp.M" for the same reason. Ordering a cell's
+glyphs by x then zips the two texts together. ``_extract_table_cells`` separates
+them by the runs they were printed as, so the rows read Dhakkhinkhan/Kawlar and
+Gulshan/NIPSOM. There is no "Kaowla" or "Mohakhali" division in the schedule.
 """
 from __future__ import annotations
 

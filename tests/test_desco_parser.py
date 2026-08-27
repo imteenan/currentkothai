@@ -139,6 +139,44 @@ def test_canonical_division_folds_only_known_variants():
     assert canon is None and "unrecognised" in problem
 
 
+def test_overprinted_cells_are_separated(doc_2026):
+    """The Area column is centre-aligned and unclipped, so a long area string
+    prints straight through the division and feeder cells on the same baseline.
+    Ordering a cell's glyphs by x then zips the two texts together, which is
+    where "MGuolhsahkahnali:" came from -- not two divisions printed over each
+    other, but "Gulshan" with an area string over it. Both rows are checked by
+    feeder, because the feeder cell was corrupted the same way.
+    """
+    by_feeder = {c["feeder"]: c for c in doc_2026["claims"]}
+
+    assert "Kawlar" in by_feeder, "feeder came back as 'eer ArKotawlar'"
+    assert by_feeder["Kawlar"]["division_canonical"] == "Dhakkhinkhan"
+    assert by_feeder["Kawlar"]["area_text"].startswith("Kaowla Bazar")
+
+    assert "NIPSOM" in by_feeder, "feeder came back as 'WaterN PIuPmSOp.M'"
+    assert by_feeder["NIPSOM"]["division_canonical"] == "Gulshan"
+
+    # The zipped strings must not survive anywhere: a garbled division can never
+    # match a map polygon, so the zone silently never lights up.
+    for claim in doc_2026["claims"]:
+        assert claim["division_canonical"], "unmapped division %r" % claim["division"]
+    assert "Kaowla" not in {c["division"] for c in doc_2026["claims"]}
+    assert "Mohakhali" not in {c["division"] for c in doc_2026["claims"]}
+
+
+def test_every_division_can_reach_a_map_polygon(doc_2026):
+    """app.js joins claims to zone polygons on the division string, so a name
+    that no polygon carries is a zone that never lights up. Tongi East and Tongi
+    West are known to have no polygon -- they sit outside the modelled DESCO
+    territory; see UNPLACEABLE_DESCO in workers/geospatial/zone_cells.py.
+    """
+    polygons = {f["properties"]["division"] for f in
+                json.loads((ROOT / "data" / "geo" / "desco-divisions.geojson")
+                           .read_text(encoding="utf-8"))["features"]}
+    named = {c["division_canonical"] for c in doc_2026["claims"]}
+    assert named - polygons == {"Tongi East", "Tongi West"}
+
+
 def test_most_claims_get_a_canonical_division(doc_2026):
     ok = [c for c in doc_2026["claims"] if c["division_canonical"]]
     assert len(ok) / len(doc_2026["claims"]) > 0.95
