@@ -1,19 +1,35 @@
 {
   "schema": "schedule-index/1",
-  "generated_at": "2026-08-27T22:23:27Z",
+  "generated_at": "2026-08-28T09:28:57Z",
   "stale_after_hours": 36,
   "utilities": [
+    {
+      "utility": "DESCO",
+      "coverage_level": "feeder",
+      "status": "fresh",
+      "latest_date": "2026-08-28",
+      "claim_count": 563,
+      "retrieved_at": "2026-08-28T09:12:06Z",
+      "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/7/203b3c5b-7849-4849-8207-fe72597b74dc.pdf",
+      "stale_after_hours": 36,
+      "message": null,
+      "content_changed_at": "2026-08-28T09:12:06Z",
+      "division_count": 31,
+      "feeder_count": 563,
+      "tls_verified": true,
+      "validation_verdict": "pass"
+    },
     {
       "utility": "DPDC",
       "coverage_level": "feeder",
       "status": "fresh",
       "latest_date": "2026-08-28",
       "claim_count": 423,
-      "retrieved_at": "2026-08-27T18:30:27Z",
+      "retrieved_at": "2026-08-28T09:28:56Z",
       "source_url": "https://dpdc.org.bd/site/nocs/load_shedding",
       "stale_after_hours": 36,
       "message": "36 of 36 zone sheets read: 19 digital, 17 scanned and read by OCR",
-      "content_changed_at": "2026-08-27T18:30:27Z",
+      "content_changed_at": "2026-08-28T09:28:56Z",
       "division_count": 24,
       "feeder_count": 420,
       "tls_verified": true,
@@ -67,17 +83,6 @@
       "source_url": "https://reb.gov.bd/",
       "stale_after_hours": 36,
       "message": "Rural supply runs through ~80 separate Palli Bidyut Samity offices, each publishing independently. No national feed exists."
-    },
-    {
-      "utility": "DESCO",
-      "coverage_level": "feeder",
-      "status": "stale",
-      "latest_date": "2026-08-28",
-      "claim_count": 501,
-      "retrieved_at": "2026-08-27T18:23:52Z",
-      "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/7/baf77900-660a-4dd7-ab70-4abade938ccc.pdf",
-      "stale_after_hours": 36,
-      "message": "no schedule PDF link found on the listing page no DESCO schedule could be fetched"
     },
     {
       "utility": "NESCO",

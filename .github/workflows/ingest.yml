@@ -11,18 +11,28 @@ on:
       - ".github/workflows/ingest.yml"
       - "workers/**"
   schedule:
-    # Full run, both distributors. DPDC's 17 scanned sheets are the expensive
-    # part (OCR, ~10 min), and its schedule is a standing one that changes
-    # rarely, so four times a day is right for it.
-    - cron: '17 0,6,12,18 * * *'
-    # DESCO only, every two hours across the Dhaka working day (07:35-21:35
-    # Dhaka). DESCO issues a NEW sheet each weekday, usually during the morning,
-    # and one PDF costs about a minute to fetch and parse. With four runs a day
-    # the last check before Thursday's sheet appeared was 02:01 Dhaka, so the
-    # site showed Wednesday's sheet through Thursday lunchtime. GitHub also
-    # delays scheduled runs by up to ~100 minutes, which a six-hour gap cannot
-    # absorb and a two-hour one can.
-    - cron: '35 1,3,5,7,9,11,13,15 * * *'
+    # FOUR runs a day, and not one more. This is a delivery rate, not a wish.
+    #
+    # GitHub runs scheduled workflows on a best-effort basis and drops them
+    # under load, and it throttles repos that ask for a lot. Measured here:
+    # with four crons a day we received three to four runs a day, every day
+    # (08-24 through 08-26). Changing to twelve crons a day got us THREE runs
+    # on 08-27 and none at all in the following eleven hours. Asking for more
+    # produced less, so the fix for a missed sheet is never another cron line.
+    #
+    # The four are aimed at Dhaka daytime rather than spread evenly around the
+    # clock, because that is when DESCO issues the day's sheet: Thursday's was
+    # up by 12:24 Dhaka and Friday's by 15:09. Runs at 00:17 and 06:17 Dhaka
+    # spent two of our four chances on hours when no new sheet exists.
+    #
+    #   04:40 UTC = 10:40 Dhaka   the morning sheet, shortly after it appears
+    #   07:40 UTC = 13:40 Dhaka   backup if DESCO published late
+    #   11:40 UTC = 17:40 Dhaka   afternoon revisions
+    #   17:40 UTC = 23:40 Dhaka   evening, and DPDC's overnight check
+    #
+    # :40 rather than :00 because the top of the hour is the most congested
+    # slot on the shared scheduler.
+    - cron: '40 4,7,11,17 * * *'
   workflow_dispatch:
     inputs:
       only:
@@ -110,6 +120,24 @@ jobs:
           else
             git commit -m "data: refresh schedules $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
+          fi
+
+      # A dropped scheduled run is silent: no run, no failure, no notification,
+      # and the site quietly ages. This step makes the SUCCESSFUL runs report
+      # how long it has been since the last one, so a throttled schedule shows
+      # up as a warning in the log and in the job summary instead of being
+      # discovered days later by looking at the website.
+      - name: Warn if the previous run was long ago
+        if: always()
+        run: |
+          LAST=$(git log -1 --format=%cI --grep='^data: refresh schedules' || true)
+          if [ -n "$LAST" ]; then
+            GAP=$(( ( $(date -u +%s) - $(date -u -d "$LAST" +%s) ) / 3600 ))
+            echo "hours since the previous data refresh: $GAP"
+            echo "Hours since previous refresh: **$GAP**" >> "$GITHUB_STEP_SUMMARY"
+            if [ "$GAP" -gt 14 ]; then
+              echo "::warning::No ingest run committed for $GAP hours. Four are scheduled daily; GitHub drops scheduled runs under load. If this persists, trigger one by hand from the Actions tab."
+            fi
           fi
 
       - name: Open an issue if ingestion failed

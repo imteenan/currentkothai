@@ -8,7 +8,7 @@
   "source": {
     "source_id": "dpdc-load-shedding-index",
     "source_url": "https://dpdc.org.bd/site/nocs/load_shedding",
-    "retrieved_at": "2026-08-27T18:30:27Z",
+    "retrieved_at": "2026-08-28T09:28:56Z",
     "sha256": "2cd475a776e4697baf0fd33f434723f801135b262c0c28bcfb28a4213825c617",
     "part_hashes": [
       "adabor:ba9b142bc1929a55f4a869bd6a76ac0e95d4cc723eae262b3c790f4294fdff7b",
@@ -560,12 +560,13 @@
       "feeder": "row-02",
       "feeder_id": "dpdc:azimpur:row-02",
       "feeder_name": null,
-      "area_text": "মাক কলোনী আ্রান্ি ঘুর সরব গালস স্কুল এক কনলো। মাজসাদন ছাপন্পা্ঞল, পারার পারকল্পনা দলের",
+      "area_text": "মাক কলোনী করান ঘুর সরব গালস স্কুল এক কনো, মাজসাদন ছাপন্পা্জল, পারনার পারকল্পনা দলের",
       "areas": [
-        "মাক কলোনী আ্রান্ি ঘুর সরব গালস স্কুল এক কনলো। মাজসাদন ছাপন্পা্ঞল",
-        "পারার পারকল্পনা দলের"
+        "মাক কলোনী করান ঘুর সরব গালস স্কুল এক কনো",
+        "মাজসাদন ছাপন্পা্জল",
+        "পারনার পারকল্পনা দলের"
       ],
-      "area_search": "mak kloni arani ghur srb gals skul ek knlo majsadn chhapnpanl, parar parklpna dler",
+      "area_search": "mak kloni kran ghur srb gals skul ek kno, majsadn chhapnpajl, parnar parklpna dler",
       "text_source": "ocr",
       "windows": [
         {
@@ -585,12 +586,12 @@
       "feeder": "row-04",
       "feeder_id": "dpdc:azimpur:row-04",
       "feeder_name": null,
-      "area_text": "দাদ্ছরা লী মশাঁকিদ. ছ্ান্লদা ঘরাঝিদ. ্মাজিসন্ুর রাটিজলা, রপুলবাল প্লাক্যায়িক। বীদাল। & রক্্ল বাল কপার ংলাগস গলাকলামা",
+      "area_text": "দাদ্ররা লব্ীফ্ মশাকিদ. ছ্ান্লদা ঘরাঝিদ. স্মাজিসনুর রাটিজলা, রপুলবাল প্লাক্যায়িক বীদাল। & রক্্ল বাল কপার ংলাগস গলুলাকলামাহ",
       "areas": [
-        "দাদ্ছরা লী মশাঁকিদ. ছ্ান্লদা ঘরাঝিদ. ্মাজিসন্ুর রাটিজলা",
-        "রপুলবাল প্লাক্যায়িক। বীদাল। & রক্্ল বাল কপার ংলাগস গলাকলামা"
+        "দাদ্ররা লব্ীফ্ মশাকিদ. ছ্ান্লদা ঘরাঝিদ. স্মাজিসনুর রাটিজলা",
+        "রপুলবাল প্লাক্যায়িক বীদাল। & রক্্ল বাল কপার ংলাগস গলুলাকলামাহ"
       ],
-      "area_search": "dadchhra li mshankid. chhanlda ghrajhid. majisnur ratijla, rpulbal plakjayik bidal rkl bal kpar nglags glaklama",
+      "area_search": "dadrra lbiph mshakid. chhanlda ghrajhid. smajisnur ratijla, rpulbal plakjayik bidal rkl bal kpar nglags glulaklamah",
       "text_source": "ocr",
       "windows": [
         {
@@ -610,15 +611,15 @@
       "feeder": "row-05",
       "feeder_id": "dpdc:azimpur:row-05",
       "feeder_name": null,
-      "area_text": "লিরনরন্ন্নপা স্ল -এক্দ রুলো রায়হান দুল এন্ড রুলোজু, নিট 'শলীান স্কুল বিজ্রিদালন (কনার “গ্কদ রন ল্য, ক্রাদশ স্কুল দ রান, লায়না খাল: এর গালি, তারা",
+      "area_text": "িরুনরন্ল্রশা স্ুল এক্দ রুল রায়ান দুল এল কলা, নিউ পল্টন স্কুল গ্ক্দ বন লা, ক্বাদশ ভুল এক রনলাদ, লয়না খানি: এর গালি, [তারা শিজ্াদবিদালন্। কেনার",
       "areas": [
-        "লিরনরন্ন্নপা স্ল -এক্দ রুলো রায়হান দুল এন্ড রুলোজু",
-        "নিট 'শলীান স্কুল বিজ্রিদালন (কনার “গ্কদ রন ল্য",
-        "ক্রাদশ স্কুল দ রান",
-        "লায়না খাল: এর গালি",
-        "তারা"
+        "িরুনরন্ল্রশা স্ুল এক্দ রুল রায়ান দুল এল কলা",
+        "নিউ পল্টন স্কুল গ্ক্দ বন লা",
+        "ক্বাদশ ভুল এক রনলাদ",
+        "লয়না খানি: এর গালি",
+        "[তারা শিজ্াদবিদালন্। কেনার"
       ],
-      "area_search": "lirnrnnnpa sl -ekd rulo rayhan dul end ruloju, nit shlian skul bijridaln (knar gkd rn lj, kradsh skul d ran, layna khal er gali, tara",
+      "area_search": "irunrnlrsha sul ekd rul rayan dul el kla, niu pltn skul gkd bn la, kbadsh bhul ek rnlad, lyna khani er gali, tara shijadbidaln kenar",
       "text_source": "ocr",
       "windows": [
         {
@@ -631,7 +632,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 2.2,
+      "load_mw": null,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -642,15 +643,15 @@
       "feeder": "row-06",
       "feeder_id": "dpdc:azimpur:row-06",
       "feeder_name": null,
-      "area_text": "রন্বক্রুত উল্লাহ স্কুল এক কালোজ্ ।রালকু ও বাহক], জাফ্রিলা ৎ শ সুল, শ্মারার গয়্াঙার শাশির পাম্প, শেষ শ্যান্র রাদযার মন্দিরের গালি, ॥ (দাজ্লা মাশািদ",
+      "area_text": "রন্বক্রুত উল্লাহ স্কুল এক কালোজ্জ ।রালকু ও বাহক], জাফ্রিলা ৎ শন সুল, ক্মারার গয়্াঙার শাশির শাম্প্, শেষ ্যান্র রাদযার মন্দিরের গালি, ॥ [দাজ্লা মাশািদ",
       "areas": [
-        "রন্বক্রুত উল্লাহ স্কুল এক কালোজ্ ।রালকু ও বাহক]",
-        "জাফ্রিলা ৎ শ সুল",
-        "শ্মারার গয়্াঙার শাশির পাম্প",
-        "শেষ শ্যান্র রাদযার মন্দিরের গালি",
-        "॥ (দাজ্লা মাশািদ"
+        "রন্বক্রুত উল্লাহ স্কুল এক কালোজ্জ ।রালকু ও বাহক]",
+        "জাফ্রিলা ৎ শন সুল",
+        "ক্মারার গয়্াঙার শাশির শাম্প্",
+        "শেষ ্যান্র রাদযার মন্দিরের গালি",
+        "॥ [দাজ্লা মাশািদ"
       ],
-      "area_search": "rnbkrut ullah skul ek kaloj ralku o bahk, japhrila t sh sul, shmarar gyangar shashir pamp, shesh shjanr radjar mndirer gali, (dajla mashaid",
+      "area_search": "rnbkrut ullah skul ek kalojj ralku o bahk, japhrila t shn sul, kmarar gyangar shashir shamp, shesh janr radjar mndirer gali, dajla mashaid",
       "text_source": "ocr",
       "windows": [
         {
@@ -659,7 +660,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 4.42,
+      "load_mw": null,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -670,17 +671,17 @@
       "feeder": "row-07",
       "feeder_id": "dpdc:azimpur:row-07",
       "feeder_name": null,
-      "area_text": "নীলক্ষেত বু মার্কেট, ভমি অফিস, টি, এটি আফিস. এন. এপিডি অস্কিস, রুযজার মালা হোেশটিল, আন্ালার শ্যানির 'শাম্শ, করাররন ঘারে জ। ঢাল",
+      "area_text": "নীলক্ষেত বু মার্কেট, ভুমি আস, টি, এনটি আফিস. এন.এপিডি অস্কিস, রুযুজার মালা হোেশটিল, আন্ালার শ্যানির 'শাম্শ, করাররন ঘাটি জ ঢাল",
       "areas": [
         "নীলক্ষেত বু মার্কেট",
-        "ভমি অফিস",
+        "ভুমি আস",
         "টি",
-        "এটি আফিস. এন. এপিডি অস্কিস",
-        "রুযজার মালা হোেশটিল",
+        "এনটি আফিস. এন.এপিডি অস্কিস",
+        "রুযুজার মালা হোেশটিল",
         "আন্ালার শ্যানির 'শাম্শ",
-        "করাররন ঘারে জ। ঢাল"
+        "করাররন ঘাটি জ ঢাল"
       ],
-      "area_search": "nilkshet bu market, bhmi aphis, ti, eti aphis. en. epidi askis, rujjar mala hoeshtil, analar shjanir shamsh, krarrn ghare j dhal",
+      "area_search": "nilkshet bu market, bhumi as, ti, enti aphis. en.epidi askis, rujujar mala hoeshtil, analar shjanir shamsh, krarrn ghati j dhal",
       "text_source": "ocr",
       "windows": [
         {
@@ -704,15 +705,15 @@
       "feeder": "row-08",
       "feeder_id": "dpdc:azimpur:row-08",
       "feeder_name": null,
-      "area_text": "লালবাগ সরবণাসর ঘাক্দেল স্কুল এক্দর রনূলেজ, শন্্রীদ। ন'লর বট বছজার, কিল্লার মোড, আদ্তুপদন ছালশ্াতজাল, লিলি মাকে",
+      "area_text": "লালবাগ সরবণাঞ ঘাক্দেল স্কুল এএ্দর রনূলেজ, শ্্রীদ। ন'লর বট বছজার, কিল্লার মোড, মন্তুপদন ছালস্াতজাল, লিলি মাকে",
       "areas": [
-        "লালবাগ সরবণাসর ঘাক্দেল স্কুল এক্দর রনূলেজ",
-        "শন্্রীদ। ন'লর বট বছজার",
+        "লালবাগ সরবণাঞ ঘাক্দেল স্কুল এএ্দর রনূলেজ",
+        "শ্্রীদ। ন'লর বট বছজার",
         "কিল্লার মোড",
-        "আদ্তুপদন ছালশ্াতজাল",
+        "মন্তুপদন ছালস্াতজাল",
         "লিলি মাকে"
       ],
-      "area_search": "lalbag srbnasr ghakdel skul ekdr rnulej, shnrid nlr bt bchhjar, killar mod, adtupdn chhalshatjal, lili make",
+      "area_search": "lalbag srbnan ghakdel skul eedr rnulej, shrid nlr bt bchhjar, killar mod, mntupdn chhalsatjal, lili make",
       "text_source": "ocr",
       "windows": [
         {
@@ -725,7 +726,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 3.4,
+      "load_mw": null,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -736,16 +737,16 @@
       "feeder": "row-09",
       "feeder_id": "dpdc:azimpur:row-09",
       "feeder_name": null,
-      "area_text": "আজ শহীদ কামিট্যানটি দেশর, দের ঢল, শবানান ল রাছরান, হা ঈনরাঘাটি মারেন, লোছার ব্রীজ, কেটারাগ। হোন্সেন উদ্দিন ক্বান ঘ ঞ। হন লেন",
+      "area_text": "আজ শহীদ কামিট্যানিটি দেশর, লেক ঢল, শবানান লা বাছা, হ্যা ঈনাঘাটি মারেন, লোছার বীজ, কেটারাগ। হোন্সেন উদ্দিন শ্বান *ঘ ঞ। ২ম লেন",
       "areas": [
-        "আজ শহীদ কামিট্যানটি দেশর",
-        "দের ঢল",
-        "শবানান ল রাছরান",
-        "হা ঈনরাঘাটি মারেন",
-        "লোছার ব্রীজ",
-        "কেটারাগ। হোন্সেন উদ্দিন ক্বান ঘ ঞ। হন লেন"
+        "আজ শহীদ কামিট্যানিটি দেশর",
+        "লেক ঢল",
+        "শবানান লা বাছা",
+        "হ্যা ঈনাঘাটি মারেন",
+        "লোছার বীজ",
+        "কেটারাগ। হোন্সেন উদ্দিন শ্বান *ঘ ঞ। ২ম লেন"
       ],
-      "area_search": "aj shhid kamitjanti deshr, der dhl, shbanan l rachhran, ha inraghati maren, lochhar brij, ketarag honsen uddin kban gh n hn len",
+      "area_search": "aj shhid kamitjaniti deshr, lek dhl, shbanan la bachha, hja inaghati maren, lochhar bij, ketarag honsen uddin shban gh n 2m len",
       "text_source": "ocr",
       "windows": [
         {
@@ -769,15 +770,15 @@
       "feeder": "row-10",
       "feeder_id": "dpdc:azimpur:row-10",
       "feeder_name": null,
-      "area_text": "(এন ল্াহা (প্রো, জ্বাল ত্হাদলা লাক, এ পপাক্চলভলা, লাহাদ শর, গল স্লরা লা লাহা লেশ ক্াজশন্মাশা (লিখ",
+      "area_text": "তে.এন ল্াহা (প্রো, জ্রা়ল ত্হাদলা পাক, এ পপাক্চলভলা, লাহাদ শর, 'ল্লরা লে লাহা লেশ কআাজিশন্মাশা (লিখ",
       "areas": [
-        "(এন ল্াহা (প্রো",
-        "জ্বাল ত্হাদলা লাক",
+        "তে.এন ল্াহা (প্রো",
+        "জ্রা়ল ত্হাদলা পাক",
         "এ পপাক্চলভলা",
         "লাহাদ শর",
-        "গল স্লরা লা লাহা লেশ ক্াজশন্মাশা (লিখ"
+        "'ল্লরা লে লাহা লেশ কআাজিশন্মাশা (লিখ"
       ],
-      "area_search": "(en laha (pro, jbal thadla lak, e ppakchlbhla, lahad shr, gl slra la laha lesh kajshnmasha (likh",
+      "area_search": "te.en laha (pro, jral thadla pak, e ppakchlbhla, lahad shr, llra le laha lesh kaajishnmasha (likh",
       "text_source": "ocr",
       "windows": [
         {
@@ -786,7 +787,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 2.2,
+      "load_mw": null,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -797,11 +798,11 @@
       "feeder": "row-11",
       "feeder_id": "dpdc:azimpur:row-11",
       "feeder_name": null,
-      "area_text": "জআতিমন্পুর সরকনাী কালোনীন্থ ২০ জলা ভরনপলমহ [যান ঝি",
+      "area_text": "জআআতিমন্পুর সরকনাী কালোনীন্থ ২০ জলা ভরনপলম্ [তেয়ান। ঝি",
       "areas": [
-        "জআতিমন্পুর সরকনাী কালোনীন্থ ২০ জলা ভরনপলমহ [যান ঝি"
+        "জআআতিমন্পুর সরকনাী কালোনীন্থ ২০ জলা ভরনপলম্ [তেয়ান। ঝি"
       ],
-      "area_search": "jatimnpur srknai kaloninth 20 jla bhrnplmh jan jhi",
+      "area_search": "jaatimnpur srknai kaloninth 20 jla bhrnplm teyan jhi",
       "text_source": "ocr",
       "windows": [
         {
@@ -847,11 +848,11 @@
       "feeder": "row-13",
       "feeder_id": "dpdc:azimpur:row-13",
       "feeder_name": null,
-      "area_text": "সস",
+      "area_text": "সি 7 ২০",
       "areas": [
-        "সস"
+        "সি 7 ২০"
       ],
-      "area_search": "ss",
+      "area_search": "si 7 20",
       "text_source": "ocr",
       "windows": [
         {
@@ -875,14 +876,13 @@
       "feeder": "row-14",
       "feeder_id": "dpdc:azimpur:row-14",
       "feeder_name": null,
-      "area_text": "বিডিয়ার স্সিনন্মান্ধল কাক, লী, এনাক্রেজন প্র [গিকক্দন ঘোড।নিলাম্মর শান [বান্দর কুলাল ঘঙ্ছল লেন, কার্জির রাশ",
+      "area_text": "বিডিয়ার ন্সিনেন্মান্ধল কাক, লী, এনাক্রেজন গর [গিকক্গন ঘোড।নিলাম্বর শান [বান্দর কুলাল ঘঙ্ছল লেন কাজির রাশ",
       "areas": [
-        "বিডিয়ার স্সিনন্মান্ধল কাক",
+        "বিডিয়ার ন্সিনেন্মান্ধল কাক",
         "লী",
-        "এনাক্রেজন প্র [গিকক্দন ঘোড।নিলাম্মর শান [বান্দর কুলাল ঘঙ্ছল লেন",
-        "কার্জির রাশ"
+        "এনাক্রেজন গর [গিকক্গন ঘোড।নিলাম্বর শান [বান্দর কুলাল ঘঙ্ছল লেন কাজির রাশ"
       ],
-      "area_search": "bidiyar ssinnmandhl kak, li, enakrejn pr gikkdn ghodnilammr shan bandr kulal ghngchhl len, karjir rash",
+      "area_search": "bidiyar nsinenmandhl kak, li, enakrejn gr gikkgn ghodnilambr shan bandr kulal ghngchhl len kajir rash",
       "text_source": "ocr",
       "windows": [
         {
@@ -902,12 +902,12 @@
       "feeder": "row-15",
       "feeder_id": "dpdc:azimpur:row-15",
       "feeder_name": null,
-      "area_text": "জ্যাজি-ন্পুর দক্ষিন্প কলোনী রিসি দান দ্ীট, লালরাশা রোড আবংাশক",
+      "area_text": "জ্যাজি-্পুর দক্ষিন্প কলোনী রিসি দান দ্র, লালরাশা রোড আবংাশক",
       "areas": [
-        "জ্যাজি-ন্পুর দক্ষিন্প কলোনী রিসি দান দ্ীট",
+        "জ্যাজি-্পুর দক্ষিন্প কলোনী রিসি দান দ্র",
         "লালরাশা রোড আবংাশক"
       ],
-      "area_search": "jjaji-npur dkshinp kloni risi dan dit, lalrasha rod abngashk",
+      "area_search": "jjaji-pur dkshinp kloni risi dan dr, lalrasha rod abngashk",
       "text_source": "ocr",
       "windows": [
         {
@@ -948,8 +948,8 @@
     {
       "division": "Banglabazar",
       "division_canonical": "Banglabazar",
-      "feeder": "row-01",
-      "feeder_id": "dpdc:banglabazar:row-01",
+      "feeder": "A6138D",
+      "feeder_id": "dpdc:banglabazar:a6138d",
       "feeder_name": null,
       "area_text": "বাংলাবাজার, নর্থবুক হুশ রোড, পারিদাস রোড, লালকুি, জয়াচন্দ্ ঘোষ লেন, ঈশ্বর চন্দ্র ঘোষ সম্রাট, পি.কে রায় রোড",
       "areas": [
@@ -975,9 +975,9 @@
       ],
       "weekday": null,
       "load_mw": 2.5,
-      "billing_code": null,
+      "billing_code": "A6138D",
       "read_by": "ocr-scan",
-      "code_confident": false
+      "code_confident": true
     },
     {
       "division": "Banglabazar",
@@ -999,7 +999,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 0.4,
+      "load_mw": 6.0,
       "billing_code": "A619",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -1007,18 +1007,17 @@
     {
       "division": "Banglabazar",
       "division_canonical": "Banglabazar",
-      "feeder": "A6138S",
-      "feeder_id": "dpdc:banglabazar:a6138s",
+      "feeder": "A613S",
+      "feeder_id": "dpdc:banglabazar:a613s",
       "feeder_name": null,
-      "area_text": "সিমসন রোড, চিন্ত রঞ্জন এভিনিউ, মায়াকাটারা, বিআইডবিউটিসি, সদরঘাট সোস্যাল সাভিস পাটুয়াটুলী লেন",
+      "area_text": "সিমসন রোড, চিন্ত রঞ্জন এভিনিউ, মায়াকাটারা, বিআইডবিউটিসি সদরঘাট সোস্যাল সাভিস পাটুয়াটুলী লেন",
       "areas": [
         "সিমসন রোড",
         "চিন্ত রঞ্জন এভিনিউ",
         "মায়াকাটারা",
-        "বিআইডবিউটিসি",
-        "সদরঘাট সোস্যাল সাভিস পাটুয়াটুলী লেন"
+        "বিআইডবিউটিসি সদরঘাট সোস্যাল সাভিস পাটুয়াটুলী লেন"
       ],
-      "area_search": "simsn rod, chint rnjn ebhiniu, mayakatara, biaidbiutisi, sdrghat sosjal sabhis patuyatuli len",
+      "area_search": "simsn rod, chint rnjn ebhiniu, mayakatara, biaidbiutisi sdrghat sosjal sabhis patuyatuli len",
       "text_source": "ocr",
       "windows": [
         {
@@ -1032,7 +1031,7 @@
       ],
       "weekday": null,
       "load_mw": 0.6,
-      "billing_code": "A6138S",
+      "billing_code": "A613S",
       "read_by": "ocr-scan",
       "code_confident": true
     },
@@ -1042,15 +1041,10 @@
       "feeder": "A619P",
       "feeder_id": "dpdc:banglabazar:a619p",
       "feeder_name": null,
-      "area_text": "পাটুয়াটুশী রোড, রমাকান্ত নন্দী লেন, কবিরাজ লেন, লয়াল স্দ্রাট",
-      "areas": [
-        "পাটুয়াটুশী রোড",
-        "রমাকান্ত নন্দী লেন",
-        "কবিরাজ লেন",
-        "লয়াল স্দ্রাট"
-      ],
-      "area_search": "patuyatushi rod, rmakant nndi len, kbiraj len, lyal sdrat",
-      "text_source": "ocr",
+      "area_text": "",
+      "areas": [],
+      "area_search": "",
+      "text_source": null,
       "windows": [
         {
           "start": "12:00",
@@ -1062,7 +1056,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 3.4,
+      "load_mw": 5.8,
       "billing_code": "A619P",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -1073,15 +1067,11 @@
       "feeder": "A619B",
       "feeder_id": "dpdc:banglabazar:a619b",
       "feeder_name": null,
-      "area_text": "আকমল খান রোড, বাবুবাজার, বাদামতলী, রায় ঈশ্বরচন্দ্র ঘোষ স্ক্রাট, হায়বাৎনশর লেন",
+      "area_text": "াাাাাাাাাাাাাাাাাাাাা হায়বাৎনশর জেন",
       "areas": [
-        "আকমল খান রোড",
-        "বাবুবাজার",
-        "বাদামতলী",
-        "রায় ঈশ্বরচন্দ্র ঘোষ স্ক্রাট",
-        "হায়বাৎনশর লেন"
+        "াাাাাাাাাাাাাাাাাাাাা হায়বাৎনশর জেন"
       ],
-      "area_search": "akml khan rod, babubajar, badamtli, ray ishbrchndr ghosh skrat, haybatnshr len",
+      "area_search": "aaaaaaaaaaaaaaaaaaaaa haybatnshr jen",
       "text_source": "ocr",
       "windows": [
         {
@@ -1094,7 +1084,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": null,
+      "load_mw": 2.4,
       "billing_code": "A619B",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -1105,18 +1095,10 @@
       "feeder": "A619K",
       "feeder_id": "dpdc:banglabazar:a619k",
       "feeder_name": null,
-      "area_text": "তীতীবাজার, প্রসঙ্গ পোদ্দার লেন, রাখাল চন্দ্র বসাক লেন, উচ্ছব পোদ্দার লেন, কোতোয়ালী রোড, নবরায় লেন, শীখারীবাজার",
-      "areas": [
-        "তীতীবাজার",
-        "প্রসঙ্গ পোদ্দার লেন",
-        "রাখাল চন্দ্র বসাক লেন",
-        "উচ্ছব পোদ্দার লেন",
-        "কোতোয়ালী রোড",
-        "নবরায় লেন",
-        "শীখারীবাজার"
-      ],
-      "area_search": "titibajar, prsngg poddar len, rakhal chndr bsak len, uchchhb poddar len, kotoyali rod, nbray len, shikharibajar",
-      "text_source": "ocr",
+      "area_text": "",
+      "areas": [],
+      "area_search": "",
+      "text_source": null,
       "windows": [
         {
           "start": "15:00",
@@ -1139,15 +1121,12 @@
       "feeder": "A619M",
       "feeder_id": "dpdc:banglabazar:a619m",
       "feeder_name": null,
-      "area_text": "বাবুবাজ্জর ব্রীজ, মাজ্ঞার এলাকা, ইসলামপুর রোড (আংশকি), সয়ৈদ হাসান আলী লনে, জবমরাইল",
+      "area_text": "হাসান আলী লনে, জবমরাইল",
       "areas": [
-        "বাবুবাজ্জর ব্রীজ",
-        "মাজ্ঞার এলাকা",
-        "ইসলামপুর রোড (আংশকি)",
-        "সয়ৈদ হাসান আলী লনে",
+        "হাসান আলী লনে",
         "জবমরাইল"
       ],
-      "area_search": "babubajjr brij, majnar elaka, islampur rod (angshki), syoid hasan ali lne, jbmrail",
+      "area_search": "hasan ali lne, jbmrail",
       "text_source": "ocr",
       "windows": [
         {
@@ -1342,7 +1321,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 2.84,
+      "load_mw": 2.89,
       "billing_code": "A687C",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -1353,18 +1332,14 @@
       "feeder": "A687F",
       "feeder_id": "dpdc:banglabazar:a687f",
       "feeder_name": null,
-      "area_text": "আর.এম দান রোড, তনুগঞ্জ, বানিয়ানপর, মালাকারটোলা, সূত্রাপুর বাঙ্জার, কাতেরপুল লেন, হেমেনদ্র দাস রোড, শুকলাল দাস লেন",
+      "area_text": "বাঙ্জার, কাতেরপুল লেন, হেমেনদ্র দাস রোড, শুকলাল দাস লেন",
       "areas": [
-        "আর.এম দান রোড",
-        "তনুগঞ্জ",
-        "বানিয়ানপর",
-        "মালাকারটোলা",
-        "সূত্রাপুর বাঙ্জার",
+        "বাঙ্জার",
         "কাতেরপুল লেন",
         "হেমেনদ্র দাস রোড",
         "শুকলাল দাস লেন"
       ],
-      "area_search": "ar.em dan rod, tnugnj, baniyanpr, malakartola, sutrapur bangjar, katerpul len, hemendr das rod, shuklal das len",
+      "area_search": "bangjar, katerpul len, hemendr das rod, shuklal das len",
       "text_source": "ocr",
       "windows": [
         {
@@ -1377,7 +1352,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 9.5,
+      "load_mw": 2.2,
       "billing_code": "A687F",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -1388,17 +1363,17 @@
       "feeder": "A619T",
       "feeder_id": "dpdc:banglabazar:a619t",
       "feeder_name": null,
-      "area_text": "রাভারদেউরী, তীঠাবাজার, শীখারীবাজার, গোয়ালনগর, রাধিকা মোহন বসাক লেন, ঠংলিশ রোড, রায় সাহেৰ বাজার",
+      "area_text": "রাভারদেউরী, তীঠীাবাজার, শীখারীবাজার, গোয়ালনগর, রাধিকা মোহন বসাক লেন, ঠংলিশ রোড, রায় সাহেৰ বাজার",
       "areas": [
         "রাভারদেউরী",
-        "তীঠাবাজার",
+        "তীঠীাবাজার",
         "শীখারীবাজার",
         "গোয়ালনগর",
         "রাধিকা মোহন বসাক লেন",
         "ঠংলিশ রোড",
         "রায় সাহেৰ বাজার"
       ],
-      "area_search": "rabhardeuri, tithabajar, shikharibajar, goyalngr, radhika mohn bsak len, thnglish rod, ray sahe bajar",
+      "area_search": "rabhardeuri, tithiabajar, shikharibajar, goyalngr, radhika mohn bsak len, thnglish rod, ray sahe bajar",
       "text_source": "ocr",
       "windows": [
         {
@@ -1422,11 +1397,11 @@
       "feeder": "B615S",
       "feeder_id": "dpdc:bangshal:b615s",
       "feeder_name": null,
-      "area_text": "আলু বার সিদিকবাজা ? [পক হাব ৩৭ খাও টা সম এ 1 ম্হি ৮৭ রে পমুহ",
+      "area_text": "আলু বজার সিদিকবাজা ? 1৮ বাঁক আকা ৩৭ খাও টা সম এ 1 ৪ 1৮৭ থু পিমুহ",
       "areas": [
-        "আলু বার সিদিকবাজা ? [পক হাব ৩৭ খাও টা সম এ 1 ম্হি ৮৭ রে পমুহ"
+        "আলু বজার সিদিকবাজা ? 1৮ বাঁক আকা ৩৭ খাও টা সম এ 1 ৪ 1৮৭ থু পিমুহ"
       ],
-      "area_search": "alu bar sidikbaja pk hab 37 khao ta sm e 1 mhi 87 re pmuh",
+      "area_search": "alu bjar sidikbaja 18 bank aka 37 khao ta sm e 1 4 187 thu pimuh",
       "text_source": "ocr",
       "windows": [
         {
@@ -1439,7 +1414,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 6.94,
+      "load_mw": 4.07,
       "billing_code": "B615S",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -1450,12 +1425,13 @@
       "feeder": "B678L",
       "feeder_id": "dpdc:bangshal:b678l",
       "feeder_name": null,
-      "area_text": "০8৮1 সি ১৫৯৭ ১১০৬ বংশাল লেন, বিলাল মাহুতষ্ঠাল মোকিম বাজার এলকাসমুহ",
+      "area_text": "০8৮1 সক ৬ বংশাল লেন, কসাহষ্টাল, মাহুতষ্ঠাল",
       "areas": [
-        "০8৮1 সি ১৫৯৭ ১১০৬ বংশাল লেন",
-        "বিলাল মাহুতষ্ঠাল মোকিম বাজার এলকাসমুহ"
+        "০8৮1 সক ৬ বংশাল লেন",
+        "কসাহষ্টাল",
+        "মাহুতষ্ঠাল"
       ],
-      "area_search": "0881 si 1597 1106 bngshal len, bilal mahutshthal mokim bajar elkasmuh",
+      "area_search": "0881 sk 6 bngshal len, ksahshtal, mahutshthal",
       "text_source": "ocr",
       "windows": [
         {
@@ -1483,13 +1459,11 @@
       "feeder": "row-05",
       "feeder_id": "dpdc:bangshal:row-05",
       "feeder_name": null,
-      "area_text": "ফ্রেসরোড, হাজী আব্দুল্লাহ সরকার লেন, হ! জী আবুর রশিদ লেন এলাকাসমূহ",
+      "area_text": "হ্ জী আবুর রশিদ লেন এলাকাসমূহ ৰ",
       "areas": [
-        "ফ্রেসরোড",
-        "হাজী আব্দুল্লাহ সরকার লেন",
-        "হ! জী আবুর রশিদ লেন এলাকাসমূহ"
+        "হ্ জী আবুর রশিদ লেন এলাকাসমূহ ৰ"
       ],
-      "area_search": "phresrod, haji abdullah srkar len, h ji abur rshid len elakasmuh",
+      "area_search": "h ji abur rshid len elakasmuh",
       "text_source": "ocr",
       "windows": [
         {
@@ -1514,17 +1488,17 @@
     {
       "division": "Bangshal",
       "division_canonical": "Bangshal",
-      "feeder": "B678B",
-      "feeder_id": "dpdc:bangshal:b678b",
+      "feeder": "B68B",
+      "feeder_id": "dpdc:bangshal:b68b",
       "feeder_name": null,
-      "area_text": "আগাসাদেক রোড, আব্দুল হাদী লেন, বিকে গ্ঙ্গুলি লেন, মাজেদ সরদার রোড",
+      "area_text": "আগাসাদেক বোড, আব্দুল হাদী লেন, বিকে গৃঙ্গুলি লেন, মাজেদ সরদার রোড ৩০ শিপ টিসি লাোতিজা",
       "areas": [
-        "আগাসাদেক রোড",
+        "আগাসাদেক বোড",
         "আব্দুল হাদী লেন",
-        "বিকে গ্ঙ্গুলি লেন",
-        "মাজেদ সরদার রোড"
+        "বিকে গৃঙ্গুলি লেন",
+        "মাজেদ সরদার রোড ৩০ শিপ টিসি লাোতিজা"
       ],
-      "area_search": "agasadek rod, abdul hadi len, bike gngguli len, majed srdar rod",
+      "area_search": "agasadek bod, abdul hadi len, bike gringguli len, majed srdar rod 30 ship tisi laotija",
       "text_source": "ocr",
       "windows": [
         {
@@ -1542,7 +1516,7 @@
       ],
       "weekday": null,
       "load_mw": 2.0,
-      "billing_code": "B678B",
+      "billing_code": "B68B",
       "read_by": "ocr-scan",
       "code_confident": true
     },
@@ -1586,13 +1560,11 @@
       "feeder": "B678N",
       "feeder_id": "dpdc:bangshal:b678n",
       "feeder_name": null,
-      "area_text": "নাজিরা বাজার, বৌ-বাজার, মেয়রের গলি এলাকাসমূহ",
+      "area_text": "গলি এলাকাসমূহ",
       "areas": [
-        "নাজিরা বাজার",
-        "বৌ-বাজার",
-        "মেয়রের গলি এলাকাসমূহ"
+        "গলি এলাকাসমূহ"
       ],
-      "area_search": "najira bajar, bou-bajar, meyrer gli elakasmuh",
+      "area_search": "gli elakasmuh",
       "text_source": "ocr",
       "windows": [
         {
@@ -1620,13 +1592,10 @@
       "feeder": "B678Y",
       "feeder_id": "dpdc:bangshal:b678y",
       "feeder_name": null,
-      "area_text": "নয়াবাজার, নয়াধাজার মোড়",
-      "areas": [
-        "নয়াবাজার",
-        "নয়াধাজার মোড়"
-      ],
-      "area_search": "nyabajar, nyadhajar mor",
-      "text_source": "ocr",
+      "area_text": "",
+      "areas": [],
+      "area_search": "",
+      "text_source": null,
       "windows": [
         {
           "start": "03:00",
@@ -1675,7 +1644,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 2.2,
+      "load_mw": 2.52,
       "billing_code": "B678T",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -1686,15 +1655,15 @@
       "feeder": "B688G",
       "feeder_id": "dpdc:bangshal:b688g",
       "feeder_name": null,
-      "area_text": "বেগমবাজার, বেচারাম দৈড়ী, এসি রায় রোড, ডিসি রায় রোড, রজনী বোস ডি গত লি... ০",
+      "area_text": "বেগমবাজার, বেচারাম দৈড়ী, এসি রায় রোড, ডিসি রায় রোড, রজনী বোস",
       "areas": [
         "বেগমবাজার",
         "বেচারাম দৈড়ী",
         "এসি রায় রোড",
         "ডিসি রায় রোড",
-        "রজনী বোস ডি গত লি... ০"
+        "রজনী বোস"
       ],
-      "area_search": "begmbajar, becharam doiri, esi ray rod, disi ray rod, rjni bos di gt li... 0",
+      "area_search": "begmbajar, becharam doiri, esi ray rod, disi ray rod, rjni bos",
       "text_source": "ocr",
       "windows": [
         {
@@ -1722,13 +1691,10 @@
       "feeder": "B688D",
       "feeder_id": "dpdc:bangshal:b688d",
       "feeder_name": null,
-      "area_text": "নলগোলা, মিডফোর্ড রোড এলাকাসমূহ",
-      "areas": [
-        "নলগোলা",
-        "মিডফোর্ড রোড এলাকাসমূহ"
-      ],
-      "area_search": "nlgola, midphord rod elakasmuh",
-      "text_source": "ocr",
+      "area_text": "",
+      "areas": [],
+      "area_search": "",
+      "text_source": null,
       "windows": [
         {
           "start": "03:00",
@@ -1744,7 +1710,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 0.69,
+      "load_mw": 0.6,
       "billing_code": "B688D",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -1755,15 +1721,15 @@
       "feeder": "B688R",
       "feeder_id": "dpdc:bangshal:b688r",
       "feeder_name": null,
-      "area_text": "এস..সি.সি রোড, আনন্দময়ী স্কুল, আবুল হাসনাত রোড, শিরা গলি, নুও শপ... এতি তে... রক... তা িস্তবারা...... হত",
+      "area_text": "এস..সি.সি রোড, আনন্দময়ী স্কুল, আবুল হাসনাত রোড, শিরা গলি, নুও শসা পাতসি.. এরপর. ৫৯৯ ভাস ২ পান্টি ০১",
       "areas": [
         "এস..সি.সি রোড",
         "আনন্দময়ী স্কুল",
         "আবুল হাসনাত রোড",
         "শিরা গলি",
-        "নুও শপ... এতি তে... রক... তা িস্তবারা...... হত"
+        "নুও শসা পাতসি.. এরপর. ৫৯৯ ভাস ২ পান্টি ০১"
       ],
-      "area_search": "es..si.si rod, anndmyi skul, abul hasnat rod, shira gli, nuo shp... eti te... rk... ta istbara...... ht",
+      "area_search": "es..si.si rod, anndmyi skul, abul hasnat rod, shira gli, nuo shsa patsi.. erpr. 599 bhas 2 panti 01",
       "text_source": "ocr",
       "windows": [
         {
@@ -1791,13 +1757,11 @@
       "feeder": "B688P",
       "feeder_id": "dpdc:bangshal:b688p",
       "feeder_name": null,
-      "area_text": "পানঘাট, সুয়ারী ঘাট, চম্পাতলী লেন এলাকাসমূহ",
+      "area_text": "এলাকাসমূহ",
       "areas": [
-        "পানঘাট",
-        "সুয়ারী ঘাট",
-        "চম্পাতলী লেন এলাকাসমূহ"
+        "এলাকাসমূহ"
       ],
-      "area_search": "panghat, suyari ghat, chmpatli len elakasmuh",
+      "area_search": "elakasmuh",
       "text_source": "ocr",
       "windows": [
         {
@@ -1825,14 +1789,10 @@
       "feeder": "B688A",
       "feeder_id": "dpdc:bangshal:b688a",
       "feeder_name": null,
-      "area_text": "আরমানিটলা মাঠ, আর্মানিয়ান ষ্টিট, কেপি ঘোষ ষ্টিট এলাকাসমূহ",
-      "areas": [
-        "আরমানিটলা মাঠ",
-        "আর্মানিয়ান ষ্টিট",
-        "কেপি ঘোষ ষ্টিট এলাকাসমূহ"
-      ],
-      "area_search": "armanitla math, armaniyan shtit, kepi ghosh shtit elakasmuh",
-      "text_source": "ocr",
+      "area_text": "",
+      "areas": [],
+      "area_search": "",
+      "text_source": null,
       "windows": [
         {
           "start": "04:00",
@@ -1859,13 +1819,13 @@
       "feeder": "B688",
       "feeder_id": "dpdc:bangshal:b688",
       "feeder_name": null,
-      "area_text": "ইমামগঞ্জ, মিটফোর্ড রোড, মৌলভী বাজার এলাকাসমূহ",
+      "area_text": "ইমামগঞ্জ, মিটফোর্ড রোড, মৌলভা বাজারু",
       "areas": [
         "ইমামগঞ্জ",
         "মিটফোর্ড রোড",
-        "মৌলভী বাজার এলাকাসমূহ"
+        "মৌলভা বাজারু"
       ],
-      "area_search": "imamgnj, mitphord rod, moulbhi bajar elakasmuh",
+      "area_search": "imamgnj, mitphord rod, moulbha bajaru",
       "text_source": "ocr",
       "windows": [
         {
@@ -1893,13 +1853,13 @@
       "feeder": "B698J",
       "feeder_id": "dpdc:bangshal:b698j",
       "feeder_name": null,
-      "area_text": "মাজেদ সরপার রোড, নবাব কার, এলাকাসমূহ",
+      "area_text": "মাজেদ সরপার রোড, নবাব কাট, এলাকাসমূহ",
       "areas": [
         "মাজেদ সরপার রোড",
-        "নবাব কার",
+        "নবাব কাট",
         "এলাকাসমূহ"
       ],
-      "area_search": "majed srpar rod, nbab kar, elakasmuh",
+      "area_search": "majed srpar rod, nbab kat, elakasmuh",
       "text_source": "ocr",
       "windows": [
         {
@@ -1927,12 +1887,12 @@
       "feeder": "B698Q",
       "feeder_id": "dpdc:bangshal:b698q",
       "feeder_name": null,
-      "area_text": "নিমতলী, নবাবকাটারা ও আগামাসিলেন এলাকাসমূহ",
+      "area_text": "নিমতলী, নবাবকাটারা ও আগামাসিলেন",
       "areas": [
         "নিমতলী",
-        "নবাবকাটারা ও আগামাসিলেন এলাকাসমূহ"
+        "নবাবকাটারা ও আগামাসিলেন"
       ],
-      "area_search": "nimtli, nbabkatara o agamasilen elakasmuh",
+      "area_search": "nimtli, nbabkatara o agamasilen",
       "text_source": "ocr",
       "windows": [
         {
@@ -1960,11 +1920,11 @@
       "feeder": "B619M",
       "feeder_id": "dpdc:bangshal:b619m",
       "feeder_name": null,
-      "area_text": "মিডফোর্ড মেডিক্যাল কলেজ ও হাসপাতাল এন্র জন্য একা-প্রেস ফিডার",
+      "area_text": "মিডফোর্ড মেডিক্যাল কলেজ ও হাসপাতাল",
       "areas": [
-        "মিডফোর্ড মেডিক্যাল কলেজ ও হাসপাতাল এন্র জন্য একা-প্রেস ফিডার"
+        "মিডফোর্ড মেডিক্যাল কলেজ ও হাসপাতাল"
       ],
-      "area_search": "midphord medikjal klej o haspatal enr jnj eka-pres phidar",
+      "area_search": "midphord medikjal klej o haspatal",
       "text_source": "ocr",
       "windows": [
         {
@@ -1981,7 +1941,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 9.5,
+      "load_mw": null,
       "billing_code": "B619M",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -1992,12 +1952,12 @@
       "feeder": "row-21",
       "feeder_id": "dpdc:bangshal:row-21",
       "feeder_name": null,
-      "area_text": "আবুল হাসনাত রোড, জেল খানার ঢাল. আলী নেকী দেউরী আগাসাদেক রোড",
+      "area_text": "ঢাল. আলী দেভবা, আগাসাদেক রোড",
       "areas": [
-        "আবুল হাসনাত রোড",
-        "জেল খানার ঢাল. আলী নেকী দেউরী আগাসাদেক রোড"
+        "ঢাল. আলী দেভবা",
+        "আগাসাদেক রোড"
       ],
-      "area_search": "abul hasnat rod, jel khanar dhal. ali neki deuri agasadek rod",
+      "area_search": "dhal. ali debhba, agasadek rod",
       "text_source": "ocr",
       "windows": [
         {
@@ -2059,12 +2019,11 @@
       "feeder": "B6108G",
       "feeder_id": "dpdc:bangshal:b6108g",
       "feeder_name": null,
-      "area_text": "হমামগঞ্জ, কাচা বাজার. মোঘলটুলা. ইমামগঞ্জ ঢাল",
+      "area_text": "হমামগঞ্জ. কাচা বাজার. মোঘলটুলা.ইমামগঞ্জ ঢাল",
       "areas": [
-        "হমামগঞ্জ",
-        "কাচা বাজার. মোঘলটুলা. ইমামগঞ্জ ঢাল"
+        "হমামগঞ্জ. কাচা বাজার. মোঘলটুলা.ইমামগঞ্জ ঢাল"
       ],
-      "area_search": "hmamgnj, kacha bajar. moghltula. imamgnj dhal",
+      "area_search": "hmamgnj. kacha bajar. moghltula.imamgnj dhal",
       "text_source": "ocr",
       "windows": [
         {
@@ -2081,7 +2040,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 4.0,
+      "load_mw": 8.0,
       "billing_code": "B6108G",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -2226,7 +2185,7 @@
       "feeder": "row-06",
       "feeder_id": "dpdc:bashaboo:row-06",
       "feeder_name": null,
-      "area_text": "ছায়রুন বাগ, আদর্শবাগ, আদর্শবাগ গলি, উত্তর গোড়ান, নবাধীর মোড়, নতুন রাস্তা, আইসক্রিম গলি, ক্লাবের মোড়, গোল চত্বর সংলগ্ন এলাকা, চারতলা গলি তিলপাপাড়া রোড নং-৫-২২, প্রভাতীবাগ, ঢাকা হোটেল সংলগ্ন এলাকা",
+      "area_text": "ছায়রুন বাগ, আদর্শবাগ, আদর্শবাগ গলি, উত্তর গোড়ান, নবাধীর মোড়, নতুন রাস্তা, আইসক্রিম গলি, ক্লাবের মোড়, গোল চত্বর সংলগ্ন এলাকা, চারতলা গলি তিলপাপাড়া রোড নং-৫-২২, প্রভাতী বাগ, ঢাকা হোটেল সংলগ্ন এলাকা",
       "areas": [
         "ছায়রুন বাগ",
         "আদর্শবাগ",
@@ -2238,10 +2197,10 @@
         "ক্লাবের মোড়",
         "গোল চত্বর সংলগ্ন এলাকা",
         "চারতলা গলি তিলপাপাড়া রোড নং-৫-২২",
-        "প্রভাতীবাগ",
+        "প্রভাতী বাগ",
         "ঢাকা হোটেল সংলগ্ন এলাকা"
       ],
-      "area_search": "chhayrun bag, adrshbag, adrshbag gli, uttr goran, nbadhir mor, ntun rasta, aiskrim gli, klaber mor, gol chtbr snglgn elaka, chartla gli tilpapara rod nng-5-22, prbhatibag, dhaka hotel snglgn elaka",
+      "area_search": "chhayrun bag, adrshbag, adrshbag gli, uttr goran, nbadhir mor, ntun rasta, aiskrim gli, klaber mor, gol chtbr snglgn elaka, chartla gli tilpapara rod nng-5-22, prbhati bag, dhaka hotel snglgn elaka",
       "text_source": "ocr",
       "windows": [
         {
@@ -2447,11 +2406,11 @@
       "feeder": "E183K",
       "feeder_id": "dpdc:demra:e183k",
       "feeder_name": null,
-      "area_text": "ূ ]",
+      "area_text": "শি",
       "areas": [
-        "ূ ]"
+        "শি"
       ],
-      "area_search": "u",
+      "area_search": "shi",
       "text_source": "ocr",
       "windows": [
         {
@@ -2475,12 +2434,10 @@
       "feeder": "row-12",
       "feeder_id": "dpdc:demra:row-12",
       "feeder_name": null,
-      "area_text": "চারার",
-      "areas": [
-        "চারার"
-      ],
-      "area_search": "charar",
-      "text_source": "ocr",
+      "area_text": "",
+      "areas": [],
+      "area_search": "",
+      "text_source": null,
       "windows": [
         {
           "start": "14:00",
@@ -2557,8 +2514,8 @@
     {
       "division": "Demra",
       "division_canonical": "Demra",
-      "feeder": "EL102A",
-      "feeder_id": "dpdc:demra:el102a",
+      "feeder": "EIL102A",
+      "feeder_id": "dpdc:demra:eil102a",
       "feeder_name": null,
       "area_text": "",
       "areas": [],
@@ -2572,7 +2529,7 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "EL102A",
+      "billing_code": "EIL102A",
       "read_by": "ocr-scan",
       "code_confident": true
     },
@@ -2610,11 +2567,11 @@
       "feeder": "row-18",
       "feeder_id": "dpdc:demra:row-18",
       "feeder_name": null,
-      "area_text": "রদ্যাল্স্দ্রর ৮",
+      "area_text": "কর দ্াস্স্দ্রের ব্জ্",
       "areas": [
-        "রদ্যাল্স্দ্রর ৮"
+        "কর দ্াস্স্দ্রের ব্জ্"
       ],
-      "area_search": "rdjalsdrr 8",
+      "area_search": "kr dassdrer bj",
       "text_source": "ocr",
       "windows": [
         {
@@ -2656,12 +2613,12 @@
       "feeder": "E116V",
       "feeder_id": "dpdc:demra:e116v",
       "feeder_name": null,
-      "area_text": "এ্াক্দালা ১৪১১৪৯, % %* টি",
+      "area_text": "এ্যাক্দাুলা ১৪১১৪১, % %* টি",
       "areas": [
-        "এ্াক্দালা ১৪১১৪৯",
+        "এ্যাক্দাুলা ১৪১১৪১",
         "% %* টি"
       ],
-      "area_search": "eakdala 141149, ti",
+      "area_search": "ejakdaula 141141, ti",
       "text_source": "ocr",
       "windows": [
         {
@@ -2821,11 +2778,11 @@
       "feeder": "row-06",
       "feeder_id": "dpdc:dhanmondi:row-06",
       "feeder_name": null,
-      "area_text": "সাত খসা।জ এ]",
+      "area_text": "সাত খসাজ ০]",
       "areas": [
-        "সাত খসা।জ এ]"
+        "সাত খসাজ ০]"
       ],
-      "area_search": "sat khsaj e",
+      "area_search": "sat khsaj 0",
       "text_source": "ocr",
       "windows": [
         {
@@ -2965,11 +2922,11 @@
       "feeder": "row-11",
       "feeder_id": "dpdc:dhanmondi:row-11",
       "feeder_name": null,
-      "area_text": "লালমাটিয়া",
+      "area_text": "লালমাটি",
       "areas": [
-        "লালমাটিয়া"
+        "লালমাটি"
       ],
-      "area_search": "lalmatiya",
+      "area_search": "lalmati",
       "text_source": "ocr",
       "windows": [
         {
@@ -3109,12 +3066,10 @@
       "feeder": "row-16",
       "feeder_id": "dpdc:dhanmondi:row-16",
       "feeder_name": null,
-      "area_text": "বসিলা-১",
-      "areas": [
-        "বসিলা-১"
-      ],
-      "area_search": "bsila-1",
-      "text_source": "ocr",
+      "area_text": "",
+      "areas": [],
+      "area_search": "",
+      "text_source": null,
       "windows": [
         {
           "start": "15:00",
@@ -3197,10 +3152,12 @@
       "feeder": "row-19",
       "feeder_id": "dpdc:dhanmondi:row-19",
       "feeder_name": null,
-      "area_text": "",
-      "areas": [],
-      "area_search": "",
-      "text_source": null,
+      "area_text": "00000000057 ল্য",
+      "areas": [
+        "00000000057 ল্য"
+      ],
+      "area_search": "00000000057 lj",
+      "text_source": "ocr",
       "windows": [
         {
           "start": "09:00",
@@ -3282,7 +3239,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": null,
+      "load_mw": 9.6,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -3322,12 +3279,12 @@
       "feeder": "row-07",
       "feeder_id": "dpdc:fatulla:row-07",
       "feeder_name": null,
-      "area_text": "ডিএন রোড সংলগ্র এলাকা, ফতুল্লা",
+      "area_text": "ডিএন রোড সংলগ্ন এলাকা, ফতুল্লা",
       "areas": [
-        "ডিএন রোড সংলগ্র এলাকা",
+        "ডিএন রোড সংলগ্ন এলাকা",
         "ফতুল্লা"
       ],
-      "area_search": "dien rod snglgr elaka, phtulla",
+      "area_search": "dien rod snglgn elaka, phtulla",
       "text_source": "ocr",
       "windows": [
         {
@@ -3467,12 +3424,12 @@
       "feeder": "row-12",
       "feeder_id": "dpdc:fatulla:row-12",
       "feeder_name": null,
-      "area_text": "নন্দলালপুর রোড সংলগ্ন এলাকা, ফতুল্লা",
+      "area_text": "নন্দলালপুর রোড সংলগ্ন এলাকা, ফত্ল্লা",
       "areas": [
         "নন্দলালপুর রোড সংলগ্ন এলাকা",
-        "ফতুল্লা"
+        "ফত্ল্লা"
       ],
-      "area_search": "nndlalpur rod snglgn elaka, phtulla",
+      "area_search": "nndlalpur rod snglgn elaka, phtlla",
       "text_source": "ocr",
       "windows": [
         {
@@ -3607,13 +3564,10 @@
       "feeder": "row-17",
       "feeder_id": "dpdc:fatulla:row-17",
       "feeder_name": null,
-      "area_text": "শিয়াচর, শিবুমার্কেট রোড আংশিক ও পাশ্ববর্তী এলাকা",
-      "areas": [
-        "শিয়াচর",
-        "শিবুমার্কেট রোড আংশিক ও পাশ্ববর্তী এলাকা"
-      ],
-      "area_search": "shiyachr, shibumarket rod angshik o pashbbrti elaka",
-      "text_source": "ocr",
+      "area_text": "",
+      "areas": [],
+      "area_search": "",
+      "text_source": null,
       "windows": [
         {
           "start": "19:00",
@@ -3676,7 +3630,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": null,
+      "load_mw": 3.47,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -4051,12 +4005,12 @@
       "feeder": "row-34",
       "feeder_id": "dpdc:fatulla:row-34",
       "feeder_name": null,
-      "area_text": "কাঠেরপুল মোড়, দক্ষিন সম্তাপুর ও হক বাজার সংলগ্ন এলাকা",
+      "area_text": "কাঠেরপুল মোড়, দক্ষিন সন্তাপুর ও হক বাজার সংলগ্ন এলাকা",
       "areas": [
         "কাঠেরপুল মোড়",
-        "দক্ষিন সম্তাপুর ও হক বাজার সংলগ্ন এলাকা"
+        "দক্ষিন সন্তাপুর ও হক বাজার সংলগ্ন এলাকা"
       ],
-      "area_search": "katherpul mor, dkshin smtapur o hk bajar snglgn elaka",
+      "area_search": "katherpul mor, dkshin sntapur o hk bajar snglgn elaka",
       "text_source": "ocr",
       "windows": [
         {
@@ -4100,11 +4054,11 @@
       "feeder": "row-36",
       "feeder_id": "dpdc:fatulla:row-36",
       "feeder_name": null,
-      "area_text": "77777 শার্লর্ুলরলার্র্রুশর্রবঁ9৫৫০ি টা 250 1৬৮ (9.0 ৬৬৬)",
+      "area_text": "00000000000 2290) 1৬৬ (9.017৬)",
       "areas": [
-        "77777 শার্লর্ুলরলার্র্রুশর্রবঁ9৫৫০ি টা 250 1৬৮ (9.0 ৬৬৬)"
+        "00000000000 2290) 1৬৬ (9.017৬)"
       ],
-      "area_search": "77777 sharlrulrlarrrushrrbn9550i ta 250 168 (9.0 666)",
+      "area_search": "00000000000 2290) 166 (9.0176)",
       "text_source": "ocr",
       "windows": [
         {
@@ -4558,12 +4512,12 @@
       "feeder": "row-01",
       "feeder_id": "dpdc:kamrangirchar:row-01",
       "feeder_name": null,
-      "area_text": "হশালবাস্ স্থিত ৩৩, ১১ ৰ কেভি উপকেন্দ্র",
+      "area_text": "1. কশালবাঙস্যা শত ৩৩, ১১ ৰ কেভি উপকেন্দ্র",
       "areas": [
-        "হশালবাস্ স্থিত ৩৩",
+        "1. কশালবাঙস্যা শত ৩৩",
         "১১ ৰ কেভি উপকেন্দ্র"
       ],
-      "area_search": "hshalbas sthit 33, 11 kebhi upkendr",
+      "area_search": "1. kshalbangsja sht 33, 11 kebhi upkendr",
       "text_source": "ocr",
       "windows": [
         {
@@ -4576,7 +4530,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": null,
+      "load_mw": 5.17,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -4587,11 +4541,11 @@
       "feeder": "row-02",
       "feeder_id": "dpdc:kamrangirchar:row-02",
       "feeder_name": null,
-      "area_text": "॥ 8 ১ পিপি & 6777 চলা এ 2৭] ৮৯০৮11023 জেতেমাট ঞ রি ॥ গাদা র্",
+      "area_text": "॥ নাঃ ১ পিপি ্. 8778 রা এ 2] ৮৯০12০3 তরে? ঞ রি ॥ গাদা র্",
       "areas": [
-        "॥ 8 ১ পিপি & 6777 চলা এ 2৭] ৮৯০৮11023 জেতেমাট ঞ রি ॥ গাদা র্"
+        "॥ নাঃ ১ পিপি ্. 8778 রা এ 2] ৮৯০12০3 তরে? ঞ রি ॥ গাদা র্"
       ],
-      "area_search": "8 1 pipi 6777 chla e 27 890811023 jetemat n ri gada r",
+      "area_search": "nah 1 pipi . 8778 ra e 2 8901203 tre n ri gada r",
       "text_source": "ocr",
       "windows": [
         {
@@ -4615,12 +4569,12 @@
       "feeder": "row-03",
       "feeder_id": "dpdc:kamrangirchar:row-03",
       "feeder_name": null,
-      "area_text": "৮ জজ এন সরা. উকি ॥ ইঃ টাস্ক, ১৬ টি ক জর্িষসী। রি ষ্জ (8... ্রদ৯ ঠ ণ ছ হর কঃ নি ] & রি এল",
+      "area_text": "]- জজ এন রাহ উকি ॥ ঃ াস্ীদি, ১৬ টি সী উরি এগ ষ্জ (8... রদ ৮ ঠ ণ ছ হর কঃ ] $ রি পিল",
       "areas": [
-        "৮ জজ এন সরা. উকি ॥ ইঃ টাস্ক",
-        "১৬ টি ক জর্িষসী। রি ষ্জ (8... ্রদ৯ ঠ ণ ছ হর কঃ নি ] & রি এল"
+        "]- জজ এন রাহ উকি ॥ ঃ াস্ীদি",
+        "১৬ টি সী উরি এগ ষ্জ (8... রদ ৮ ঠ ণ ছ হর কঃ ] $ রি পিল"
       ],
-      "area_search": "8 jj en sra. uki ih task, 16 ti k jrishsi ri shj (8... rd9 th n chh hr kh ni ri el",
+      "area_search": "- jj en rah uki h asidi, 16 ti si uri eg shj (8... rd 8 th n chh hr kh ri pil",
       "text_source": "ocr",
       "windows": [
         {
@@ -4644,13 +4598,11 @@
       "feeder": "row-04",
       "feeder_id": "dpdc:kamrangirchar:row-04",
       "feeder_name": null,
-      "area_text": "ক ্ মগ সি, & [ও রি [1 5, ্ 82155 রী 1 দি",
+      "area_text": "সপ ঁ মগ সি রী [ রি [1 5 ্",
       "areas": [
-        "ক ্ মগ সি",
-        "& [ও রি [1 5",
-        "্ 82155 রী 1 দি"
+        "সপ ঁ মগ সি রী [ রি [1 5 ্"
       ],
-      "area_search": "k mg si, o ri 1 5, 82155 ri 1 di",
+      "area_search": "sp n mg si ri ri 1 5",
       "text_source": "ocr",
       "windows": [
         {
@@ -4674,14 +4626,13 @@
       "feeder": "row-05",
       "feeder_id": "dpdc:kamrangirchar:row-05",
       "feeder_name": null,
-      "area_text": "চ্শ্য রর ট, 8১৪ ৯ 2৮ 1+8874৮86 না দর ৮০, নি ৪৯8, রি",
+      "area_text": "চ্শ্য িতসর ৮০, দিন জরি, রি",
       "areas": [
-        "চ্শ্য রর ট",
-        "8১৪ ৯ 2৮ 1+8874৮86 না দর ৮০",
-        "নি ৪৯8",
+        "চ্শ্য িতসর ৮০",
+        "দিন জরি",
         "রি"
       ],
-      "area_search": "chshj rr t, 814 9 28 18874886 na dr 80, ni 498, ri",
+      "area_search": "chshj itsr 80, din jri, ri",
       "text_source": "ocr",
       "windows": [
         {
@@ -4694,7 +4645,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 0.84,
+      "load_mw": 0.44,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -4733,13 +4684,13 @@
       "feeder": "row-07",
       "feeder_id": "dpdc:kamrangirchar:row-07",
       "feeder_name": null,
-      "area_text": "১৩২, ৩৩, ১১ ক্োভ উৎশাজ্যল্দ",
+      "area_text": "১৩২, ৩৩, ১১ ক্োভ উৎশাজ্যলদে",
       "areas": [
         "১৩২",
         "৩৩",
-        "১১ ক্োভ উৎশাজ্যল্দ"
+        "১১ ক্োভ উৎশাজ্যলদে"
       ],
-      "area_search": "132, 33, 11 kobh utshajjld",
+      "area_search": "132, 33, 11 kobh utshajjlde",
       "text_source": "ocr",
       "windows": [
         {
@@ -4763,13 +4714,15 @@
       "feeder": "row-08",
       "feeder_id": "dpdc:kamrangirchar:row-08",
       "feeder_name": null,
-      "area_text": "পলা রা এক 7571875755 4, 18517 ৮৯ ৮ ৯৪. উজ) স্াস্রিি ঞ নী বি ৭. রা, সন্ত দি; ০ রী % ২... ৪৮ ৭ যে ননী",
+      "area_text": "সপ্ন 7. এক 75718797555, 18৮517 ৮৯ ৮ রা » নিশি, ঞ নী [টি দ. ঁ, সর: দি; ০ ধা ৮ ২... 2৮ ৭ রী নিন, চি",
       "areas": [
-        "পলা রা এক 7571875755 4",
-        "18517 ৮৯ ৮ ৯৪. উজ) স্াস্রিি ঞ নী বি ৭. রা",
-        "সন্ত দি; ০ রী % ২... ৪৮ ৭ যে ননী"
+        "সপ্ন 7. এক 75718797555",
+        "18৮517 ৮৯ ৮ রা » নিশি",
+        "ঞ নী [টি দ. ঁ",
+        "সর: দি; ০ ধা ৮ ২... 2৮ ৭ রী নিন",
+        "চি"
       ],
-      "area_search": "pla ra ek 7571875755 4, 18517 89 8 94. uj) sasrii n ni bi 7. ra, snt di 0 ri 2... 48 7 je nni",
+      "area_search": "spn 7. ek 75718797555, 188517 89 8 ra nishi, n ni ti d. n, sr di 0 dha 8 2... 28 7 ri nin, chi",
       "text_source": "ocr",
       "windows": [
         {
@@ -4793,12 +4746,11 @@
       "feeder": "row-09",
       "feeder_id": "dpdc:kamrangirchar:row-09",
       "feeder_name": null,
-      "area_text": "রি 11113, ১৩ ১৮:-১৭",
+      "area_text": "8০4 এ ॥. ছি ঠা ০",
       "areas": [
-        "রি 11113",
-        "১৩ ১৮:-১৭"
+        "8০4 এ ॥. ছি ঠা ০"
       ],
-      "area_search": "ri 11113, 13 18-17",
+      "area_search": "804 e . chhi tha 0",
       "text_source": "ocr",
       "windows": [
         {
@@ -4811,7 +4763,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": null,
+      "load_mw": 9.0,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -4822,12 +4774,13 @@
       "feeder": "row-11",
       "feeder_id": "dpdc:kamrangirchar:row-11",
       "feeder_name": null,
-      "area_text": "৮.১ ॥ 8. হ ৫.৯ ঠ ০ । এ, টা না ৫ 2৪ তা ॥ &ই ৮ -8- ] [৮ খপ ঠি",
+      "area_text": "1৮টি ॥ ১৪. রি, ঠ সপ 8, ট জা 2 8৪ ত॥ টা পা [৮ খপ ডি",
       "areas": [
-        "৮.১ ॥ 8. হ ৫.৯ ঠ ০ । এ",
-        "টা না ৫ 2৪ তা ॥ &ই ৮ -8- ] [৮ খপ ঠি"
+        "1৮টি ॥ ১৪. রি",
+        "ঠ সপ 8",
+        "ট জা 2 8৪ ত॥ টা পা [৮ খপ ডি"
       ],
-      "area_search": "8.1 8. h 5.9 th 0 e, ta na 5 24 ta i 8 -8- 8 khp thi",
+      "area_search": "18ti 14. ri, th sp 8, t ja 2 84 t ta pa 8 khp di",
       "text_source": "ocr",
       "windows": [
         {
@@ -4851,11 +4804,11 @@
       "feeder": "row-12",
       "feeder_id": "dpdc:kamrangirchar:row-12",
       "feeder_name": null,
-      "area_text": "পা",
+      "area_text": "রা",
       "areas": [
-        "পা"
+        "রা"
       ],
-      "area_search": "pa",
+      "area_search": "ra",
       "text_source": "ocr",
       "windows": [
         {
@@ -4875,12 +4828,12 @@
       "feeder": "row-13",
       "feeder_id": "dpdc:kamrangirchar:row-13",
       "feeder_name": null,
-      "area_text": "বিজিবি ৩৩, ১১ কেভি উপকেল্দ্ু",
+      "area_text": "বিজিবি ৩৩, ১১ কেভি উপকে্দ্র",
       "areas": [
         "বিজিবি ৩৩",
-        "১১ কেভি উপকেল্দ্ু"
+        "১১ কেভি উপকে্দ্র"
       ],
-      "area_search": "bijibi 33, 11 kebhi upkeldu",
+      "area_search": "bijibi 33, 11 kebhi upkedr",
       "text_source": "ocr",
       "windows": [
         {
@@ -4904,12 +4857,12 @@
       "feeder": "row-14",
       "feeder_id": "dpdc:kamrangirchar:row-14",
       "feeder_name": null,
-      "area_text": "্ঃ এ নি বধ: গ]- রে নিত ৬, মি ১ :",
+      "area_text": "টি: রি এ ৪১), তি",
       "areas": [
-        "্ঃ এ নি বধ: গ]- রে নিত ৬",
-        "মি ১ :"
+        "টি: রি এ ৪১)",
+        "তি"
       ],
-      "area_search": "h e ni bdh g- re nit 6, mi 1",
+      "area_search": "ti ri e 41), ti",
       "text_source": "ocr",
       "windows": [
         {
@@ -4922,7 +4875,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": null,
+      "load_mw": 0.83,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -4933,12 +4886,12 @@
       "feeder": "row-15",
       "feeder_id": "dpdc:kamrangirchar:row-15",
       "feeder_name": null,
-      "area_text": "কামরাঙ্গীরচর-২, ১১০৫০ 1 ৯ শা হক",
+      "area_text": "উপ) ৬৯, ৬ ৯৬ স্িতি ৯ শা হক",
       "areas": [
-        "কামরাঙ্গীরচর-২",
-        "১১০৫০ 1 ৯ শা হক"
+        "উপ) ৬৯",
+        "৬ ৯৬ স্িতি ৯ শা হক"
       ],
-      "area_search": "kamranggirchr-2, 11050 1 9 sha hk",
+      "area_search": "up) 69, 6 96 siti 9 sha hk",
       "text_source": "ocr",
       "windows": [
         {
@@ -4962,11 +4915,11 @@
       "feeder": "row-16",
       "feeder_id": "dpdc:kamrangirchar:row-16",
       "feeder_name": null,
-      "area_text": "লা. লাল না লাল... না (কুড়ারঘাট)",
+      "area_text": "লা. লাল লা লা... না (কুড়ারঘাট)",
       "areas": [
-        "লা. লাল না লাল... না (কুড়ারঘাট)"
+        "লা. লাল লা লা... না (কুড়ারঘাট)"
       ],
-      "area_search": "la. lal na lal... na (kurarghat)",
+      "area_search": "la. lal la la... na (kurarghat)",
       "text_source": "ocr",
       "windows": [
         {
@@ -4990,12 +4943,12 @@
       "feeder": "row-17",
       "feeder_id": "dpdc:kamrangirchar:row-17",
       "feeder_name": null,
-      "area_text": "ন্ চস্জাজ, ্ ৮ ঞ ৩ হে পুশ ঠ ঞ রা ৯ ্ পা ্",
+      "area_text": "চক্জেজ ! ্ রখ ঞ. *ত হা পুশ ৯ ঠ + পা ্, চা",
       "areas": [
-        "ন্ চস্জাজ",
-        "্ ৮ ঞ ৩ হে পুশ ঠ ঞ রা ৯ ্ পা ্"
+        "চক্জেজ ! ্ রখ ঞ. *ত হা পুশ ৯ ঠ + পা ্",
+        "চা"
       ],
-      "area_search": "n chsjaj, 8 n 3 he push th n ra 9 pa",
+      "area_search": "chkjej rkh n. t ha push 9 th pa, cha",
       "text_source": "ocr",
       "windows": [
         {
@@ -5019,12 +4972,12 @@
       "feeder": "row-18",
       "feeder_id": "dpdc:kamrangirchar:row-18",
       "feeder_name": null,
-      "area_text": "ডি চে রে চি, সি * উর প্র+ মান পাকি সর ৫ ] নও এ দি টি ] রম খ ৬ ্ নি নি ৮ ই রি উঠি. মন রে ৮ পীর. ০ ] 3৮৭ - টি ্ে জিন ০",
+      "area_text": "ডি ক ঠ চি, ্ & উর টি & এ দি টি £ ] খ ৬ ্ স্্ি রি ডি! রী ই রর রা ৮ ০ যা. ০ ] 3৮৭ ২ ্ে জল রি",
       "areas": [
-        "ডি চে রে চি",
-        "সি * উর প্র+ মান পাকি সর ৫ ] নও এ দি টি ] রম খ ৬ ্ নি নি ৮ ই রি উঠি. মন রে ৮ পীর. ০ ] 3৮৭ - টি ্ে জিন ০"
+        "ডি ক ঠ চি",
+        "্ & উর টি & এ দি টি £ ] খ ৬ ্ স্্ি রি ডি! রী ই রর রা ৮ ০ যা. ০ ] 3৮৭ ২ ্ে জল রি"
       ],
-      "area_search": "di che re chi, si ur pr man paki sr 5 no e di ti rm kh 6 ni ni 8 i ri uthi. mn re 8 pir. 0 387 - ti e jin 0",
+      "area_search": "di k th chi, ur ti e di ti kh 6 si ri di ri i rr ra 8 0 ja. 0 387 2 e jl ri",
       "text_source": "ocr",
       "windows": [
         {
@@ -5096,11 +5049,11 @@
       "feeder": "row-21",
       "feeder_id": "dpdc:kamrangirchar:row-21",
       "feeder_name": null,
-      "area_text": "উম",
+      "area_text": "চে",
       "areas": [
-        "উম"
+        "চে"
       ],
-      "area_search": "um",
+      "area_search": "che",
       "text_source": "ocr",
       "windows": [
         {
@@ -5124,12 +5077,12 @@
       "feeder": "row-22",
       "feeder_id": "dpdc:kamrangirchar:row-22",
       "feeder_name": null,
-      "area_text": "এব 1০শঞলা। ৩৯০, ১১ ূ কেভি উপকেন্দ্র",
+      "area_text": "খে [০শঞলা। ৩৯০, ১১ ্ কেভি উপকেন্দ্র",
       "areas": [
-        "এব 1০শঞলা। ৩৯০",
-        "১১ ূ কেভি উপকেন্দ্র"
+        "খে [০শঞলা। ৩৯০",
+        "১১ ্ কেভি উপকেন্দ্র"
       ],
-      "area_search": "eb 10shnla 390, 11 u kebhi upkendr",
+      "area_search": "khe 0shnla 390, 11 kebhi upkendr",
       "text_source": "ocr",
       "windows": [
         {
@@ -5260,12 +5213,12 @@
       "feeder": "A214T",
       "feeder_id": "dpdc:khilgaon:a214t",
       "feeder_name": "টিভি রোড",
-      "area_text": "ূ বিটিভি, কুঞ্জবন এলাকা",
+      "area_text": "বিটিভি, কুঞ্জবন এলাকা",
       "areas": [
-        "ূ বিটিভি",
+        "বিটিভি",
         "কুঞ্জবন এলাকা"
       ],
-      "area_search": "tibhi rod, u bitibhi, kunjbn elaka",
+      "area_search": "tibhi rod, bitibhi, kunjbn elaka",
       "text_source": "ocr",
       "windows": [
         {
@@ -5282,7 +5235,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 2.82,
+      "load_mw": null,
       "billing_code": "A214T",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -5346,7 +5299,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 2.31,
+      "load_mw": null,
       "billing_code": "A229D",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -5376,7 +5329,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 2.25,
+      "load_mw": null,
       "billing_code": "A229P",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -5437,7 +5390,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 0.42,
+      "load_mw": null,
       "billing_code": "A229S",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -5447,13 +5400,13 @@
       "division_canonical": "Khilgaon",
       "feeder": "A229K",
       "feeder_id": "dpdc:khilgaon:a229k",
-      "feeder_name": "(খিলগীও গাভঃকলোনী",
+      "feeder_name": "(খিলগীও গভঃকলোনী",
       "area_text": "শহীদ বাকী রোভ, খিলগীও সি ব্লকের উত্তর অংশ",
       "areas": [
         "শহীদ বাকী রোভ",
         "খিলগীও সি ব্লকের উত্তর অংশ"
       ],
-      "area_search": "(khilgio gabhhkloni, shhid baki robh, khilgio si blker uttr angsh",
+      "area_search": "(khilgio gbhhkloni, shhid baki robh, khilgio si blker uttr angsh",
       "text_source": "ocr",
       "windows": [
         {
@@ -5466,7 +5419,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 6.05,
+      "load_mw": null,
       "billing_code": "A229K",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -5476,13 +5429,13 @@
       "division_canonical": "Khilgaon",
       "feeder": "A2085",
       "feeder_id": "dpdc:khilgaon:a2085",
-      "feeder_name": "সর্ট». ০ স্কুক্র স্%",
+      "feeder_name": "স্ব এক্রা ড় রে",
       "area_text": "ভিজাইটি রোভ, মালিবাগ বাজার এলাকা",
       "areas": [
         "ভিজাইটি রোভ",
         "মালিবাগ বাজার এলাকা"
       ],
-      "area_search": "srt. skukr s, bhijaiti robh, malibag bajar elaka",
+      "area_search": "sb ekra r re, bhijaiti robh, malibag bajar elaka",
       "text_source": "ocr",
       "windows": [
         {
@@ -5501,13 +5454,13 @@
       "division_canonical": "Khilgaon",
       "feeder": "A297A",
       "feeder_id": "dpdc:khilgaon:a297a",
-      "feeder_name": "আলন্ার শত 1ভ1",
+      "feeder_name": "আলা তত",
       "area_text": "ৃ বিটিসিএল, খিলগাঁও সি ব্লকের পূর্ব অংশ",
       "areas": [
         "ৃ বিটিসিএল",
         "খিলগাঁও সি ব্লকের পূর্ব অংশ"
       ],
-      "area_search": "alnar sht bh, ri bitisiel, khilgano si blker purb angsh",
+      "area_search": "ala tt, ri bitisiel, khilgano si blker purb angsh",
       "text_source": "ocr",
       "windows": [
         {
@@ -5530,12 +5483,12 @@
       "division_canonical": "Khilgaon",
       "feeder": "A299K",
       "feeder_id": "dpdc:khilgaon:a299k",
-      "feeder_name": "ব্াংক কলোন",
+      "feeder_name": "[বাং কলোন",
       "area_text": "কলপ্ীসি ও ডি ব্রকের এক্সটেনশন এলাকা",
       "areas": [
         "কলপ্ীসি ও ডি ব্রকের এক্সটেনশন এলাকা"
       ],
-      "area_search": "bangk klon, klpisi o di brker ekstenshn elaka",
+      "area_search": "bang klon, klpisi o di brker ekstenshn elaka",
       "text_source": "ocr",
       "windows": [
         {
@@ -5544,7 +5497,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 3.33,
+      "load_mw": null,
       "billing_code": "A299K",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -5572,7 +5525,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 0.6,
+      "load_mw": null,
       "billing_code": "A229T",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -6183,12 +6136,12 @@
       "feeder": "row-01",
       "feeder_id": "dpdc:maniknagar:row-01",
       "feeder_name": null,
-      "area_text": "ঃ . 82110 আানিকনন্র জিলা ৭ ৩৩, ১১ কেন্তি [তি",
+      "area_text": "রি . 82120 আানিকনন্্র জিলা রর ৯৭ ৩৩, ১১ কেন্তি [তি",
       "areas": [
-        "ঃ . 82110 আানিকনন্র জিলা ৭ ৩৩",
+        "রি . 82120 আানিকনন্্র জিলা রর ৯৭ ৩৩",
         "১১ কেন্তি [তি"
       ],
-      "area_search": "h . 82110 aaniknnr jila 7 33, 11 kenti ti",
+      "area_search": "ri . 82120 aaniknnr jila rr 97 33, 11 kenti ti",
       "text_source": "ocr",
       "windows": [
         {
@@ -6208,11 +6161,11 @@
       "feeder": "row-02",
       "feeder_id": "dpdc:maniknagar:row-02",
       "feeder_name": null,
-      "area_text": "শির ২ সুতি ১৬ & 82208. ূ সিএ ১.৫",
+      "area_text": "শিরিন ১ সুতি ১৬ ্ 82208. ূ সপ ূ ১.৫",
       "areas": [
-        "শির ২ সুতি ১৬ & 82208. ূ সিএ ১.৫"
+        "শিরিন ১ সুতি ১৬ ্ 82208. ূ সপ ূ ১.৫"
       ],
-      "area_search": "shir 2 suti 16 82208. u sie 1.5",
+      "area_search": "shirin 1 suti 16 82208. u sp u 1.5",
       "text_source": "ocr",
       "windows": [
         {
@@ -6232,11 +6185,11 @@
       "feeder": "row-03",
       "feeder_id": "dpdc:maniknagar:row-03",
       "feeder_name": null,
-      "area_text": "1 ৮ 1521208. কেভি ওভারহেভ ওয়াসা রোভ ১১",
+      "area_text": "৮ :1521208. কেভি ওভারহেভ ওয়াসা রোভ ১১",
       "areas": [
-        "1 ৮ 1521208. কেভি ওভারহেভ ওয়াসা রোভ ১১"
+        "৮ :1521208. কেভি ওভারহেভ ওয়াসা রোভ ১১"
       ],
-      "area_search": "1 8 1521208. kebhi obharhebh oyasa robh 11",
+      "area_search": "8 1521208. kebhi obharhebh oyasa robh 11",
       "text_source": "ocr",
       "windows": [
         {
@@ -6256,11 +6209,11 @@
       "feeder": "row-04",
       "feeder_id": "dpdc:maniknagar:row-04",
       "feeder_name": null,
-      "area_text": "[৯ কেট গে ১৯",
+      "area_text": "খু ১৯ কেডি ওঃ ১.৯",
       "areas": [
-        "[৯ কেট গে ১৯"
+        "খু ১৯ কেডি ওঃ ১.৯"
       ],
-      "area_search": "9 ket ge 19",
+      "area_search": "khu 19 kedi oh 1.9",
       "text_source": "ocr",
       "windows": [
         {
@@ -6329,11 +6282,11 @@
       "feeder": "row-07",
       "feeder_id": "dpdc:maniknagar:row-07",
       "feeder_name": null,
-      "area_text": "মাযার া্্",
+      "area_text": "হ্যা",
       "areas": [
-        "মাযার া্্"
+        "হ্যা"
       ],
-      "area_search": "majar a",
+      "area_search": "hja",
       "text_source": "ocr",
       "windows": [
         {
@@ -6822,16 +6775,16 @@
     {
       "division": "Narayangonj (east)",
       "division_canonical": "Narayangonj (east)",
-      "feeder": "B722J",
-      "feeder_id": "dpdc:narayangonj-east:b722j",
-      "feeder_name": "১১ কেভি নয়াযাটি",
-      "area_text": "নয়ামাটি, আনন্দ হটেল, প্লাস্টিক ম্যান",
+      "feeder": "B722",
+      "feeder_id": "dpdc:narayangonj-east:b722",
+      "feeder_name": "১১ কেভি নয়ামা্টি",
+      "area_text": "নয়ামাটি, আনন্দ হটেল, প্লাস্টিক য্যান",
       "areas": [
         "নয়ামাটি",
         "আনন্দ হটেল",
-        "প্লাস্টিক ম্যান"
+        "প্লাস্টিক য্যান"
       ],
-      "area_search": "nyajati, nyamati, annd htel, plastik mjan",
+      "area_search": "nyamati, annd htel, plastik jjan",
       "text_source": "ocr",
       "windows": [
         {
@@ -6841,23 +6794,23 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": "B722J",
+      "billing_code": "B722",
       "read_by": "ocr-scan",
       "code_confident": true
     },
     {
       "division": "Narayangonj (east)",
       "division_canonical": "Narayangonj (east)",
-      "feeder": "১১ কেভি ধানপ্ুর",
+      "feeder": "১১ কেভি ধানপুর",
       "feeder_id": "dpdc:narayangonj-east:row-02",
-      "feeder_name": "১১ কেভি ধানপ্ুর",
-      "area_text": "খাশপ্ুব, ডন চেম্বার, ব্যাংক ৰ কলোনি",
+      "feeder_name": "১১ কেভি ধানপুর",
+      "area_text": "খানপ্ুুব, ডন চেম্বার, ব্যাংক ূ কলোনি",
       "areas": [
-        "খাশপ্ুব",
+        "খানপ্ুুব",
         "ডন চেম্বার",
-        "ব্যাংক ৰ কলোনি"
+        "ব্যাংক ূ কলোনি"
       ],
-      "area_search": "dhanpur, khashpub, dn chembar, bjangk kloni",
+      "area_search": "dhanpur, khanpuub, dn chembar, bjangk u kloni",
       "text_source": "ocr",
       "windows": [
         {
@@ -6905,12 +6858,9 @@
       "feeder": "১১ কেভি ইশা ধাঁ",
       "feeder_id": "dpdc:narayangonj-east:row-05",
       "feeder_name": "১১ কেভি ইশা ধাঁ",
-      "area_text": "কিল্লার পুল, বরফ কল",
-      "areas": [
-        "কিল্লার পুল",
-        "বরফ কল"
-      ],
-      "area_search": "isha dhan, killar pul, brph kl",
+      "area_text": "",
+      "areas": [],
+      "area_search": "isha dhan",
       "text_source": "ocr",
       "windows": [
         {
@@ -6934,12 +6884,12 @@
       "feeder": "B723T",
       "feeder_id": "dpdc:narayangonj-east:b723t",
       "feeder_name": "১১ কেভি মিশনপাড়া",
-      "area_text": "[যশন পাড়া, বামবাবুর ___ পুক্চিরপাড়া",
+      "area_text": "মিশন পাড়া, বামবাবুর পুকরপাড়",
       "areas": [
-        "[যশন পাড়া",
-        "বামবাবুর ___ পুক্চিরপাড়া"
+        "মিশন পাড়া",
+        "বামবাবুর পুকরপাড়"
       ],
-      "area_search": "mishnpara, jshn para, bambabur pukchirpara",
+      "area_search": "mishnpara, mishn para, bambabur pukrpar",
       "text_source": "ocr",
       "windows": [
         {
@@ -6967,13 +6917,13 @@
       "feeder": "B723F",
       "feeder_id": "dpdc:narayangonj-east:b723f",
       "feeder_name": "১১ কেভি নিউ হাজীগঞ্জ",
-      "area_text": "হাজাগশ্জ, আই ট ফুল, চেয়ারম্যান বাড়ী",
+      "area_text": "হাজাগণ্থ, আই ট ফুল, চেয়ারম্যান বাড়ী",
       "areas": [
-        "হাজাগশ্জ",
+        "হাজাগণ্থ",
         "আই ট ফুল",
         "চেয়ারম্যান বাড়ী"
       ],
-      "area_search": "niu hajignj, hajagshj, ai t phul, cheyarmjan bari",
+      "area_search": "niu hajignj, hajagnth, ai t phul, cheyarmjan bari",
       "text_source": "ocr",
       "windows": [
         {
@@ -6997,12 +6947,12 @@
       "feeder": "১১ কেভি পাঠানটুলি",
       "feeder_id": "dpdc:narayangonj-east:row-09",
       "feeder_name": "১১ কেভি পাঠানটুলি",
-      "area_text": "তল্লা বড় যসাঁজদ, বি.বি. [মরিয়ম ফুল সংলগ্র",
+      "area_text": "তল্লা বড় মসাঁজদ, বি.বি. __ মরিয়ম স্কুল সংলগ্ন",
       "areas": [
-        "তল্লা বড় যসাঁজদ",
-        "বি.বি. [মরিয়ম ফুল সংলগ্র"
+        "তল্লা বড় মসাঁজদ",
+        "বি.বি. __ মরিয়ম স্কুল সংলগ্ন"
       ],
-      "area_search": "pathantuli, tlla br jsanjd, bi.bi. mriym phul snglgr",
+      "area_search": "pathantuli, tlla br msanjd, bi.bi. mriym skul snglgn",
       "text_source": "ocr",
       "windows": [
         {
@@ -7026,15 +6976,14 @@
       "feeder": "B723A",
       "feeder_id": "dpdc:narayangonj-east:b723a",
       "feeder_name": "১১ কেভি বিশ্বরোড",
-      "area_text": "চানযারি, উত্তর চাষারা, ডি সি অফিস, এস পি অফিস, জেলখানা",
+      "area_text": "চানম্ার, উত্তর চাষারা, ডি সি অফিস, এস পি অফিস",
       "areas": [
-        "চানযারি",
+        "চানম্ার",
         "উত্তর চাষারা",
         "ডি সি অফিস",
-        "এস পি অফিস",
-        "জেলখানা"
+        "এস পি অফিস"
       ],
-      "area_search": "bishbrod, chanjari, uttr chashara, di si aphis, es pi aphis, jelkhana",
+      "area_search": "bishbrod, chanmar, uttr chashara, di si aphis, es pi aphis",
       "text_source": "ocr",
       "windows": [
         {
@@ -7051,8 +7000,8 @@
     {
       "division": "Narayangonj (east)",
       "division_canonical": "Narayangonj (east)",
-      "feeder": "১১ কেভি সিরাজউদ্দউলা",
-      "feeder_id": "dpdc:narayangonj-east:row-11",
+      "feeder": "B7230",
+      "feeder_id": "dpdc:narayangonj-east:b7230",
       "feeder_name": "১১ কেভি সিরাজউদ্দউলা",
       "area_text": "কালির বাজার, আমলাপাড়া, বর্ণ পট্টি",
       "areas": [
@@ -7078,9 +7027,9 @@
       ],
       "weekday": null,
       "load_mw": null,
-      "billing_code": null,
+      "billing_code": "B7230",
       "read_by": "ocr-scan",
-      "code_confident": false
+      "code_confident": true
     },
     {
       "division": "Narayangonj (east)",
@@ -7088,13 +7037,9 @@
       "feeder": "৯ কেভি টানবাজার ূ",
       "feeder_id": "dpdc:narayangonj-east:row-14",
       "feeder_name": "৯ কেভি টানবাজার ূ",
-      "area_text": "সাহা পাড়া, আশা হল, মিনা",
-      "areas": [
-        "সাহা পাড়া",
-        "আশা হল",
-        "মিনা"
-      ],
-      "area_search": "tanbajar u, saha para, asha hl, mina",
+      "area_text": "",
+      "areas": [],
+      "area_search": "tanbajar u",
       "text_source": "ocr",
       "windows": [
         {
@@ -7111,9 +7056,9 @@
     {
       "division": "Narayangonj (east)",
       "division_canonical": "Narayangonj (east)",
-      "feeder": "7 ১১ কেভি নিতাইগঞ্জ",
+      "feeder": "___ ১১ কেভি নিতাইগঞ্জ",
       "feeder_id": "dpdc:narayangonj-east:row-15",
-      "feeder_name": "7 ১১ কেভি নিতাইগঞ্জ",
+      "feeder_name": "___ ১১ কেভি নিতাইগঞ্জ",
       "area_text": "ফায়ার ঘাট, নিতাইগঞ্জ মোড়, মধ্য শলুয়া_",
       "areas": [
         "ফায়ার ঘাট",
@@ -7141,16 +7086,16 @@
     {
       "division": "Narayangonj (east)",
       "division_canonical": "Narayangonj (east)",
-      "feeder": "১১ কেভিডালপঞ্্টি",
+      "feeder": "১১ কেভিডালপন্্টি",
       "feeder_id": "dpdc:narayangonj-east:row-16",
-      "feeder_name": "১১ কেভিডালপঞ্্টি",
-      "area_text": "ফায়ার ঘাট, নিতাইগঞ্জ মোড়, ৃ মধ্য নলুয়া",
+      "feeder_name": "১১ কেভিডালপন্্টি",
+      "area_text": "ফায়ার ঘাট, নিতাইগঞ্জ মোড়, মধ্য নলুয়া",
       "areas": [
         "ফায়ার ঘাট",
         "নিতাইগঞ্জ মোড়",
-        "ৃ মধ্য নলুয়া"
+        "মধ্য নলুয়া"
       ],
-      "area_search": "dalpnti, phayar ghat, nitaignj mor, ri mdhj nluya",
+      "area_search": "dalpnti, phayar ghat, nitaignj mor, mdhj nluya",
       "text_source": "ocr",
       "windows": [
         {
@@ -7229,13 +7174,13 @@
       "division_canonical": "Narayangonj (east)",
       "feeder": "B793U",
       "feeder_id": "dpdc:narayangonj-east:b793u",
-      "feeder_name": "ছ কেভি বিভেবভিউ",
-      "area_text": "ূ ৫ নং ঘাট, আল জয়নাল শ্বাজা",
+      "feeder_name": "৯ কেভি বিভেবভিউ",
+      "area_text": "ূ ৫ নং ঘাট, আল জয়নাল গ্াজা",
       "areas": [
         "ূ ৫ নং ঘাট",
-        "আল জয়নাল শ্বাজা"
+        "আল জয়নাল গ্াজা"
       ],
-      "area_search": "chh bibhebbhiu, u 5 nng ghat, al jynal shbaja",
+      "area_search": "bibhebbhiu, u 5 nng ghat, al jynal gaja",
       "text_source": "ocr",
       "windows": [
         {
@@ -7551,17 +7496,17 @@
       "feeder": "বিএমইউ ৩৩/১১ কেভি",
       "feeder_id": "dpdc:paribag:row-03",
       "feeder_name": "বিএমইউ ৩৩/১১ কেভি",
-      "area_text": "ময়মনসিংহ রোড (আংশিক), বিশ্ব সাহিত্য গলি, মাজার রোড, কাজী নজরুল ইসলাম এভিনিউ, মোতালেব প্রাজার পিছনের অংশ, হাবিবুল্লাহ রোড (আংশিক), বাংলামটর রড গলি",
+      "area_text": "ময়মনসিংহ রোড (আংশিক), বিশ্ব সাহিত্য গলি, মাজার রোড, কাজী নজরুল ইসলাম এভিনিউ, মোতালেব প্লাজার পিছনের অংশ, হাবিবুল্লাহ রোড (আংশিক), বাংলামটর রড গলি",
       "areas": [
         "ময়মনসিংহ রোড (আংশিক)",
         "বিশ্ব সাহিত্য গলি",
         "মাজার রোড",
         "কাজী নজরুল ইসলাম এভিনিউ",
-        "মোতালেব প্রাজার পিছনের অংশ",
+        "মোতালেব প্লাজার পিছনের অংশ",
         "হাবিবুল্লাহ রোড (আংশিক)",
         "বাংলামটর রড গলি"
       ],
-      "area_search": "biemiu /, mymnsingh rod (angshik), bishb sahitj gli, majar rod, kaji njrul islam ebhiniu, motaleb prajar pichhner angsh, habibullah rod (angshik), banglamtr rd gli",
+      "area_search": "biemiu /, mymnsingh rod (angshik), bishb sahitj gli, majar rod, kaji njrul islam ebhiniu, motaleb plajar pichhner angsh, habibullah rod (angshik), banglamtr rd gli",
       "text_source": "ocr",
       "windows": [
         {
@@ -7581,11 +7526,11 @@
       "feeder": "C3011",
       "feeder_id": "dpdc:paribag:c3011",
       "feeder_name": null,
-      "area_text": "[মুন সিটি এর দক্ষিন পাশ",
+      "area_text": "[মন সিটি এর দক্ষিন পাশ",
       "areas": [
-        "[মুন সিটি এর দক্ষিন পাশ"
+        "[মন সিটি এর দক্ষিন পাশ"
       ],
-      "area_search": "mun siti er dkshin pash",
+      "area_search": "mn siti er dkshin pash",
       "text_source": "ocr",
       "windows": [
         {
@@ -7605,11 +7550,11 @@
       "feeder": "C301D",
       "feeder_id": "dpdc:paribag:c301d",
       "feeder_name": null,
-      "area_text": "(উন রা এরি বাটার জো এ রাজ রর ররীএর বাটার মোড় হতে সাইন্স ল্যাব পর্যন্ত উভয় পাশ্ব",
+      "area_text": "কীটাবন হতে এলিফ্যান্ট রোড বাটার মোড় পর্যন্ত রাস্তা উত্তর পাশ্ন এবং বাটার",
       "areas": [
-        "(উন রা এরি বাটার জো এ রাজ রর ররীএর বাটার মোড় হতে সাইন্স ল্যাব পর্যন্ত উভয় পাশ্ব"
+        "কীটাবন হতে এলিফ্যান্ট রোড বাটার মোড় পর্যন্ত রাস্তা উত্তর পাশ্ন এবং বাটার"
       ],
-      "area_search": "(un ra eri batar jo e raj rr rrier batar mor hte sains ljab prjnt ubhy pashb",
+      "area_search": "kitabn hte eliphjant rod batar mor prjnt rasta uttr pashn ebng batar",
       "text_source": "ocr",
       "windows": [
         {
@@ -7629,15 +7574,13 @@
       "feeder": "C301E",
       "feeder_id": "dpdc:paribag:c301e",
       "feeder_name": null,
-      "area_text": "কী!াবনের মোড় হতে বাটার মোড় পধন্ত রাস্তা দক্ষিণ পাশ্ব, এলিফ্যান্ট রোড কাটাল মোড় হতে ধানমন্ডি হুকার্জ মাকে পরম, এলিফান্ট রোজের শ্পশ্চিম পার্স, গুরগীর গলি, গ্লোব সেন্টার",
+      "area_text": "কী!টাবনের মোড় হতে বাটার মোড় পধন্ত রাস্তা দক্ষিণ পাশ্ব, এলিফ্যান্ট রোড কাটাল মোড় হতে ধানমন্ডি হকার মাকেট লরষ, এলিফান্ট রোজের শ্পশ্চিম পার্স",
       "areas": [
-        "কী!াবনের মোড় হতে বাটার মোড় পধন্ত রাস্তা দক্ষিণ পাশ্ব",
-        "এলিফ্যান্ট রোড কাটাল মোড় হতে ধানমন্ডি হুকার্জ মাকে পরম",
-        "এলিফান্ট রোজের শ্পশ্চিম পার্স",
-        "গুরগীর গলি",
-        "গ্লোব সেন্টার"
+        "কী!টাবনের মোড় হতে বাটার মোড় পধন্ত রাস্তা দক্ষিণ পাশ্ব",
+        "এলিফ্যান্ট রোড কাটাল মোড় হতে ধানমন্ডি হকার মাকেট লরষ",
+        "এলিফান্ট রোজের শ্পশ্চিম পার্স"
       ],
-      "area_search": "kiabner mor hte batar mor pdhnt rasta dkshin pashb, eliphjant rod katal mor hte dhanmndi hukarj make prm, eliphant rojer shpshchim pars, gurgir gli, glob sentar",
+      "area_search": "kitabner mor hte batar mor pdhnt rasta dkshin pashb, eliphjant rod katal mor hte dhanmndi hkar maket lrsh, eliphant rojer shpshchim pars",
       "text_source": "ocr",
       "windows": [
         {
@@ -7657,14 +7600,14 @@
       "feeder": "C301M",
       "feeder_id": "dpdc:paribag:c301m",
       "feeder_name": null,
-      "area_text": "ূ নরমনসিংহ রোড (আংশিক), বাংলা মটর মোড় হতে পরিবাগ মোতালেব প্রাজা পযন্ত সোনারগাঁও রোডের পর্বপাশ্ব, জগুরা মাকেট, সোনারতরী টাওয়ার",
+      "area_text": "ূ শরননজিংহ রোড (আংশিক), বাংলা মটর মেড হতে পরিবাগ মোতালেব প্লাজা পযন্ত সোনারগাঁও রোডের পর্বপাশ্, জরা মাকেট, সোনারতরী টাওয়ার",
       "areas": [
-        "ূ নরমনসিংহ রোড (আংশিক)",
-        "বাংলা মটর মোড় হতে পরিবাগ মোতালেব প্রাজা পযন্ত সোনারগাঁও রোডের পর্বপাশ্ব",
-        "জগুরা মাকেট",
+        "ূ শরননজিংহ রোড (আংশিক)",
+        "বাংলা মটর মেড হতে পরিবাগ মোতালেব প্লাজা পযন্ত সোনারগাঁও রোডের পর্বপাশ্",
+        "জরা মাকেট",
         "সোনারতরী টাওয়ার"
       ],
-      "area_search": "u nrmnsingh rod (angshik), bangla mtr mor hte pribag motaleb praja pjnt sonargano roder prbpashb, jgura maket, sonartri taoyar",
+      "area_search": "u shrnnjingh rod (angshik), bangla mtr med hte pribag motaleb plaja pjnt sonargano roder prbpash, jra maket, sonartri taoyar",
       "text_source": "ocr",
       "windows": [
         {
@@ -7684,14 +7627,11 @@
       "feeder": "C301U",
       "feeder_id": "dpdc:paribag:c301u",
       "feeder_name": "ধানমন্ডি ৩৩/১১ কেভি",
-      "area_text": "আজিজ সুপার মােট, শাহাবাগ মার্কেট, মেডিসিন মাকেট, হাবিবুল্লাহ রোড (আংশিক)",
+      "area_text": "(আংশিক)",
       "areas": [
-        "আজিজ সুপার মােট",
-        "শাহাবাগ মার্কেট",
-        "মেডিসিন মাকেট",
-        "হাবিবুল্লাহ রোড (আংশিক)"
+        "(আংশিক)"
       ],
-      "area_search": "dhanmndi /, ajij supar maet, shahabag market, medisin maket, habibullah rod (angshik)",
+      "area_search": "dhanmndi /, (angshik)",
       "text_source": "ocr",
       "windows": [
         {
@@ -7740,13 +7680,10 @@
       "feeder": "C305G",
       "feeder_id": "dpdc:paribag:c305g",
       "feeder_name": null,
-      "area_text": "হাতিরপুল মোড় হতে বাটার মোড় পর্যন্ত এলিফেন্ট রোডের উভয় পাশ্ব, বাটার ল্যাবরেটরী রোড",
-      "areas": [
-        "হাতিরপুল মোড় হতে বাটার মোড় পর্যন্ত এলিফেন্ট রোডের উভয় পাশ্ব",
-        "বাটার ল্যাবরেটরী রোড"
-      ],
-      "area_search": "hatirpul mor hte batar mor prjnt eliphent roder ubhy pashb, batar ljabretri rod",
-      "text_source": "ocr",
+      "area_text": "",
+      "areas": [],
+      "area_search": "",
+      "text_source": null,
       "windows": [
         {
           "start": "19:00",
@@ -7789,14 +7726,13 @@
       "feeder": "C302A",
       "feeder_id": "dpdc:paribag:c302a",
       "feeder_name": null,
-      "area_text": "সুবাস আকেড টাওয়ার হতে এরোপ্রেইন মসজিদ, গার্লিক মার্কেট, চিশতিয়া মার্কেট, নূর ম্যানশন",
+      "area_text": "সুবাস আকেঁড টাওয়ার হতে এরোপ্রেইন মসজিদ. গাট্টসিস়্া মার্কেট, চিশতিয়া মার্কেট, নূর ম্যানশন",
       "areas": [
-        "সুবাস আকেড টাওয়ার হতে এরোপ্রেইন মসজিদ",
-        "গার্লিক মার্কেট",
+        "সুবাস আকেঁড টাওয়ার হতে এরোপ্রেইন মসজিদ. গাট্টসিস়্া মার্কেট",
         "চিশতিয়া মার্কেট",
         "নূর ম্যানশন"
       ],
-      "area_search": "subas aked taoyar hte eroprein msjid, garlik market, chishtiya market, nur mjanshn",
+      "area_search": "subas akend taoyar hte eroprein msjid. gattsisa market, chishtiya market, nur mjanshn",
       "text_source": "ocr",
       "windows": [
         {
@@ -7805,7 +7741,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 4.96,
+      "load_mw": null,
       "billing_code": "C302A",
       "read_by": "ocr-scan",
       "code_confident": true
@@ -7816,14 +7752,14 @@
       "feeder": "C301C",
       "feeder_id": "dpdc:paribag:c301c",
       "feeder_name": null,
-      "area_text": "সেন্ট্রাল রোড, ভুতের গলি (আংশিক), ওয়েষ্ট এন্ড স্ট্রাট (আংশিক), আইডিয়াল কলেজ",
+      "area_text": "সেন্ট্রাল রোড, ভুতের গলি (আংশিক), ওয়েস্ট এন্ড স্ট্রীট (আংশিক), আইডিয়াল কলেজ",
       "areas": [
         "সেন্ট্রাল রোড",
         "ভুতের গলি (আংশিক)",
-        "ওয়েষ্ট এন্ড স্ট্রাট (আংশিক)",
+        "ওয়েস্ট এন্ড স্ট্রীট (আংশিক)",
         "আইডিয়াল কলেজ"
       ],
-      "area_search": "sentral rod, bhuter gli (angshik), oyesht end strat (angshik), aidiyal klej",
+      "area_search": "sentral rod, bhuter gli (angshik), oyest end strit (angshik), aidiyal klej",
       "text_source": "ocr",
       "windows": [
         {
@@ -7843,14 +7779,14 @@
       "feeder": "C302H",
       "feeder_id": "dpdc:paribag:c302h",
       "feeder_name": null,
-      "area_text": "সাইন্স ল্যাব হতে ঢাকা কলেজের উল্টা পাশের পোক্ট্রোল পাম্প পর্যন্ত মিরপুর রোডের পৃবপাশ!, বসুন্ধরা গলি, আলপনা প্াজা, প্রিয়াঙ্গন সুপার মার্কেট",
+      "area_text": "সাইন্স ল্যাব হতে ঢাকা কলেজের উল্টা পাশের পোর্ট্রাল পাম্প পর্যন্ত মিরপুর রোডের পৃ্পাশ!, বসুন্ধরা গলি, আলপনা প্রাজা, প্রিয়াঙ্গন সুপার মার্কেট",
       "areas": [
-        "সাইন্স ল্যাব হতে ঢাকা কলেজের উল্টা পাশের পোক্ট্রোল পাম্প পর্যন্ত মিরপুর রোডের পৃবপাশ!",
+        "সাইন্স ল্যাব হতে ঢাকা কলেজের উল্টা পাশের পোর্ট্রাল পাম্প পর্যন্ত মিরপুর রোডের পৃ্পাশ!",
         "বসুন্ধরা গলি",
-        "আলপনা প্াজা",
+        "আলপনা প্রাজা",
         "প্রিয়াঙ্গন সুপার মার্কেট"
       ],
-      "area_search": "sains ljab hte dhaka klejer ulta pasher poktrol pamp prjnt mirpur roder pribpash, bsundhra gli, alpna paja, priyanggn supar market",
+      "area_search": "sains ljab hte dhaka klejer ulta pasher portral pamp prjnt mirpur roder pripash, bsundhra gli, alpna praja, priyanggn supar market",
       "text_source": "ocr",
       "windows": [
         {
@@ -7870,16 +7806,16 @@
       "feeder": "C302W",
       "feeder_id": "dpdc:paribag:c302w",
       "feeder_name": "গ্লীনরোড ৩৩/১১ কেভি",
-      "area_text": "ল্যাব এইড হতে খানমন্ডি-৮ নম্বর রোড পর্যন্ত শ্লীণরোভের উভয় পাশ্ব, গ্রীণ স্কয়ার, মিরপুর রোড ও গ্রীণরোডের মধ্যবর্তী অংশের ধানমন্ডি-৬, ৭ ও ৮ নম্বর রোড, ঘানমন্ডি-৭ এর সরকারী অফিসার্স কোন্লাটাব্ন, গণস্থাস্থ্য নগর হাসপাতাল",
+      "area_text": "ল্যাব এইড হতে ধানমন্ডি-৮ নম্বর রোড পর্যন্ত গ্রীণরোভের উভয় পার, গ্রীণ স্কয়ার, মিরপুর রোড ও শ্রীণরোভের মধ্যবর্তী অংশের ধানমন্ডি-৬, ৭ ও ৮ নম্বর রোড, ঘানমন্ডি-৭ এর সরকারী অফিসার্স কোার্টার, গণস্থাস্থ্য নগর হাসপাতাল",
       "areas": [
-        "ল্যাব এইড হতে খানমন্ডি-৮ নম্বর রোড পর্যন্ত শ্লীণরোভের উভয় পাশ্ব",
+        "ল্যাব এইড হতে ধানমন্ডি-৮ নম্বর রোড পর্যন্ত গ্রীণরোভের উভয় পার",
         "গ্রীণ স্কয়ার",
-        "মিরপুর রোড ও গ্রীণরোডের মধ্যবর্তী অংশের ধানমন্ডি-৬",
+        "মিরপুর রোড ও শ্রীণরোভের মধ্যবর্তী অংশের ধানমন্ডি-৬",
         "৭ ও ৮ নম্বর রোড",
-        "ঘানমন্ডি-৭ এর সরকারী অফিসার্স কোন্লাটাব্ন",
+        "ঘানমন্ডি-৭ এর সরকারী অফিসার্স কোার্টার",
         "গণস্থাস্থ্য নগর হাসপাতাল"
       ],
-      "area_search": "glinrod /, ljab eid hte khanmndi-8 nmbr rod prjnt shlinrobher ubhy pashb, grin skyar, mirpur rod o grinroder mdhjbrti angsher dhanmndi-6, 7 o 8 nmbr rod, ghanmndi-7 er srkari aphisars konlatabn, gnsthasthj ngr haspatal",
+      "area_search": "glinrod /, ljab eid hte dhanmndi-8 nmbr rod prjnt grinrobher ubhy par, grin skyar, mirpur rod o shrinrobher mdhjbrti angsher dhanmndi-6, 7 o 8 nmbr rod, ghanmndi-7 er srkari aphisars koartar, gnsthasthj ngr haspatal",
       "text_source": "ocr",
       "windows": [
         {
@@ -7921,11 +7857,11 @@
       "feeder": "A525B",
       "feeder_id": "dpdc:postogola:a525b",
       "feeder_name": null,
-      "area_text": "[ . পশ্্াপহ্খলল",
+      "area_text": "[ . তশ্স্ঘাপশ্তিল",
       "areas": [
-        "[ . পশ্্াপহ্খলল"
+        "[ . তশ্স্ঘাপশ্তিল"
       ],
-      "area_search": ". pshaphkhll",
+      "area_search": ". tshsghapshtil",
       "text_source": "ocr",
       "windows": [
         {
@@ -7945,12 +7881,13 @@
       "feeder": "A587F",
       "feeder_id": "dpdc:postogola:a587f",
       "feeder_name": null,
-      "area_text": "সার % সাজ জু ৩৩, ১১ কেভি সাঁবমসইশন ূ",
+      "area_text": "1১২৬৭, সিটি) 1০ 1: ৩৩, ১১ কেভি সাবাস্টশন",
       "areas": [
-        "সার % সাজ জু ৩৩",
-        "১১ কেভি সাঁবমসইশন ূ"
+        "1১২৬৭",
+        "সিটি) 1০ 1: ৩৩",
+        "১১ কেভি সাবাস্টশন"
       ],
-      "area_search": "sar saj ju 33, 11 kebhi sanbmsishn u",
+      "area_search": "11267, siti) 10 1 33, 11 kebhi sabastshn",
       "text_source": "ocr",
       "windows": [
         {
@@ -7970,12 +7907,12 @@
       "feeder": "D6106R",
       "feeder_id": "dpdc:rajarbag:d6106r",
       "feeder_name": "বেনজির বাগান",
-      "area_text": "রেলওয়ে অফিসার্স কলোনী, খিলগাঁও",
+      "area_text": "রেলওয়ে অফিসার্স কলোনী, খিলগাঁও ৃ",
       "areas": [
         "রেলওয়ে অফিসার্স কলোনী",
-        "খিলগাঁও"
+        "খিলগাঁও ৃ"
       ],
-      "area_search": "benjir bagan, reloye aphisars kloni, khilgano",
+      "area_search": "benjir bagan, reloye aphisars kloni, khilgano ri",
       "text_source": "ocr",
       "windows": [
         {
@@ -7999,12 +7936,9 @@
       "feeder": "D606D",
       "feeder_id": "dpdc:rajarbag:d606d",
       "feeder_name": "পিডব্লিউডি এক্সপ্রেস",
-      "area_text": "পিডব্রলিউডি কোয়ার্টার, মালিবাগ",
-      "areas": [
-        "পিডব্রলিউডি কোয়ার্টার",
-        "মালিবাগ"
-      ],
-      "area_search": "pidbliudi ekspres, pidbrliudi koyartar, malibag",
+      "area_text": "",
+      "areas": [],
+      "area_search": "pidbliudi ekspres",
       "text_source": "ocr",
       "windows": [
         {
@@ -8055,13 +7989,13 @@
       "division_canonical": "Rajarbag",
       "feeder": "D606G",
       "feeder_id": "dpdc:rajarbag:d606g",
-      "feeder_name": "গুলবাগ",
+      "feeder_name": "গুলবাগ ৃ",
       "area_text": "গুলবাগ, খিলগাঁও বাগিচা",
       "areas": [
         "গুলবাগ",
         "খিলগাঁও বাগিচা"
       ],
-      "area_search": "gulbag, khilgano bagicha",
+      "area_search": "gulbag ri, gulbag, khilgano bagicha",
       "text_source": "ocr",
       "windows": [
         {
@@ -8086,8 +8020,8 @@
     {
       "division": "Rajarbag",
       "division_canonical": "Rajarbag",
-      "feeder": "পশ্চিম শান্তিনগর",
-      "feeder_id": "dpdc:rajarbag:row-06",
+      "feeder": "D606W",
+      "feeder_id": "dpdc:rajarbag:d606w",
       "feeder_name": "পশ্চিম শান্তিনগর",
       "area_text": "কলোনী, পশ্চিম শান্তিনগর, মধ্য পাবনা হাতিরঝিল",
       "areas": [
@@ -8113,22 +8047,19 @@
       ],
       "weekday": null,
       "load_mw": 2.54,
-      "billing_code": null,
+      "billing_code": "D606W",
       "read_by": "ocr-scan",
-      "code_confident": false
+      "code_confident": true
     },
     {
       "division": "Rajarbag",
       "division_canonical": "Rajarbag",
-      "feeder": "মৌচাক",
-      "feeder_id": "dpdc:rajarbag:row-07",
+      "feeder": "D662M",
+      "feeder_id": "dpdc:rajarbag:d662m",
       "feeder_name": "মৌচাক",
-      "area_text": "মালিবাগ মোড়, শান্তিনগর",
-      "areas": [
-        "মালিবাগ মোড়",
-        "শান্তিনগর"
-      ],
-      "area_search": "mouchak, malibag mor, shantingr",
+      "area_text": "",
+      "areas": [],
+      "area_search": "mouchak",
       "text_source": "ocr",
       "windows": [
         {
@@ -8142,9 +8073,9 @@
       ],
       "weekday": null,
       "load_mw": 0.89,
-      "billing_code": null,
+      "billing_code": "D662M",
       "read_by": "ocr-scan",
-      "code_confident": false
+      "code_confident": true
     },
     {
       "division": "Rajarbag",
@@ -8152,12 +8083,9 @@
       "feeder": "D662B",
       "feeder_id": "dpdc:rajarbag:d662b",
       "feeder_name": "শহীদবাগ",
-      "area_text": "শহীদবাগ, আউটার সার্কুলার রোড",
-      "areas": [
-        "শহীদবাগ",
-        "আউটার সার্কুলার রোড"
-      ],
-      "area_search": "shhidbag, autar sarkular rod",
+      "area_text": "",
+      "areas": [],
+      "area_search": "shhidbag",
       "text_source": "ocr",
       "windows": [
         {
@@ -8217,12 +8145,9 @@
       "feeder": "D604N",
       "feeder_id": "dpdc:rajarbag:d604n",
       "feeder_name": "শান্তিনগর বাজার",
-      "area_text": "কাকরাইল মোড় হতে শান্তিনগর বাজার, ফরচুন ক্লিনিক ও হোয়াইট হাউস মেইন রোড",
-      "areas": [
-        "কাকরাইল মোড় হতে শান্তিনগর বাজার",
-        "ফরচুন ক্লিনিক ও হোয়াইট হাউস মেইন রোড"
-      ],
-      "area_search": "shantingr bajar, kakrail mor hte shantingr bajar, phrchun klinik o hoyait haus mein rod",
+      "area_text": "",
+      "areas": [],
+      "area_search": "shantingr bajar",
       "text_source": "ocr",
       "windows": [
         {
@@ -8246,11 +8171,9 @@
       "feeder": "D604L",
       "feeder_id": "dpdc:rajarbag:d604l",
       "feeder_name": "পীর সাহেবের গলি",
-      "area_text": "শান্তিনগর মোড় হতে ইস্টার্ন গ্রাম মার্কেট ও ডিআইটি রোড রাজারবাগ পুলিশ",
-      "areas": [
-        "শান্তিনগর মোড় হতে ইস্টার্ন গ্রাম মার্কেট ও ডিআইটি রোড রাজারবাগ পুলিশ"
-      ],
-      "area_search": "pir saheber gli, shantingr mor hte istarn gram market o diaiti rod rajarbag pulish",
+      "area_text": "",
+      "areas": [],
+      "area_search": "pir saheber gli",
       "text_source": "ocr",
       "windows": [
         {
@@ -8338,9 +8261,9 @@
       "feeder": "D6106K",
       "feeder_id": "dpdc:rajarbag:d6106k",
       "feeder_name": "বারাকা",
-      "area_text": "বারাকা হাসপাতাল হতে সাউথ পয়েন্ট পর্যন্ত শহীদবাগ এলাকা",
+      "area_text": "'বারাকা হাসপাতাল হতে সাউথ পয়েন্ট পর্যন্ত শহীদবাগ এলাকা",
       "areas": [
-        "বারাকা হাসপাতাল হতে সাউথ পয়েন্ট পর্যন্ত শহীদবাগ এলাকা"
+        "'বারাকা হাসপাতাল হতে সাউথ পয়েন্ট পর্যন্ত শহীদবাগ এলাকা"
       ],
       "area_search": "baraka, baraka haspatal hte sauth pyent prjnt shhidbag elaka",
       "text_source": "ocr",
@@ -8363,8 +8286,8 @@
     {
       "division": "Rajarbag",
       "division_canonical": "Rajarbag",
-      "feeder": "D6106",
-      "feeder_id": "dpdc:rajarbag:d6106",
+      "feeder": "D6106I",
+      "feeder_id": "dpdc:rajarbag:d6106i",
       "feeder_name": "রেলওয়ে কলোনি",
       "area_text": "রেলওয়ে কলোনি ও কবি বেনজির বাগান গলি, শাহজাহানপুর এলাকা",
       "areas": [
@@ -8389,7 +8312,7 @@
       ],
       "weekday": null,
       "load_mw": 1.5,
-      "billing_code": "D6106",
+      "billing_code": "D6106I",
       "read_by": "ocr-scan",
       "code_confident": true
     },
@@ -9521,12 +9444,12 @@
       "feeder": "row-06",
       "feeder_id": "dpdc:shyampur:row-06",
       "feeder_name": null,
-      "area_text": "শ্যামপুর শিহ্রা এলাকা, শালগু",
+      "area_text": "শ্যামপুর শিল্প এলাকা, শামলুর",
       "areas": [
-        "শ্যামপুর শিহ্রা এলাকা",
-        "শালগু"
+        "শ্যামপুর শিল্প এলাকা",
+        "শামলুর"
       ],
-      "area_search": "shjampur shihra elaka, shalgu",
+      "area_search": "shjampur shilp elaka, shamlur",
       "text_source": "ocr",
       "windows": [
         {
@@ -9550,12 +9473,12 @@
       "feeder": "row-07",
       "feeder_id": "dpdc:shyampur:row-07",
       "feeder_name": null,
-      "area_text": "শামল্র শি্র এলাকা, শ্যামপুন্স",
+      "area_text": "শাললুর শিহা এলাকা, শাললুর",
       "areas": [
-        "শামল্র শি্র এলাকা",
-        "শ্যামপুন্স"
+        "শাললুর শিহা এলাকা",
+        "শাললুর"
       ],
-      "area_search": "shamlr shir elaka, shjampuns",
+      "area_search": "shallur shiha elaka, shallur",
       "text_source": "ocr",
       "windows": [
         {
@@ -9579,12 +9502,12 @@
       "feeder": "row-08",
       "feeder_id": "dpdc:shyampur:row-08",
       "feeder_name": null,
-      "area_text": "হি বনী যাষলুর শিহা এলাকা, শাললুর",
+      "area_text": "বিনীত যাষলুর শিহা এলাকা, শাললুর",
       "areas": [
-        "হি বনী যাষলুর শিহা এলাকা",
+        "বিনীত যাষলুর শিহা এলাকা",
         "শাললুর"
       ],
-      "area_search": "hi bni jashlur shiha elaka, shallur",
+      "area_search": "binit jashlur shiha elaka, shallur",
       "text_source": "ocr",
       "windows": [
         {
@@ -9597,7 +9520,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 2.5,
+      "load_mw": null,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -9648,7 +9571,7 @@
         },
         {
           "start": "21:00",
-          "end": "22:00"
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -9663,12 +9586,12 @@
       "feeder": "row-11",
       "feeder_id": "dpdc:shyampur:row-11",
       "feeder_name": null,
-      "area_text": "পুর শিল্র এলাকা, শ্যামলুর",
+      "area_text": "শ্যাসল্র শিলা এলাকা, শযানলুর",
       "areas": [
-        "পুর শিল্র এলাকা",
-        "শ্যামলুর"
+        "শ্যাসল্র শিলা এলাকা",
+        "শযানলুর"
       ],
-      "area_search": "pur shilr elaka, shjamlur",
+      "area_search": "shjaslr shila elaka, shjanlur",
       "text_source": "ocr",
       "windows": [
         {
@@ -9677,7 +9600,7 @@
         },
         {
           "start": "21:00",
-          "end": "22:00"
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -9692,12 +9615,12 @@
       "feeder": "row-12",
       "feeder_id": "dpdc:shyampur:row-12",
       "feeder_name": null,
-      "area_text": "শাললুর শিহা এলাকা, শালল্র",
+      "area_text": "শালুর শিহা এলাকা, শাললুয",
       "areas": [
-        "শাললুর শিহা এলাকা",
-        "শালল্র"
+        "শালুর শিহা এলাকা",
+        "শাললুয"
       ],
-      "area_search": "shallur shiha elaka, shallr",
+      "area_search": "shalur shiha elaka, shalluj",
       "text_source": "ocr",
       "windows": [
         {
@@ -9706,7 +9629,7 @@
         },
         {
           "start": "21:00",
-          "end": "22:00"
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -9721,12 +9644,12 @@
       "feeder": "row-13",
       "feeder_id": "dpdc:shyampur:row-13",
       "feeder_name": null,
-      "area_text": "শ্যামপ্র শিব এলাকা, শযামলুল",
+      "area_text": "শাামপ্র শিব এলাকা, শ্যামলুল্",
       "areas": [
-        "শ্যামপ্র শিব এলাকা",
-        "শযামলুল"
+        "শাামপ্র শিব এলাকা",
+        "শ্যামলুল্"
       ],
-      "area_search": "shjampr shib elaka, shjamlul",
+      "area_search": "shaampr shib elaka, shjamlul",
       "text_source": "ocr",
       "windows": [
         {
@@ -9735,7 +9658,7 @@
         },
         {
           "start": "21:00",
-          "end": "22:00"
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -9750,12 +9673,12 @@
       "feeder": "row-14",
       "feeder_id": "dpdc:shyampur:row-14",
       "feeder_name": null,
-      "area_text": "শ্যামপুর শিহ্রা এলাকা, শালগু",
+      "area_text": "শ্যামপুর শিল্প এলাকা, শামলুর",
       "areas": [
-        "শ্যামপুর শিহ্রা এলাকা",
-        "শালগু"
+        "শ্যামপুর শিল্প এলাকা",
+        "শামলুর"
       ],
-      "area_search": "shjampur shihra elaka, shalgu",
+      "area_search": "shjampur shilp elaka, shamlur",
       "text_source": "ocr",
       "windows": [
         {
@@ -9779,12 +9702,12 @@
       "feeder": "row-15",
       "feeder_id": "dpdc:shyampur:row-15",
       "feeder_name": null,
-      "area_text": "শামল্র শি্র এলাকা, শ্যামপুন্স",
+      "area_text": "শাললুর শিহা এলাকা, শাললুর",
       "areas": [
-        "শামল্র শি্র এলাকা",
-        "শ্যামপুন্স"
+        "শাললুর শিহা এলাকা",
+        "শাললুর"
       ],
-      "area_search": "shamlr shir elaka, shjampuns",
+      "area_search": "shallur shiha elaka, shallur",
       "text_source": "ocr",
       "windows": [
         {
@@ -9808,12 +9731,12 @@
       "feeder": "row-16",
       "feeder_id": "dpdc:shyampur:row-16",
       "feeder_name": null,
-      "area_text": "হি বনী যাষলুর শিহা এলাকা, শাললুর",
+      "area_text": "বিনীত যাষলুর শিহা এলাকা, শাললুর",
       "areas": [
-        "হি বনী যাষলুর শিহা এলাকা",
+        "বিনীত যাষলুর শিহা এলাকা",
         "শাললুর"
       ],
-      "area_search": "hi bni jashlur shiha elaka, shallur",
+      "area_search": "binit jashlur shiha elaka, shallur",
       "text_source": "ocr",
       "windows": [
         {
@@ -9888,14 +9811,11 @@
       "feeder": "row-19",
       "feeder_id": "dpdc:shyampur:row-19",
       "feeder_name": null,
-      "area_text": "রে লহ স--7-58-50:4-77] ] সম] স্পা 7 শির কমা টু কা যামলয়, জোরেকলে, জাক্ষা ক্যা, শাকছল ফুলে - রখ চিজ শ্প আ্াহ ন্",
+      "area_text": "সি শালা --7-7850:41-77] ] শ্ম।] স্পা 7 শির কমা াক্ফা চা র্",
       "areas": [
-        "রে লহ স--7-58-50:4-77] ] সম] স্পা 7 শির কমা টু কা যামলয়",
-        "জোরেকলে",
-        "জাক্ষা ক্যা",
-        "শাকছল ফুলে - রখ চিজ শ্প আ্াহ ন্"
+        "সি শালা --7-7850:41-77] ] শ্ম।] স্পা 7 শির কমা াক্ফা চা র্"
       ],
-      "area_search": "re lh s--7-58-504-77 sm spa 7 shir kma tu ka jamly, jorekle, jaksha kja, shakchhl phule - rkh chij shp aah n",
+      "area_search": "si shala --7-785041-77 shm spa 7 shir kma akpha cha r",
       "text_source": "ocr",
       "windows": [
         {
@@ -9927,10 +9847,14 @@
         {
           "start": "09:00",
           "end": "10:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
-      "load_mw": 2.0,
+      "load_mw": 8.0,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -9941,14 +9865,14 @@
       "feeder": "row-21",
       "feeder_id": "dpdc:shyampur:row-21",
       "feeder_name": null,
-      "area_text": "শ্যামশর, লাল ললল্িদ, দোলেস্বর, পাকা-লা.শল্স রোদ",
+      "area_text": "শ্যামশর, লাল ললন্িদ, দোলেস্বর, পাকা-লা. শাল রোদ",
       "areas": [
         "শ্যামশর",
-        "লাল ললল্িদ",
+        "লাল ললন্িদ",
         "দোলেস্বর",
-        "পাকা-লা.শল্স রোদ"
+        "পাকা-লা. শাল রোদ"
       ],
-      "area_search": "shjamshr, lal lllid, dolesbr, paka-la.shls rod",
+      "area_search": "shjamshr, lal llnid, dolesbr, paka-la. shal rod",
       "text_source": "ocr",
       "windows": [
         {
@@ -9968,14 +9892,14 @@
       "feeder": "row-22",
       "feeder_id": "dpdc:shyampur:row-22",
       "feeder_name": null,
-      "area_text": "টিজ্াশাল, কুসুমলাশ, সুললিমলাড়া, শুরলাঙ",
+      "area_text": "টিজ্াশাল, কুদুঘলাশ, সুললিমপাড়া, লুরলাঙ",
       "areas": [
         "টিজ্াশাল",
-        "কুসুমলাশ",
-        "সুললিমলাড়া",
-        "শুরলাঙ"
+        "কুদুঘলাশ",
+        "সুললিমপাড়া",
+        "লুরলাঙ"
       ],
-      "area_search": "tijashal, kusumlash, sullimlara, shurlang",
+      "area_search": "tijashal, kudughlash, sullimpara, lurlang",
       "text_source": "ocr",
       "windows": [
         {
@@ -9999,12 +9923,12 @@
       "feeder": "row-23",
       "feeder_id": "dpdc:shyampur:row-23",
       "feeder_name": null,
-      "area_text": "শাহীনাকা র.শাহীমুহ্জাারিনিদাঠুল, শলী কবাশ",
+      "area_text": "শাহীনাকা র.শাহীমহুলাারিনিছাাঠল, শলী ক্রাশ",
       "areas": [
-        "শাহীনাকা র.শাহীমুহ্জাারিনিদাঠুল",
-        "শলী কবাশ"
+        "শাহীনাকা র.শাহীমহুলাারিনিছাাঠল",
+        "শলী ক্রাশ"
       ],
-      "area_search": "shahinaka r.shahimuhjaarinidathul, shli kbash",
+      "area_search": "shahinaka r.shahimhulaarinichhaathl, shli krash",
       "text_source": "ocr",
       "windows": [
         {
@@ -10054,11 +9978,11 @@
       "feeder": "row-25",
       "feeder_id": "dpdc:shyampur:row-25",
       "feeder_name": null,
-      "area_text": "শ্যাসপুর শি এলযাগামািল ৮ এ",
+      "area_text": "শ্যাসপুর শি এলযাযাািল ০ এ",
       "areas": [
-        "শ্যাসপুর শি এলযাগামািল ৮ এ"
+        "শ্যাসপুর শি এলযাযাািল ০ এ"
       ],
-      "area_search": "shjaspur shi eljagamail 8 e",
+      "area_search": "shjaspur shi eljajaail 0 e",
       "text_source": "ocr",
       "windows": [
         {
@@ -10067,7 +9991,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 2.86,
+      "load_mw": 2.68,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -10078,13 +10002,13 @@
       "feeder": "row-26",
       "feeder_id": "dpdc:shyampur:row-26",
       "feeder_name": null,
-      "area_text": "নামাশ্যামপুর, লিল, স্মতিখানা£লিরললর ভু",
+      "area_text": "নামাশ্যামপুর, দল, স্মতিখানা£লিরলর ভু",
       "areas": [
         "নামাশ্যামপুর",
-        "লিল",
-        "স্মতিখানা£লিরললর ভু"
+        "দল",
+        "স্মতিখানা£লিরলর ভু"
       ],
-      "area_search": "namashjampur, lil, smtikhanalirllr bhu",
+      "area_search": "namashjampur, dl, smtikhanalirlr bhu",
       "text_source": "ocr",
       "windows": [
         {
@@ -10104,9 +10028,9 @@
       "feeder": "row-27",
       "feeder_id": "dpdc:shyampur:row-27",
       "feeder_name": null,
-      "area_text": "দেলপাড়া বাল্লারষ্ু্ীারা বাশান, বিজি",
+      "area_text": "দেলপাড়া বাল্লারষ্ু্ী়ারা বাশান, বিজি",
       "areas": [
-        "দেলপাড়া বাল্লারষ্ু্ীারা বাশান",
+        "দেলপাড়া বাল্লারষ্ু্ী়ারা বাশান",
         "বিজি"
       ],
       "area_search": "delpara ballarshuiara bashan, biji",
@@ -10126,7 +10050,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 3.0,
+      "load_mw": null,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -10137,12 +10061,12 @@
       "feeder": "row-28",
       "feeder_id": "dpdc:shyampur:row-28",
       "feeder_name": null,
-      "area_text": "শ্যামপুর শিল্ক এলাকা, শ্যামল্র। এ",
+      "area_text": "শ্যামপুর শিল্ক এলাকা, শ্যামল্র। ৬",
       "areas": [
         "শ্যামপুর শিল্ক এলাকা",
-        "শ্যামল্র। এ"
+        "শ্যামল্র। ৬"
       ],
-      "area_search": "shjampur shilk elaka, shjamlr e",
+      "area_search": "shjampur shilk elaka, shjamlr 6",
       "text_source": "ocr",
       "windows": [
         {
@@ -10151,7 +10075,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 2.07,
+      "load_mw": 2.57,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -10162,14 +10086,14 @@
       "feeder": "row-34",
       "feeder_id": "dpdc:shyampur:row-34",
       "feeder_name": null,
-      "area_text": "ছিল্াশাল, খালপাড়, টাশ্রলারলাড, কালে রোড",
+      "area_text": "ছিচ্াশাল, খাললাড়, টাশ্রলারলাড, কালে রোড",
       "areas": [
-        "ছিল্াশাল",
-        "খালপাড়",
+        "ছিচ্াশাল",
+        "খাললাড়",
         "টাশ্রলারলাড",
         "কালে রোড"
       ],
-      "area_search": "chhilashal, khalpar, tashrlarlad, kale rod",
+      "area_search": "chhichashal, khallar, tashrlarlad, kale rod",
       "text_source": "ocr",
       "windows": [
         {
@@ -10189,11 +10113,11 @@
       "feeder": "row-35",
       "feeder_id": "dpdc:shyampur:row-35",
       "feeder_name": null,
-      "area_text": "চে ॥ সম",
+      "area_text": "॥ সম",
       "areas": [
-        "চে ॥ সম"
+        "॥ সম"
       ],
-      "area_search": "che sm",
+      "area_search": "sm",
       "text_source": "ocr",
       "windows": [
         {
@@ -10235,12 +10159,12 @@
       "feeder": "row-39",
       "feeder_id": "dpdc:shyampur:row-39",
       "feeder_name": null,
-      "area_text": "াললুল কাছ, শূন্গ লোহাম্মদন্যাশ সঙগল",
+      "area_text": "[াললুল কাছ, শূন্গ লোহাম্মদন্যাশ সঙগলস",
       "areas": [
-        "াললুল কাছ",
-        "শূন্গ লোহাম্মদন্যাশ সঙগল"
+        "[াললুল কাছ",
+        "শূন্গ লোহাম্মদন্যাশ সঙগলস"
       ],
-      "area_search": "allul kachh, shung lohammdnjash snggl",
+      "area_search": "allul kachh, shung lohammdnjash snggls",
       "text_source": "ocr",
       "windows": [
         {
@@ -10260,11 +10184,11 @@
       "feeder": "row-40",
       "feeder_id": "dpdc:shyampur:row-40",
       "feeder_name": null,
-      "area_text": "510 1 যাত 11776 2",
+      "area_text": "2510 1 যাত 11776 বু",
       "areas": [
-        "510 1 যাত 11776 2"
+        "2510 1 যাত 11776 বু"
       ],
-      "area_search": "510 1 jat 11776 2",
+      "area_search": "2510 1 jat 11776 bu",
       "text_source": "ocr",
       "windows": [
         {
@@ -10274,6 +10198,10 @@
         {
           "start": "14:00",
           "end": "15:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
         }
       ],
       "weekday": null,
@@ -10288,16 +10216,16 @@
       "feeder": "row-44",
       "feeder_id": "dpdc:shyampur:row-44",
       "feeder_name": null,
-      "area_text": "প্র জজ জ ও টি 077 জজ আন এজ আও জজ ও আজ ও ও ৮ ন্র-জ- ভ্রু ওত আজ ও জঞ জজতা যা ওজর জা ও রে আত",
+      "area_text": "গ্রে জজ জ ও জি 077 জজ আন এজ আজও জজ ও আজ ও ও ৮ প্রজা ভর ওত জে ও জজ জজ যা ওজর জা ও সি আল",
       "areas": [
-        "প্র জজ জ ও টি 077 জজ আন এজ আও জজ ও আজ ও ও ৮ ন্র-জ- ভ্রু ওত আজ ও জঞ জজতা যা ওজর জা ও রে আত"
+        "গ্রে জজ জ ও জি 077 জজ আন এজ আজও জজ ও আজ ও ও ৮ প্রজা ভর ওত জে ও জজ জজ যা ওজর জা ও সি আল"
       ],
-      "area_search": "pr jj j o ti 077 jj an ej ao jj o aj o o 8 nr-j- bhru ot aj o jn jjta ja ojr ja o re at",
+      "area_search": "gre jj j o ji 077 jj an ej ajo jj o aj o o 8 prja bhr ot je o jj jj ja ojr ja o si al",
       "text_source": "ocr",
       "windows": [
         {
           "start": "21:00",
-          "end": "22:00"
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -10312,14 +10240,16 @@
       "feeder": "row-46",
       "feeder_id": "dpdc:shyampur:row-46",
       "feeder_name": null,
-      "area_text": "",
-      "areas": [],
-      "area_search": "",
-      "text_source": null,
+      "area_text": ":..::::::৫৫৫৮৮৮৮৮৮",
+      "areas": [
+        ":..::::::৫৫৫৮৮৮৮৮৮"
+      ],
+      "area_search": "..555888888",
+      "text_source": "ocr",
       "windows": [
         {
           "start": "21:00",
-          "end": "22:00"
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -10343,7 +10273,7 @@
       "windows": [
         {
           "start": "21:00",
-          "end": "22:00"
+          "end": "23:00"
         }
       ],
       "weekday": null,
@@ -10358,13 +10288,10 @@
       "feeder": "row-01",
       "feeder_id": "dpdc:swamibag:row-01",
       "feeder_name": null,
-      "area_text": "কেএমদাস লেন, ষামীবাগ",
-      "areas": [
-        "কেএমদাস লেন",
-        "ষামীবাগ"
-      ],
-      "area_search": "keemdas len, shamibag",
-      "text_source": "ocr",
+      "area_text": "",
+      "areas": [],
+      "area_search": "",
+      "text_source": null,
       "windows": [
         {
           "start": "16:00",
@@ -10383,11 +10310,11 @@
       "feeder": "row-03",
       "feeder_id": "dpdc:swamibag:row-03",
       "feeder_name": null,
-      "area_text": "শিহসাহেবলেন:",
+      "area_text": "শাহসাহেবালেন:",
       "areas": [
-        "শিহসাহেবলেন:"
+        "শাহসাহেবালেন:"
       ],
-      "area_search": "shihsaheblen",
+      "area_search": "shahsahebalen",
       "text_source": "ocr",
       "windows": [
         {
@@ -10524,7 +10451,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 3.3,
+      "load_mw": 3.33,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -10559,11 +10486,11 @@
       "feeder": "row-11",
       "feeder_id": "dpdc:swamibag:row-11",
       "feeder_name": null,
-      "area_text": "মীরহাজীরবাগ",
+      "area_text": "সীরহাজীরবাগ",
       "areas": [
-        "মীরহাজীরবাগ"
+        "সীরহাজীরবাগ"
       ],
-      "area_search": "mirhajirbag",
+      "area_search": "sirhajirbag",
       "text_source": "ocr",
       "windows": [
         {
@@ -10587,13 +10514,10 @@
       "feeder": "row-12",
       "feeder_id": "dpdc:swamibag:row-12",
       "feeder_name": null,
-      "area_text": "সীরহাজীরবাগ, দঃযাত্রাবাড়ী",
-      "areas": [
-        "সীরহাজীরবাগ",
-        "দঃযাত্রাবাড়ী"
-      ],
-      "area_search": "sirhajirbag, dhjatrabari",
-      "text_source": "ocr",
+      "area_text": "",
+      "areas": [],
+      "area_search": "",
+      "text_source": null,
       "windows": [
         {
           "start": "15:00",
@@ -10638,17 +10562,17 @@
     {
       "division": "Tejgaon",
       "division_canonical": "Tejgaon",
-      "feeder": "৩৩/১১ কেভি নর রনিয়ারেঃ ডি ওভারহেড",
+      "feeder": "৩৩/১১ কেভি জিরার ওভারহেড",
       "feeder_id": "dpdc:tejgaon:row-03",
-      "feeder_name": "৩৩/১১ কেভি নর রনিয়ারেঃ ডি ওভারহেড",
-      "area_text": "পূরাতন এফডিসি, নতুন এফডিসি, কলা ও ডিমের আরৎ, এবং তেজগাঁও ট্রাক স্ট্যান্ড (আংশিক) এবং তৎসংলগ্ন এলাকা",
+      "feeder_name": "৩৩/১১ কেভি জিরার ওভারহেড",
+      "area_text": "পুরাতন এফডিসি, নতুন এফডিসি, কলা ও ডিমের আরৎ, এবং তেজগাঁও ট্রাক স্ট্যান্ড (আংশিক) এবং তৎসংলগ্ন এলাকা",
       "areas": [
-        "পূরাতন এফডিসি",
+        "পুরাতন এফডিসি",
         "নতুন এফডিসি",
         "কলা ও ডিমের আরৎ",
         "এবং তেজগাঁও ট্রাক স্ট্যান্ড (আংশিক) এবং তৎসংলগ্ন এলাকা"
       ],
-      "area_search": "/ nr rniyareh di obharhed, puratn ephdisi, ntun ephdisi, kla o dimer art, ebng tejgano trak stjand (angshik) ebng ttsnglgn elaka",
+      "area_search": "/ jirar obharhed, puratn ephdisi, ntun ephdisi, kla o dimer art, ebng tejgano trak stjand (angshik) ebng ttsnglgn elaka",
       "text_source": "ocr",
       "windows": [
         {
@@ -10657,7 +10581,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": null,
+      "load_mw": 1.75,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -10694,15 +10618,15 @@
     {
       "division": "Tejgaon",
       "division_canonical": "Tejgaon",
-      "feeder": "নাস ওভরহেড",
+      "feeder": "কাস ওভারহেড",
       "feeder_id": "dpdc:tejgaon:row-06",
-      "feeder_name": "নাস ওভরহেড",
+      "feeder_name": "কাস ওভারহেড",
       "area_text": "পশ্চিম নাখালপাড়া গলি নং-৮, ১০ ও ১২ আবাসিক এলাকা",
       "areas": [
         "পশ্চিম নাখালপাড়া গলি নং-৮",
         "১০ ও ১২ আবাসিক এলাকা"
       ],
-      "area_search": "nas obhrhed, pshchim nakhalpara gli nng-8, 10 o 12 abasik elaka",
+      "area_search": "kas obharhed, pshchim nakhalpara gli nng-8, 10 o 12 abasik elaka",
       "text_source": "ocr",
       "windows": [
         {
@@ -10719,14 +10643,14 @@
     {
       "division": "Tejgaon",
       "division_canonical": "Tejgaon",
-      "feeder": "পিডািডডি একসেস",
+      "feeder": "পিডারিডডি একসেস",
       "feeder_id": "dpdc:tejgaon:row-07",
-      "feeder_name": "পিডািডডি একসেস",
-      "area_text": "পিডারিওডি কোয়ার্টার",
+      "feeder_name": "পিডারিডডি একসেস",
+      "area_text": "পিডার্িওডি কোয়ার্টার",
       "areas": [
-        "পিডারিওডি কোয়ার্টার"
+        "পিডার্িওডি কোয়ার্টার"
       ],
-      "area_search": "pidaiddi ekses, pidariodi koyartar",
+      "area_search": "pidariddi ekses, pidariodi koyartar",
       "text_source": "ocr",
       "windows": [
         {
@@ -10768,15 +10692,15 @@
     {
       "division": "Tejgaon",
       "division_canonical": "Tejgaon",
-      "feeder": "[শিল একে",
+      "feeder": "[শিল এক্স",
       "feeder_id": "dpdc:tejgaon:row-10",
-      "feeder_name": "[শিল একে",
+      "feeder_name": "[শিল এক্স",
       "area_text": "শান্তা টাওয়ার, ব্রাক ব্যাংক",
       "areas": [
         "শান্তা টাওয়ার",
         "ব্রাক ব্যাংক"
       ],
-      "area_search": "shil eke, shanta taoyar, brak bjangk",
+      "area_search": "shil eks, shanta taoyar, brak bjangk",
       "text_source": "ocr",
       "windows": [
         {
@@ -10801,16 +10725,16 @@
     {
       "division": "Tejgaon",
       "division_canonical": "Tejgaon",
-      "feeder": "তেজগীও ৩৩/১১ কেডি উ পুল ওভারহেড",
+      "feeder": "তেজগাঁও ৩৩/১১ কেডি উ চকে ওভারহেড",
       "feeder_id": "dpdc:tejgaon:row-11",
-      "feeder_name": "তেজগীও ৩৩/১১ কেডি উ পুল ওভারহেড",
+      "feeder_name": "তেজগাঁও ৩৩/১১ কেডি উ চকে ওভারহেড",
       "area_text": "সাউথইষ্টের গলি, মিমি চকলেট গলি, আজিজ সুপার ও লালবাগের গলি",
       "areas": [
         "সাউথইষ্টের গলি",
         "মিমি চকলেট গলি",
         "আজিজ সুপার ও লালবাগের গলি"
       ],
-      "area_search": "tejgio / kedi u pul obharhed, sauthishter gli, mimi chklet gli, ajij supar o lalbager gli",
+      "area_search": "tejgano / kedi u chke obharhed, sauthishter gli, mimi chklet gli, ajij supar o lalbager gli",
       "text_source": "ocr",
       "windows": [
         {
@@ -10855,7 +10779,7 @@
         }
       ],
       "weekday": null,
-      "load_mw": 0.64,
+      "load_mw": 0.87,
       "billing_code": null,
       "read_by": "ocr-scan",
       "code_confident": false
@@ -10863,18 +10787,18 @@
     {
       "division": "Tejgaon",
       "division_canonical": "Tejgaon",
-      "feeder": "সর ্ 2 ৪৪ ূ ৩৩/১১ কেভি ধন ক্রস ওভারহেড",
+      "feeder": "স্্ 2 ৪ ৩৩/১১ কেভি ধন ক্রস ওভারহেড",
       "feeder_id": "dpdc:tejgaon:row-21",
-      "feeder_name": "সর ্ 2 ৪৪ ূ ৩৩/১১ কেভি ধন ক্রস ওভারহেড",
-      "area_text": "ূ পশ্চিম নাখালপাড়া, তেজকুনিপাড়া, ফার্মগেট, ছাপড়া মসজিদ, বেলালী মসজিদ ও হলিক্রস রোড",
+      "feeder_name": "স্্ 2 ৪ ৩৩/১১ কেভি ধন ক্রস ওভারহেড",
+      "area_text": "ৃ পশ্চিম নাখালপাড়া, তেজকুনিপাড়া, ফার্মগেট, ছাপড়া মসজিদ, বেলালী মসজিদ ও হলিক্রস রোড",
       "areas": [
-        "ূ পশ্চিম নাখালপাড়া",
+        "ৃ পশ্চিম নাখালপাড়া",
         "তেজকুনিপাড়া",
         "ফার্মগেট",
         "ছাপড়া মসজিদ",
         "বেলালী মসজিদ ও হলিক্রস রোড"
       ],
-      "area_search": "sr u / dhn krs obharhed, u pshchim nakhalpara, tejkunipara, pharmget, chhapra msjid, belali msjid o hlikrs rod",
+      "area_search": "s / dhn krs obharhed, ri pshchim nakhalpara, tejkunipara, pharmget, chhapra msjid, belali msjid o hlikrs rod",
       "text_source": "ocr",
       "windows": [
         {
@@ -10899,14 +10823,14 @@
     {
       "division": "Tejgaon",
       "division_canonical": "Tejgaon",
-      "feeder": "১০৪ ৪৮:১৪৯। ূ টে ওভারহেড",
+      "feeder": "৮৮৪৫১৪৮১০৪৯ [হেরি ওভারহেড",
       "feeder_id": "dpdc:tejgaon:row-22",
-      "feeder_name": "১০৪ ৪৮:১৪৯। ূ টে ওভারহেড",
-      "area_text": "হোল্ডার গলি রোড",
+      "feeder_name": "৮৮৪৫১৪৮১০৪৯ [হেরি ওভারহেড",
+      "area_text": "ৃ হোল্ডার গলি রোড",
       "areas": [
-        "হোল্ডার গলি রোড"
+        "ৃ হোল্ডার গলি রোড"
       ],
-      "area_search": "u te obharhed, holdar gli rod",
+      "area_search": "heri obharhed, ri holdar gli rod",
       "text_source": "ocr",
       "windows": [
         {
