@@ -1,8 +1,24 @@
 {
   "schema": "schedule-index/1",
-  "generated_at": "2026-08-28T21:39:33Z",
+  "generated_at": "2026-08-29T11:28:38Z",
   "stale_after_hours": 36,
   "utilities": [
+    {
+      "utility": "DESCO",
+      "coverage_level": "feeder",
+      "status": "fresh",
+      "latest_date": "2026-08-29",
+      "claim_count": 571,
+      "retrieved_at": "2026-08-29T11:20:58Z",
+      "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/7/35aad7b3-a4f6-4c8f-9605-11a82332e69b.pdf",
+      "stale_after_hours": 36,
+      "message": null,
+      "content_changed_at": "2026-08-29T11:20:58Z",
+      "division_count": 32,
+      "feeder_count": 571,
+      "tls_verified": true,
+      "validation_verdict": "pass"
+    },
     {
       "utility": "DPDC",
       "coverage_level": "feeder",
@@ -67,17 +83,6 @@
       "source_url": "https://reb.gov.bd/",
       "stale_after_hours": 36,
       "message": "Rural supply runs through ~80 separate Palli Bidyut Samity offices, each publishing independently. No national feed exists."
-    },
-    {
-      "utility": "DESCO",
-      "coverage_level": "feeder",
-      "status": "stale",
-      "latest_date": "2026-08-28",
-      "claim_count": 563,
-      "retrieved_at": "2026-08-28T09:31:34Z",
-      "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/7/203b3c5b-7849-4849-8207-fe72597b74dc.pdf",
-      "stale_after_hours": 36,
-      "message": "no schedule PDF link found on the listing page no DESCO schedule could be fetched"
     },
     {
       "utility": "NESCO",
