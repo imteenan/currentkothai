@@ -8,12 +8,12 @@
   "source": {
     "source_id": "desco-load-management-pdf",
     "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/7/1874e72a-3d83-46d2-bc36-cdf04cb591ed.pdf",
-    "retrieved_at": "2026-08-30T06:22:17Z",
+    "retrieved_at": "2026-08-30T10:06:57Z",
     "sha256": "bbd0c9c83ef8f9168b309aa0efb02d23ded37dc01fd07c4c256e48f922d524f9",
     "parser_adapter": "desco_pdf_v1",
     "parser_version": "1.0.0",
     "tls_verified": true,
-    "archive_path": "E:/ClaudeWork/CurrentKothai/power-bd/data/seed/archive/desco/2026-08-30-bbd0c9c8.pdf",
+    "archive_path": "/home/runner/work/currentkothai/currentkothai/data/seed/archive/desco/2026-08-30-bbd0c9c8.pdf",
     "published_date": null
   },
   "claims": [
