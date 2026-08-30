@@ -1,0 +1,22 @@
+# The scheduler. A separate Worker from the site, deliberately.
+#
+# The site (../../wrangler.toml) is assets-only and serves Dhaka's schedule.
+# Nothing in here should ever be able to break that, so this gets its own
+# Worker, its own deploy, and no assets binding.
+#
+# Cloudflare Cron Triggers are on the free plan and fire on time, which is the
+# entire point: GitHub's scheduler was delivering ~3 of 4 daily runs, 2-4 hours
+# late, and missing whole days.
+
+name = "currentkothai-scheduler"
+main = "src/worker.js"
+compatibility_date = "2026-08-24"
+
+# Cron is UTC. Dhaka is UTC+6.
+[triggers]
+crons = [
+  # DESCO only, every two hours across the Dhaka working day (07:00 - 21:00).
+  "0 1,3,5,7,9,11,13,15 * * *",
+  # Everything, including DPDC's OCR: 08:30 and 20:30 Dhaka.
+  "30 2,14 * * *",
+]
