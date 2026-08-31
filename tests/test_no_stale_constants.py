@@ -308,3 +308,47 @@ def test_freshness_requires_the_sheet_to_be_for_today():
     assert "sheet_is_today" in src, "DESCO freshness must check the sheet's weekday"
     assert '"status": "fresh" if (fetched_live and sheet_is_today) else "stale"' in src, (
         "status must require both a live fetch and today's sheet")
+
+
+# ------------------------------------------- the schedule must never be stale
+
+def test_schedules_are_network_first_in_the_service_worker():
+    """The bug that made every fix invisible for a week.
+
+    Schedules were served stale-while-revalidate, which returns the CACHED copy
+    and refreshes it for next time - so a returning visitor always saw the
+    previous visit's schedule. index.json was already network-first, so the page
+    showed an honest "checked 20 minutes ago" beside a three-day-old sheet.
+
+    Verifying with curl could never catch it: curl has no service worker.
+    """
+    sw = _read(WEB / "sw.js")
+    assert "isSchedule" in sw, "sw.js must treat /data/schedules/ as its own case"
+    assert "if (isSchedule(url)) { event.respondWith(networkFirst(request)); return; }" in sw, (
+        "schedules must be network-first; stale-while-revalidate here puts every "
+        "returning reader a visit behind")
+
+
+def test_schedule_headers_do_not_allow_serving_a_stale_day():
+    """The HTTP cache could do the same thing on its own.
+
+    /data/schedules/* carried max-age=900 with stale-while-revalidate=3600, so a
+    browser could serve an hour-old schedule with no request at all.
+    """
+    headers = _read(WEB / "_headers")
+    block, current = {}, None
+    for line in headers.splitlines():
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        if not line.startswith((" ", "\t")):
+            current = line.strip()
+        elif "cache-control" in line.lower() and current:
+            block[current] = line.split(":", 1)[1].strip().lower()
+
+    for path in ("/data/schedules/*", "/data/schedules/index.json"):
+        assert path in block, "%s has no Cache-Control rule" % path
+        value = block[path]
+        assert "stale-while-revalidate" not in value, (
+            "%s allows serving a stale schedule without asking: %r" % (path, value))
+        assert "no-cache" in value or "max-age=0" in value, (
+            "%s must revalidate before use, found %r" % (path, value))

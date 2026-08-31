@@ -51,11 +51,16 @@
 /data/registry/*
   Cache-Control: public, max-age=3600
 
+# The schedules revalidate on every load. stale-while-revalidate here meant a
+# browser could serve an hour-old schedule while quietly refreshing it for the
+# next visit - and paired with the service worker's stale-while-revalidate,
+# readers sat days behind. With an ETag this costs a 304 and no body, which is
+# the right price for never showing someone the wrong day's load shedding.
 /data/schedules/index.json
-  Cache-Control: public, max-age=300, stale-while-revalidate=1800
+  Cache-Control: no-cache
 
 /data/schedules/*
-  Cache-Control: public, max-age=900, stale-while-revalidate=3600
+  Cache-Control: no-cache
 
 /sw.js
   Cache-Control: no-cache

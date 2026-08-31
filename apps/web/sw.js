@@ -81,7 +81,10 @@ self.addEventListener('activate', (event) => {
 });
 
 const isData = (url) => url.pathname.includes('/data/');
-const isIndex = (url) => url.pathname.endsWith('/schedules/index.json');
+//: Everything under /data/schedules/ - the schedules themselves AND the index.
+//: This is the product. A stale copy is not a degraded answer, it is a wrong
+//: one: it tells someone their power is on when it is off.
+const isSchedule = (url) => url.pathname.includes('/data/schedules/');
 
 self.addEventListener('fetch', (event) => {
   const { request } = event;
@@ -96,7 +99,21 @@ self.addEventListener('fetch', (event) => {
   // it is what pulls in the current sw.js and the current script tags, so
   // serving yesterday's copy strands the visitor on yesterday's build.
   if (request.mode === 'navigate') { event.respondWith(networkFirst(request)); return; }
-  if (isIndex(url)) { event.respondWith(networkFirst(request)); return; }
+  // Schedules go to the network first, falling back to cache only when there
+  // is no network at all.
+  //
+  // These used to be stale-while-revalidate, which returns the CACHED copy and
+  // refreshes it for next time. That made the site a day behind for anyone who
+  // had visited before, permanently: every visit served the previous visit's
+  // schedule. Worse, index.json was already network-first, so the page showed
+  // an honest "checked 20 minutes ago" next to a three-day-old sheet - the
+  // freshness stamp and the data it described came from different caches.
+  //
+  // It also hid every fix. Verifying with curl bypasses the service worker
+  // entirely, so the server looked correct while the browser was days behind.
+  if (isSchedule(url)) { event.respondWith(networkFirst(request)); return; }
+  // Geometry and registries change on a deploy, not on a schedule, so they can
+  // still be served instantly and refreshed behind the reader.
   if (isData(url)) { event.respondWith(staleWhileRevalidate(request)); return; }
   event.respondWith(cacheFirst(request));
 });
