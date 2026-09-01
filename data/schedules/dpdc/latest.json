@@ -8,8 +8,8 @@
   "source": {
     "source_id": "dpdc-load-shedding-index",
     "source_url": "https://dpdc.org.bd/site/nocs/load_shedding",
-    "retrieved_at": "2026-08-31T18:14:53Z",
-    "sha256": "2cd475a776e4697baf0fd33f434723f801135b262c0c28bcfb28a4213825c617",
+    "retrieved_at": "2026-09-01T09:51:59Z",
+    "sha256": "5326f2df1634352d9cfd86aadf563777378902e4fe3a6b50957dc066b6fa78e5",
     "part_hashes": [
       "adabor:ba9b142bc1929a55f4a869bd6a76ac0e95d4cc723eae262b3c790f4294fdff7b",
       "azimpur:68f381de7d8c5af371d1cadc0929c0fa528eac57285ba34131cb7bf7bf3c6caa",
@@ -30,7 +30,7 @@
       "maniknagar:dfc93853a0881b1a6a4139af46d905ef544b901b946abfa91209f1489bbd1eb1",
       "matuail:c8f9a7db1aea6e3e12d7e229995ee8ad55e3a66128eac79e42d527fa8ffa78ea",
       "mogbazar:d072c3952046045477f192b3d26cd65d771392dd3d08011ed34e08dbf2bee40b",
-      "motijheel:dd0e2da4c0f293d2e098ec8137f2ad6631a4799e077617bd704ec4251ec45c2b",
+      "motijheel:a7c1f4be5fae012f532d6a78896c0f03c8345e7496dbda8672d630a5c67e76a6",
       "mugdapara:8ace531dc09c593fe10ee79c6c07a698d75ef4591fa10c69902aef2151374d23",
       "narayangonj (east):24a4c78660f50fb5af6badbeb94315e562d387fa449d24f4397c3b34ddc15718",
       "narayangonj (west):dccdca5e727d8ba9f53b2301426816594f5af36293d8ddbb4bb61ab0ae5fa64b",
@@ -6354,140 +6354,132 @@
     {
       "division": "Motijheel",
       "division_canonical": "Motijheel",
-      "feeder": "A133E",
-      "feeder_id": "dpdc:motijheel:a133e",
-      "area_text": "জনতা ব্যাংক লোকাল অফিস",
+      "feeder": "e½feb 132/11",
+      "feeder_id": "dpdc:motijheel:e12feb-132-11",
+      "area_text": "",
       "windows": [
         {
-          "start": "09:00",
-          "end": "10:00"
+          "start": "14:00",
+          "end": "15:00"
         },
         {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": 1.2,
-      "feeder_name_bn": "জনতা ব্যাংক",
-      "substation_bn": "ব½ভবন ১৩২/১১",
-      "billing_code": "A133E"
-    },
-    {
-      "division": "Motijheel",
-      "division_canonical": "Motijheel",
-      "feeder": "A133Q",
-      "feeder_id": "dpdc:motijheel:a133q",
-      "area_text": "বিসিআইসি ভবন",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": 1.66,
-      "feeder_name_bn": "বিসিআইসি",
-      "substation_bn": null,
-      "billing_code": "A133Q"
-    },
-    {
-      "division": "Motijheel",
-      "division_canonical": "Motijheel",
-      "feeder": "A133I",
-      "feeder_id": "dpdc:motijheel:a133i",
-      "area_text": "অভয়দাস লেন",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": 1.3,
-      "feeder_name_bn": "পিডিবি ডিজাইন",
-      "substation_bn": null,
-      "billing_code": "A133I"
-    },
-    {
-      "division": "Motijheel",
-      "division_canonical": "Motijheel",
-      "feeder": "A133W",
-      "feeder_id": "dpdc:motijheel:a133w",
-      "area_text": "দৈনিক বাংলার মোড়",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": 3.01,
-      "feeder_name_bn": "নাভানা",
-      "substation_bn": null,
-      "billing_code": "A133W"
-    },
-    {
-      "division": "Motijheel",
-      "division_canonical": "Motijheel",
-      "feeder": "A133B",
-      "feeder_id": "dpdc:motijheel:a133b",
-      "area_text": "সুগার ভবন",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": 0.95,
-      "feeder_name_bn": "সুগার এÛ ফূড",
-      "substation_bn": null,
-      "billing_code": "A133B"
-    },
-    {
-      "division": "Motijheel",
-      "division_canonical": "Motijheel",
-      "feeder": "A133N",
-      "feeder_id": "dpdc:motijheel:a133n",
-      "area_text": "সেনাকল্যান",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
+          "start": "23:00",
+          "end": "24:00"
         }
       ],
       "weekday": null,
       "load_mw": null,
-      "feeder_name_bn": "সেনাকল্যান আর এম",
-      "substation_bn": null,
-      "billing_code": "A133N"
+      "feeder_name_bn": "জনতা ব্যাংক লোকাল অি",
+      "substation_bn": "জনতা ব্যাংক",
+      "billing_code": "e½feb 132/11"
     },
     {
       "division": "Motijheel",
       "division_canonical": "Motijheel",
-      "feeder": "ডিআইটি আর এম ইউ",
+      "feeder": "বিসিআইসি ভবন",
       "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 2.41,
+      "feeder_name_bn": "বিসিআইসি ভবন",
+      "substation_bn": "বিসিআইসি",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "দৈনিক বাংলার মোড়",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 2.35,
+      "feeder_name_bn": "দৈনিক বাংলার মোড়",
+      "substation_bn": "নাভানা",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "সেনাকল্যান",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 2.44,
+      "feeder_name_bn": "সেনাকল্যান",
+      "substation_bn": "সেনাকল্যান আরএমইউ",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "দিলকূশা",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 2.45,
+      "feeder_name_bn": "দিলকূশা",
+      "substation_bn": "ডিআইটি আরএমইউ",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "গোপিবাগ",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "14:00",
+          "end": "15:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 0.7,
+      "feeder_name_bn": "গোপিবাগ",
+      "substation_bn": "মধুমিতা ভায়া অভিসার",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "wcGÛwU mve- ‡÷kb",
+      "feeder_id": "dpdc:motijheel:wcguwu-mve-kb",
       "area_text": "",
       "windows": [
         {
@@ -6495,136 +6487,56 @@
           "end": "11:00"
         },
         {
-          "start": "21:00",
-          "end": "22:00"
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
         }
       ],
       "weekday": null,
-      "load_mw": 2.45,
-      "feeder_name_bn": "ডিআইটি আর এম ইউ",
-      "substation_bn": null,
+      "load_mw": 2.6,
+      "feeder_name_bn": "আরামবাগ",
+      "substation_bn": "ফকিরাপুল বাজার",
+      "billing_code": "wcGÛwU mve- ‡÷kb"
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "মতিঝিল কলোনী",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 1.1,
+      "feeder_name_bn": "মতিঝিল কলোনী",
+      "substation_bn": "ইনারসাকূর্লার",
       "billing_code": null
     },
     {
       "division": "Motijheel",
       "division_canonical": "Motijheel",
-      "feeder": "A133J",
-      "feeder_id": "dpdc:motijheel:a133j",
-      "area_text": "গোপিবাগ",
+      "feeder": "wWAvBwU myBচিs †÷kb",
+      "feeder_id": "dpdc:motijheel:wwavbwu-mybs-kb",
+      "area_text": "",
       "windows": [
         {
           "start": "10:00",
           "end": "11:00"
         },
         {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": 0.89,
-      "feeder_name_bn": "মধুমিতা ভায়া অভিসার",
-      "substation_bn": null,
-      "billing_code": "A133J"
-    },
-    {
-      "division": "Motijheel",
-      "division_canonical": "Motijheel",
-      "feeder": "A161FB",
-      "feeder_id": "dpdc:motijheel:a161fb",
-      "area_text": "আরামবাগ",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": 2.6,
-      "feeder_name_bn": "ফকিরাপুল বাজার",
-      "substation_bn": "পিএÛটি সাব-্রেশন",
-      "billing_code": "A161FB"
-    },
-    {
-      "division": "Motijheel",
-      "division_canonical": "Motijheel",
-      "feeder": "A161Z",
-      "feeder_id": "dpdc:motijheel:a161z",
-      "area_text": "মতিঝিল কলোনী",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": 1.12,
-      "feeder_name_bn": "ইনারসাকূর্লার",
-      "substation_bn": null,
-      "billing_code": "A161Z"
-    },
-    {
-      "division": "Motijheel",
-      "division_canonical": "Motijheel",
-      "feeder": "A161PO",
-      "feeder_id": "dpdc:motijheel:a161po",
-      "area_text": "পো্রাল কলোনী",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": 0.53,
-      "feeder_name_bn": "পো্রাল কলোনী",
-      "substation_bn": null,
-      "billing_code": "A161PO"
-    },
-    {
-      "division": "Motijheel",
-      "division_canonical": "Motijheel",
-      "feeder": "A161PW",
-      "feeder_id": "dpdc:motijheel:a161pw",
-      "area_text": "পিডবিøডি",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "feeder_name_bn": "পিডবিøউডি আরএম ই",
-      "substation_bn": null,
-      "billing_code": "A161PW"
-    },
-    {
-      "division": "Motijheel",
-      "division_canonical": "Motijheel",
-      "feeder": "A176A",
-      "feeder_id": "dpdc:motijheel:a176a",
-      "area_text": "দিলকূশা",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
+          "start": "20:00",
+          "end": "21:00"
         },
         {
           "start": "22:00",
@@ -6634,55 +6546,383 @@
       "weekday": null,
       "load_mw": 1.5,
       "feeder_name_bn": "দিলকূশা",
-      "substation_bn": "ডিআইটি সুইসিং ্রেশন",
-      "billing_code": "A176A"
+      "substation_bn": "দিলকূশা",
+      "billing_code": "wWAvBwU myBচিs †÷kb"
     },
     {
       "division": "Motijheel",
       "division_canonical": "Motijheel",
-      "feeder": "A176O",
-      "feeder_id": "dpdc:motijheel:a176o",
-      "area_text": "কৃষি ভবন",
+      "feeder": "আদমজী কোর্ট",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
       "windows": [
         {
-          "start": "12:00",
-          "end": "13:00"
+          "start": "15:00",
+          "end": "16:00"
         },
         {
-          "start": "23:00",
-          "end": "24:00"
+          "start": "22:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
-      "load_mw": 1.48,
-      "feeder_name_bn": "কৃষি ভবন",
-      "substation_bn": null,
-      "billing_code": "A176O"
+      "load_mw": 1.76,
+      "feeder_name_bn": "আদমজী কোর্ট",
+      "substation_bn": "আদমজি কোর্ট আরএম ইউ",
+      "billing_code": null
     },
     {
       "division": "Motijheel",
       "division_canonical": "Motijheel",
-      "feeder": "A176G",
-      "feeder_id": "dpdc:motijheel:a176g",
-      "area_text": "রাজউক ভবন",
+      "feeder": "gwZwSj 33/1 †Kwf",
+      "feeder_id": "dpdc:motijheel:gwzwsj-33-1-kwf",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 0.96,
+      "feeder_name_bn": "মতিঝিল",
+      "substation_bn": "মতিঝিল নিকর্ট বতীর্",
+      "billing_code": "gwZwSj 33/1 †Kwf"
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "আইডিয়াল জোন",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 1.15,
+      "feeder_name_bn": "আইডিয়াল জোন",
+      "substation_bn": "আরামবাগ",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "ফকিরাপুল পðশি সাইট",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 2.66,
+      "feeder_name_bn": "ফকিরাপুল পðশি সাইট",
+      "substation_bn": "ব·কালভার্ট",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "ফকিরাপুল প~র্ব",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 1.6,
+      "feeder_name_bn": "ফকিরাপুল প~র্ব",
+      "substation_bn": "ফকিরাপুল পানির টাংকি",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "মোহামেডান ক্লাব পাড়া",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
       "windows": [
         {
           "start": "11:00",
           "end": "12:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
         }
       ],
       "weekday": null,
-      "load_mw": 0.76,
-      "feeder_name_bn": "ডিআইটি ও/হে",
-      "substation_bn": null,
-      "billing_code": "A176G"
+      "load_mw": 3.03,
+      "feeder_name_bn": "মোহামেডান ক্লাব পাড়া",
+      "substation_bn": "মোহামেডান ক্লাব",
+      "billing_code": null
     },
     {
       "division": "Motijheel",
       "division_canonical": "Motijheel",
-      "feeder": "A176P",
-      "feeder_id": "dpdc:motijheel:a176p",
-      "area_text": "আদমজী কোর্ট",
+      "feeder": "মতিঝিল",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "16:00",
+          "end": "17:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 0.38,
+      "feeder_name_bn": "মতিঝিল",
+      "substation_bn": "্রেশন রোড",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "ডার্চ বাংলা",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "20:00",
+          "end": "21:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 1.15,
+      "feeder_name_bn": "ডার্চ বাংলা",
+      "substation_bn": "ডার্চ বাংলা ব্যাংক আরএম ইউ",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "gwZwSj 132/33/11 †Kwf",
+      "feeder_id": "dpdc:motijheel:gwzwsj-132-33-11-kwf",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 1.48,
+      "feeder_name_bn": "অভয়দাস লেন",
+      "substation_bn": "আনছার ক্যা¤ú ১১ কেভি",
+      "billing_code": "gwZwSj 132/33/11 †Kwf"
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "আর কক wgkb র োড",
+      "feeder_id": "dpdc:motijheel:wgkb",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "16:00",
+          "end": "17:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 0.95,
+      "feeder_name_bn": "আর কক wgkb র োড",
+      "substation_bn": "সে›ট্রাল ইউএý ১১ কেেভি",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "গোপিবাগ",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 1.1,
+      "feeder_name_bn": "গোপিবাগ",
+      "substation_bn": "গোপিবাগ ১১ কেভি ও/হে",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "দিলকূশা",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 3.5,
+      "feeder_name_bn": "দিলকূশা",
+      "substation_bn": "শাপলা চত্বর ১১ কেভি ও/হে",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "দÿণি কমলাপুর",
+      "feeder_id": "dpdc:motijheel:y",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "16:00",
+          "end": "17:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 0.7,
+      "feeder_name_bn": "দÿণি কমলাপুর",
+      "substation_bn": "দÿণি কমলাপুর ১১ কেভি",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "‡cv÷vj K‡jvbx mve‡÷kb",
+      "feeder_id": "dpdc:motijheel:cvvj-kjvbx-mvekb",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 0.96,
+      "feeder_name_bn": "দিলকূশা",
+      "substation_bn": "প~র্বানী",
+      "billing_code": "‡cv÷vj K‡jvbx mve‡÷kb"
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "wWAvBwU করোড",
+      "feeder_id": "dpdc:motijheel:wwavbwu",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 1.41,
+      "feeder_name_bn": "wWAvBwU করোড",
+      "substation_bn": "প~বালী ব্যাংক",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "Rwmg DwÏb করোড",
+      "feeder_id": "dpdc:motijheel:rwmg-dwib",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "21:00",
+          "end": "22:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 0.6,
+      "feeder_name_bn": "Rwmg DwÏb করোড",
+      "substation_bn": "আরামহাউজ",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "ফকিরাপুল প~র্ব",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
       "windows": [
         {
           "start": "12:00",
@@ -6694,21 +6934,51 @@
         }
       ],
       "weekday": null,
-      "load_mw": null,
-      "feeder_name_bn": "আদমজি কোর্ট আরএম",
-      "substation_bn": null,
-      "billing_code": "A176P"
+      "load_mw": 1.95,
+      "feeder_name_bn": "ফকিরাপুল প~র্ব",
+      "substation_bn": "পারাবাত",
+      "billing_code": null
     },
     {
       "division": "Motijheel",
       "division_canonical": "Motijheel",
-      "feeder": "A175K",
-      "feeder_id": "dpdc:motijheel:a175k",
-      "area_text": "মতিঝিল",
+      "feeder": "ফকিরাপুল",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
       "windows": [
         {
           "start": "12:00",
           "end": "13:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 2.05,
+      "feeder_name_bn": "ফকিরাপুল",
+      "substation_bn": "গরম পানি",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "আরামবাগ",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "19:00",
+          "end": "20:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
         },
         {
           "start": "23:00",
@@ -6716,21 +6986,25 @@
         }
       ],
       "weekday": null,
-      "load_mw": 1.01,
-      "feeder_name_bn": "মতিঝিল নিকর্ট বতীর্",
-      "substation_bn": null,
-      "billing_code": "A175K"
+      "load_mw": 0.51,
+      "feeder_name_bn": "আরামবাগ",
+      "substation_bn": "ডালাস",
+      "billing_code": null
     },
     {
       "division": "Motijheel",
       "division_canonical": "Motijheel",
-      "feeder": "A175Y",
-      "feeder_id": "dpdc:motijheel:a175y",
-      "area_text": "ফকিরাপুল প~র্ব",
+      "feeder": "kvnRvnvbcyi 33/11 †Kwf",
+      "feeder_id": "dpdc:motijheel:kvnrvnvbcyi-33-11-kwf",
+      "area_text": "",
       "windows": [
         {
           "start": "12:00",
           "end": "13:00"
+        },
+        {
+          "start": "19:00",
+          "end": "20:00"
         },
         {
           "start": "23:00",
@@ -6738,39 +7012,39 @@
         }
       ],
       "weekday": null,
-      "load_mw": null,
-      "feeder_name_bn": "ফকিরাপুল পানির টাংি",
-      "substation_bn": null,
-      "billing_code": "A175Y"
+      "load_mw": 1.1,
+      "feeder_name_bn": "মতিঝিল কলোনী",
+      "substation_bn": "পুলিশব· ও/হে",
+      "billing_code": "kvnRvnvbcyi 33/11 †Kwf"
     },
     {
       "division": "Motijheel",
       "division_canonical": "Motijheel",
-      "feeder": "A175V",
-      "feeder_id": "dpdc:motijheel:a175v",
-      "area_text": "মোহামেডান ক্লাব পাড়া",
-      "windows": [
-        {
-          "start": "14:00",
-          "end": "15:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": 3.28,
-      "feeder_name_bn": "মোহামেডান ক্লাব",
-      "substation_bn": null,
-      "billing_code": "A175V"
-    },
-    {
-      "division": "Motijheel",
-      "division_canonical": "Motijheel",
-      "feeder": "A175O",
-      "feeder_id": "dpdc:motijheel:a175o",
-      "area_text": "অগÖনী ব্যাংক",
+      "feeder": "gvRvi করোড",
+      "feeder_id": "dpdc:motijheel:gvrvi",
+      "area_text": "",
       "windows": [
         {
           "start": "12:00",
           "end": "13:00"
+        }
+      ],
+      "weekday": null,
+      "load_mw": 0.46,
+      "feeder_name_bn": "gvRvi করোড",
+      "substation_bn": "মাজার ও/হে",
+      "billing_code": null
+    },
+    {
+      "division": "Motijheel",
+      "division_canonical": "Motijheel",
+      "feeder": "উওর কমলাপুর",
+      "feeder_id": "dpdc:motijheel:unknown",
+      "area_text": "",
+      "windows": [
+        {
+          "start": "19:00",
+          "end": "20:00"
         },
         {
           "start": "23:00",
@@ -6778,46 +7052,10 @@
         }
       ],
       "weekday": null,
-      "load_mw": null,
-      "feeder_name_bn": "অগÖনী ব্যাংক আরএম",
-      "substation_bn": null,
-      "billing_code": "A175O"
-    },
-    {
-      "division": "Motijheel",
-      "division_canonical": "Motijheel",
-      "feeder": "A175SB",
-      "feeder_id": "dpdc:motijheel:a175sb",
-      "area_text": "সোনালী ব্যাংক",
-      "windows": [
-        {
-          "start": "14:00",
-          "end": "15:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "feeder_name_bn": "সোনালী ব্যাংক এ·পে",
-      "substation_bn": null,
-      "billing_code": "A175SB"
-    },
-    {
-      "division": "Motijheel",
-      "division_canonical": "Motijheel",
-      "feeder": "A175S",
-      "feeder_id": "dpdc:motijheel:a175s",
-      "area_text": "এনসিসি ব্যাংক",
-      "windows": [
-        {
-          "start": "14:00",
-          "end": "15:00"
-        }
-      ],
-      "weekday": null,
-      "load_mw": null,
-      "feeder_name_bn": "এনসিসি ব্যাংক আরএ",
-      "substation_bn": null,
-      "billing_code": "A175S"
+      "load_mw": 1.73,
+      "feeder_name_bn": "উওর কমলাপুর",
+      "substation_bn": "জসিমউÏনি ও/হে",
+      "billing_code": null
     },
     {
       "division": "Narayangonj (east)",
@@ -10930,8 +11168,8 @@
     }
   ],
   "stats": {
-    "claim_count": 423,
-    "feeder_count": 420,
+    "claim_count": 432,
+    "feeder_count": 411,
     "division_count": 24
   },
   "parse_meta": {
@@ -10947,7 +11185,13 @@
     ]
   },
   "validation": {
-    "verdict": "pass",
-    "findings": []
+    "verdict": "quarantine",
+    "findings": [
+      {
+        "verdict": "quarantine",
+        "check": "duplicates",
+        "detail": "29 duplicate feeder/window row(s)"
+      }
+    ]
   }
 }
