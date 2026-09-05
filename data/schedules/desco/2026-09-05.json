@@ -7,13 +7,13 @@
   "badge": "DERIVED",
   "source": {
     "source_id": "desco-load-management-pdf",
-    "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/8/374b260e-eebf-4efb-85d1-59a911fc2548.pdf",
-    "retrieved_at": "2026-09-04T19:50:58Z",
-    "sha256": "9de04b4eac6eff91d4875e8b39edee95e519e8ef5f0e33a36831fee5231d1c3a",
+    "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/8/3949d865-6397-4ad8-b0ab-d8d86051cf7e.pdf",
+    "retrieved_at": "2026-09-05T08:34:51Z",
+    "sha256": "216058eb0e2be1d91a4fd79741f3949c490ee38628fd6bcbc7a09a5a3bc6f312",
     "parser_adapter": "desco_pdf_v1",
     "parser_version": "1.0.0",
     "tls_verified": true,
-    "archive_path": "/home/runner/work/currentkothai/currentkothai/data/seed/archive/desco/2026-09-05-9de04b4e.pdf",
+    "archive_path": "/home/runner/work/currentkothai/currentkothai/data/seed/archive/desco/2026-09-05-216058eb.pdf",
     "published_date": null
   },
   "claims": [
@@ -37,7 +37,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -60,7 +60,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -83,7 +83,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -106,7 +106,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -129,7 +129,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -152,7 +152,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -175,7 +175,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -198,7 +198,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -221,7 +221,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -244,7 +244,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -267,7 +267,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -290,7 +290,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -313,7 +313,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -336,7 +336,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -355,7 +355,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -378,7 +378,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -401,7 +401,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -424,7 +424,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -447,7 +447,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -470,7 +470,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -489,7 +489,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -512,7 +512,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -535,7 +535,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -558,7 +558,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -581,7 +581,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -604,7 +604,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -627,7 +627,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -650,7 +650,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -673,7 +673,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -696,7 +696,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -719,7 +719,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -742,7 +742,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -765,7 +765,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -788,7 +788,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -811,7 +811,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -834,7 +834,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -857,7 +857,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -880,7 +880,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -903,7 +903,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -926,7 +926,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -949,7 +949,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -972,7 +972,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -995,7 +995,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1018,7 +1018,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1041,7 +1041,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1064,7 +1064,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1087,7 +1087,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1110,7 +1110,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1133,7 +1133,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1156,7 +1156,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1179,7 +1179,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1202,7 +1202,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1225,7 +1225,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1248,7 +1248,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1271,7 +1271,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1294,7 +1294,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1317,7 +1317,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1340,7 +1340,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1363,7 +1363,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1386,7 +1386,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1409,7 +1409,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1432,7 +1432,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1455,7 +1455,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1478,7 +1478,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1501,7 +1501,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1524,7 +1524,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1547,7 +1547,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1570,7 +1570,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1593,7 +1593,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1616,7 +1616,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1639,7 +1639,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1662,7 +1662,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1685,7 +1685,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1708,7 +1708,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1731,7 +1731,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1754,7 +1754,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1777,7 +1777,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1800,7 +1800,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1823,7 +1823,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1846,7 +1846,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1869,7 +1869,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1892,7 +1892,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1915,7 +1915,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1938,7 +1938,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1961,7 +1961,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1984,7 +1984,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2007,7 +2007,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2030,7 +2030,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2053,7 +2053,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2076,7 +2076,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2099,7 +2099,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2122,7 +2122,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2145,7 +2145,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2168,7 +2168,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2191,7 +2191,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2214,7 +2214,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2237,7 +2237,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2260,7 +2260,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2283,7 +2283,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2306,7 +2306,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2329,7 +2329,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2352,7 +2352,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2375,7 +2375,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2398,7 +2398,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2421,7 +2421,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2444,7 +2444,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2467,7 +2467,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2490,7 +2490,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2513,7 +2513,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2536,7 +2536,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2559,7 +2559,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2578,7 +2578,7 @@
           "end": "18:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2601,7 +2601,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2624,7 +2624,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2643,7 +2643,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2662,7 +2662,7 @@
           "end": "16:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2685,7 +2685,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2704,7 +2704,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2727,7 +2727,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2750,7 +2750,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2773,7 +2773,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2796,7 +2796,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2819,7 +2819,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2842,7 +2842,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2865,7 +2865,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2888,7 +2888,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2911,7 +2911,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2934,7 +2934,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2957,7 +2957,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2980,7 +2980,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3003,7 +3003,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3026,7 +3026,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3045,7 +3045,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3068,7 +3068,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3087,7 +3087,7 @@
           "end": "17:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3110,7 +3110,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3133,7 +3133,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3152,7 +3152,7 @@
           "end": "16:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3175,7 +3175,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3198,7 +3198,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3221,7 +3221,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3240,7 +3240,7 @@
           "end": "18:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3263,7 +3263,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3286,7 +3286,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3309,7 +3309,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3332,7 +3332,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3355,7 +3355,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3378,7 +3378,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3397,7 +3397,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3416,7 +3416,7 @@
           "end": "17:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3439,7 +3439,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3458,7 +3458,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3481,7 +3481,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3500,7 +3500,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3523,7 +3523,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3546,7 +3546,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3569,7 +3569,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3588,7 +3588,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3611,7 +3611,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3634,7 +3634,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3653,7 +3653,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3676,7 +3676,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3699,7 +3699,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3718,7 +3718,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3726,7 +3726,7 @@
       "division_canonical": "Gulshan",
       "feeder": "Banani Park",
       "feeder_id": "desco:gulshan:banani-park",
-      "area_text": "Banani: Road-08,Block-C,Block-D Road-11,Block- C,Block-D (South Side)Road-13,Block-C,Block-D",
+      "area_text": "Banani: Road-08,Block-C,Block-D Road-11,Block-C,Block- D (South Side)Road-13,Block-C,Block-D",
       "windows": [
         {
           "start": "10:00",
@@ -3741,7 +3741,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3764,7 +3764,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3787,7 +3787,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3810,7 +3810,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3833,7 +3833,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3856,7 +3856,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3875,7 +3875,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3898,7 +3898,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3917,7 +3917,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3940,7 +3940,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3963,7 +3963,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3986,7 +3986,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4009,7 +4009,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4032,7 +4032,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4051,7 +4051,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4074,7 +4074,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4097,7 +4097,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4120,7 +4120,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4143,7 +4143,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4166,7 +4166,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4185,7 +4185,7 @@
           "end": "18:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4204,7 +4204,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4227,7 +4227,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4250,7 +4250,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4273,7 +4273,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4296,7 +4296,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4319,7 +4319,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4342,7 +4342,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4365,7 +4365,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4388,7 +4388,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4411,7 +4411,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4434,7 +4434,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4457,7 +4457,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4480,7 +4480,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4503,7 +4503,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4526,7 +4526,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4549,7 +4549,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4572,7 +4572,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4595,7 +4595,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4618,7 +4618,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4641,7 +4641,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4664,7 +4664,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4687,7 +4687,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4710,7 +4710,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4733,7 +4733,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4752,7 +4752,7 @@
           "end": "17:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4775,7 +4775,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4798,7 +4798,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4821,7 +4821,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4844,7 +4844,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4867,7 +4867,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4886,7 +4886,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4909,7 +4909,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4932,7 +4932,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4955,7 +4955,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4974,7 +4974,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4997,7 +4997,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5016,7 +5016,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5039,7 +5039,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5058,7 +5058,7 @@
           "end": "18:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5077,7 +5077,7 @@
           "end": "18:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5100,7 +5100,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5119,7 +5119,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5142,7 +5142,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5165,7 +5165,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5188,7 +5188,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5211,7 +5211,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5234,7 +5234,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5257,7 +5257,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5276,7 +5276,7 @@
           "end": "16:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5299,7 +5299,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5322,7 +5322,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5341,7 +5341,7 @@
           "end": "18:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5364,7 +5364,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5387,7 +5387,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5410,7 +5410,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5429,7 +5429,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5452,7 +5452,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5475,7 +5475,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5494,7 +5494,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5517,7 +5517,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5540,7 +5540,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5563,7 +5563,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5586,7 +5586,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5609,7 +5609,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5632,7 +5632,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5655,7 +5655,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5678,7 +5678,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5701,7 +5701,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5724,7 +5724,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5747,7 +5747,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5770,7 +5770,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5793,7 +5793,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5816,7 +5816,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5839,7 +5839,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5862,7 +5862,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5885,7 +5885,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5908,7 +5908,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5931,7 +5931,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5954,7 +5954,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5977,7 +5977,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6000,7 +6000,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6023,7 +6023,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6046,7 +6046,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6069,7 +6069,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6092,7 +6092,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6115,7 +6115,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6138,7 +6138,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6161,7 +6161,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6184,7 +6184,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6207,7 +6207,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6230,7 +6230,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6253,7 +6253,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6276,7 +6276,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6299,7 +6299,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6322,7 +6322,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6345,7 +6345,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6368,7 +6368,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6391,7 +6391,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6414,7 +6414,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6437,7 +6437,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6460,7 +6460,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6483,7 +6483,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6506,7 +6506,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6529,7 +6529,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6548,7 +6548,7 @@
           "end": "18:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6571,7 +6571,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6594,7 +6594,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6617,7 +6617,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6640,7 +6640,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6663,7 +6663,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6686,7 +6686,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6709,7 +6709,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6732,7 +6732,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6755,7 +6755,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6778,7 +6778,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6801,7 +6801,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6824,7 +6824,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6847,7 +6847,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6870,7 +6870,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6893,7 +6893,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6916,7 +6916,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6939,7 +6939,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6962,7 +6962,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6985,7 +6985,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7008,7 +7008,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7031,7 +7031,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7054,7 +7054,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7077,7 +7077,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7100,7 +7100,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7123,7 +7123,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7146,7 +7146,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7169,7 +7169,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7192,7 +7192,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7215,7 +7215,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7238,7 +7238,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7261,7 +7261,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7284,7 +7284,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7307,7 +7307,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7330,7 +7330,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7353,7 +7353,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7376,7 +7376,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7399,7 +7399,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7422,7 +7422,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7445,7 +7445,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7468,7 +7468,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7491,7 +7491,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7514,7 +7514,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7537,7 +7537,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7560,7 +7560,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7583,7 +7583,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7606,7 +7606,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7629,7 +7629,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7652,7 +7652,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7675,7 +7675,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7698,7 +7698,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7721,7 +7721,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7744,7 +7744,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7767,7 +7767,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7790,7 +7790,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7813,7 +7813,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7836,7 +7836,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7859,7 +7859,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7882,7 +7882,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7905,7 +7905,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7928,7 +7928,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7951,7 +7951,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7974,7 +7974,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7997,7 +7997,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8005,7 +8005,7 @@
       "division_canonical": "Tongi East",
       "feeder": "Alertek",
       "feeder_id": "desco:tongi-east:alertek",
-      "area_text": "Azad Biscuit, Alertek, Koborsthan(standby) (40,50,60 No X-former)",
+      "area_text": "Azad Biscuit, Alertek, Koborsthan(standby) (40,50,60 No X- former)",
       "windows": [
         {
           "start": "11:00",
@@ -8020,7 +8020,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8043,7 +8043,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8066,7 +8066,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8089,7 +8089,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8112,7 +8112,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8135,7 +8135,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8158,7 +8158,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8181,7 +8181,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8204,7 +8204,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8227,7 +8227,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8250,7 +8250,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8273,7 +8273,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8296,7 +8296,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8319,7 +8319,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8342,7 +8342,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8365,7 +8365,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8388,7 +8388,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8411,7 +8411,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8434,7 +8434,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8457,7 +8457,7 @@
           "end": "17:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8480,7 +8480,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8503,7 +8503,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8526,7 +8526,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8549,7 +8549,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8572,7 +8572,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8595,7 +8595,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8618,7 +8618,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8641,7 +8641,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8664,7 +8664,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8687,7 +8687,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8710,7 +8710,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8733,7 +8733,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8756,7 +8756,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8779,7 +8779,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8802,7 +8802,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8825,7 +8825,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8848,7 +8848,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8871,7 +8871,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8894,7 +8894,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8917,7 +8917,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8936,7 +8936,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8955,7 +8955,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8978,7 +8978,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -8997,7 +8997,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9016,7 +9016,7 @@
           "end": "16:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9039,7 +9039,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9062,7 +9062,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9085,7 +9085,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9108,7 +9108,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9131,7 +9131,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9150,7 +9150,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9169,7 +9169,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9188,7 +9188,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9211,7 +9211,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9234,7 +9234,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9257,7 +9257,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9280,7 +9280,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9303,7 +9303,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9326,7 +9326,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9349,7 +9349,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9372,7 +9372,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9395,7 +9395,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9418,7 +9418,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9441,7 +9441,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9464,7 +9464,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9487,7 +9487,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9510,7 +9510,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9533,7 +9533,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9556,7 +9556,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9579,7 +9579,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9602,7 +9602,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9625,7 +9625,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9648,7 +9648,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9671,7 +9671,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9694,7 +9694,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9717,7 +9717,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9740,7 +9740,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9763,7 +9763,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9786,7 +9786,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9809,7 +9809,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9832,7 +9832,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9855,7 +9855,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9878,7 +9878,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9901,7 +9901,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9924,7 +9924,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9947,7 +9947,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9970,7 +9970,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9993,7 +9993,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10016,7 +10016,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10039,7 +10039,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10062,7 +10062,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10081,7 +10081,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10104,7 +10104,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10127,7 +10127,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10150,7 +10150,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10173,7 +10173,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10196,7 +10196,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10219,7 +10219,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10242,7 +10242,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10265,7 +10265,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10288,7 +10288,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10311,7 +10311,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10334,7 +10334,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10357,7 +10357,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10380,7 +10380,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10399,7 +10399,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10422,7 +10422,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10445,7 +10445,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10464,7 +10464,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10487,7 +10487,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10510,7 +10510,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10533,7 +10533,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10556,7 +10556,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10579,7 +10579,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10602,7 +10602,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10625,7 +10625,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10648,7 +10648,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     }
   ],
@@ -10665,13 +10665,12 @@
       4
     ],
     "extraction_method": "pdfplumber",
-    "pages": 25,
+    "pages": 26,
     "rows_seen": 578,
     "rows_without_marks": 2,
-    "weekday_name": "Thursday",
+    "weekday_name": "Saturday",
     "unmapped_divisions": [],
     "warnings": [
-      "weekday mismatch: PDF says 4, listing page says 6; kept the PDF value",
       "106 row(s) skipped: missing division or feeder name"
     ]
   },
