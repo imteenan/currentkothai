@@ -1,6 +1,6 @@
 {
   "schema": "schedule-index/1",
-  "generated_at": "2026-09-06T09:01:55Z",
+  "generated_at": "2026-09-06T14:39:32Z",
   "stale_after_hours": 36,
   "utilities": [
     {
@@ -12,7 +12,7 @@
       "retrieved_at": "2026-09-06T08:53:52Z",
       "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/8/ee1a7a04-a197-4cad-bec7-b7119f023242.pdf",
       "stale_after_hours": 36,
-      "message": null,
+      "message": "listing page unreachable after 3 tries: ConnectTimeout: HTTPSConnectionPool(host='desco.gov.bd', port=443): Max retries exceeded with url: /pages/static-pages/69db2a3c6a42b12e9344d1f1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='desco.gov.bd', port=443) at 0x7f76740c26c0>, 'Connection to desco.gov.bd timed out. (connect timeout=60)')) (reached the PDF directly at its last known URL)",
       "content_changed_at": "2026-09-06T08:53:52Z",
       "division_count": 32,
       "feeder_count": 576,
