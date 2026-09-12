@@ -7,13 +7,13 @@
   "badge": "DERIVED",
   "source": {
     "source_id": "desco-load-management-pdf",
-    "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/8/fa983499-28d2-44f4-88a1-ba1a0e37fdb2.pdf",
-    "retrieved_at": "2026-09-11T20:01:20Z",
-    "sha256": "f95b997efe31312783e1a882eceb41c49700e2afed7faaa370996f419b81a701",
+    "source_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-desco/2026/8/4e735191-759d-4327-b106-20767fb355c7.pdf",
+    "retrieved_at": "2026-09-12T14:22:14Z",
+    "sha256": "216058eb0e2be1d91a4fd79741f3949c490ee38628fd6bcbc7a09a5a3bc6f312",
     "parser_adapter": "desco_pdf_v1",
     "parser_version": "1.0.0",
     "tls_verified": true,
-    "archive_path": "/home/runner/work/currentkothai/currentkothai/data/seed/archive/desco/2026-09-12-f95b997e.pdf",
+    "archive_path": "/home/runner/work/currentkothai/currentkothai/data/seed/archive/desco/2026-09-12-216058eb.pdf",
     "published_date": null
   },
   "claims": [
@@ -37,7 +37,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -60,7 +60,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -83,7 +83,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -106,7 +106,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -129,7 +129,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -152,7 +152,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -175,7 +175,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -198,7 +198,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -221,7 +221,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -244,7 +244,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -267,7 +267,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -290,7 +290,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -313,7 +313,229 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
+      "load_mw": null
+    },
+    {
+      "division": "Badda",
+      "division_canonical": "Badda",
+      "feeder": "Avenue-13",
+      "feeder_id": "desco:badda:avenue-13",
+      "area_text": "Block-E,F,H, Sector-1 AftabNagar",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": 6,
+      "load_mw": null
+    },
+    {
+      "division": "Badda",
+      "division_canonical": "Badda",
+      "feeder": "Block-M",
+      "feeder_id": "desco:badda:block-m",
+      "area_text": "Block-M",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": 6,
+      "load_mw": null
+    },
+    {
+      "division": "Badda",
+      "division_canonical": "Badda",
+      "feeder": "Purbo Badda",
+      "feeder_id": "desco:badda:purbo-badda",
+      "area_text": "Purbo Badda area",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": 6,
+      "load_mw": null
+    },
+    {
+      "division": "Badda",
+      "division_canonical": "Badda",
+      "feeder": "Badda Thana",
+      "feeder_id": "desco:badda:badda-thana",
+      "area_text": "Badda Thana area",
+      "windows": [
+        {
+          "start": "17:00",
+          "end": "18:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        },
+        {
+          "start": "22:00",
+          "end": "23:00"
+        }
+      ],
+      "weekday": 6,
+      "load_mw": null
+    },
+    {
+      "division": "Badda",
+      "division_canonical": "Badda",
+      "feeder": "Ananda Nagar",
+      "feeder_id": "desco:badda:ananda-nagar",
+      "area_text": "Ananda Nagar area",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": 6,
+      "load_mw": null
+    },
+    {
+      "division": "Badda",
+      "division_canonical": "Badda",
+      "feeder": "Bazar Road",
+      "feeder_id": "desco:badda:bazar-road",
+      "area_text": "Bazar Roadd Badda",
+      "windows": [
+        {
+          "start": "13:00",
+          "end": "14:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": 6,
+      "load_mw": null
+    },
+    {
+      "division": "Badda",
+      "division_canonical": "Badda",
+      "feeder": "East West University",
+      "feeder_id": "desco:badda:east-west-university",
+      "area_text": "East West University",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "15:00",
+          "end": "16:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": 6,
+      "load_mw": null
+    },
+    {
+      "division": "Badda",
+      "division_canonical": "Badda",
+      "feeder": "NLDC",
+      "feeder_id": "desco:badda:nldc",
+      "area_text": "South Anandanagar, Anandanagar,Marul nimtola",
+      "windows": [
+        {
+          "start": "10:00",
+          "end": "11:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": 6,
+      "load_mw": null
+    },
+    {
+      "division": "Badda",
+      "division_canonical": "Badda",
+      "feeder": "Krishi bank",
+      "feeder_id": "desco:badda:krishi-bank",
+      "area_text": "Post office goli,Progoti Sarai, Krishi Bank Road",
+      "windows": [
+        {
+          "start": "12:00",
+          "end": "13:00"
+        },
+        {
+          "start": "20:00",
+          "end": "21:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": 6,
+      "load_mw": null
+    },
+    {
+      "division": "Badda",
+      "division_canonical": "Badda",
+      "feeder": "Khilbarirtek",
+      "feeder_id": "desco:badda:khilbarirtek",
+      "area_text": "Madhabadda bazar rd, techpara, sekandar bug, purba badda",
+      "windows": [
+        {
+          "start": "09:00",
+          "end": "10:00"
+        },
+        {
+          "start": "14:00",
+          "end": "15:00"
+        },
+        {
+          "start": "23:00",
+          "end": "24:00"
+        }
+      ],
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -336,7 +558,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -359,7 +581,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -382,7 +604,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -405,275 +627,30 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
-      "division": "Badda",
-      "division_canonical": "Badda",
-      "feeder": "Shutivola RMU",
-      "feeder_id": "desco:badda:shutivola-rmu",
-      "area_text": "Satarkul Area,Padardia, Magardia,Noara,BaraBeraid,Fakirkhali,Reeshi para,Aruna",
+      "division": "Baridhara",
+      "division_canonical": "Baridhara",
+      "feeder": "Middle Badda",
+      "feeder_id": "desco:baridhara:middle-badda",
+      "area_text": "Middle Badda(GulshanLinkRoad-North Side),Gudaraghat, Ibne Sina Goli, Quaty Mosjid,Pran RFL centre.",
       "windows": [
         {
-          "start": "11:00",
-          "end": "12:00"
+          "start": "13:00",
+          "end": "14:00"
         },
         {
-          "start": "16:00",
-          "end": "17:00"
+          "start": "17:00",
+          "end": "18:00"
         },
         {
           "start": "21:00",
           "end": "22:00"
         }
       ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Badda",
-      "division_canonical": "Badda",
-      "feeder": "Avenue-13",
-      "feeder_id": "desco:badda:avenue-13",
-      "area_text": "Block-E,F,H, Sector-1 AftabNagar",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Badda",
-      "division_canonical": "Badda",
-      "feeder": "Block-M",
-      "feeder_id": "desco:badda:block-m",
-      "area_text": "Block-M",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Badda",
-      "division_canonical": "Badda",
-      "feeder": "Purbo Badda",
-      "feeder_id": "desco:badda:purbo-badda",
-      "area_text": "Purbo Badda area",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Badda",
-      "division_canonical": "Badda",
-      "feeder": "Badda Thana",
-      "feeder_id": "desco:badda:badda-thana",
-      "area_text": "Badda Thana area",
-      "windows": [
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Badda",
-      "division_canonical": "Badda",
-      "feeder": "Ananda Nagar",
-      "feeder_id": "desco:badda:ananda-nagar",
-      "area_text": "Ananda Nagar area",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Badda",
-      "division_canonical": "Badda",
-      "feeder": "Bazar Road",
-      "feeder_id": "desco:badda:bazar-road",
-      "area_text": "Bazar Roadd Badda",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Badda",
-      "division_canonical": "Badda",
-      "feeder": "Daw Kandi",
-      "feeder_id": "desco:badda:daw-kandi",
-      "area_text": "Block-E,F,H, Sector-2 AftabNagar",
-      "windows": [
-        {
-          "start": "20:00",
-          "end": "21:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Badda",
-      "division_canonical": "Badda",
-      "feeder": "East West University",
-      "feeder_id": "desco:badda:east-west-university",
-      "area_text": "East West University",
-      "windows": [
-        {
-          "start": "20:00",
-          "end": "21:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Badda",
-      "division_canonical": "Badda",
-      "feeder": "Aftabnagar",
-      "feeder_id": "desco:badda:aftabnagar",
-      "area_text": "Aftabnagar, annadonagar",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Badda",
-      "division_canonical": "Badda",
-      "feeder": "DITP",
-      "feeder_id": "desco:badda:ditp",
-      "area_text": "DIT Project",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Badda",
-      "division_canonical": "Badda",
-      "feeder": "Krishi bank",
-      "feeder_id": "desco:badda:krishi-bank",
-      "area_text": "Post office goli,Progoti Sarai, Krishi Bank Road",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -696,30 +673,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Baridhara",
-      "division_canonical": "Baridhara",
-      "feeder": "Khilbarirtek",
-      "feeder_id": "desco:baridhara:khilbarirtek",
-      "area_text": "Madhabadda bazar rd, techpara, sekandar bug, purba badda",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -742,7 +696,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -765,7 +719,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -788,7 +742,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -811,7 +765,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -834,7 +788,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -857,7 +811,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -880,7 +834,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -903,7 +857,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -926,7 +880,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -949,7 +903,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -972,7 +926,30 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
+      "load_mw": null
+    },
+    {
+      "division": "Baridhara",
+      "division_canonical": "Baridhara",
+      "feeder": "Shutivola RMU",
+      "feeder_id": "desco:baridhara:shutivola-rmu",
+      "area_text": "Satarkul Area,Padardia, Magardia,Noara,BaraBeraid,Fakirkhali,Reeshi para,Aruna",
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "12:00"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00"
+        },
+        {
+          "start": "21:00",
+          "end": "22:00"
+        }
+      ],
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -995,7 +972,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1018,7 +995,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1041,7 +1018,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1064,30 +1041,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Baridhara",
-      "division_canonical": "Baridhara",
-      "feeder": "Middle Badda",
-      "feeder_id": "desco:baridhara:middle-badda",
-      "area_text": "Middle Badda(GulshanLinkRoad-North Side),Gudaraghat, Ibne Sina Goli, Quaty Mosjid,Pran RFL centre.",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1110,7 +1064,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1133,7 +1087,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1156,7 +1110,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1179,7 +1133,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1202,7 +1156,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1225,7 +1179,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1248,7 +1202,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1271,7 +1225,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1294,7 +1248,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1317,7 +1271,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1340,7 +1294,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1363,7 +1317,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1386,7 +1340,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1409,7 +1363,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1432,7 +1386,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1455,7 +1409,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1478,7 +1432,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1501,7 +1455,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1524,7 +1478,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1547,7 +1501,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1570,7 +1524,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1593,7 +1547,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1616,7 +1570,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1639,7 +1593,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1662,7 +1616,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1685,7 +1639,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1708,7 +1662,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1731,7 +1685,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1754,7 +1708,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1777,7 +1731,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1800,7 +1754,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1823,7 +1777,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1846,7 +1800,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1869,7 +1823,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1892,7 +1846,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1915,7 +1869,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1938,7 +1892,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1961,7 +1915,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -1984,7 +1938,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2007,7 +1961,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2030,7 +1984,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2053,7 +2007,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2076,7 +2030,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2099,7 +2053,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2122,7 +2076,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2145,7 +2099,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2168,7 +2122,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2191,7 +2145,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2214,7 +2168,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2237,7 +2191,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2260,7 +2214,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2283,7 +2237,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2306,7 +2260,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2329,7 +2283,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2352,7 +2306,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2375,7 +2329,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2398,7 +2352,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2421,7 +2375,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2444,7 +2398,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2467,7 +2421,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2490,7 +2444,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2513,7 +2467,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2536,7 +2490,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2559,7 +2513,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2582,7 +2536,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2605,7 +2559,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2624,7 +2578,7 @@
           "end": "18:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2647,7 +2601,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2670,7 +2624,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2689,7 +2643,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2708,7 +2662,7 @@
           "end": "16:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2731,7 +2685,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2750,7 +2704,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2773,7 +2727,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2796,7 +2750,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2819,7 +2773,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2842,7 +2796,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2865,7 +2819,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2888,7 +2842,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2911,7 +2865,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2934,7 +2888,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2957,7 +2911,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -2980,7 +2934,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3003,7 +2957,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3026,7 +2980,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3049,7 +3003,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3072,7 +3026,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3091,7 +3045,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3114,7 +3068,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3133,7 +3087,7 @@
           "end": "17:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3156,7 +3110,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3179,7 +3133,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3198,7 +3152,7 @@
           "end": "16:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3221,7 +3175,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3244,7 +3198,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3267,7 +3221,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3286,7 +3240,7 @@
           "end": "18:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3309,7 +3263,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3332,7 +3286,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3355,7 +3309,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3378,7 +3332,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3401,7 +3355,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3424,7 +3378,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3443,7 +3397,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3462,7 +3416,7 @@
           "end": "17:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3485,7 +3439,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3504,7 +3458,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3527,7 +3481,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3546,7 +3500,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3569,7 +3523,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3592,7 +3546,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3615,7 +3569,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3634,7 +3588,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3657,7 +3611,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3680,7 +3634,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3699,7 +3653,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3722,7 +3676,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3745,7 +3699,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3764,7 +3718,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3772,7 +3726,7 @@
       "division_canonical": "Gulshan",
       "feeder": "Banani Park",
       "feeder_id": "desco:gulshan:banani-park",
-      "area_text": "Banani: Road-08,Block-C,Block-D Road-11,Block- C,Block-D (South Side)Road-13,Block-C,Block-D",
+      "area_text": "Banani: Road-08,Block-C,Block-D Road-11,Block-C,Block- D (South Side)Road-13,Block-C,Block-D",
       "windows": [
         {
           "start": "10:00",
@@ -3787,7 +3741,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3810,7 +3764,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3833,7 +3787,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3856,7 +3810,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3879,7 +3833,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3902,7 +3856,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3921,7 +3875,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3944,7 +3898,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3963,7 +3917,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -3986,7 +3940,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4009,7 +3963,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4032,7 +3986,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4055,7 +4009,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4078,7 +4032,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4097,7 +4051,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4120,7 +4074,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4143,7 +4097,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4166,7 +4120,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4189,7 +4143,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4212,7 +4166,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4231,7 +4185,7 @@
           "end": "18:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4250,7 +4204,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4273,7 +4227,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4296,7 +4250,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4319,7 +4273,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4342,7 +4296,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4365,7 +4319,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4388,7 +4342,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4411,7 +4365,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4434,7 +4388,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4457,7 +4411,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4480,7 +4434,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4503,7 +4457,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4526,7 +4480,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4549,7 +4503,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4572,7 +4526,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4595,7 +4549,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4618,7 +4572,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4641,7 +4595,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4664,7 +4618,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4687,7 +4641,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4710,7 +4664,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4733,7 +4687,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4756,7 +4710,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4779,7 +4733,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4798,7 +4752,7 @@
           "end": "17:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4821,7 +4775,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4844,7 +4798,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4867,7 +4821,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4890,7 +4844,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4913,7 +4867,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4932,7 +4886,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4955,7 +4909,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -4978,7 +4932,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5001,7 +4955,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5020,7 +4974,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5043,7 +4997,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5062,7 +5016,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5085,7 +5039,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5104,7 +5058,7 @@
           "end": "18:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5123,7 +5077,7 @@
           "end": "18:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5146,7 +5100,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5165,7 +5119,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5188,7 +5142,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5211,7 +5165,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5234,7 +5188,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5257,7 +5211,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5280,7 +5234,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5303,7 +5257,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5322,7 +5276,7 @@
           "end": "16:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5345,7 +5299,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5368,7 +5322,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5387,7 +5341,7 @@
           "end": "18:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5410,7 +5364,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5433,7 +5387,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5456,7 +5410,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5475,7 +5429,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5498,7 +5452,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5521,7 +5475,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5540,7 +5494,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5563,7 +5517,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5586,7 +5540,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5609,7 +5563,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5632,7 +5586,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5655,7 +5609,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5678,7 +5632,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5701,7 +5655,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5724,7 +5678,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5747,7 +5701,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5770,7 +5724,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5793,7 +5747,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5816,7 +5770,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5839,7 +5793,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5862,7 +5816,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5885,7 +5839,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5908,7 +5862,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5931,7 +5885,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5954,7 +5908,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -5977,7 +5931,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6000,7 +5954,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6023,7 +5977,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6046,7 +6000,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6069,7 +6023,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6092,7 +6046,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6115,7 +6069,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6138,7 +6092,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6161,7 +6115,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6184,7 +6138,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6207,7 +6161,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6230,7 +6184,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6253,7 +6207,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6276,7 +6230,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6299,7 +6253,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6322,7 +6276,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6345,7 +6299,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6368,7 +6322,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6391,7 +6345,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6414,7 +6368,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6437,7 +6391,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6460,7 +6414,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6483,7 +6437,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6506,7 +6460,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6529,7 +6483,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6552,7 +6506,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6575,7 +6529,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6594,7 +6548,7 @@
           "end": "18:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6617,7 +6571,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6640,7 +6594,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -6663,582 +6617,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "REVE RMU",
-      "feeder_id": "desco:khilkhet:reve-rmu",
-      "area_text": "Pink City-1,2, Dumni, Chelna, Tolna,",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Barua",
-      "feeder_id": "desco:khilkhet:barua",
-      "area_text": "Halan Bidhur Bari, Selon Para, Boroa Bazar",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "BNS",
-      "feeder_id": "desco:khilkhet:bns",
-      "area_text": "BNS Shiekh Mujib RMU",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Concord RMU",
-      "feeder_id": "desco:khilkhet:concord-rmu",
-      "area_text": "Concord RMU",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Namapara",
-      "feeder_id": "desco:khilkhet:namapara",
-      "area_text": "Namapara, Koborsthan Road",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Uttarpara",
-      "feeder_id": "desco:khilkhet:uttarpara",
-      "area_text": "Dorji Para, Uttar Para, Khilkhet Bottola, Naya Nagar, Member Bari",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Sector- 03",
-      "feeder_id": "desco:khilkhet:sector-03",
-      "area_text": "No Consumer",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Sector- 05",
-      "feeder_id": "desco:khilkhet:sector-05",
-      "area_text": "Pitol Ganj",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Sector- 04",
-      "feeder_id": "desco:khilkhet:sector-04",
-      "area_text": "Kanchon Bris,Shimuliya Bazar, Roguram Pur.",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Sector- 07",
-      "feeder_id": "desco:khilkhet:sector-07",
-      "area_text": "Purbachol",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "ROC",
-      "feeder_id": "desco:khilkhet:roc",
-      "area_text": "Purbachol Sector-3, Pitol Ganj",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Road: 210 (1)",
-      "feeder_id": "desco:khilkhet:road-210-1",
-      "area_text": "Nila Market, Jol Shiri, Yousop Ganj School.",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Sector: 10 (Hararbari)",
-      "feeder_id": "desco:khilkhet:sector-10-hararbari",
-      "area_text": "Purbachol, Joybangla Chottor, Sector-24",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Road: 210 (2)",
-      "feeder_id": "desco:khilkhet:road-210-2",
-      "area_text": "No Consumer",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Sector: 13 (Balu Bridge)",
-      "feeder_id": "desco:khilkhet:sector-13-balu-bridge",
-      "area_text": "Sector-13,14,15,16,26, Police Camp, Army Camp.",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Yusufganj",
-      "feeder_id": "desco:khilkhet:yusufganj",
-      "area_text": "HT Consumer-01 Nos",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "NIKUNJA-1",
-      "feeder_id": "desco:khilkhet:nikunja-1",
-      "area_text": "Nikunja-01 Area",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "BREB RMU",
-      "feeder_id": "desco:khilkhet:breb-rmu",
-      "area_text": "REB office",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Khilkhet Bazar",
-      "feeder_id": "desco:khilkhet:khilkhet-bazar",
-      "area_text": "kha Para, Bap[ari Para, Khilkhet Bazar, Bottola",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Best Holding",
-      "feeder_id": "desco:khilkhet:best-holding",
-      "area_text": "Best Holding RMU",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Zamtola",
-      "feeder_id": "desco:khilkhet:zamtola",
-      "area_text": "NK-02-(Road-1,2,3,4,5,6,7,8,9,10) Jamtola",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "DSE RMU",
-      "feeder_id": "desco:khilkhet:dse-rmu",
-      "area_text": "Dhaka stock exchange",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "NIKUNJA-2",
-      "feeder_id": "desco:khilkhet:nikunja-2",
-      "area_text": "NK-02 (Road-7,8,9,10,11,12,13,14,15,16,17) & Tanpara",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Biman O/H",
-      "feeder_id": "desco:khilkhet:biman-o-h",
-      "area_text": "NK-2( Road-17,18,19,20,21)",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Khilkhet",
-      "division_canonical": "Khilkhet",
-      "feeder": "Hospital",
-      "feeder_id": "desco:khilkhet:hospital",
-      "area_text": "NK-02 (Road-Faruk Sarani",
-      "windows": [
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7261,7 +6640,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7284,7 +6663,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7307,7 +6686,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7330,7 +6709,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7353,7 +6732,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7376,7 +6755,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7399,7 +6778,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7422,7 +6801,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7445,7 +6824,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7468,7 +6847,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7491,7 +6870,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7514,7 +6893,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7537,7 +6916,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7560,7 +6939,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7583,7 +6962,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7606,7 +6985,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7629,7 +7008,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -7652,1594 +7031,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Monipur",
-      "division_canonical": "Monipur",
-      "feeder": "RSW",
-      "feeder_id": "desco:monipur:rsw",
-      "area_text": "22 BARI GOLI,WEST KAZIPARA,PARTIAL MONIPUR",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Monipur",
-      "division_canonical": "Monipur",
-      "feeder": "GAUSIA MASJID",
-      "feeder_id": "desco:monipur:gausia-masjid",
-      "area_text": "BOROBAG,PARTIAL MONIPUR",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Monipur",
-      "division_canonical": "Monipur",
-      "feeder": "60 Feet",
-      "feeder_id": "desco:monipur:60-feet",
-      "area_text": "South Monipur, Mollah para, Sattar Commissioner Goli, 60 Feet Road East Side",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Monipur",
-      "division_canonical": "Monipur",
-      "feeder": "MODEL THANA",
-      "feeder_id": "desco:monipur:model-thana",
-      "area_text": "MIRPUR THANA,PARTIAL BOROBAG AREA",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Monipur",
-      "division_canonical": "Monipur",
-      "feeder": "BORO BAG",
-      "feeder_id": "desco:monipur:boro-bag",
-      "area_text": "MONIPUR AREA",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Monipur",
-      "division_canonical": "Monipur",
-      "feeder": "Mikewalla Mosjid",
-      "feeder_id": "desco:monipur:mikewalla-mosjid",
-      "area_text": "West shwarapara, Mollah para, monipur baba huzur Mosjid, Adarsha Road",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Monipur",
-      "division_canonical": "Monipur",
-      "feeder": "PARBOTA",
-      "feeder_id": "desco:monipur:parbota",
-      "area_text": "WEST KAZIPARA , EAST MONIPUR",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Monipur",
-      "division_canonical": "Monipur",
-      "feeder": "kalwala para",
-      "feeder_id": "desco:monipur:kalwala-para",
-      "area_text": "Mirpur-1, DIG Road, Kalwalapara, Shahali bagh",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Monipur",
-      "division_canonical": "Monipur",
-      "feeder": "Shah Ali Bag",
-      "feeder_id": "desco:monipur:shah-ali-bag",
-      "area_text": "Kaowalapara R-4, Sha Alibag Area",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Monipur",
-      "division_canonical": "Monipur",
-      "feeder": "Janata Housing",
-      "feeder_id": "desco:monipur:janata-housing",
-      "area_text": "Janata Housing, UCEP School, Dhankhet Mor Ahmed Nagar.",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Bangla School",
-      "feeder_id": "desco:pallabi:bangla-school",
-      "area_text": "Block-A, Road-9 &18, Av-4,Nannu Market, Islamibank Hospital, Sec-11",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Sagufta (Shohidbag)",
-      "feeder_id": "desco:pallabi:sagufta-shohidbag",
-      "area_text": "Ceramic Gate, Section-12, Block-D, E,Ga,Pa, R-29/A, 1/A, 2,25,",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "DOHS East",
-      "feeder_id": "desco:pallabi:dohs-east",
-      "area_text": "Road-6, Av-4,Mirpur DOHS",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Kala Pani",
-      "feeder_id": "desco:pallabi:kala-pani",
-      "area_text": "Road-12,,Bl-C &E, Pallabi Mohila College, Sec-12, mirpur.",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "DOHS Park",
-      "feeder_id": "desco:pallabi:dohs-park",
-      "area_text": "Mirpur DOHS(R-2 to 5,AV-03)",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Bus depo",
-      "feeder_id": "desco:pallabi:bus-depo",
-      "area_text": "BRTA Bus Depo area, Muslim Bazar, Block-D,Section-12",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "DOHS West",
-      "feeder_id": "desco:pallabi:dohs-west",
-      "area_text": "R-1( South Side) ,R-7,8,9(West Side),AV-3,Mirpur DOHS",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Sangbadik",
-      "feeder_id": "desco:pallabi:sangbadik",
-      "area_text": "Kalshi Road(South Side),Lalmatia, Sangbadik Col. & Sec- 11/E, Back side of 22 Tala garmence,",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Shopping Complex",
-      "feeder_id": "desco:pallabi:shopping-complex",
-      "area_text": "Shopping complex, Sopno Nagor,Bongo Bondhu College, King star Hospital, Sagupta Housing, Pallabi Thana, Bl-D, Sec-12, Mirpur.",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "DOHS North",
-      "feeder_id": "desco:pallabi:dohs-north",
-      "area_text": "Av-6(East), R-12/A(North side),R-9(North side), AV- 7,8,8/A,9 10,11,12(north Side), DOHS, Mirpur",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Avenue-03",
-      "feeder_id": "desco:pallabi:avenue-03",
-      "area_text": "Av-2(East),Av-6(West), R-9,R-10,11,12,13,13/A (North Side) DOHS, Mirpur",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Avenue-11",
-      "feeder_id": "desco:pallabi:avenue-11",
-      "area_text": "Au-11, Mirpur Dohs, Mirpur-12",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Borobari",
-      "feeder_id": "desco:pallabi:borobari",
-      "area_text": "Mirpur Dohs, Mirpur-12",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "WASA",
-      "feeder_id": "desco:pallabi:wasa",
-      "area_text": "West side of AV-02,R-11 to 19, DOHS,Mirpur",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Sarkarbari",
-      "feeder_id": "desco:pallabi:sarkarbari",
-      "area_text": "Mirpur Dohs, Mirpur-12",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Shopnonagar RMU-2",
-      "feeder_id": "desco:pallabi:shopnonagar-rmu-2",
-      "area_text": "Sopno Nagor,Sagupta Housing, Mirpur-12",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Cultural Centre",
-      "feeder_id": "desco:pallabi:cultural-centre",
-      "area_text": "R-9(North side,AV-2 to 4),R-9 (South side,Av-4 to Sarkarbari),Av-6(South-east side) to Rupayon Tower, AV- 04(East Side)",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Sagufta Housing",
-      "feeder_id": "desco:pallabi:sagufta-housing",
-      "area_text": "Sagufta Housing, Mirpur -12",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Alinagar",
-      "feeder_id": "desco:pallabi:alinagar",
-      "area_text": "Alinagar, Mirpur-12",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "City Club",
-      "feeder_id": "desco:pallabi:city-club",
-      "area_text": "12/A,R-1 to 8, 12/C ( East Side) R-8 to 12,12/B, Road- 10,11,12, Sec-12,Mirpur",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Adunik Hospital",
-      "feeder_id": "desco:pallabi:adunik-hospital",
-      "area_text": "Road-2 to 12 &Road- 14 to 21, Bl-C, Dha,Ta, Adunik Hospital Road, Sec-12,Mirpur",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Kalshi",
-      "feeder_id": "desco:pallabi:kalshi",
-      "area_text": "Kalshi Main Road(North Side),Block-B &Dha, Baitur Nur Jame Mosjid,Sec-12, Mirpur.",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Pallabi",
-      "division_canonical": "Pallabi",
-      "feeder": "Sec-11",
-      "feeder_id": "desco:pallabi:sec-11",
-      "area_text": "Kalshi Main Road(South Side),Millat Camp, Muslim Camp,Rahamot Camp,Section-11, Block B, Mirpur",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagar",
-      "division_canonical": "Rupnagar",
-      "feeder": "Grameen telecom RMU",
-      "feeder_id": "desco:rupnagar:grameen-telecom-rmu",
-      "area_text": "Grameen Telecom Trust Office, Zoo Road",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagar",
-      "division_canonical": "Rupnagar",
-      "feeder": "Rupnagar",
-      "feeder_id": "desco:rupnagar:rupnagar",
-      "area_text": "Ta-Block, Hazi Road, Road-1 to Road-7, Rupnagar Residential Area",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagar",
-      "division_canonical": "Rupnagar",
-      "feeder": "Pallabi South",
-      "feeder_id": "desco:rupnagar:pallabi-south",
-      "area_text": "Avenue-4, Section-7, Mohona Television office",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagar",
-      "division_canonical": "Rupnagar",
-      "feeder": "Botanical Garden",
-      "feeder_id": "desco:rupnagar:botanical-garden",
-      "area_text": "BAF Radar, Area Near Nabil Bus counter",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagar",
-      "division_canonical": "Rupnagar",
-      "feeder": "Doreen RMU",
-      "feeder_id": "desco:rupnagar:doreen-rmu",
-      "area_text": "Doreen Industry",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagar",
-      "division_canonical": "Rupnagar",
-      "feeder": "K M School",
-      "feeder_id": "desco:rupnagar:k-m-school",
-      "area_text": "Road-7 to Road-22, Rupnagar Residential Area, Mirpur",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagar",
-      "division_canonical": "Rupnagar",
-      "feeder": "Rupnagar Industry",
-      "feeder_id": "desco:rupnagar:rupnagar-industry",
-      "area_text": "Eastern Side of Sial Bari Mor to Rupnagar Abashik Mor",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagar",
-      "division_canonical": "Rupnagar",
-      "feeder": "Sec-06",
-      "feeder_id": "desco:rupnagar:sec-06",
-      "area_text": "Block-A, B, Section-06, Mirpur",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagar",
-      "division_canonical": "Rupnagar",
-      "feeder": "National Housing",
-      "feeder_id": "desco:rupnagar:national-housing",
-      "area_text": "Block-E, H, Section-02, Mirpur",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagar",
-      "division_canonical": "Rupnagar",
-      "feeder": "Eidgah",
-      "feeder_id": "desco:rupnagar:eidgah",
-      "area_text": "Block-C, D, Section-06, Mirpur",
-      "windows": [
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagar",
-      "division_canonical": "Rupnagar",
-      "feeder": "DNCC RMU",
-      "feeder_id": "desco:rupnagar:dncc-rmu",
-      "area_text": "Sony Cinema Hall, North Eastern Side of Mirpur-01 Roundabout",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagar",
-      "division_canonical": "Rupnagar",
-      "feeder": "PWD RMU-1",
-      "feeder_id": "desco:rupnagar:pwd-rmu-1",
-      "area_text": "PWD Staff Quarter-Mirpur, Section-07, Milk Vita Road, Cholontika Mor",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagar",
-      "division_canonical": "Rupnagar",
-      "feeder": "PWD RMU-2",
-      "feeder_id": "desco:rupnagar:pwd-rmu-2",
-      "area_text": "PWD Staff Quarter-Mirpur, Sialbari",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagar",
-      "division_canonical": "Rupnagar",
-      "feeder": "AVE.-4",
-      "feeder_id": "desco:rupnagar:ave-4",
-      "area_text": "Avenue-4",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagar",
-      "division_canonical": "Rupnagar",
-      "feeder": "Nurani",
-      "feeder_id": "desco:rupnagar:nurani",
-      "area_text": "Block-C, Section-06, Mirpur, Indoor Stadium, Original 10 to Purabi Super Market, Western Side of Begum Rokeya Sarani",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagor",
-      "division_canonical": "Rupnagar",
-      "feeder": "Rupali. Housing",
-      "feeder_id": "desco:rupnagor:rupali-housing",
-      "area_text": "Southern side of commerce college road, Rainkhola area, Mirpur",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagor",
-      "division_canonical": "Rupnagar",
-      "feeder": "Rainkhola",
-      "feeder_id": "desco:rupnagor:rainkhola",
-      "area_text": "Northern Side of Commerce College Road, Darul Aman Housing, Duip, Section-02, Jannatul Ferdous Mosque and nearby area",
-      "windows": [
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagor",
-      "division_canonical": "Rupnagar",
-      "feeder": "BAF Radder",
-      "feeder_id": "desco:rupnagor:baf-radder",
-      "area_text": "Botanical Garden, National Zoo, Al-kamal Housing, Muktijoddha Complex",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Rupnagor",
-      "division_canonical": "Rupnagar",
-      "feeder": "Box Nagar",
-      "feeder_id": "desco:rupnagor:box-nagar",
-      "area_text": "Bangladesh Insulation and sanitaryware factory, Mirpur",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "Tolarbag",
-      "feeder_id": "desco:shah-ali:tolarbag",
-      "area_text": "Technical more, Babylon garments road, Technical khalpar, Wasa office zone 4",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "Dakshin Bishil",
-      "feeder_id": "desco:shah-ali:dakshin-bishil",
-      "area_text": "Mazar Road East, Baten Nagar housing, Sha ali",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "Lalkuthi",
-      "feeder_id": "desco:shah-ali:lalkuthi",
-      "area_text": "Mazar Road to Lalkuthi Bazar Area",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "Bagbari",
-      "feeder_id": "desco:shah-ali:bagbari",
-      "area_text": "Gabtoli Hat, Coatbari, Bara bazar Area",
-      "windows": [
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "Paikpara",
-      "feeder_id": "desco:shah-ali:paikpara",
-      "area_text": "BADA Quarter, Tolarbag Residential Area",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "GOLAR TEK",
-      "feeder_id": "desco:shah-ali:golar-tek",
-      "area_text": "Golartek,",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "Chinese",
-      "feeder_id": "desco:shah-ali:chinese",
-      "area_text": "Darus Salam Road Mirpuir-1 bustand, South bishil,Salam",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "Panir tanki",
-      "feeder_id": "desco:shah-ali:panir-tanki",
-      "area_text": "Tolarbagh Gate no-1 Mainin Road Area.",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "PWD RMU",
-      "feeder_id": "desco:shah-ali:pwd-rmu",
-      "area_text": "PWD Staff Quarter Mirpur-1",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "Mazar Sharif",
-      "feeder_id": "desco:shah-ali:mazar-sharif",
-      "area_text": "Section-1, Block-A,D, KA,Kha,Sha Ali Complex area",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "Darus Salam",
-      "feeder_id": "desco:shah-ali:darus-salam",
-      "area_text": "Block-F, G, E, Mirpur-1 Area, Zoo Road, New C, Mukta Bangla shopping complex, Baghdad Shopping complex, Mirpur-1",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "Gabtoli",
-      "feeder_id": "desco:shah-ali:gabtoli",
-      "area_text": "Mazar road Beribadh, Uttar Bisil, Turag city,",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "New-C",
-      "feeder_id": "desco:shah-ali:new-c",
-      "area_text": "AKBAR UTTOR SIDE,C BLOCK,B BLOCK,RAINKHOLA",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "Shahid Buddijibi",
-      "feeder_id": "desco:shah-ali:shahid-buddijibi",
-      "area_text": "Priyangaon Housing, Buddijibi Koborstan, Darus Salam Thana, Bordhonbari, Golartek, Jahurabad, Diabari, Anandanagar.",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "Multiplan",
-      "feeder_id": "desco:shah-ali:multiplan",
-      "area_text": "Multiplan Building, National Heart Foundation Hospital, Mirpur New Market, Mollick Tower.",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Ali",
-      "division_canonical": "Shah Ali",
-      "feeder": "CAPITAL TOWER",
-      "feeder_id": "desco:shah-ali:capital-tower",
-      "area_text": "DHAKHIN BISHIL MIRPUR-1",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Kabir",
-      "division_canonical": "Shah Kabir",
-      "feeder": "Chuarirtek",
-      "feeder_id": "desco:shah-kabir:chuarirtek",
-      "area_text": "Churirtek, Coatbari,Kathal Tola,Transmiter Mor,Ajmeri market",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9262,7 +7054,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9285,53 +7077,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Kabir",
-      "division_canonical": "Shah Kabir",
-      "feeder": "Faidabad",
-      "feeder_id": "desco:shah-kabir:faidabad",
-      "area_text": "Gonokoborosthan Road,Mizaner garej,Adom Ali Market,Stap quarter.",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Kabir",
-      "division_canonical": "Shah Kabir",
-      "feeder": "Shah Kabir",
-      "feeder_id": "desco:shah-kabir:shah-kabir",
-      "area_text": "Majar Road, Turag CNG Pump, Chalabon, Matir Mosjid",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9354,7 +7100,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9377,233 +7123,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Kabir",
-      "division_canonical": "Shah Kabir",
-      "feeder": "Police Fari",
-      "feeder_id": "desco:shah-kabir:police-fari",
-      "area_text": "DK Thana, Police Fari, Gono grave Road",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Kabir",
-      "division_canonical": "Shah Kabir",
-      "feeder": "Khandaker High School",
-      "feeder_id": "desco:shah-kabir:khandaker-high-school",
-      "area_text": "Coatbari, Railgate, Faidabad Madrasha, salma Market",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Shah Kabir",
-      "division_canonical": "Shah Kabir",
-      "feeder": "Kacha Bazar",
-      "feeder_id": "desco:shah-kabir:kacha-bazar",
-      "area_text": "Azampur kachabazar, Muktijoddha Road",
-      "windows": [
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Tongi Central",
-      "division_canonical": "Tongi Central",
-      "feeder": "Dattapara",
-      "feeder_id": "desco:tongi-central:dattapara",
-      "area_text": "Ledu Mollah Road,Dattapara",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Tongi Central",
-      "division_canonical": "Tongi Central",
-      "feeder": "Chankir Tek",
-      "feeder_id": "desco:tongi-central:chankir-tek",
-      "area_text": "Ershad Nagar boro Bazar and Chankir Tek",
-      "windows": [
-        {
-          "start": "10:00",
-          "end": "11:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Tongi Central",
-      "division_canonical": "Tongi Central",
-      "feeder": "Tista",
-      "feeder_id": "desco:tongi-central:tista",
-      "area_text": "Tista gate, Popular Pharmaceuticals limited.",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Tongi Central",
-      "division_canonical": "Tongi Central",
-      "feeder": "Dhaka Steel (RMU)",
-      "feeder_id": "desco:tongi-central:dhaka-steel-rmu",
-      "area_text": "Dhaka Steel",
-      "windows": [
-        {
-          "start": "14:00",
-          "end": "15:00"
-        },
-        {
-          "start": "19:00",
-          "end": "20:00"
-        },
-        {
-          "start": "22:00",
-          "end": "23:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Tongi Central",
-      "division_canonical": "Tongi Central",
-      "feeder": "CERS",
-      "feeder_id": "desco:tongi-central:cers",
-      "area_text": "CERS",
-      "windows": [
-        {
-          "start": "09:00",
-          "end": "10:00"
-        },
-        {
-          "start": "21:00",
-          "end": "22:00"
-        },
-        {
-          "start": "23:00",
-          "end": "24:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Tongi Central",
-      "division_canonical": "Tongi Central",
-      "feeder": "Earshad Nagar",
-      "feeder_id": "desco:tongi-central:earshad-nagar",
-      "area_text": "Ershad Nagar (Block - 1 to 8),Friend's Hospital,Chankir Tek",
-      "windows": [
-        {
-          "start": "11:00",
-          "end": "12:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
-      "load_mw": null
-    },
-    {
-      "division": "Tongi Central",
-      "division_canonical": "Tongi Central",
-      "feeder": "Fisons",
-      "feeder_id": "desco:tongi-central:fisons",
-      "area_text": "Fisons Road, some area of Dattapara (Sahajuddin road, near Ria Germants, Alam Market)",
-      "windows": [
-        {
-          "start": "12:00",
-          "end": "13:00"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00"
-        },
-        {
-          "start": "20:00",
-          "end": "21:00"
-        }
-      ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9626,7 +7146,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9649,7 +7169,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9672,7 +7192,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9695,7 +7215,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9718,7 +7238,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9741,7 +7261,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9764,7 +7284,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9787,7 +7307,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9810,7 +7330,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9833,7 +7353,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9856,7 +7376,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9879,7 +7399,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9902,7 +7422,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9925,7 +7445,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9948,7 +7468,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9971,7 +7491,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -9994,7 +7514,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10017,7 +7537,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10040,7 +7560,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10063,7 +7583,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10086,7 +7606,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10109,7 +7629,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10132,7 +7652,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10155,7 +7675,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10178,7 +7698,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10201,7 +7721,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10224,7 +7744,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10247,7 +7767,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10270,7 +7790,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10293,7 +7813,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10316,7 +7836,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10339,7 +7859,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10362,7 +7882,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10385,7 +7905,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10408,7 +7928,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10431,7 +7951,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10454,7 +7974,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10477,7 +7997,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10485,7 +8005,7 @@
       "division_canonical": "Tongi East",
       "feeder": "Alertek",
       "feeder_id": "desco:tongi-east:alertek",
-      "area_text": "Azad Biscuit, Alertek, Koborsthan(standby) (40,50,60 No X-former)",
+      "area_text": "Azad Biscuit, Alertek, Koborsthan(standby) (40,50,60 No X- former)",
       "windows": [
         {
           "start": "11:00",
@@ -10500,7 +8020,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10523,7 +8043,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10546,7 +8066,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10569,7 +8089,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10592,7 +8112,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10615,7 +8135,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10638,7 +8158,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10661,7 +8181,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10684,7 +8204,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10707,7 +8227,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10730,7 +8250,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10753,7 +8273,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10776,7 +8296,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10799,7 +8319,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10822,7 +8342,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10845,7 +8365,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10868,7 +8388,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10891,7 +8411,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10914,7 +8434,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10937,7 +8457,7 @@
           "end": "17:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10960,7 +8480,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -10983,7 +8503,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11006,7 +8526,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11029,7 +8549,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11052,7 +8572,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11075,7 +8595,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11098,7 +8618,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11121,7 +8641,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11144,7 +8664,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11167,7 +8687,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11190,7 +8710,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11213,7 +8733,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11236,7 +8756,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11259,7 +8779,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11282,7 +8802,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11305,7 +8825,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11328,7 +8848,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11351,7 +8871,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11374,7 +8894,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11397,7 +8917,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11416,7 +8936,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11435,7 +8955,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11458,7 +8978,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11477,7 +8997,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11496,7 +9016,7 @@
           "end": "16:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11519,7 +9039,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11542,7 +9062,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11565,7 +9085,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11588,7 +9108,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11611,7 +9131,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11630,7 +9150,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11649,7 +9169,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11668,7 +9188,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11691,7 +9211,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11714,7 +9234,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11737,7 +9257,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11760,7 +9280,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11783,7 +9303,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11806,7 +9326,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11829,7 +9349,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11852,7 +9372,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11875,7 +9395,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11898,7 +9418,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11921,7 +9441,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11944,7 +9464,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11967,7 +9487,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -11990,7 +9510,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12013,7 +9533,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12036,7 +9556,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12059,7 +9579,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12082,7 +9602,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12105,7 +9625,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12128,7 +9648,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12151,7 +9671,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12174,7 +9694,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12197,7 +9717,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12220,7 +9740,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12243,7 +9763,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12266,7 +9786,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12289,7 +9809,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12312,7 +9832,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12335,7 +9855,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12358,7 +9878,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12381,7 +9901,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12404,7 +9924,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12427,7 +9947,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12450,7 +9970,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12473,7 +9993,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12496,7 +10016,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12519,7 +10039,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12542,7 +10062,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12561,7 +10081,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12584,7 +10104,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12607,7 +10127,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12630,7 +10150,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12653,7 +10173,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12676,7 +10196,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12699,7 +10219,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12722,7 +10242,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12745,7 +10265,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12768,7 +10288,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12791,7 +10311,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12814,7 +10334,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12837,7 +10357,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12860,7 +10380,7 @@
           "end": "21:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12879,7 +10399,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12902,7 +10422,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12925,7 +10445,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12944,7 +10464,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12967,7 +10487,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -12990,7 +10510,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -13013,7 +10533,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -13036,7 +10556,7 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -13059,7 +10579,7 @@
           "end": "22:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -13082,7 +10602,7 @@
           "end": "23:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -13105,7 +10625,7 @@
           "end": "20:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     },
     {
@@ -13128,15 +10648,15 @@
           "end": "24:00"
         }
       ],
-      "weekday": 4,
+      "weekday": 6,
       "load_mw": null
     }
   ],
   "stats": {
-    "claim_count": 578,
-    "feeder_count": 578,
-    "division_count": 32,
-    "canonical_division_count": 24,
+    "claim_count": 470,
+    "feeder_count": 470,
+    "division_count": 28,
+    "canonical_division_count": 21,
     "unmapped_division_count": 0
   },
   "parse_meta": {
@@ -13146,12 +10666,12 @@
     ],
     "extraction_method": "pdfplumber",
     "pages": 26,
-    "rows_seen": 580,
+    "rows_seen": 578,
     "rows_without_marks": 2,
-    "weekday_name": "Thursday",
+    "weekday_name": "Saturday",
     "unmapped_divisions": [],
     "warnings": [
-      "weekday mismatch: PDF says 4, listing page says 6; kept the PDF value"
+      "106 row(s) skipped: missing division or feeder name"
     ]
   },
   "validation": {
