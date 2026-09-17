@@ -8,7 +8,7 @@
   "source": {
     "source_id": "dpdc-load-shedding-index",
     "source_url": "https://dpdc.org.bd/site/nocs/load_shedding",
-    "retrieved_at": "2026-09-16T20:33:20Z",
+    "retrieved_at": "2026-09-17T15:49:37Z",
     "sha256": "5326f2df1634352d9cfd86aadf563777378902e4fe3a6b50957dc066b6fa78e5",
     "part_hashes": [
       "adabor:ba9b142bc1929a55f4a869bd6a76ac0e95d4cc723eae262b3c790f4294fdff7b",
@@ -50,7 +50,7 @@
     ],
     "parser_adapter": "dpdc_pdf_v1",
     "parser_version": "1.0.0",
-    "tls_verified": true,
+    "tls_verified": false,
     "archive_path": null
   },
   "claims": [
