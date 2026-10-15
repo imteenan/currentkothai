@@ -2,13 +2,13 @@
   "schema": "schedule-claims/1",
   "utility": "DPDC",
   "publisher": "Dhaka Power Distribution Company Ltd",
-  "effective_date": "2026-10-15",
+  "effective_date": "2026-10-16",
   "coverage_level": "feeder",
   "badge": "DERIVED",
   "source": {
     "source_id": "dpdc-load-shedding-index",
     "source_url": "https://dpdc.org.bd/site/nocs/load_shedding",
-    "retrieved_at": "2026-10-14T21:04:56Z",
+    "retrieved_at": "2026-10-15T20:39:42Z",
     "sha256": "5326f2df1634352d9cfd86aadf563777378902e4fe3a6b50957dc066b6fa78e5",
     "part_hashes": [
       "adabor:ba9b142bc1929a55f4a869bd6a76ac0e95d4cc723eae262b3c790f4294fdff7b",

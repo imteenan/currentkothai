@@ -1,19 +1,19 @@
 {
   "schema": "schedule-index/1",
-  "generated_at": "2026-10-15T15:49:20Z",
+  "generated_at": "2026-10-15T20:39:42Z",
   "stale_after_hours": 36,
   "utilities": [
     {
       "utility": "DPDC",
       "coverage_level": "feeder",
       "status": "fresh",
-      "latest_date": "2026-10-15",
+      "latest_date": "2026-10-16",
       "claim_count": 432,
-      "retrieved_at": "2026-10-14T21:04:56Z",
+      "retrieved_at": "2026-10-15T20:39:42Z",
       "source_url": "https://dpdc.org.bd/site/nocs/load_shedding",
       "stale_after_hours": 36,
       "message": "36 of 36 zone sheets read: 19 digital, 17 scanned and read by OCR",
-      "content_changed_at": "2026-10-14T21:04:56Z",
+      "content_changed_at": "2026-10-15T20:39:42Z",
       "division_count": 24,
       "feeder_count": 411,
       "tls_verified": true,
